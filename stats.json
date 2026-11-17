@@ -1,11 +1,11 @@
 {
-  "updated_at": "21:00:13",
+  "updated_at": "21:06:39",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 10,
-    "time_saved_str": "1h 9m",
-    "actions_today": 23,
-    "last_check": "21:00"
+    "time_saved_str": "1h 3m",
+    "actions_today": 21,
+    "last_check": "21:06"
   },
   "core_agents": [
     {
@@ -37,16 +37,6 @@
       "worked_today": "2 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
-    },
-    {
-      "id": "reviews",
-      "name": "Roboțelul Recenzii Airbnb (5★)",
-      "role": "Acordă automat 5 stele oaspeților fără probleme la ora 20:00",
-      "status": "Programat (20:00)",
-      "state": "working",
-      "worked_today": "2 recenzii azi",
-      "metric_label": "Total auto-review",
-      "metric_value": "2 acordate"
     },
     {
       "id": "wa",
@@ -250,7 +240,7 @@
     }
   ],
   "raw_logs": "2026-11-17 19:11:38,960 [INFO] 🧠 Mesaj NOU #24092 (1 lipite) de la Venice Cheung (Magheru 29B -2BR): \"no worries! 🙌🩷...\"\n2026-11-17 19:11:38,960 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-17 19:11:38,961 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-17 19:11:58,528 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-17 19:11:58,529 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-17 19:11:58,529 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-17 19:11:58,529 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-17 19:12:04,653 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-17 19:12:05,264 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Venice Cheung (Magheru 29B -2BR)]: \"Thank you, Venice! ☺️ Have a wonderful onward journey, and we hope to welcome you back to UrbanNest Bucharest soon! ✨\"\n2026-11-17 19:22:05,535 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 19:22:05,708 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 19:32:05,717 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 19:32:05,883 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 19:41:21,051 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 19:41:21,638 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 19:41:22,917 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 19:51:22,929 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 19:51:23,278 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:00:35,510 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 20:00:37,557 [INFO] ℹ️ Nota remindere / coada checkout 18:00: Command ['git', 'commit', '-m', 'Update dashboard 20:00'] returned non-zero exit status 128.\n2026-11-17 20:00:37,558 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:00:39,193 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:10:43,660 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:10:43,853 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:20:51,365 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:20:51,605 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:31:08,075 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:31:08,525 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:41:16,919 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:41:17,312 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:46:23,277 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 20:46:33,139 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:46:34,482 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:56:39,375 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:56:39,658 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-17 21:00:13",
+  "last_cloud_sync": "2026-11-17 21:06:39",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
