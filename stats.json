@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:07:07",
+  "updated_at": "22:17:20",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 10,
     "time_saved_str": "1h 3m",
     "actions_today": 21,
-    "last_check": "22:07"
+    "last_check": "22:17"
   },
   "core_agents": [
     {
@@ -183,6 +183,34 @@
   ],
   "feed": [
     {
+      "time": "22:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-17 22:07:20,431 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "22:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-17 22:07:19,787 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #100936 (Apartament UrbanNest)]: \"Hello Oaspete!",
+      "type": "success"
+    },
+    {
+      "time": "22:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-17 22:07:14,589 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "type": "success"
+    },
+    {
+      "time": "22:07",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-17 22:07:13,698 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "21:57",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -209,38 +237,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-17 21:26:53,798 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "21:16",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-17 21:16:49,120 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "21:06",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-17 21:06:44,372 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "20:56",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-17 20:56:39,658 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "20:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-17 20:46:34,482 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-17 19:32:05,883 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 19:41:21,051 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 19:41:21,638 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 19:41:22,917 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 19:51:22,929 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 19:51:23,278 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:00:35,510 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 20:00:37,557 [INFO] ℹ️ Nota remindere / coada checkout 18:00: Command ['git', 'commit', '-m', 'Update dashboard 20:00'] returned non-zero exit status 128.\n2026-11-17 20:00:37,558 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:00:39,193 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:10:43,660 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:10:43,853 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:20:51,365 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:20:51,605 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:31:08,075 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:31:08,525 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:41:16,919 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:41:17,312 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:46:23,277 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 20:46:33,139 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:46:34,482 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:56:39,375 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:56:39,658 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:06:44,187 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:06:44,372 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:16:48,928 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:16:49,120 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:26:53,603 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:26:53,798 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:36:58,170 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:36:58,385 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:47:02,881 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:47:03,099 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:57:07,653 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:57:07,868 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-17 22:07:07",
+  "raw_logs": "2026-11-17 20:20:51,365 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:20:51,605 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:31:08,075 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:31:08,525 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:41:16,919 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:41:17,312 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:46:23,277 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-17 20:46:33,139 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:46:34,482 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 20:56:39,375 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 20:56:39,658 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:06:44,187 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:06:44,372 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:16:48,928 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:16:49,120 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:26:53,603 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:26:53,798 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:36:58,170 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:36:58,385 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:47:02,881 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:47:03,099 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 21:57:07,653 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 21:57:07,868 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-17 22:07:13,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-17 22:07:13,698 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1\n2026-11-17 22:07:13,803 [INFO] 🧠 Mesaj NOU #24101 (1 lipite) de la Oaspete #100936 (Apartament UrbanNest): \"i could pay via revolut during my stay...\"\n2026-11-17 22:07:13,806 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-17 22:07:13,818 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-17 22:07:14,588 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-17 22:07:14,589 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-17 22:07:14,589 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-17 22:07:14,589 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-17 22:07:18,989 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-17 22:07:19,787 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #100936 (Apartament UrbanNest)]: \"Hello Oaspete! Thank you for letting me know. You can easily complete your payment via Revolut using our tag @alexpricop. Please remember to include your name or reservation details in the payment reference, and let us know once it's done. Thank you! 💳✨\"\n2026-11-17 22:07:20,431 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+  "last_cloud_sync": "2026-11-17 22:17:20",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
