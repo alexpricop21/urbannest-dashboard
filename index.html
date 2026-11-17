@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanNest — Echipa ta de Roboței</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #0b0f19;
+            --bg-card: rgba(22, 31, 51, 0.78);
+            --bg-card-hover: rgba(30, 42, 68, 0.92);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --emerald: #10b981;
+            --emerald-glow: rgba(16, 185, 129, 0.2);
+            --sky: #38bdf8;
+            --sky-glow: rgba(56, 189, 248, 0.18);
+            --amber: #f59e0b;
+            --amber-glow: rgba(245, 158, 11, 0.18);
+            --violet: #a855f7;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: radial-gradient(circle at 15% 10%, #172554 0%, var(--bg-main) 45%),
+                        radial-gradient(circle at 85% 80%, #064e3b 0%, var(--bg-main) 50%);
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 24px 18px 60px;
+            line-height: 1.5;
+        }
+
+        .wrapper { max-width: 1280px; margin: 0 auto; }
+
+        .top-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            background: var(--bg-card);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 24px;
+            padding: 22px 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+        }
+
+        .brand { display: flex; align-items: center; gap: 16px; }
+        .brand-logo {
+            width: 54px; height: 54px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, #38bdf8, #6366f1);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
+        }
+        .brand h1 { font-size: 22px; font-weight: 800; letter-spacing: -0.4px; }
+        .brand p { font-size: 14px; color: var(--text-secondary); }
+
+        .live-pill {
+            display: inline-flex; align-items: center; gap: 10px;
+            background: var(--emerald-glow);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            color: #34d399;
+            padding: 10px 18px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+        .pulse-dot {
+            width: 10px; height: 10px;
+            background: var(--emerald);
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 9px rgba(16, 185, 129, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 20px;
+            padding: 20px 22px;
+            display: flex; align-items: center; gap: 16px;
+        }
+        .kpi-icon {
+            width: 48px; height: 48px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.05);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 24px;
+        }
+        .kpi-val { font-size: 24px; font-weight: 800; color: #fff; }
+        .kpi-lbl { font-size: 13px; color: var(--text-secondary); }
+
+        .section-header {
+            display: flex; justify-content: space-between; align-items: flex-end;
+            margin: 32px 0 16px;
+            flex-wrap: wrap; gap: 10px;
+        }
+        .section-header h2 { font-size: 19px; font-weight: 800; display: flex; align-items: center; gap: 10px; }
+        .section-header span { font-size: 13px; color: var(--text-secondary); }
+
+        .core-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+            gap: 18px;
+        }
+        .bot-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 22px;
+            padding: 22px;
+            transition: all 0.25s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .bot-card:hover {
+            transform: translateY(-4px);
+            background: var(--bg-card-hover);
+            border-color: rgba(56, 189, 248, 0.35);
+        }
+        .bot-top { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+        .bot-avatar {
+            width: 58px; height: 58px;
+            border-radius: 18px;
+            background: rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 30px;
+            animation: floatBot 3.2s ease-in-out infinite;
+            flex-shrink: 0;
+        }
+        @keyframes floatBot {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-5px) rotate(2deg); }
+        }
+        .bot-title { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+        .bot-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: 11px; font-weight: 700;
+            padding: 4px 10px; border-radius: 99px;
+        }
+        .badge-work { background: var(--emerald-glow); color: #34d399; }
+        .badge-wait { background: var(--amber-glow); color: #fbbf24; }
+
+        .bot-desc {
+            font-size: 13px; color: var(--text-secondary);
+            margin-bottom: 16px; min-height: 38px;
+        }
+        .bot-metrics {
+            display: flex; justify-content: space-between;
+            background: rgba(15, 23, 42, 0.65);
+            border-radius: 14px; padding: 12px 14px;
+            font-size: 12px;
+        }
+        .bot-metrics div span { display: block; color: var(--text-secondary); margin-bottom: 2px; }
+        .bot-metrics div b { font-size: 14px; color: #fff; }
+
+        .apt-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 18px;
+        }
+        .apt-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 20px;
+            padding: 20px;
+            display: flex; flex-direction: column; justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .apt-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(168, 85, 247, 0.4);
+        }
+        .apt-header {
+            display: flex; justify-content: space-between; align-items: flex-start;
+            gap: 12px; margin-bottom: 12px;
+        }
+        .apt-name { font-size: 16px; font-weight: 800; color: #fff; }
+        .apt-sub { font-size: 12px; color: var(--sky); font-weight: 600; margin-top: 2px; }
+        .apt-mini-bot {
+            font-size: 26px;
+            background: rgba(255,255,255,0.05);
+            width: 44px; height: 44px;
+            border-radius: 14px;
+            display: flex; align-items: center; justify-content: center;
+            animation: floatBot 4s ease-in-out infinite;
+        }
+        .apt-action-box {
+            background: rgba(15, 23, 42, 0.55);
+            border-left: 3px solid var(--sky);
+            padding: 10px 12px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: #e2e8f0;
+            margin-bottom: 14px;
+        }
+        .apt-progress-wrap { margin-bottom: 12px; }
+        .apt-progress-labels {
+            display: flex; justify-content: space-between;
+            font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;
+        }
+        .apt-progress-bar {
+            height: 7px; background: rgba(255,255,255,0.08);
+            border-radius: 99px; overflow: hidden;
+        }
+        .apt-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--sky), var(--emerald));
+            border-radius: 99px;
+        }
+        .apt-footer {
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 12px; color: var(--text-secondary);
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 10px;
+        }
+
+        .feed-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 22px;
+            padding: 22px;
+        }
+        .feed-item {
+            display: flex; align-items: flex-start; gap: 14px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .feed-item:last-child { border-bottom: none; }
+        .feed-icon {
+            width: 38px; height: 38px; border-radius: 12px;
+            background: rgba(56, 189, 248, 0.12);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px; flex-shrink: 0;
+        }
+        .feed-content { flex: 1; }
+        .feed-title { font-size: 14px; font-weight: 700; color: #fff; }
+        .feed-desc { font-size: 13px; color: var(--text-secondary); }
+        .feed-time { font-size: 12px; color: var(--sky); font-weight: 600; white-space: nowrap; }
+
+        details.tech-drawer {
+            margin-top: 28px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 14px 20px;
+        }
+        details.tech-drawer summary {
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+        details.tech-drawer pre {
+            margin-top: 12px;
+            background: #060911;
+            color: #38bdf8;
+            padding: 14px;
+            border-radius: 12px;
+            font-size: 12px;
+            max-height: 260px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top-bar">
+            <div class="brand">
+                <div class="brand-logo">🤖</div>
+                <div>
+                    <h1>UrbanNest — Centrul Roboțeilor</h1>
+                    <p>Vezi în timp real cum au grijă agenții tăi de oaspeți și de fiecare apartament</p>
+                </div>
+            </div>
+            <div class="live-pill">
+                <span class="pulse-dot"></span>
+                <span id="liveStatusText">Se conectează la cloud...</span>
+            </div>
+        </header>
+
+        <section class="summary-grid">
+            <div class="kpi-card">
+                <div class="kpi-icon">🏠</div>
+                <div>
+                    <div class="kpi-val" id="kpiApts">13</div>
+                    <div class="kpi-lbl">Apartamente păzite</div>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">⏳</div>
+                <div>
+                    <div class="kpi-val" id="kpiTimeSaved">-</div>
+                    <div class="kpi-lbl">Timp economisit azi pentru tine</div>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">💬</div>
+                <div>
+                    <div class="kpi-val" id="kpiConvs">-</div>
+                    <div class="kpi-lbl">Conversații monitorizate</div>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">⚡</div>
+                <div>
+                    <div class="kpi-val" id="kpiActions">-</div>
+                    <div class="kpi-lbl">Sarcini rezolvate azi</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-header">
+            <h2>✨ Echipa Principală de Roboței</h2>
+            <span>Fiecare are o responsabilitate clară și lucrează autonom 24/7</span>
+        </div>
+        <section class="core-grid" id="coreAgentsGrid"></section>
+
+        <div class="section-header">
+            <h2>🏡 Ce a lucrat fiecare Roboțel pe Apartamente azi</h2>
+            <span>Timpul muncit și ultima acțiune pentru fiecare proprietate în parte</span>
+        </div>
+        <section class="apt-grid" id="apartmentsGrid"></section>
+
+        <div class="section-header">
+            <h2>📖 Povestea Zilei (Ce s-a întâmplat recent)</h2>
+            <span>Tradus pe înțelesul tuturor, fără coduri complicate</span>
+        </div>
+        <section class="feed-box" id="friendlyFeed"></section>
+
+        <details class="tech-drawer">
+            <summary>🔧 Ești curios de detaliile tehnice? Apasă aici pentru consola brută a serverului</summary>
+            <pre id="rawLogs">Se încarcă...</pre>
+        </details>
+    </div>
+
+    <script>
+        const botIcons = { pms: "🛎️", ai: "🧠", clean: "🧹", wa: "📲" };
+
+        async function refreshDashboard() {
+            try {
+                const res = await fetch('./stats.json?t=' + Date.now());
+                const data = await res.json();
+
+                document.getElementById('liveStatusText').innerText = `Cloud 100% Activ • Actualizat la ${data.updated_at}`;
+                document.getElementById('kpiApts').innerText = data.summary.apartments_count;
+                document.getElementById('kpiTimeSaved').innerText = data.summary.time_saved_str;
+                document.getElementById('kpiConvs').innerText = data.summary.conversations_monitored;
+                document.getElementById('kpiActions').innerText = data.summary.actions_today;
+
+                const coreHtml = data.core_agents.map(bot => {
+                    const badgeClass = bot.state === 'working' ? 'badge-work' : 'badge-wait';
+                    const icon = botIcons[bot.id] || "🤖";
+                    return `
+                        <div class="bot-card">
+                            <div class="bot-top">
+                                <div class="bot-avatar">${icon}</div>
+                                <div>
+                                    <div class="bot-title">${bot.name}</div>
+                                    <span class="bot-badge ${badgeClass}">● ${bot.status}</span>
+                                </div>
+                            </div>
+                            <div class="bot-desc">${bot.role}</div>
+                            <div class="bot-metrics">
+                                <div>
+                                    <span>⏱️ Cât a muncit azi</span>
+                                    <b>${bot.worked_today}</b>
+                                </div>
+                                <div style="text-align:right">
+                                    <span>📊 ${bot.metric_label}</span>
+                                    <b>${bot.metric_value}</b>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                document.getElementById('coreAgentsGrid').innerHTML = coreHtml;
+
+                const aptHtml = data.apartments.map(apt => {
+                    const isWorking = apt.status === 'working';
+                    const badge = isWorking
+                        ? `<span class="bot-badge badge-work">🟢 A lucrat azi</span>`
+                        : `<span class="bot-badge badge-wait">🛡️ Veghează</span>`;
+                    const realTasks = apt.tasks_today || 0;
+                    const realMinutes = realTasks * 3;
+                    const pct = realTasks === 0 ? 0 : Math.min(100, realMinutes * 5);
+                    return `
+                        <div class="apt-card">
+                            <div>
+                                <div class="apt-header">
+                                    <div>
+                                        <div class="apt-name">🏠 ${apt.name}</div>
+                                        <div class="apt-sub">👤 ${apt.guest}</div>
+                                    </div>
+                                    <div class="apt-mini-bot" title="Roboțelul apartamentului">🤖</div>
+                                </div>
+                                <div style="margin-bottom: 12px;">${badge}</div>
+                                <div class="apt-action-box">
+                                    ✨ <b>Ultima acțiune:</b> ${apt.last_action}
+                                </div>
+                            </div>
+                            <div>
+                                <div class="apt-progress-wrap">
+                                    <div class="apt-progress-labels">
+                                        <span>⏱️ Muncă depusă: <b>${realMinutes} min</b></span>
+                                        <span><b>${realTasks}</b> sarcini</span>
+                                    </div>
+                                    <div class="apt-progress-bar">
+                                        <div class="apt-progress-fill" style="width: ${pct}%"></div>
+                                    </div>
+                                </div>
+                                <div class="apt-footer">
+                                    <span>Azi: <b>${apt.tasks_today} intervenții</b></span>
+                                    <span>🕒 ${apt.last_time}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                document.getElementById('apartmentsGrid').innerHTML = aptHtml;
+
+                const feedHtml = data.feed.map(item => `
+                    <div class="feed-item">
+                        <div class="feed-icon">${item.icon}</div>
+                        <div class="feed-content">
+                            <div class="feed-title">${item.title}</div>
+                            <div class="feed-desc">${item.desc}</div>
+                        </div>
+                        <div class="feed-time">${item.time}</div>
+                    </div>
+                `).join('');
+                document.getElementById('friendlyFeed').innerHTML = feedHtml;
+
+                document.getElementById('rawLogs').innerText = data.raw_logs;
+            } catch (err) {
+                console.error("Eroare la actualizarea datelor:", err);
+            }
+        }
+
+        refreshDashboard();
+        setInterval(refreshDashboard, 15000);
+    </script>
+</body>
+</html>
