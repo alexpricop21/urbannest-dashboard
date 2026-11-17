@@ -161,6 +161,31 @@
         }
         .badge-work { background: var(--emerald-glow); color: #34d399; }
         .badge-wait { background: var(--amber-glow); color: #fbbf24; }
+        .badge-err { background: rgba(239, 68, 68, 0.22); color: #f87171; }
+        .alert-banner {
+            display: none;
+            background: linear-gradient(90deg, rgba(185, 28, 28, 0.92), rgba(220, 38, 38, 0.85));
+            border: 1px solid #f87171;
+            color: #fff;
+            padding: 16px 22px;
+            border-radius: 18px;
+            margin-bottom: 22px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 10px 28px rgba(220, 38, 38, 0.35);
+            align-items: center;
+            gap: 14px;
+        }
+        .alert-banner.visible { display: flex; }
+        .live-pill.offline {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: rgba(239, 68, 68, 0.5);
+            color: #fca5a5;
+        }
+        .live-pill.offline .pulse-dot {
+            background: #ef4444;
+            animation: none;
+        }
 
         .bot-desc {
             font-size: 13px; color: var(--text-secondary);
@@ -300,6 +325,7 @@
             </div>
         </header>
 
+        <div id="watchdogBanner" class="alert-banner"><span style="font-size:24px;">🚨</span><div id="watchdogBannerText"></div></div>
         <section class="summary-grid">
             <div class="kpi-card">
                 <div class="kpi-icon">🏠</div>
@@ -363,14 +389,41 @@
                 const res = await fetch('./stats.json?t=' + Date.now());
                 const data = await res.json();
 
-                document.getElementById('liveStatusText').innerText = `Cloud 100% Activ • Actualizat la ${data.updated_at}`;
+                const pill = document.querySelector('.live-pill');
+                const banner = document.getElementById('watchdogBanner');
+                const bannerText = document.getElementById('watchdogBannerText');
+                let alerteActive = [];
+
+                if (data.watchdog_status && !data.watchdog_status.healthy) {
+                    alerteActive = alerteActive.concat(data.watchdog_status.alerts || []);
+                }
+
+                // Verificăm dacă ultima sincronizare de pe laptop e mai veche de 20 de minute
+                if (data.last_cloud_sync) {
+                    const syncTime = new Date(data.last_cloud_sync.replace(' ', 'T'));
+                    const diffMin = Math.floor((Date.now() - syncTime.getTime()) / 60000);
+                    if (!isNaN(diffMin) && diffMin > 20) {
+                        alerteActive.push(Laptopul nu a mai trimis date de ${diffMin} minute (ultima sincronizare: ${data.last_cloud_sync}). Verifică conexiunea sau procesele Python.);
+                    }
+                }
+
+                if (alerteActive.length > 0) {
+                    pill.classList.add('offline');
+                    document.getElementById('liveStatusText').innerText = ⚠️ Alertă Sistem • Ultimul sync: ${data.updated_at};
+                    banner.classList.add('visible');
+                    bannerText.innerHTML = <strong>Atenție! Watchdog a detectat o problemă:</strong><br> + alerteActive.join('<br>');
+                } else {
+                    pill.classList.remove('offline');
+                    document.getElementById('liveStatusText').innerText = Cloud 100% Activ • Actualizat la ${data.updated_at};
+                    banner.classList.remove('visible');
+                }
                 document.getElementById('kpiApts').innerText = data.summary.apartments_count;
                 document.getElementById('kpiTimeSaved').innerText = data.summary.time_saved_str;
                 document.getElementById('kpiConvs').innerText = data.summary.conversations_monitored;
                 document.getElementById('kpiActions').innerText = data.summary.actions_today;
 
                 const coreHtml = data.core_agents.map(bot => {
-                    const badgeClass = bot.state === 'working' ? 'badge-work' : 'badge-wait';
+                    const badgeClass = bot.state === 'error' ? 'badge-err' : (bot.state === 'working' ? 'badge-work' : 'badge-wait');
                     const icon = botIcons[bot.id] || "🤖";
                     return `
                         <div class="bot-card">
