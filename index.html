@@ -13,16 +13,15 @@
             --bg-card: #232938;
             --bg-card-hover: #2a3142;
             --border-hairline: rgba(255, 255, 255, 0.11);
-            --border-strong: rgba(255, 255, 255, 0.2);
+            --border-strong: rgba(255, 255, 255, 0.22);
             --text-primary: #f8fafc;
             --text-secondary: #cbd5e1;
             --text-muted: #94a3b8;
             --emerald: #10b981;
             --emerald-bg: rgba(16, 185, 129, 0.16);
             --amber: #f59e0b;
-            --amber-bg: rgba(245, 158, 11, 0.16);
+            --amber-bg: rgba(245, 158, 11, 0.18);
             --sky: #38bdf8;
-            --sky-bg: rgba(56, 189, 248, 0.16);
             --red: #ef4444;
             --red-bg: rgba(239, 68, 68, 0.18);
         }
@@ -46,7 +45,7 @@
         .topbar {
             height: 60px;
             border-bottom: 1px solid var(--border-hairline);
-            background: rgba(27, 32, 44, 0.9);
+            background: rgba(27, 32, 44, 0.92);
             backdrop-filter: blur(12px);
             position: sticky;
             top: 0;
@@ -58,11 +57,7 @@
             gap: 16px;
         }
 
-        .brand-left {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
+        .brand-left { display: flex; align-items: center; gap: 12px; }
 
         .os-badge {
             display: flex;
@@ -93,7 +88,6 @@
             align-items: center;
             gap: 8px;
         }
-
         .breadcrumb span { color: var(--text-secondary); }
 
         .topbar-kpis {
@@ -103,12 +97,7 @@
             font-size: 12.5px;
             color: var(--text-secondary);
         }
-
-        .topbar-kpi b {
-            color: #ffffff;
-            font-weight: 700;
-            margin-left: 4px;
-        }
+        .topbar-kpi b { color: #ffffff; font-weight: 700; margin-left: 4px; }
 
         .status-pill {
             display: inline-flex;
@@ -122,13 +111,11 @@
             border: 1px solid rgba(16, 185, 129, 0.35);
             color: #6ee7b7;
         }
-
         .status-pill.offline {
             background: var(--red-bg);
             border-color: rgba(239, 68, 68, 0.45);
             color: #fca5a5;
         }
-
         .status-dot {
             width: 7px;
             height: 7px;
@@ -137,23 +124,14 @@
             box-shadow: 0 0 8px var(--emerald);
             animation: pulseDot 2.2s infinite;
         }
-
-        .status-pill.offline .status-dot {
-            background: var(--red);
-            box-shadow: none;
-            animation: none;
-        }
+        .status-pill.offline .status-dot { background: var(--red); box-shadow: none; animation: none; }
 
         @keyframes pulseDot {
             0%, 100% { opacity: 1; }
             50% { opacity: 0.35; }
         }
 
-        .container {
-            max-width: 1460px;
-            margin: 0 auto;
-            padding: 22px 24px 60px;
-        }
+        .container { max-width: 1460px; margin: 0 auto; padding: 22px 24px 60px; }
 
         .watchdog-banner {
             display: none;
@@ -189,7 +167,6 @@
             flex-direction: column;
             justify-content: space-between;
         }
-
         .agent-tile:hover {
             border-color: var(--border-strong);
             background: var(--bg-card);
@@ -203,14 +180,7 @@
             gap: 8px;
             margin-bottom: 10px;
         }
-
-        .agent-id-wrap {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            min-width: 0;
-        }
-
+        .agent-id-wrap { display: flex; align-items: center; gap: 10px; min-width: 0; }
         .agent-icon-box {
             width: 34px;
             height: 34px;
@@ -223,7 +193,6 @@
             color: #e2e8f0;
             flex-shrink: 0;
         }
-
         .agent-name {
             font-size: 13.5px;
             font-weight: 600;
@@ -232,7 +201,6 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
-
         .agent-substatus {
             display: inline-block;
             font-size: 11px;
@@ -243,27 +211,11 @@
             color: #6ee7b7;
             margin-top: 3px;
         }
-
-        .agent-substatus.err {
-            background: var(--red-bg);
-            color: #fca5a5;
-        }
-
-        .agent-led {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--emerald);
-            flex-shrink: 0;
-            margin-top: 4px;
-        }
+        .agent-substatus.err { background: var(--red-bg); color: #fca5a5; }
+        .agent-led { width: 8px; height: 8px; border-radius: 50%; background: var(--emerald); flex-shrink: 0; margin-top: 4px; }
         .agent-led.err { background: var(--red); }
 
-        .sparkline {
-            width: 100%;
-            height: 26px;
-            margin: 4px 0 10px;
-        }
+        .sparkline { width: 100%; height: 26px; margin: 4px 0 10px; }
 
         .agent-stats {
             display: flex;
@@ -273,29 +225,11 @@
             padding-top: 10px;
             gap: 8px;
         }
+        .stat-block .val { font-size: 16px; font-weight: 700; color: #ffffff; display: block; line-height: 1.2; }
+        .stat-block .lbl { font-size: 11px; color: var(--text-muted); display: block; margin-top: 2px; }
 
-        .stat-block .val {
-            font-size: 16px;
-            font-weight: 700;
-            color: #ffffff;
-            display: block;
-            line-height: 1.2;
-        }
-
-        .stat-block .lbl {
-            font-size: 11px;
-            color: var(--text-muted);
-            display: block;
-            margin-top: 2px;
-        }
-
-        /* Main Master-Detail Split */
-        .main-split {
-            display: grid;
-            grid-template-columns: 1fr 360px;
-            gap: 18px;
-            align-items: start;
-        }
+        /* Main Split */
+        .main-split { display: grid; grid-template-columns: 1fr 360px; gap: 18px; align-items: start; }
 
         .panel {
             background: var(--bg-surface);
@@ -316,34 +250,19 @@
             border-bottom: 1px solid var(--border-hairline);
         }
 
-        .panel-title {
-            font-size: 14.5px;
-            font-weight: 700;
-            color: var(--text-primary);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+        .panel-title { font-size: 14.5px; font-weight: 700; color: var(--text-primary); display: flex; align-items: center; gap: 8px; }
 
         /* Legend Bar */
         .legend-bar {
             display: flex;
             flex-wrap: wrap;
-            gap: 14px;
+            gap: 16px;
             margin-bottom: 14px;
-            font-size: 11.5px;
+            font-size: 12px;
             color: var(--text-secondary);
         }
-        .legend-item {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .legend-swatch {
-            width: 10px;
-            height: 10px;
-            border-radius: 3px;
-        }
+        .legend-item { display: inline-flex; align-items: center; gap: 6px; }
+        .legend-swatch { width: 10px; height: 10px; border-radius: 3px; }
 
         .filter-tabs {
             display: flex;
@@ -369,14 +288,8 @@
             align-items: center;
             gap: 6px;
         }
-
         .tab-btn:hover { color: #ffffff; }
-
-        .tab-btn.active {
-            background: var(--bg-card);
-            color: #ffffff;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-        }
+        .tab-btn.active { background: var(--bg-card); color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
 
         .tab-count {
             font-family: 'JetBrains Mono', monospace;
@@ -397,7 +310,7 @@
         .apt-item {
             background: var(--bg-card);
             border: 1px solid var(--border-hairline);
-            border-left: 4px solid #64748b;
+            border-left: 4px solid transparent;
             border-radius: 10px;
             padding: 14px 15px;
             transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
@@ -406,39 +319,30 @@
             justify-content: space-between;
             gap: 10px;
         }
-
         .apt-item:hover {
             background: var(--bg-card-hover);
             border-color: var(--border-strong);
             transform: translateY(-2px);
         }
 
-        /* Clear Semantic Status Colors */
-        .apt-item.st-checkout {
-            border-left-color: var(--amber);
-            background: linear-gradient(90deg, rgba(245, 158, 11, 0.11) 0%, var(--bg-card) 55%);
-        }
-        .apt-item.st-checkin {
-            border-left-color: var(--sky);
-            background: linear-gradient(90deg, rgba(56, 189, 248, 0.11) 0%, var(--bg-card) 55%);
-        }
+        /* Logică nouă de culori: Verde = AI activ fără urgențe | Portocaliu = Urgență azi | Fără culoare = 0 sarcini azi */
         .apt-item.st-active {
             border-left-color: var(--emerald);
-            background: linear-gradient(90deg, rgba(16, 185, 129, 0.11) 0%, var(--bg-card) 55%);
+            background: linear-gradient(90deg, rgba(16, 185, 129, 0.12) 0%, var(--bg-card) 55%);
+        }
+        .apt-item.st-urgent {
+            border-left-color: var(--amber);
+            border-color: rgba(245, 158, 11, 0.35);
+            background: linear-gradient(90deg, rgba(245, 158, 11, 0.16) 0%, var(--bg-card) 60%);
+            cursor: pointer;
+        }
+        .apt-item.st-urgent:hover {
+            border-color: var(--amber);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.18);
         }
 
-        .apt-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 8px;
-        }
-
-        .apt-title {
-            font-size: 13.5px;
-            font-weight: 700;
-            color: #ffffff;
-        }
+        .apt-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+        .apt-title { font-size: 13.5px; font-weight: 700; color: #ffffff; }
 
         .status-chip {
             display: inline-block;
@@ -450,18 +354,11 @@
             border-radius: 5px;
             margin-top: 4px;
         }
-        .chip-checkout { background: var(--amber-bg); color: #fcd34d; }
-        .chip-checkin { background: var(--sky-bg); color: #7dd3fc; }
+        .chip-urgent { background: var(--amber-bg); color: #fcd34d; }
         .chip-active { background: var(--emerald-bg); color: #6ee7b7; }
-        .chip-standby { background: rgba(148, 163, 184, 0.14); color: #cbd5e1; }
+        .chip-idle { background: rgba(148, 163, 184, 0.12); color: #94a3b8; }
 
-        .apt-guest {
-            font-size: 12.5px;
-            color: var(--text-secondary);
-            margin-top: 6px;
-            font-weight: 500;
-        }
-
+        .apt-guest { font-size: 12.5px; color: var(--text-secondary); margin-top: 6px; font-weight: 500; }
         .apt-time-tag {
             font-size: 11px;
             color: var(--text-secondary);
@@ -471,11 +368,15 @@
             border-radius: 5px;
             white-space: nowrap;
         }
-
-        .apt-action {
-            font-size: 12px;
-            color: var(--text-secondary);
-            line-height: 1.4;
+        .apt-action { font-size: 12px; color: var(--text-secondary); line-height: 1.4; }
+        .urgent-hint {
+            font-size: 11px;
+            color: #fbbf24;
+            font-weight: 600;
+            margin-top: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
         }
 
         .apt-meta {
@@ -487,16 +388,10 @@
             border-top: 1px solid var(--border-hairline);
             padding-top: 8px;
         }
-
         .apt-meta b { color: #f1f5f9; font-weight: 600; }
 
         /* Right Live Stream Sidebar */
-        .stream-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
+        .stream-list { display: flex; flex-direction: column; gap: 12px; }
         .stream-item {
             padding-bottom: 12px;
             border-bottom: 1px solid var(--border-hairline);
@@ -504,45 +399,68 @@
             gap: 10px;
             align-items: flex-start;
         }
-
-        .stream-item:last-child {
-            border-bottom: none;
-            padding-bottom: 0;
-        }
-
-        .stream-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            margin-top: 5px;
-            flex-shrink: 0;
-            background: var(--emerald);
-        }
+        .stream-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .stream-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; background: var(--emerald); }
         .stream-dot.warning { background: var(--amber); }
         .stream-dot.info { background: var(--sky); }
-
         .stream-body { flex: 1; min-width: 0; }
+        .stream-head { display: flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: #ffffff; margin-bottom: 2px; }
+        .stream-time { color: var(--sky); font-weight: 600; }
+        .stream-desc { font-size: 12px; color: var(--text-secondary); word-break: break-word; line-height: 1.4; }
 
-        .stream-head {
-            display: flex;
+        /* Modal pentru vizualizarea mesajelor de urgență */
+        .modal-backdrop {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(9, 11, 16, 0.78);
+            backdrop-filter: blur(6px);
+            z-index: 100;
             align-items: center;
-            gap: 6px;
-            font-size: 12.5px;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 2px;
+            justify-content: center;
+            padding: 20px;
         }
+        .modal-backdrop.open { display: flex; }
 
-        .stream-time {
-            color: var(--sky);
-            font-weight: 600;
+        .modal-box {
+            background: var(--bg-surface);
+            border: 1px solid rgba(245, 158, 11, 0.45);
+            border-radius: 16px;
+            max-width: 560px;
+            width: 100%;
+            padding: 22px 24px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55);
         }
-
-        .stream-desc {
-            font-size: 12px;
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-hairline);
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+        .modal-title { font-size: 16px; font-weight: 700; color: #fcd34d; display: flex; align-items: center; gap: 8px; }
+        .modal-close {
+            background: var(--bg-card);
+            border: 1px solid var(--border-hairline);
             color: var(--text-secondary);
-            word-break: break-word;
-            line-height: 1.4;
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .modal-close:hover { color: #fff; border-color: var(--border-strong); }
+
+        .urgent-msg-list { display: flex; flex-direction: column; gap: 10px; max-height: 340px; overflow-y: auto; }
+        .urgent-msg-card {
+            background: var(--bg-card);
+            border-left: 3px solid var(--amber);
+            padding: 12px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #f8fafc;
+            line-height: 1.45;
         }
 
         details.console-drawer {
@@ -552,15 +470,7 @@
             border-radius: 12px;
             padding: 13px 18px;
         }
-
-        details.console-drawer summary {
-            cursor: pointer;
-            font-size: 12.5px;
-            font-weight: 600;
-            color: var(--text-secondary);
-            user-select: none;
-        }
-
+        details.console-drawer summary { cursor: pointer; font-size: 12.5px; font-weight: 600; color: var(--text-secondary); user-select: none; }
         details.console-drawer pre {
             margin-top: 10px;
             background: #0d1017;
@@ -578,11 +488,9 @@
             .agents-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
             .main-split { grid-template-columns: 1fr; }
         }
-
         @media (max-width: 720px) {
             .agents-row { grid-template-columns: 1fr; }
-            .topbar-kpis { display: none; }
-            .breadcrumb { display: none; }
+            .topbar-kpis, .breadcrumb { display: none; }
         }
     </style>
 </head>
@@ -628,16 +536,15 @@
                     </div>
                     <div class="filter-tabs">
                         <button class="tab-btn active" data-filter="all" onclick="setFilter('all', this)">Toate <span class="tab-count" id="cntAll">13</span></button>
-                        <button class="tab-btn" data-filter="active" onclick="setFilter('active', this)">Active azi <span class="tab-count" id="cntActive">0</span></button>
-                        <button class="tab-btn" data-filter="turnover" onclick="setFilter('turnover', this)">Check-in/out <span class="tab-count" id="cntTurn">0</span></button>
+                        <button class="tab-btn" data-filter="active" onclick="setFilter('active', this)">AI Activ azi <span class="tab-count" id="cntActive">0</span></button>
+                        <button class="tab-btn" data-filter="urgent" onclick="setFilter('urgent', this)">Urgențe azi <span class="tab-count" id="cntUrgent">0</span></button>
                     </div>
                 </div>
 
                 <div class="legend-bar">
-                    <span class="legend-item"><span class="legend-swatch" style="background:#f59e0b;"></span>Check-out azi</span>
-                    <span class="legend-item"><span class="legend-swatch" style="background:#38bdf8;"></span>Check-in azi</span>
-                    <span class="legend-item"><span class="legend-swatch" style="background:#10b981;"></span>AI activ azi (mesaje/curățenie)</span>
-                    <span class="legend-item"><span class="legend-swatch" style="background:#64748b;"></span>Standby (fără urgențe)</span>
+                    <span class="legend-item"><span class="legend-swatch" style="background:#10b981;"></span>AI activ azi (fără urgențe)</span>
+                    <span class="legend-item"><span class="legend-swatch" style="background:#f59e0b;"></span>Urgență azi (click pe card pentru mesaje)</span>
+                    <span class="legend-item"><span class="legend-swatch" style="background:#334155;border:1px solid #64748b;"></span>Fără sarcini azi</span>
                 </div>
 
                 <div class="apt-matrix" id="apartmentsGrid"></div>
@@ -659,6 +566,17 @@
             <pre id="rawLogs">Se încarcă...</pre>
         </details>
     </main>
+
+    <!-- Modal pentru urgențe -->
+    <div class="modal-backdrop" id="urgentModal" onclick="if(event.target===this) closeUrgentModal()">
+        <div class="modal-box">
+            <div class="modal-header">
+                <div class="modal-title" id="modalAptTitle">⚠️ Urgențe azi</div>
+                <button class="modal-close" onclick="closeUrgentModal()">✕</button>
+            </div>
+            <div class="urgent-msg-list" id="modalMsgList"></div>
+        </div>
+    </div>
 
     <script>
         let currentFilter = 'all';
@@ -695,27 +613,38 @@
             renderApartments();
         }
 
+        function openUrgentModal(aptName) {
+            const apt = cachedApartments.find(a => a.name === aptName);
+            if (!apt || !apt.urgenta_azi) return;
+            document.getElementById('modalAptTitle').innerText = '⚠️ Urgențe azi — ' + apt.name;
+            const msgs = (apt.urgente_mesaje && apt.urgente_mesaje.length > 0)
+                ? apt.urgente_mesaje
+                : [apt.last_action || 'A fost semnalată o urgență astăzi pentru acest apartament.'];
+            document.getElementById('modalMsgList').innerHTML = msgs.map(m => `<div class="urgent-msg-card">${m}</div>`).join('');
+            document.getElementById('urgentModal').classList.add('open');
+        }
+
+        function closeUrgentModal() {
+            document.getElementById('urgentModal').classList.remove('open');
+        }
+
         function classifyApartment(apt) {
-            const g = (apt.guest || '').toLowerCase();
-            const act = (apt.last_action || '').toLowerCase();
-            if (g.includes('check-out') || act.includes('check-out')) {
-                return { cls: 'st-checkout', chipCls: 'chip-checkout', label: 'Check-out azi' };
+            const hasTasks = (apt.tasks_today || 0) > 0;
+            if (apt.urgenta_azi) {
+                return { cls: 'st-urgent', chipCls: 'chip-urgent', label: 'Urgență azi' };
             }
-            if (g.includes('check-in')) {
-                return { cls: 'st-checkin', chipCls: 'chip-checkin', label: 'Check-in azi' };
-            }
-            if (apt.status === 'working' || (apt.tasks_today || 0) > 0) {
+            if (hasTasks) {
                 return { cls: 'st-active', chipCls: 'chip-active', label: 'AI Activ azi' };
             }
-            return { cls: '', chipCls: 'chip-standby', label: 'Standby' };
+            return { cls: '', chipCls: 'chip-idle', label: 'Fără sarcini azi' };
         }
 
         function renderApartments() {
             let list = cachedApartments;
             if (currentFilter === 'active') {
-                list = cachedApartments.filter(a => a.status === 'working' || (a.tasks_today || 0) > 0);
-            } else if (currentFilter === 'turnover') {
-                list = cachedApartments.filter(a => (a.guest || '').toLowerCase().includes('check-') || (a.last_action || '').toLowerCase().includes('check-out'));
+                list = cachedApartments.filter(a => (a.tasks_today || 0) > 0 && !a.urgenta_azi);
+            } else if (currentFilter === 'urgent') {
+                list = cachedApartments.filter(a => a.urgenta_azi === true);
             }
 
             if (list.length === 0) {
@@ -727,10 +656,11 @@
                 const st = classifyApartment(apt);
                 const realTasks = apt.tasks_today || 0;
                 const realMins = realTasks * 3;
-                const cleanGuest = (apt.guest || '').replace('(Check-out azi)', '').replace('(Check-in azi)', '').trim();
+                const clickAttr = apt.urgenta_azi ? `onclick="openUrgentModal('${apt.name.replace(/'/g, "\\'")}')"` : '';
+                const urgentHint = apt.urgenta_azi ? '<div class="urgent-hint">🔍 Click pentru a vedea mesajele de urgență</div>' : '';
 
                 return `
-                    <div class="apt-item ${st.cls}">
+                    <div class="apt-item ${st.cls}" ${clickAttr}>
                         <div>
                             <div class="apt-top">
                                 <div>
@@ -739,8 +669,9 @@
                                 </div>
                                 <span class="apt-time-tag mono">${apt.last_time}</span>
                             </div>
-                            <div class="apt-guest">👤 ${cleanGuest}</div>
+                            <div class="apt-guest">👤 ${apt.guest}</div>
                             <div class="apt-action" style="margin-top:6px;">${apt.last_action}</div>
+                            ${urgentHint}
                         </div>
                         <div class="apt-meta">
                             <span>Sarcini azi: <b class="mono">${realTasks}</b></span>
@@ -841,8 +772,8 @@
 
                 cachedApartments = data.apartments || [];
                 document.getElementById('cntAll').innerText = cachedApartments.length;
-                document.getElementById('cntActive').innerText = cachedApartments.filter(a => a.status === 'working' || (a.tasks_today || 0) > 0).length;
-                document.getElementById('cntTurn').innerText = cachedApartments.filter(a => (a.guest || '').toLowerCase().includes('check-') || (a.last_action || '').toLowerCase().includes('check-out')).length;
+                document.getElementById('cntActive').innerText = cachedApartments.filter(a => (a.tasks_today || 0) > 0 && !a.urgenta_azi).length;
+                document.getElementById('cntUrgent').innerText = cachedApartments.filter(a => a.urgenta_azi === true).length;
                 renderApartments();
 
                 const feedHtml = (data.feed || []).map(item => `
