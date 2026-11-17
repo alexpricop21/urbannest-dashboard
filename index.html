@@ -8,22 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-canvas: #09090b;
-            --bg-surface: #111113;
-            --bg-surface-hover: #18181b;
-            --bg-elevated: #1c1c20;
-            --border-hairline: rgba(255, 255, 255, 0.08);
-            --border-strong: rgba(255, 255, 255, 0.15);
-            --text-primary: #fafafa;
-            --text-secondary: #a1a1aa;
-            --text-muted: #52525b;
+            --bg-canvas: #13161f;
+            --bg-surface: #1b202c;
+            --bg-card: #232938;
+            --bg-card-hover: #2a3142;
+            --border-hairline: rgba(255, 255, 255, 0.11);
+            --border-strong: rgba(255, 255, 255, 0.2);
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
             --emerald: #10b981;
-            --emerald-bg: rgba(16, 185, 129, 0.12);
+            --emerald-bg: rgba(16, 185, 129, 0.16);
             --amber: #f59e0b;
-            --amber-bg: rgba(245, 158, 11, 0.12);
-            --red: #ef4444;
-            --red-bg: rgba(239, 68, 68, 0.14);
+            --amber-bg: rgba(245, 158, 11, 0.16);
             --sky: #38bdf8;
+            --sky-bg: rgba(56, 189, 248, 0.16);
+            --red: #ef4444;
+            --red-bg: rgba(239, 68, 68, 0.18);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -42,11 +43,10 @@
             font-variant-numeric: tabular-nums;
         }
 
-        /* Top Command Bar */
         .topbar {
-            height: 58px;
+            height: 60px;
             border-bottom: 1px solid var(--border-hairline);
-            background: rgba(9, 9, 11, 0.85);
+            background: rgba(27, 32, 44, 0.9);
             backdrop-filter: blur(12px);
             position: sticky;
             top: 0;
@@ -67,18 +67,18 @@
         .os-badge {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 9px;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 15px;
             letter-spacing: -0.02em;
             color: var(--text-primary);
         }
 
         .os-icon {
-            width: 26px;
-            height: 26px;
-            border-radius: 7px;
-            background: var(--bg-elevated);
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: var(--bg-card);
             border: 1px solid var(--border-strong);
             display: flex;
             align-items: center;
@@ -99,14 +99,14 @@
         .topbar-kpis {
             display: flex;
             align-items: center;
-            gap: 20px;
-            font-size: 12px;
+            gap: 22px;
+            font-size: 12.5px;
             color: var(--text-secondary);
         }
 
         .topbar-kpi b {
-            color: var(--text-primary);
-            font-weight: 600;
+            color: #ffffff;
+            font-weight: 700;
             margin-left: 4px;
         }
 
@@ -114,18 +114,18 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 5px 12px;
+            padding: 6px 13px;
             border-radius: 999px;
             font-size: 12px;
-            font-weight: 500;
+            font-weight: 600;
             background: var(--emerald-bg);
-            border: 1px solid rgba(16, 185, 129, 0.28);
-            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            color: #6ee7b7;
         }
 
         .status-pill.offline {
             background: var(--red-bg);
-            border-color: rgba(239, 68, 68, 0.35);
+            border-color: rgba(239, 68, 68, 0.45);
             color: #fca5a5;
         }
 
@@ -155,7 +155,6 @@
             padding: 22px 24px 60px;
         }
 
-        /* Watchdog Alert Banner */
         .watchdog-banner {
             display: none;
             background: var(--red-bg);
@@ -171,20 +170,21 @@
         }
         .watchdog-banner.visible { display: flex; }
 
-        /* 5 Agents Telemetry Row */
+        /* 5 Agents Telemetry Strip */
         .agents-row {
             display: grid;
             grid-template-columns: repeat(5, minmax(0, 1fr));
-            gap: 12px;
+            gap: 14px;
             margin-bottom: 22px;
         }
 
         .agent-tile {
             background: var(--bg-surface);
             border: 1px solid var(--border-hairline);
-            border-radius: 12px;
-            padding: 15px 16px;
-            transition: border-color 0.2s ease, background 0.2s ease;
+            border-radius: 14px;
+            padding: 16px 18px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -192,7 +192,8 @@
 
         .agent-tile:hover {
             border-color: var(--border-strong);
-            background: var(--bg-surface-hover);
+            background: var(--bg-card);
+            transform: translateY(-2px);
         }
 
         .agent-head {
@@ -211,20 +212,20 @@
         }
 
         .agent-icon-box {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            background: var(--bg-elevated);
-            border: 1px solid var(--border-hairline);
+            width: 34px;
+            height: 34px;
+            border-radius: 9px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-strong);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--text-secondary);
+            color: #e2e8f0;
             flex-shrink: 0;
         }
 
         .agent-name {
-            font-size: 13px;
+            font-size: 13.5px;
             font-weight: 600;
             color: var(--text-primary);
             white-space: nowrap;
@@ -235,22 +236,22 @@
         .agent-substatus {
             display: inline-block;
             font-size: 11px;
-            font-weight: 500;
-            padding: 1px 7px;
+            font-weight: 600;
+            padding: 2px 8px;
             border-radius: 5px;
             background: var(--emerald-bg);
-            color: #34d399;
-            margin-top: 2px;
+            color: #6ee7b7;
+            margin-top: 3px;
         }
 
         .agent-substatus.err {
             background: var(--red-bg);
-            color: #f87171;
+            color: #fca5a5;
         }
 
         .agent-led {
-            width: 7px;
-            height: 7px;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
             background: var(--emerald);
             flex-shrink: 0;
@@ -262,7 +263,6 @@
             width: 100%;
             height: 26px;
             margin: 4px 0 10px;
-            opacity: 0.85;
         }
 
         .agent-stats {
@@ -275,16 +275,16 @@
         }
 
         .stat-block .val {
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 700;
-            color: var(--text-primary);
+            color: #ffffff;
             display: block;
             line-height: 1.2;
         }
 
         .stat-block .lbl {
             font-size: 11px;
-            color: var(--text-secondary);
+            color: var(--text-muted);
             display: block;
             margin-top: 2px;
         }
@@ -292,16 +292,17 @@
         /* Main Master-Detail Split */
         .main-split {
             display: grid;
-            grid-template-columns: 1fr 350px;
-            gap: 16px;
+            grid-template-columns: 1fr 360px;
+            gap: 18px;
             align-items: start;
         }
 
         .panel {
             background: var(--bg-surface);
             border: 1px solid var(--border-hairline);
-            border-radius: 12px;
-            padding: 18px;
+            border-radius: 14px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
         }
 
         .panel-header {
@@ -310,26 +311,46 @@
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 12px;
-            margin-bottom: 16px;
-            padding-bottom: 12px;
+            margin-bottom: 14px;
+            padding-bottom: 14px;
             border-bottom: 1px solid var(--border-hairline);
         }
 
         .panel-title {
-            font-size: 14px;
-            font-weight: 600;
+            font-size: 14.5px;
+            font-weight: 700;
             color: var(--text-primary);
             display: flex;
             align-items: center;
             gap: 8px;
         }
 
+        /* Legend Bar */
+        .legend-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-bottom: 14px;
+            font-size: 11.5px;
+            color: var(--text-secondary);
+        }
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .legend-swatch {
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
+        }
+
         .filter-tabs {
             display: flex;
             gap: 6px;
             background: var(--bg-canvas);
-            padding: 3px;
-            border-radius: 8px;
+            padding: 4px;
+            border-radius: 9px;
             border: 1px solid var(--border-hairline);
         }
 
@@ -349,37 +370,37 @@
             gap: 6px;
         }
 
-        .tab-btn:hover { color: var(--text-primary); }
+        .tab-btn:hover { color: #ffffff; }
 
         .tab-btn.active {
-            background: var(--bg-elevated);
-            color: var(--text-primary);
-            box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+            background: var(--bg-card);
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
         }
 
         .tab-count {
             font-family: 'JetBrains Mono', monospace;
             font-size: 11px;
-            background: rgba(255,255,255,0.07);
-            padding: 1px 5px;
+            background: rgba(255,255,255,0.1);
+            padding: 1px 6px;
             border-radius: 4px;
-            color: var(--text-secondary);
+            color: #e2e8f0;
         }
 
         /* Apartments Matrix */
         .apt-matrix {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
-            gap: 10px;
+            grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+            gap: 12px;
         }
 
         .apt-item {
-            background: var(--bg-canvas);
+            background: var(--bg-card);
             border: 1px solid var(--border-hairline);
-            border-left: 3px solid var(--text-muted);
-            border-radius: 9px;
-            padding: 13px 14px;
-            transition: border-color 0.15s ease, background 0.15s ease;
+            border-left: 4px solid #64748b;
+            border-radius: 10px;
+            padding: 14px 15px;
+            transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -387,18 +408,23 @@
         }
 
         .apt-item:hover {
-            background: var(--bg-surface-hover);
+            background: var(--bg-card-hover);
             border-color: var(--border-strong);
+            transform: translateY(-2px);
         }
 
-        .apt-item.is-active {
-            border-left-color: var(--emerald);
-            background: linear-gradient(90deg, rgba(16, 185, 129, 0.05) 0%, var(--bg-canvas) 45%);
-        }
-
-        .apt-item.is-turnover {
+        /* Clear Semantic Status Colors */
+        .apt-item.st-checkout {
             border-left-color: var(--amber);
-            background: linear-gradient(90deg, rgba(245, 158, 11, 0.06) 0%, var(--bg-canvas) 45%);
+            background: linear-gradient(90deg, rgba(245, 158, 11, 0.11) 0%, var(--bg-card) 55%);
+        }
+        .apt-item.st-checkin {
+            border-left-color: var(--sky);
+            background: linear-gradient(90deg, rgba(56, 189, 248, 0.11) 0%, var(--bg-card) 55%);
+        }
+        .apt-item.st-active {
+            border-left-color: var(--emerald);
+            background: linear-gradient(90deg, rgba(16, 185, 129, 0.11) 0%, var(--bg-card) 55%);
         }
 
         .apt-top {
@@ -409,25 +435,39 @@
         }
 
         .apt-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-primary);
+            font-size: 13.5px;
+            font-weight: 700;
+            color: #ffffff;
         }
+
+        .status-chip {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            padding: 2px 7px;
+            border-radius: 5px;
+            margin-top: 4px;
+        }
+        .chip-checkout { background: var(--amber-bg); color: #fcd34d; }
+        .chip-checkin { background: var(--sky-bg); color: #7dd3fc; }
+        .chip-active { background: var(--emerald-bg); color: #6ee7b7; }
+        .chip-standby { background: rgba(148, 163, 184, 0.14); color: #cbd5e1; }
 
         .apt-guest {
-            font-size: 12px;
+            font-size: 12.5px;
             color: var(--text-secondary);
-            margin-top: 2px;
+            margin-top: 6px;
+            font-weight: 500;
         }
-
-        .apt-guest.highlight { color: #fbbf24; font-weight: 500; }
 
         .apt-time-tag {
             font-size: 11px;
-            color: var(--text-muted);
+            color: var(--text-secondary);
             background: var(--bg-surface);
             border: 1px solid var(--border-hairline);
-            padding: 2px 6px;
+            padding: 2px 7px;
             border-radius: 5px;
             white-space: nowrap;
         }
@@ -435,20 +475,20 @@
         .apt-action {
             font-size: 12px;
             color: var(--text-secondary);
-            line-height: 1.35;
+            line-height: 1.4;
         }
 
         .apt-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 11px;
+            font-size: 11.5px;
             color: var(--text-muted);
             border-top: 1px solid var(--border-hairline);
             padding-top: 8px;
         }
 
-        .apt-meta b { color: var(--text-secondary); font-weight: 600; }
+        .apt-meta b { color: #f1f5f9; font-weight: 600; }
 
         /* Right Live Stream Sidebar */
         .stream-list {
@@ -471,10 +511,10 @@
         }
 
         .stream-dot {
-            width: 7px;
-            height: 7px;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
-            margin-top: 6px;
+            margin-top: 5px;
             flex-shrink: 0;
             background: var(--emerald);
         }
@@ -487,15 +527,15 @@
             display: flex;
             align-items: center;
             gap: 6px;
-            font-size: 12px;
+            font-size: 12.5px;
             font-weight: 600;
-            color: var(--text-primary);
+            color: #ffffff;
             margin-bottom: 2px;
         }
 
         .stream-time {
-            color: var(--text-muted);
-            font-weight: 500;
+            color: var(--sky);
+            font-weight: 600;
         }
 
         .stream-desc {
@@ -505,28 +545,27 @@
             line-height: 1.4;
         }
 
-        /* Tech Console Drawer */
         details.console-drawer {
-            margin-top: 16px;
+            margin-top: 18px;
             background: var(--bg-surface);
             border: 1px solid var(--border-hairline);
-            border-radius: 10px;
-            padding: 12px 16px;
+            border-radius: 12px;
+            padding: 13px 18px;
         }
 
         details.console-drawer summary {
             cursor: pointer;
-            font-size: 12px;
-            font-weight: 500;
+            font-size: 12.5px;
+            font-weight: 600;
             color: var(--text-secondary);
             user-select: none;
         }
 
         details.console-drawer pre {
             margin-top: 10px;
-            background: #050507;
+            background: #0d1017;
             border: 1px solid var(--border-hairline);
-            color: #a1a1aa;
+            color: #cbd5e1;
             padding: 12px;
             border-radius: 8px;
             font-family: 'JetBrains Mono', monospace;
@@ -552,7 +591,7 @@
         <div class="brand-left">
             <div class="os-badge">
                 <div class="os-icon">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
                 </div>
                 UrbanNest OS
             </div>
@@ -578,15 +617,13 @@
             <div id="watchdogBannerText"></div>
         </div>
 
-        <!-- 5 Agents Telemetry Strip -->
         <section class="agents-row" id="coreAgentsGrid"></section>
 
-        <!-- Master-Detail Split -->
         <div class="main-split">
             <section class="panel">
                 <div class="panel-header">
                     <div class="panel-title">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
                         Apartamente & Status Operațional
                     </div>
                     <div class="filter-tabs">
@@ -595,13 +632,21 @@
                         <button class="tab-btn" data-filter="turnover" onclick="setFilter('turnover', this)">Check-in/out <span class="tab-count" id="cntTurn">0</span></button>
                     </div>
                 </div>
+
+                <div class="legend-bar">
+                    <span class="legend-item"><span class="legend-swatch" style="background:#f59e0b;"></span>Check-out azi</span>
+                    <span class="legend-item"><span class="legend-swatch" style="background:#38bdf8;"></span>Check-in azi</span>
+                    <span class="legend-item"><span class="legend-swatch" style="background:#10b981;"></span>AI activ azi (mesaje/curățenie)</span>
+                    <span class="legend-item"><span class="legend-swatch" style="background:#64748b;"></span>Standby (fără urgențe)</span>
+                </div>
+
                 <div class="apt-matrix" id="apartmentsGrid"></div>
             </section>
 
             <aside class="panel">
                 <div class="panel-header">
                     <div class="panel-title">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
                         Activitate Recentă
                     </div>
                 </div>
@@ -620,11 +665,11 @@
         let cachedApartments = [];
 
         const agentSvgs = {
-            pms: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>',
-            ai: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M6 10v2a6 6 0 0 0 12 0v-2"/><line x1="12" y1="18" x2="12" y2="22"/></svg>',
-            clean: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>',
-            reviews: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
-            wa: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>'
+            pms: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>',
+            ai: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M6 10v2a6 6 0 0 0 12 0v-2"/><line x1="12" y1="18" x2="12" y2="22"/></svg>',
+            clean: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>',
+            reviews: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+            wa: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>'
         };
 
         const sparkPaths = {
@@ -650,12 +695,27 @@
             renderApartments();
         }
 
+        function classifyApartment(apt) {
+            const g = (apt.guest || '').toLowerCase();
+            const act = (apt.last_action || '').toLowerCase();
+            if (g.includes('check-out') || act.includes('check-out')) {
+                return { cls: 'st-checkout', chipCls: 'chip-checkout', label: 'Check-out azi' };
+            }
+            if (g.includes('check-in')) {
+                return { cls: 'st-checkin', chipCls: 'chip-checkin', label: 'Check-in azi' };
+            }
+            if (apt.status === 'working' || (apt.tasks_today || 0) > 0) {
+                return { cls: 'st-active', chipCls: 'chip-active', label: 'AI Activ azi' };
+            }
+            return { cls: '', chipCls: 'chip-standby', label: 'Standby' };
+        }
+
         function renderApartments() {
             let list = cachedApartments;
             if (currentFilter === 'active') {
                 list = cachedApartments.filter(a => a.status === 'working' || (a.tasks_today || 0) > 0);
             } else if (currentFilter === 'turnover') {
-                list = cachedApartments.filter(a => (a.guest || '').toLowerCase().includes('check-'));
+                list = cachedApartments.filter(a => (a.guest || '').toLowerCase().includes('check-') || (a.last_action || '').toLowerCase().includes('check-out'));
             }
 
             if (list.length === 0) {
@@ -664,23 +724,23 @@
             }
 
             const html = list.map(apt => {
-                const isTurn = (apt.guest || '').toLowerCase().includes('check-');
-                const isAct = apt.status === 'working' || (apt.tasks_today || 0) > 0;
-                const cardClass = isTurn ? 'is-turnover' : (isAct ? 'is-active' : '');
+                const st = classifyApartment(apt);
                 const realTasks = apt.tasks_today || 0;
                 const realMins = realTasks * 3;
+                const cleanGuest = (apt.guest || '').replace('(Check-out azi)', '').replace('(Check-in azi)', '').trim();
 
                 return `
-                    <div class="apt-item ${cardClass}">
+                    <div class="apt-item ${st.cls}">
                         <div>
                             <div class="apt-top">
                                 <div>
                                     <div class="apt-title">${apt.name}</div>
-                                    <div class="apt-guest ${isTurn ? 'highlight' : ''}">${apt.guest}</div>
+                                    <span class="status-chip ${st.chipCls}">${st.label}</span>
                                 </div>
                                 <span class="apt-time-tag mono">${apt.last_time}</span>
                             </div>
-                            <div class="apt-action" style="margin-top:8px;">${apt.last_action}</div>
+                            <div class="apt-guest">👤 ${cleanGuest}</div>
+                            <div class="apt-action" style="margin-top:6px;">${apt.last_action}</div>
                         </div>
                         <div class="apt-meta">
                             <span>Sarcini azi: <b class="mono">${realTasks}</b></span>
@@ -761,7 +821,7 @@
                                     <span class="agent-led ${isErr ? 'err' : ''}"></span>
                                 </div>
                                 <svg class="sparkline" viewBox="0 0 140 26" preserveAspectRatio="none">
-                                    <path d="${path}" fill="none" stroke="${strokeColor}" stroke-width="1.6" stroke-linecap="round"/>
+                                    <path d="${path}" fill="none" stroke="${strokeColor}" stroke-width="1.8" stroke-linecap="round"/>
                                 </svg>
                             </div>
                             <div class="agent-stats">
@@ -782,7 +842,7 @@
                 cachedApartments = data.apartments || [];
                 document.getElementById('cntAll').innerText = cachedApartments.length;
                 document.getElementById('cntActive').innerText = cachedApartments.filter(a => a.status === 'working' || (a.tasks_today || 0) > 0).length;
-                document.getElementById('cntTurn').innerText = cachedApartments.filter(a => (a.guest || '').toLowerCase().includes('check-')).length;
+                document.getElementById('cntTurn').innerText = cachedApartments.filter(a => (a.guest || '').toLowerCase().includes('check-') || (a.last_action || '').toLowerCase().includes('check-out')).length;
                 renderApartments();
 
                 const feedHtml = (data.feed || []).map(item => `
