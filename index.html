@@ -75,6 +75,11 @@
             font-size: 13px;
             font-weight: 700;
         }
+        .live-pill.offline {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: rgba(239, 68, 68, 0.5);
+            color: #fca5a5;
+        }
         .pulse-dot {
             width: 10px; height: 10px;
             background: var(--emerald);
@@ -82,11 +87,31 @@
             box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
             animation: pulse 2s infinite;
         }
+        .live-pill.offline .pulse-dot {
+            background: #ef4444;
+            animation: none;
+        }
         @keyframes pulse {
             0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
             70% { transform: scale(1); box-shadow: 0 0 0 9px rgba(16, 185, 129, 0); }
             100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
         }
+
+        .alert-banner {
+            display: none;
+            background: linear-gradient(90deg, rgba(185, 28, 28, 0.92), rgba(220, 38, 38, 0.85));
+            border: 1px solid #f87171;
+            color: #fff;
+            padding: 16px 22px;
+            border-radius: 18px;
+            margin-bottom: 22px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 10px 28px rgba(220, 38, 38, 0.35);
+            align-items: center;
+            gap: 14px;
+        }
+        .alert-banner.visible { display: flex; }
 
         .summary-grid {
             display: grid;
@@ -162,30 +187,6 @@
         .badge-work { background: var(--emerald-glow); color: #34d399; }
         .badge-wait { background: var(--amber-glow); color: #fbbf24; }
         .badge-err { background: rgba(239, 68, 68, 0.22); color: #f87171; }
-        .alert-banner {
-            display: none;
-            background: linear-gradient(90deg, rgba(185, 28, 28, 0.92), rgba(220, 38, 38, 0.85));
-            border: 1px solid #f87171;
-            color: #fff;
-            padding: 16px 22px;
-            border-radius: 18px;
-            margin-bottom: 22px;
-            font-size: 14px;
-            font-weight: 600;
-            box-shadow: 0 10px 28px rgba(220, 38, 38, 0.35);
-            align-items: center;
-            gap: 14px;
-        }
-        .alert-banner.visible { display: flex; }
-        .live-pill.offline {
-            background: rgba(239, 68, 68, 0.2);
-            border-color: rgba(239, 68, 68, 0.5);
-            color: #fca5a5;
-        }
-        .live-pill.offline .pulse-dot {
-            background: #ef4444;
-            animation: none;
-        }
 
         .bot-desc {
             font-size: 13px; color: var(--text-secondary);
@@ -319,13 +320,17 @@
                     <p>Vezi în timp real cum au grijă agenții tăi de oaspeți și de fiecare apartament</p>
                 </div>
             </div>
-            <div class="live-pill">
+            <div class="live-pill" id="livePill">
                 <span class="pulse-dot"></span>
                 <span id="liveStatusText">Se conectează la cloud...</span>
             </div>
         </header>
 
-        <div id="watchdogBanner" class="alert-banner"><span style="font-size:24px;">🚨</span><div id="watchdogBannerText"></div></div>
+        <div id="watchdogBanner" class="alert-banner">
+            <span style="font-size:24px;">🚨</span>
+            <div id="watchdogBannerText"></div>
+        </div>
+
         <section class="summary-grid">
             <div class="kpi-card">
                 <div class="kpi-icon">🏠</div>
@@ -345,7 +350,7 @@
                 <div class="kpi-icon">💬</div>
                 <div>
                     <div class="kpi-val" id="kpiConvs">-</div>
-                    <div class="kpi-lbl">Conversații monitorizate</div>
+                    <div class="kpi-lbl">Conversații monitorizate azi</div>
                 </div>
             </div>
             <div class="kpi-card">
@@ -387,36 +392,38 @@
         async function refreshDashboard() {
             try {
                 const res = await fetch('./stats.json?t=' + Date.now());
+                if (!res.ok) throw new Error('HTTP ' + res.status);
                 const data = await res.json();
 
-                const pill = document.querySelector('.live-pill');
+                const pill = document.getElementById('livePill');
+                const statusTxt = document.getElementById('liveStatusText');
                 const banner = document.getElementById('watchdogBanner');
                 const bannerText = document.getElementById('watchdogBannerText');
                 let alerteActive = [];
 
-                if (data.watchdog_status && !data.watchdog_status.healthy) {
+                if (data.watchdog_status && data.watchdog_status.healthy === false) {
                     alerteActive = alerteActive.concat(data.watchdog_status.alerts || []);
                 }
 
-                // Verificăm dacă ultima sincronizare de pe laptop e mai veche de 20 de minute
                 if (data.last_cloud_sync) {
                     const syncTime = new Date(data.last_cloud_sync.replace(' ', 'T'));
                     const diffMin = Math.floor((Date.now() - syncTime.getTime()) / 60000);
                     if (!isNaN(diffMin) && diffMin > 20) {
-                        alerteActive.push(Laptopul nu a mai trimis date de ${diffMin} minute (ultima sincronizare: ${data.last_cloud_sync}). Verifică conexiunea sau procesele Python.);
+                        alerteActive.push('Laptopul nu a mai trimis date de ' + diffMin + ' minute (ultima sincronizare: ' + data.last_cloud_sync + '). Verifică conexiunea sau procesele Python.');
                     }
                 }
 
                 if (alerteActive.length > 0) {
                     pill.classList.add('offline');
-                    document.getElementById('liveStatusText').innerText = ⚠️ Alertă Sistem • Ultimul sync: ${data.updated_at};
+                    statusTxt.innerText = '⚠️ Alertă Sistem • Ultimul sync: ' + data.updated_at;
                     banner.classList.add('visible');
-                    bannerText.innerHTML = <strong>Atenție! Watchdog a detectat o problemă:</strong><br> + alerteActive.join('<br>');
+                    bannerText.innerHTML = '<strong>Atenție! Watchdog a detectat o problemă:</strong><br>' + alerteActive.join('<br>');
                 } else {
                     pill.classList.remove('offline');
-                    document.getElementById('liveStatusText').innerText = Cloud 100% Activ • Actualizat la ${data.updated_at};
+                    statusTxt.innerText = 'Cloud 100% Activ • Actualizat la ' + data.updated_at;
                     banner.classList.remove('visible');
                 }
+
                 document.getElementById('kpiApts').innerText = data.summary.apartments_count;
                 document.getElementById('kpiTimeSaved').innerText = data.summary.time_saved_str;
                 document.getElementById('kpiConvs').innerText = data.summary.conversations_monitored;
@@ -437,7 +444,7 @@
                             <div class="bot-desc">${bot.role}</div>
                             <div class="bot-metrics">
                                 <div>
-                                    <span>⏱️ Cât a muncit azi</span>
+                                    <span>⏱️ Activitate azi</span>
                                     <b>${bot.worked_today}</b>
                                 </div>
                                 <div style="text-align:right">
@@ -453,8 +460,8 @@
                 const aptHtml = data.apartments.map(apt => {
                     const isWorking = apt.status === 'working';
                     const badge = isWorking
-                        ? `<span class="bot-badge badge-work">🟢 A lucrat azi</span>`
-                        : `<span class="bot-badge badge-wait">🛡️ Veghează</span>`;
+                        ? '<span class="bot-badge badge-work">🟢 A lucrat azi</span>'
+                        : '<span class="bot-badge badge-wait">🛡️ Veghează</span>';
                     const realTasks = apt.tasks_today || 0;
                     const realMinutes = realTasks * 3;
                     const pct = realTasks === 0 ? 0 : Math.min(100, realMinutes * 5);
@@ -508,6 +515,7 @@
                 document.getElementById('rawLogs').innerText = data.raw_logs;
             } catch (err) {
                 console.error("Eroare la actualizarea datelor:", err);
+                document.getElementById('liveStatusText').innerText = '⚠️ Eroare citire date: ' + err.message;
             }
         }
 
