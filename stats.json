@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:24:41",
+  "updated_at": "10:35:08",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
-    "time_saved_str": "3 min",
-    "actions_today": 1,
-    "last_check": "10:24"
+    "time_saved_str": "6 min",
+    "actions_today": 2,
+    "last_check": "10:35"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "La post (Live)",
       "state": "working",
-      "worked_today": "1 răspunsuri azi",
+      "worked_today": "2 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "3 mesaje"
+      "metric_value": "6 mesaje"
     },
     {
       "id": "clean",
@@ -62,11 +62,11 @@
     },
     {
       "name": "Old Town Tonitza 11 B",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "10:03",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "10:20",
       "status": "working",
       "guest": "Dorin Bandas (Check-in azi)"
     },
@@ -183,6 +183,48 @@
   ],
   "feed": [
     {
+      "time": "10:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 10:25:07,980 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "10:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 10:25:07,497 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Dorin Bandas (Old Town Tonitza 11 B)]: \"Hello Dorin! 👋 S",
+      "type": "success"
+    },
+    {
+      "time": "10:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 10:25:05,666 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "10:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 10:24:48,673 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"You are very wel",
+      "type": "success"
+    },
+    {
+      "time": "10:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 10:24:47,270 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "type": "success"
+    },
+    {
+      "time": "10:24",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-18 10:24:46,114 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "10:14",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -195,52 +237,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-18 10:14:40,863 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hello Rares! I u",
       "type": "success"
-    },
-    {
-      "time": "10:14",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 10:14:39,199 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "10:14",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 10:14:20,386 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "10:04",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 10:04:14,932 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
-    },
-    {
-      "time": "10:04",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 10:04:13,337 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "10:03",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 10:03:54,574 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "09:53",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 09:53:49,970 [INFO] 📊 Conversatii verificate: 59 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-18 09:13:31,510 [INFO] 📊 Conversatii verificate: 59 | Rezervari cu mesaje NOI: 0\n2026-11-18 09:23:35,906 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 09:23:36,073 [INFO] 📊 Conversatii verificate: 59 | Rezervari cu mesaje NOI: 0\n2026-11-18 09:33:40,531 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 09:33:40,706 [INFO] 📊 Conversatii verificate: 59 | Rezervari cu mesaje NOI: 0\n2026-11-18 09:43:45,068 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 09:43:45,272 [INFO] 📊 Conversatii verificate: 59 | Rezervari cu mesaje NOI: 0\n2026-11-18 09:53:49,786 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 09:53:49,970 [INFO] 📊 Conversatii verificate: 59 | Rezervari cu mesaje NOI: 0\n2026-11-18 10:03:54,410 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:03:54,574 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:03:54,608 [INFO] 🧠 Mesaj NOU #24152 (2 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Te salut, eu am candidat la politie si am medicalul se poate modifica data de pe 23 pana pe 25?\nMes...\"\n2026-11-18 10:03:54,608 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:03:54,609 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:04:13,336 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:04:13,337 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:04:13,337 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:04:13,338 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:04:14,932 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 10:04:14,932 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 10:04:14,932 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24152: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-18 10:14:20,195 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:14:20,386 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:14:20,418 [INFO] 🧠 Mesaj NOU #24152 (2 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Te salut, eu am candidat la politie si am medicalul se poate modifica data de pe 23 pana pe 25?\nMes...\"\n2026-11-18 10:14:20,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:14:20,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:14:39,198 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:14:39,199 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:14:39,199 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:14:39,199 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:14:40,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:14:40,863 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hello Rares! I understand you need to change your dates due to your medical exam. Since this involves modifying an active reservation, I have notified our property manager immediately, and he will look into the availability for those dates and get back to you shortly to help!\"\n2026-11-18 10:14:41,124 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
-  "last_cloud_sync": "2026-11-18 10:24:41",
+  "raw_logs": "2026-11-18 10:14:20,418 [INFO] 🧠 Mesaj NOU #24152 (2 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Te salut, eu am candidat la politie si am medicalul se poate modifica data de pe 23 pana pe 25?\nMes...\"\n2026-11-18 10:14:20,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:14:20,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:14:39,198 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:14:39,199 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:14:39,199 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:14:39,199 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:14:40,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:14:40,863 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hello Rares! I understand you need to change your dates due to your medical exam. Since this involves modifying an active reservation, I have notified our property manager immediately, and he will look into the availability for those dates and get back to you shortly to help!\"\n2026-11-18 10:14:41,124 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-18 10:24:45,941 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:24:46,114 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 2\n2026-11-18 10:24:46,159 [INFO] 🧠 Mesaj NOU #24158 (2 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Ok, mulțumesc frumos\nMesaj tradus: Ok, thank you so much | Multumesc frumos\nMesaj tradus: Thank ...\"\n2026-11-18 10:24:46,159 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:24:46,159 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:24:47,269 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 10:24:47,270 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 10:24:47,270 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:24:47,271 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:24:48,138 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:24:48,673 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"You are very welcome, Rares! If you need anything else or have any further questions regarding your stay, please don't hesitate to let us know. Have a wonderful day! 😊\"\n2026-11-18 10:24:48,933 [INFO] 🧠 Mesaj NOU #24159 (1 lipite) de la Dorin Bandas (Old Town Tonitza 11 B): \"Exista vreo posibilitate de a face check in putin mai devreme?\nMesaj tradus: Is there any possibili...\"\n2026-11-18 10:24:48,934 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:24:48,935 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:25:05,666 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:25:05,666 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:25:05,666 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:25:05,667 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:25:06,877 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:25:07,497 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Dorin Bandas (Old Town Tonitza 11 B)]: \"Hello Dorin! 👋 Standard check-in starts at 3:00 PM (15:00). We will do our best to have the apartment ready for you before 3:00 PM, and we will let you know as soon as the cleaning team finishes! Also, if you arrive after 11:00 AM, you are welcome to drop off your luggage inside the apartment as long as you leave the key back in the lockbox for our cleaners. Let us know what time you plan to arrive!\"\n2026-11-18 10:25:07,980 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
+  "last_cloud_sync": "2026-11-18 10:35:08",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
