@@ -1,11 +1,11 @@
 {
-  "updated_at": "18:39:06",
+  "updated_at": "18:49:12",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
-    "time_saved_str": "1h 0m",
-    "actions_today": 20,
-    "last_check": "18:39"
+    "time_saved_str": "1h 3m",
+    "actions_today": 21,
+    "last_check": "18:49"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "18 răspunsuri azi",
+      "worked_today": "19 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "23 mesaje"
     },
@@ -117,9 +117,9 @@
     },
     {
       "name": "Old Town Ghica 1",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
       "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
       "last_time": "16:46",
       "status": "working",
@@ -226,6 +226,13 @@
   ],
   "feed": [
     {
+      "time": "18:39",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-18 18:39:12,140 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "18:29",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -273,17 +280,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-18 17:48:35,364 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "17:48",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 17:48:35,112 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Thank you for le",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-18 17:37:58,965 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 17:38:03,312 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 17:38:03,313 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 17:38:03,313 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24203: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-18 17:48:08,570 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 17:48:08,751 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 1\n2026-11-18 17:48:08,797 [INFO] 🧠 Mesaj NOU #24203 (4 lipite) de la Michelina Romano (Old Town Carada 5): \"non riusciamo ad entrare\nMesaj tradus: we can't get in | siamo riuscite ad entrare grazie\nMesaj tr...\"\n2026-11-18 17:48:08,797 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 17:48:08,798 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 17:48:26,514 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 17:48:26,515 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 17:48:26,515 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 17:48:26,515 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 17:48:34,209 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 17:48:35,112 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Thank you for letting us know, Michelina! 😊 I have immediately informed the manager about this, and he will get back to you in the shortest time possible to help you with the kitchen light switch!\"\n2026-11-18 17:48:35,364 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-18 17:58:40,518 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 17:58:40,749 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-18 18:08:46,217 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:08:46,420 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-18 18:18:51,489 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:18:51,677 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-18 18:28:57,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:28:57,598 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 1\n2026-11-18 18:28:57,635 [INFO] 🧠 Mesaj NOU #24210 (1 lipite) de la Luan Brites (Old Town Ghica 1): \"Thank you!...\"\n2026-11-18 18:28:57,636 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 18:28:57,636 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 18:28:58,839 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 18:28:58,840 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 18:28:58,840 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 18:28:58,840 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 18:29:05,656 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 18:29:06,213 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Luan Brites (Old Town Ghica 1)]: \"You're very welcome, Luan! 🌟 Thank you again for staying with us, and we look forward to welcoming you back to UrbanNest Bucharest anytime. Safe travels!\"",
-  "last_cloud_sync": "2026-11-18 18:39:06",
+  "raw_logs": "2026-11-18 17:38:03,313 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 17:38:03,313 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24203: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-18 17:48:08,570 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 17:48:08,751 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 1\n2026-11-18 17:48:08,797 [INFO] 🧠 Mesaj NOU #24203 (4 lipite) de la Michelina Romano (Old Town Carada 5): \"non riusciamo ad entrare\nMesaj tradus: we can't get in | siamo riuscite ad entrare grazie\nMesaj tr...\"\n2026-11-18 17:48:08,797 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 17:48:08,798 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 17:48:26,514 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 17:48:26,515 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 17:48:26,515 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 17:48:26,515 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 17:48:34,209 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 17:48:35,112 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Thank you for letting us know, Michelina! 😊 I have immediately informed the manager about this, and he will get back to you in the shortest time possible to help you with the kitchen light switch!\"\n2026-11-18 17:48:35,364 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-18 17:58:40,518 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 17:58:40,749 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-18 18:08:46,217 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:08:46,420 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-18 18:18:51,489 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:18:51,677 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-18 18:28:57,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:28:57,598 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 1\n2026-11-18 18:28:57,635 [INFO] 🧠 Mesaj NOU #24210 (1 lipite) de la Luan Brites (Old Town Ghica 1): \"Thank you!...\"\n2026-11-18 18:28:57,636 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 18:28:57,636 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 18:28:58,839 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 18:28:58,840 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 18:28:58,840 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 18:28:58,840 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 18:29:05,656 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 18:29:06,213 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Luan Brites (Old Town Ghica 1)]: \"You're very welcome, Luan! 🌟 Thank you again for staying with us, and we look forward to welcoming you back to UrbanNest Bucharest anytime. Safe travels!\"\n2026-11-18 18:39:11,923 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 18:39:12,140 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-18 18:49:12",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
