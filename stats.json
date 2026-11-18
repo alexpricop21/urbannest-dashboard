@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:56:00",
+  "updated_at": "11:06:25",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
-    "time_saved_str": "15 min",
-    "actions_today": 5,
-    "last_check": "10:56"
+    "time_saved_str": "18 min",
+    "actions_today": 6,
+    "last_check": "11:06"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "La post (Live)",
       "state": "working",
-      "worked_today": "5 răspunsuri azi",
+      "worked_today": "6 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "10 mesaje"
+      "metric_value": "11 mesaje"
     },
     {
       "id": "clean",
@@ -52,11 +52,11 @@
   "apartments": [
     {
       "name": "Old Town Tonitza 11 B",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "10:44",
+      "last_time": "10:45",
       "status": "working",
       "guest": "Dorin Bandas (Check-in azi)"
     },
@@ -183,6 +183,20 @@
   ],
   "feed": [
     {
+      "time": "10:56",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 10:56:23,912 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "10:56",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-18 10:56:05,438 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "10:46",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -223,24 +237,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-18 10:35:32,334 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
       "type": "success"
-    },
-    {
-      "time": "10:35",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 10:35:12,884 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "10:25",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 10:25:07,980 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-18 10:24:48,933 [INFO] 🧠 Mesaj NOU #24159 (1 lipite) de la Dorin Bandas (Old Town Tonitza 11 B): \"Exista vreo posibilitate de a face check in putin mai devreme?\nMesaj tradus: Is there any possibili...\"\n2026-11-18 10:24:48,934 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:24:48,935 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:25:05,666 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:25:05,666 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:25:05,666 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:25:05,667 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:25:06,877 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:25:07,497 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Dorin Bandas (Old Town Tonitza 11 B)]: \"Hello Dorin! 👋 Standard check-in starts at 3:00 PM (15:00). We will do our best to have the apartment ready for you before 3:00 PM, and we will let you know as soon as the cleaning team finishes! Also, if you arrive after 11:00 AM, you are welcome to drop off your luggage inside the apartment as long as you leave the key back in the lockbox for our cleaners. Let us know what time you plan to arrive!\"\n2026-11-18 10:25:07,980 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-18 10:35:12,695 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:35:12,884 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:35:12,917 [INFO] 🧠 Mesaj NOU #24162 (1 lipite) de la Vera Andrianova (Biserica Amzei 27): \"Thank you, I appreciate it. I'll let you know at the end how many capsules I took. Thanks....\"\n2026-11-18 10:35:12,918 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:35:12,918 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:35:32,333 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:35:32,334 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:35:32,334 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:35:32,334 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:35:33,375 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:35:33,907 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"You are very welcome, Vera! Enjoy your coffee and your stay, and please let us know if you need anything else. Have a wonderful day! ☕😊\"\n2026-11-18 10:45:38,560 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:45:38,741 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:45:38,776 [INFO] 🧠 Mesaj NOU #24167 (3 lipite) de la Dorin Bandas (Old Town Tonitza 11 B): \"Pai daca as putea lasa bagajele ar fi perfect\nMesaj tradus: Well, if I could leave my luggage, tha...\"\n2026-11-18 10:45:38,776 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:45:38,777 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:45:58,144 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:45:58,145 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:45:58,145 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:45:58,146 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:45:59,556 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:46:00,093 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Dorin Bandas (Old Town Tonitza 11 B)]: \"Hello Dorin! 🧳 That sounds great! Since your check-in is today, you are welcome to drop off your luggage inside the apartment around 11:30 AM – 12:00 PM, on the strict condition that you place the key back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment to clean. We will also notify you as soon as the apartment is fully ready for you! See you soon!\"\n2026-11-18 10:46:00,537 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
-  "last_cloud_sync": "2026-11-18 10:56:00",
+  "raw_logs": "2026-11-18 10:35:12,695 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:35:12,884 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:35:12,917 [INFO] 🧠 Mesaj NOU #24162 (1 lipite) de la Vera Andrianova (Biserica Amzei 27): \"Thank you, I appreciate it. I'll let you know at the end how many capsules I took. Thanks....\"\n2026-11-18 10:35:12,918 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:35:12,918 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:35:32,333 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:35:32,334 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:35:32,334 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:35:32,334 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:35:33,375 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:35:33,907 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"You are very welcome, Vera! Enjoy your coffee and your stay, and please let us know if you need anything else. Have a wonderful day! ☕😊\"\n2026-11-18 10:45:38,560 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:45:38,741 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:45:38,776 [INFO] 🧠 Mesaj NOU #24167 (3 lipite) de la Dorin Bandas (Old Town Tonitza 11 B): \"Pai daca as putea lasa bagajele ar fi perfect\nMesaj tradus: Well, if I could leave my luggage, tha...\"\n2026-11-18 10:45:38,776 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:45:38,777 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:45:58,144 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:45:58,145 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:45:58,145 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:45:58,146 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:45:59,556 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 10:46:00,093 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Dorin Bandas (Old Town Tonitza 11 B)]: \"Hello Dorin! 🧳 That sounds great! Since your check-in is today, you are welcome to drop off your luggage inside the apartment around 11:30 AM – 12:00 PM, on the strict condition that you place the key back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment to clean. We will also notify you as soon as the apartment is fully ready for you! See you soon!\"\n2026-11-18 10:46:00,537 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-18 10:56:05,262 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 10:56:05,438 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 10:56:05,475 [INFO] 🧠 Mesaj NOU #24168 (1 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Asemenea!\nMesaj tradus: Likewise!...\"\n2026-11-18 10:56:05,476 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 10:56:05,476 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:56:23,912 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 10:56:23,912 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 10:56:23,912 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 10:56:23,913 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 10:56:25,004 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"",
+  "last_cloud_sync": "2026-11-18 11:06:25",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
