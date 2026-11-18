@@ -1,11 +1,11 @@
 {
-  "updated_at": "15:59:10",
+  "updated_at": "16:09:30",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
     "time_saved_str": "27 min",
     "actions_today": 9,
-    "last_check": "15:59"
+    "last_check": "16:09"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "working",
       "worked_today": "8 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "13 mesaje"
+      "metric_value": "14 mesaje"
     },
     {
       "id": "clean",
@@ -79,6 +79,16 @@
       "last_time": "10:35",
       "status": "working",
       "guest": "Vera Andrianova"
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "15:51",
+      "status": "working",
+      "guest": "Michelina Romano (Check-in azi)"
     },
     {
       "name": "Campineanu22 A",
@@ -141,16 +151,6 @@
       "guest": "Fără urgențe"
     },
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Michelina Romano (Check-in azi)"
-    },
-    {
       "name": "Old Town Ghica 1",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -182,6 +182,27 @@
     }
   ],
   "feed": [
+    {
+      "time": "15:59",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 15:59:30,476 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Hi Michelina! 😊 ",
+      "type": "success"
+    },
+    {
+      "time": "15:59",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 15:59:24,308 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "type": "success"
+    },
+    {
+      "time": "15:59",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-18 15:59:15,491 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "15:49",
       "icon": "🔄",
@@ -216,31 +237,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-18 15:08:52,287 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "14:58",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 14:58:47,614 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "14:48",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 14:48:43,004 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "14:38",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 14:38:37,919 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-18 12:57:47,655 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 13:07:52,083 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 13:07:52,251 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 13:17:56,791 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 13:17:56,973 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 13:28:01,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 13:28:01,715 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 13:38:06,232 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 13:38:06,414 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 13:48:10,783 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 13:48:11,107 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 13:58:17,671 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 13:58:17,856 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:08:22,522 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:08:22,694 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:18:28,396 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:18:28,592 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:28:33,232 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:28:33,447 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:38:37,757 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:38:37,919 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:48:42,685 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:48:43,004 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:58:47,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:58:47,614 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:08:52,115 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:08:52,287 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:18:56,616 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:18:56,824 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:29:01,183 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:29:01,361 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:39:05,623 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:39:05,824 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:49:10,571 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:49:10,753 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-18 15:59:10",
+  "raw_logs": "2026-11-18 13:58:17,856 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:08:22,522 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:08:22,694 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:18:28,396 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:18:28,592 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:28:33,232 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:28:33,447 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:38:37,757 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:38:37,919 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:48:42,685 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:48:43,004 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 14:58:47,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 14:58:47,614 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:08:52,115 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:08:52,287 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:18:56,616 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:18:56,824 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:29:01,183 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:29:01,361 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:39:05,623 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:39:05,824 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:49:10,571 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:49:10,753 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:59:15,300 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:59:15,491 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 15:59:15,535 [INFO] 🧠 Mesaj NOU #24186 (1 lipite) de la Michelina Romano (Old Town Carada 5): \"ciao, si possono fumare le terea (iquos) in camera?\nMesaj tradus: Hi, is it allowed to smoke Terea...\"\n2026-11-18 15:59:15,535 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 15:59:15,536 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 15:59:24,307 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 15:59:24,308 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 15:59:24,308 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 15:59:24,309 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 15:59:29,919 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 15:59:30,476 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Hi Michelina! 😊 Regarding your question, smoking of any kind—including cigarettes, cigars, electronic cigarettes, and IQOS (Terea) devices—is strictly prohibited inside the apartment (NO SMOKING). Thank you very much for your understanding and cooperation! Have a wonderful day!\"",
+  "last_cloud_sync": "2026-11-18 16:09:30",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
