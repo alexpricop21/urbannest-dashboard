@@ -1,11 +1,11 @@
 {
-  "updated_at": "16:40:06",
+  "updated_at": "16:45:41",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
-    "time_saved_str": "30 min",
-    "actions_today": 10,
-    "last_check": "16:40"
+    "time_saved_str": "33 min",
+    "actions_today": 11,
+    "last_check": "16:45"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "La post (Live)",
       "state": "working",
-      "worked_today": "9 răspunsuri azi",
+      "worked_today": "10 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "15 mesaje"
+      "metric_value": "16 mesaje"
     },
     {
       "id": "clean",
@@ -37,6 +37,16 @@
       "worked_today": "1 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
+    },
+    {
+      "id": "reviews",
+      "name": "Roboțelul Recenzii Airbnb (5★)",
+      "role": "Acordă automat 5 stele oaspeților fără probleme la ora 20:00",
+      "status": "Programat (20:00)",
+      "state": "working",
+      "worked_today": "0 recenzii azi",
+      "metric_label": "Total auto-review",
+      "metric_value": "2 acordate"
     },
     {
       "id": "wa",
@@ -58,7 +68,11 @@
       "last_action": "A trimis răspuns automat oaspetelui",
       "last_time": "10:45",
       "status": "working",
-      "guest": "Dorin Bandas (Check-in azi)"
+      "guest": "Dorin Bandas (Check-in azi)",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[10:02] Oaspete (Rares Stinga): Te salut, eu am candidat la politie si am medicalul se poate modifica data de pe 23 pana pe 25?\n Mesaj tradus: Hello. I applied to the police and I have the medical exam. Can the date be changed from the 23rd to the 25th?"
+      ]
     },
     {
       "name": "Old Town Victoriei 25",
@@ -68,7 +82,12 @@
       "last_action": "Check-out înregistrat la ora 09:30 + Sync Tabel",
       "last_time": "11:26",
       "status": "working",
-      "guest": "Marek Zillmann"
+      "guest": "Marek Zillmann",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[11:17] Oaspete (Marek Zillmann): Hi, yes I really enjoy it!\n\nI plan to leave the apartment at 9:30 tomorrow.\n\nRegarding the fee: I don’t have any Lei in cash and withdrawing just 20 Lei would cause more than a 30 lei banking fee. Is it possible that I leave you a little more than the equivalent, 4 Euros, in cash here in the apartment?\n\nBest,\nMarek",
+        "[12:45] Oaspete (Marek Zillmann): Thank you very much - although it is/was a short stay I like the city very much and the apartment as well. Looking forward to visit you again! 😊\n\nBest,\nMarek"
+      ]
     },
     {
       "name": "Biserica Amzei 27",
@@ -78,17 +97,23 @@
       "last_action": "A trimis răspuns automat oaspetelui",
       "last_time": "10:35",
       "status": "working",
-      "guest": "Vera Andrianova"
+      "guest": "Vera Andrianova",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[09:56] Oaspete (Vera Andrianova): Good morning, Alexandru! The water is all good now. Letting it run for 5 minutes did the trick, thank you!\n\nI have a question about the coffee: if I'd like more than one capsule, how can I pay for the extra ones? I don't have any cash. Could you send me a payment link?\n\nIf that's not possible, maybe I could buy some other things for the apartment instead. For example, I've already bought fabric softener."
+      ]
     },
     {
       "name": "Old Town Carada 5",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "16:29",
+      "last_time": "16:35",
       "status": "working",
-      "guest": "Michelina Romano (Check-in azi)"
+      "guest": "Michelina Romano (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Campineanu22 A",
@@ -98,7 +123,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Димитър Андреев (Check-in azi)"
+      "guest": "Димитър Андреев (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Campineanu22 B",
@@ -108,7 +135,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Bejan Mihai (Check-in azi)"
+      "guest": "Bejan Mihai (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Kogalniceanu 9 1BR",
@@ -118,7 +147,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe"
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Magheru 29A 2BR",
@@ -128,7 +159,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe"
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Magheru 29B 2BR",
@@ -138,7 +171,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Maria Corrnelia Calota (Check-in azi)"
+      "guest": "Maria Corrnelia Calota (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Magheru 29C 2BR",
@@ -148,7 +183,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe"
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Old Town Ghica 1",
@@ -158,7 +195,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe"
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Rigas29 2BR",
@@ -168,7 +207,9 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe"
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     },
     {
       "name": "Tonitza 11 A with terrace",
@@ -178,10 +219,33 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Julia B (Check-out azi)"
+      "guest": "Julia B (Check-out azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "16:40",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 16:40:32,111 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Yes, exactly! Sm",
+      "type": "success"
+    },
+    {
+      "time": "16:40",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-18 16:40:30,444 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "16:40",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-18 16:40:11,177 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "16:30",
       "icon": "💬",
@@ -216,31 +280,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-18 16:09:35,362 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "15:59",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 15:59:30,476 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Hi Michelina! 😊 ",
-      "type": "success"
-    },
-    {
-      "time": "15:59",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-18 15:59:24,308 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
-      "type": "success"
-    },
-    {
-      "time": "15:59",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 15:59:15,491 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-18 15:29:01,183 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:29:01,361 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:39:05,623 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:39:05,824 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:49:10,571 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:49:10,753 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 15:59:15,300 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 15:59:15,491 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 15:59:15,535 [INFO] 🧠 Mesaj NOU #24186 (1 lipite) de la Michelina Romano (Old Town Carada 5): \"ciao, si possono fumare le terea (iquos) in camera?\nMesaj tradus: Hi, is it allowed to smoke Terea...\"\n2026-11-18 15:59:15,535 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 15:59:15,536 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 15:59:24,307 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 15:59:24,308 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 15:59:24,308 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 15:59:24,309 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 15:59:29,919 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 15:59:30,476 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Hi Michelina! 😊 Regarding your question, smoking of any kind—including cigarettes, cigars, electronic cigarettes, and IQOS (Terea) devices—is strictly prohibited inside the apartment (NO SMOKING). Thank you very much for your understanding and cooperation! Have a wonderful day!\"\n2026-11-18 16:09:35,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:09:35,362 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 16:19:40,730 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:19:41,473 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 16:29:45,831 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:29:46,000 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 16:29:46,033 [INFO] 🧠 Mesaj NOU #24189 (1 lipite) de la Michelina Romano (Old Town Carada 5): \"ok quindi terea si possono fumare?\nMesaj tradus: Okay, so can you smoke on the terrace?...\"\n2026-11-18 16:29:46,033 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 16:29:46,034 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 16:29:57,539 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 16:29:57,540 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 16:29:57,541 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 16:29:57,541 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 16:30:06,271 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 16:30:06,272 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 16:30:06,272 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24189: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-  "last_cloud_sync": "2026-11-18 16:40:06",
+  "raw_logs": "2026-11-18 15:59:24,308 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 15:59:24,308 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 15:59:24,309 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 15:59:29,919 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 15:59:30,476 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Hi Michelina! 😊 Regarding your question, smoking of any kind—including cigarettes, cigars, electronic cigarettes, and IQOS (Terea) devices—is strictly prohibited inside the apartment (NO SMOKING). Thank you very much for your understanding and cooperation! Have a wonderful day!\"\n2026-11-18 16:09:35,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:09:35,362 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 16:19:40,730 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:19:41,473 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 16:29:45,831 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:29:46,000 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 16:29:46,033 [INFO] 🧠 Mesaj NOU #24189 (1 lipite) de la Michelina Romano (Old Town Carada 5): \"ok quindi terea si possono fumare?\nMesaj tradus: Okay, so can you smoke on the terrace?...\"\n2026-11-18 16:29:46,033 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 16:29:46,034 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 16:29:57,539 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 16:29:57,540 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 16:29:57,541 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 16:29:57,541 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 16:30:06,271 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 16:30:06,272 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 16:30:06,272 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24189: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-18 16:40:10,982 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 16:40:11,177 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 16:40:11,210 [INFO] 🧠 Mesaj NOU #24191 (1 lipite) de la Michelina Romano (Old Town Carada 5): \"è corretto?\nMesaj tradus: is it correct?...\"\n2026-11-18 16:40:11,210 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 16:40:11,211 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 16:40:30,443 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 16:40:30,444 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 16:40:30,444 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 16:40:30,444 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 16:40:31,556 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 16:40:32,111 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"Yes, exactly! Smoking is strictly prohibited inside the apartment, but smoking on the terrace is permitted. 😊 Have a wonderful stay, Michelina!\"\n2026-11-18 16:45:41,638 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).",
+  "last_cloud_sync": "2026-11-18 16:45:41",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
