@@ -228,6 +228,111 @@
         .stat-block .val { font-size: 16px; font-weight: 700; color: #ffffff; display: block; line-height: 1.2; }
         .stat-block .lbl { font-size: 11px; color: var(--text-muted); display: block; margin-top: 2px; }
 
+
+        /* AI Command Center Bar */
+        .cmd-panel {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-hairline);
+            border-radius: 14px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+        }
+        .cmd-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .cmd-label {
+            font-size: 13.5px;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .cmd-token-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-hairline);
+            color: var(--text-secondary);
+            font-size: 11.5px;
+            padding: 5px 11px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .cmd-token-btn:hover { color: #fff; border-color: var(--border-strong); }
+        .cmd-input-row {
+            display: flex;
+            gap: 10px;
+        }
+        .cmd-input {
+            flex: 1;
+            background: var(--bg-canvas);
+            border: 1px solid var(--border-strong);
+            color: #ffffff;
+            font-family: inherit;
+            font-size: 13.5px;
+            padding: 11px 14px;
+            border-radius: 9px;
+            outline: none;
+        }
+        .cmd-input:focus { border-color: var(--emerald); }
+        .cmd-preview-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-strong);
+            color: #f8fafc;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 12.5px;
+            padding: 0 15px;
+            border-radius: 9px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .cmd-preview-btn:hover { background: var(--bg-card-hover); border-color: var(--sky); }
+        .cmd-send-btn {
+            background: var(--emerald);
+            color: #052e16;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 12.5px;
+            padding: 0 18px;
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .cmd-send-btn:hover { opacity: 0.92; }
+        .cmd-send-btn:disabled, .cmd-preview-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .cmd-status-line {
+            margin-top: 10px;
+            font-size: 12.5px;
+            color: var(--text-secondary);
+            line-height: 1.45;
+        }
+        .cmd-details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 10px;
+            margin-top: 12px;
+        }
+        .cmd-detail-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-hairline);
+            border-left: 3px solid var(--sky);
+            border-radius: 8px;
+            padding: 10px 12px;
+            font-size: 12px;
+        }
+        .cmd-detail-card.sent { border-left-color: var(--emerald); }
+        @media (max-width: 720px) {
+            .cmd-input-row { flex-direction: column; }
+            .cmd-send-btn, .cmd-preview-btn { padding: 11px; }
+        }
+
         /* Main Split */
         .main-split { display: grid; grid-template-columns: 1fr 360px; gap: 18px; align-items: start; }
 
@@ -527,6 +632,23 @@
 
         <section class="agents-row" id="coreAgentsGrid"></section>
 
+        <!-- AI Command Center (Sarcini la cerere) -->
+        <section class="cmd-panel" id="aiCommandBar">
+            <div class="cmd-top">
+                <div class="cmd-label">
+                    <span style="color:var(--emerald);">⚡</span> AI Command Center — Trimite o sarcină agentului (doar oaspeții cazați efectiv azi)
+                </div>
+                <button class="cmd-token-btn" onclick="configureGitHubToken()">⚙️ Setează Token Cloud</button>
+            </div>
+            <div class="cmd-input-row">
+                <input type="text" id="aiCmdInput" class="cmd-input" placeholder="Ex: Anunță oaspeții cazați azi pe Magheru că s-a reluat alimentarea cu apă..." onkeydown="if(event.key==='Enter') sendAiCommand('preview')">
+                <button id="aiPreviewBtn" class="cmd-preview-btn" onclick="sendAiCommand('preview')">🔍 Simulare (Preview)</button>
+                <button id="aiCmdBtn" class="cmd-send-btn" onclick="sendAiCommand('live')">⚡ Trimite Live</button>
+            </div>
+            <div class="cmd-status-line" id="aiCmdStatus">Se încarcă statusul AI Command Center...</div>
+            <div class="cmd-details-grid" id="aiCmdDetails"></div>
+        </section>
+
         <div class="main-split">
             <section class="panel">
                 <div class="panel-header">
@@ -797,8 +919,120 @@
             }
         }
 
+
+        function configureGitHubToken() {
+            const cur = localStorage.getItem('un_gh_token') || '';
+            const val = prompt('Introdu GitHub Personal Access Token (cu drept Read/Write pe repo-ul urbannest-dashboard). Se salvează STRICT local în browserul tău:', cur);
+            if (val !== null) {
+                localStorage.setItem('un_gh_token', val.trim());
+                alert('✅ Token salvat local în browser!');
+            }
+        }
+
+        async function loadCommandStatus() {
+            try {
+                const r = await fetch('./comanda_ai.json?t=' + Date.now());
+                if (!r.ok) return;
+                const c = await r.json();
+                const el = document.getElementById('aiCmdStatus');
+                const detEl = document.getElementById('aiCmdDetails');
+                if (c.status === 'pending' || c.status === 'processing') {
+                    const modBadge = (c.mode === 'preview') ? 'SIMULARE / PREVIEW' : 'TRIMITERE LIVE';
+                    el.innerHTML = `<span style="color:#fbbf24;font-weight:600;">⏳ În curs de procesare pe laptop (${modBadge}):</span> "${c.prompt || ''}"`;
+                    detEl.innerHTML = '';
+                } else {
+                    if (c.result) {
+                        el.innerHTML = c.result;
+                    }
+                    if (c.details && c.details.length > 0) {
+                        detEl.innerHTML = c.details.map(d => {
+                            const isSent = (d.status || '').includes('TRIMIS');
+                            return `
+                                <div class="cmd-detail-card ${isSent ? 'sent' : ''}">
+                                    <div style="display:flex;justify-content:space-between;font-weight:700;color:#fff;margin-bottom:4px;">
+                                        <span>${d.apartament} — ${d.guest} (#${d.id_rezervare})</span>
+                                        <span style="color:${isSent ? '#34d399' : '#38bdf8'};font-size:11px;">${d.status}</span>
+                                    </div>
+                                    <div style="color:var(--text-secondary);line-height:1.4;">"${d.mesaj}"</div>
+                                </div>
+                            `;
+                        }).join('');
+                    } else {
+                        detEl.innerHTML = '';
+                    }
+                }
+            } catch (e) {}
+        }
+
+        async function sendAiCommand(mode) {
+            const inp = document.getElementById('aiCmdInput');
+            const btnLive = document.getElementById('aiCmdBtn');
+            const btnPrev = document.getElementById('aiPreviewBtn');
+            const txt = inp.value.trim();
+            if (!txt) {
+                alert('Scrie mai întâi instrucțiunea pentru agent!');
+                return;
+            }
+
+            if (mode === 'live') {
+                if (!confirm('Ești sigur că vrei să trimiți LIVE mesajele către oaspeții cazați azi care corespund cererii?')) return;
+            }
+
+            let token = localStorage.getItem('un_gh_token');
+            if (!token) {
+                configureGitHubToken();
+                token = localStorage.getItem('un_gh_token');
+                if (!token) return;
+            }
+
+            btnLive.disabled = true;
+            btnPrev.disabled = true;
+            try {
+                const apiUrl = '[https://api.github.com/repos/alexpricop21/urbannest-dashboard/contents/comanda_ai.json](https://api.github.com/repos/alexpricop21/urbannest-dashboard/contents/comanda_ai.json)';
+                const getRes = await fetch(apiUrl, { headers: { 'Authorization': 'Bearer ' + token } });
+                let sha = undefined;
+                if (getRes.ok) {
+                    const meta = await getRes.json();
+                    sha = meta.sha;
+                }
+
+                const payloadObj = {
+                    status: 'pending',
+                    mode: mode,
+                    prompt: txt,
+                    created_at: new Date().toISOString(),
+                    result: '',
+                    details: []
+                };
+                const contentB64 = btoa(unescape(encodeURIComponent(JSON.stringify(payloadObj, null, 2))));
+
+                const putRes = await fetch(apiUrl, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': 'Bearer ' + token,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: 'AI Command (' + mode + ') din Dashboard',
+                        content: contentB64,
+                        sha: sha
+                    })
+                });
+
+                if (!putRes.ok) throw new Error('Eroare GitHub API (' + putRes.status + '). Verifică token-ul din ⚙️ Setează Token Cloud.');
+                document.getElementById('aiCmdStatus').innerHTML = `<span style="color:#fbbf24;font-weight:600;">⏳ Comandă (${mode.toUpperCase()}) trimisă către laptop!</span> Se verifică rezervările active din 5StarDesk (~30-60 secunde)...`;
+                document.getElementById('aiCmdDetails').innerHTML = '';
+            } catch (err) {
+                alert('❌ ' + err.message);
+            } finally {
+                btnLive.disabled = false;
+                btnPrev.disabled = false;
+            }
+        }
+
         refreshDashboard();
-        setInterval(refreshDashboard, 15000);
+        loadCommandStatus();
+        setInterval(() => { refreshDashboard(); loadCommandStatus(); }, 15000);
     </script>
 </body>
 </html>
