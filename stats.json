@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:57:43",
+  "updated_at": "13:07:47",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
-    "time_saved_str": "24 min",
-    "actions_today": 8,
-    "last_check": "12:57"
+    "time_saved_str": "27 min",
+    "actions_today": 9,
+    "last_check": "13:07"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "La post (Live)",
       "state": "working",
-      "worked_today": "7 răspunsuri azi",
+      "worked_today": "8 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "13 mesaje"
     },
@@ -61,6 +61,16 @@
       "guest": "Dorin Bandas (Check-in azi)"
     },
     {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "Check-out înregistrat la ora 09:30 + Sync Tabel",
+      "last_time": "11:26",
+      "status": "working",
+      "guest": "Marek Zillmann"
+    },
+    {
       "name": "Biserica Amzei 27",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -69,16 +79,6 @@
       "last_time": "10:35",
       "status": "working",
       "guest": "Vera Andrianova"
-    },
-    {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "Check-out înregistrat la ora 09:30 + Sync Tabel",
-      "last_time": "11:26",
-      "status": "working",
-      "guest": "Marek Zillmann"
     },
     {
       "name": "Campineanu22 A",
@@ -183,6 +183,13 @@
   ],
   "feed": [
     {
+      "time": "12:57",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-18 12:57:47,655 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "12:47",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -230,17 +237,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-18 12:07:02,341 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "11:56",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-18 11:56:57,552 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "Regarding the fee: I do...\"\n2026-11-18 11:26:39,352 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 11:26:39,352 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 11:26:40,185 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 11:26:40,185 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 11:26:40,185 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 11:26:40,186 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 11:26:41,573 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 11:26:42,515 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marek Zillmann (Old Town Victoriei 25)]: \"Hi Marek! Thank you for letting us know. Safe travels for tomorrow, and please remember to leave the keys back inside the lockbox and scramble the code when you depart. Regarding the city tax, leaving 4 EUR in cash inside the apartment is completely fine. Thank you so much for staying with us, and we hope to host you again soon!\"\n2026-11-18 11:26:42,832 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-18 11:36:47,542 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 11:36:47,740 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 11:46:52,149 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 11:46:52,317 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 11:56:56,693 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 11:56:57,552 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:07:02,172 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:07:02,341 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:17:07,379 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:17:07,564 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:27:12,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:27:12,354 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:37:16,752 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:37:16,926 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:47:21,424 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:47:21,733 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 12:47:21,765 [INFO] 🧠 Mesaj NOU #24181 (1 lipite) de la Marek Zillmann (Old Town Victoriei 25): \"Thank you very much - although it is/was a short stay I like the city very much and the apartment as...\"\n2026-11-18 12:47:21,766 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 12:47:21,766 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 12:47:41,128 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 12:47:41,129 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 12:47:41,129 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 12:47:41,129 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 12:47:42,180 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 12:47:42,780 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marek Zillmann (Old Town Victoriei 25)]: \"Hi Marek! Thank you so much for your kind words! 😊 We are thrilled that you enjoyed your stay and loved both the apartment and the city. Have a safe journey home, and we look forward to hosting you again whenever you're back in Bucharest! Safe travels! 🌟\"",
-  "last_cloud_sync": "2026-11-18 12:57:43",
+  "raw_logs": "2026-11-18 11:26:39,352 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 11:26:40,185 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-18 11:26:40,185 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-18 11:26:40,185 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 11:26:40,186 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 11:26:41,573 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 11:26:42,515 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marek Zillmann (Old Town Victoriei 25)]: \"Hi Marek! Thank you for letting us know. Safe travels for tomorrow, and please remember to leave the keys back inside the lockbox and scramble the code when you depart. Regarding the city tax, leaving 4 EUR in cash inside the apartment is completely fine. Thank you so much for staying with us, and we hope to host you again soon!\"\n2026-11-18 11:26:42,832 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-18 11:36:47,542 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 11:36:47,740 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 11:46:52,149 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 11:46:52,317 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 11:56:56,693 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 11:56:57,552 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:07:02,172 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:07:02,341 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:17:07,379 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:17:07,564 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:27:12,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:27:12,354 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:37:16,752 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:37:16,926 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0\n2026-11-18 12:47:21,424 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:47:21,733 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-18 12:47:21,765 [INFO] 🧠 Mesaj NOU #24181 (1 lipite) de la Marek Zillmann (Old Town Victoriei 25): \"Thank you very much - although it is/was a short stay I like the city very much and the apartment as...\"\n2026-11-18 12:47:21,766 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-18 12:47:21,766 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 12:47:41,128 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-18 12:47:41,129 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-18 12:47:41,129 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-18 12:47:41,129 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-18 12:47:42,180 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-18 12:47:42,780 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marek Zillmann (Old Town Victoriei 25)]: \"Hi Marek! Thank you so much for your kind words! 😊 We are thrilled that you enjoyed your stay and loved both the apartment and the city. Have a safe journey home, and we look forward to hosting you again whenever you're back in Bucharest! Safe travels! 🌟\"\n2026-11-18 12:57:47,456 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-18 12:57:47,655 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-18 13:07:47",
   "watchdog_status": {
     "healthy": true,
     "alerts": [],
