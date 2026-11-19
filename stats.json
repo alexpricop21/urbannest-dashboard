@@ -1,11 +1,11 @@
 {
-  "updated_at": "19:02:54",
+  "updated_at": "19:14:48",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
     "time_saved_str": "1h 18m",
     "actions_today": 26,
-    "last_check": "19:02"
+    "last_check": "19:14"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "23 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "33 mesaje"
+      "metric_value": "34 mesaje"
     },
     {
       "id": "clean",
@@ -224,70 +224,72 @@
   ],
   "feed": [
     {
-      "time": "18:52",
+      "time": "19:04",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:54,166 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "desc": "2026-11-19 19:04:48,216 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24368",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:04",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:47,209 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "desc": "2026-11-19 19:04:48,000 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:04",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:47,020 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "desc": "2026-11-19 19:04:28,340 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:04",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:39,655 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "desc": "2026-11-19 19:04:28,156 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:04",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:39,461 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "desc": "2026-11-19 19:04:08,570 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:03",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:26,395 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "desc": "2026-11-19 19:03:49,401 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24370",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:03",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:26,206 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "desc": "2026-11-19 19:03:49,248 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
       "type": "success"
     },
     {
-      "time": "18:52",
+      "time": "19:03",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 18:52:16,494 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "desc": "2026-11-19 19:03:29,630 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
       "type": "success"
     }
   ],
-  "raw_logs": "2026-11-19 18:52:16,494 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:26,205 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 18:52:26,206 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 18:52:26,206 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24367: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-19 18:52:26,207 [INFO] 🧠 Mesaj NOU #24370 (2 lipite) de la Aurora Ermini (Rigas29 -2BR): \"Ok! Thanks | There are towels for two, rights? Including the ones for the shower?!...\"\n2026-11-19 18:52:26,208 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 18:52:26,208 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:26,395 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-19 18:52:26,395 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 15h7m33.679819455s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54453s'}]}}), incerc urmatorul...\n2026-11-19 18:52:26,395 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 18:52:26,396 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:39,460 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 18:52:39,461 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 18:52:39,461 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24370: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-19 18:52:39,463 [INFO] 🧠 Mesaj NOU #24359 (2 lipite) de la Jiwon Choi (Magheru 29C -2BR): \"Hi Is there any update on this? Has this happened before and do you assume it will be really fixed w...\"\n2026-11-19 18:52:39,464 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 18:52:39,464 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:39,654 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-19 18:52:39,655 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 15h7m20.414447399s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54440s'}]}}), incerc urmatorul...\n2026-11-19 18:52:39,655 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 18:52:39,655 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:47,020 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 18:52:47,020 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 18:52:47,020 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24359: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-19 18:52:47,022 [INFO] 🧠 Mesaj NOU #24368 (1 lipite) de la Bianca Adriana (Old Town Tonitza 11 B): \"Ok multumesc si eu\nMesaj tradus: Ok thank you too...\"\n2026-11-19 18:52:47,023 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 18:52:47,023 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:47,208 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-19 18:52:47,209 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 15h7m12.877041038s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54432s'}]}}), incerc urmatorul...\n2026-11-19 18:52:47,209 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 18:52:47,209 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 18:52:54,165 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 18:52:54,166 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 18:52:54,166 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24368: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-  "last_cloud_sync": "2026-11-19 19:02:54",
+  "raw_logs": "2026-11-19 19:03:29,393 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 19:03:29,393 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24374: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-19 19:03:29,396 [INFO] 🧠 Mesaj NOU #24370 (2 lipite) de la Aurora Ermini (Rigas29 -2BR): \"Ok! Thanks | There are towels for two, rights? Including the ones for the shower?!...\"\n2026-11-19 19:03:29,397 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 19:03:29,398 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 19:03:29,629 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-19 19:03:29,630 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h56m30.466791754s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53790s'}]}}), incerc urmatorul...\n2026-11-19 19:03:29,630 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 19:03:29,630 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 19:03:49,247 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 19:03:49,248 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 19:03:49,248 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24370: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-19 19:03:49,401 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24370\n2026-11-19 19:03:49,403 [INFO] 🧠 Mesaj NOU #24359 (2 lipite) de la Jiwon Choi (Magheru 29C -2BR): \"Hi Is there any update on this? Has this happened before and do you assume it will be really fixed w...\"\n2026-11-19 19:03:49,403 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 19:03:49,404 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 19:04:08,569 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 19:04:08,570 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 19:04:08,570 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 19:04:08,570 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 19:04:28,156 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 19:04:28,156 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 19:04:28,156 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24359: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-19 19:04:28,158 [INFO] 🧠 Mesaj NOU #24368 (1 lipite) de la Bianca Adriana (Old Town Tonitza 11 B): \"Ok multumesc si eu\nMesaj tradus: Ok thank you too...\"\n2026-11-19 19:04:28,158 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 19:04:28,158 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 19:04:28,339 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-19 19:04:28,340 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h55m31.745891597s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53731s'}]}}), incerc urmatorul...\n2026-11-19 19:04:28,341 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 19:04:28,341 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 19:04:47,999 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 19:04:48,000 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 19:04:48,000 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24368: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-19 19:04:48,216 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24368",
+  "last_cloud_sync": "2026-11-19 19:14:48",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
       "Eroare repetată (4x) pe msg_24203",
       "Eroare repetată (3x) pe msg_24217",
-      "Eroare repetată (3x) pe msg_24359"
+      "Eroare repetată (4x) pe msg_24359",
+      "Eroare repetată (2x) pe msg_24370",
+      "Eroare repetată (2x) pe msg_24368"
     ],
     "processes": {
       "agent_mesaje": true,
