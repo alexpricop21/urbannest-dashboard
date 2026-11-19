@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:41:43",
+  "updated_at": "12:52:15",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
     "time_saved_str": "33 min",
     "actions_today": 11,
-    "last_check": "12:41"
+    "last_check": "12:52"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "8 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "10 mesaje"
+      "metric_value": "11 mesaje"
     },
     {
       "id": "clean",
@@ -175,10 +175,10 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Fără urgențe",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "12:41",
+      "status": "working",
+      "guest": "Andrea Sciurti",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -221,6 +221,27 @@
   ],
   "feed": [
     {
+      "time": "12:42",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 12:42:14,908 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Sciurti (Campineanu22 B)]: \"Hello Andrea! 👋 It's ",
+      "type": "success"
+    },
+    {
+      "time": "12:42",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 12:42:09,152 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "12:41",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-19 12:41:49,831 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "12:31",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -254,31 +275,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-19 12:11:20,409 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "12:01",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 12:01:15,206 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "11:51",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 11:51:10,079 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "11:41",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 11:41:04,686 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-19 11:00:40,201 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 11:00:40,202 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 11:00:40,202 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 11:00:41,599 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 11:00:42,146 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Dan Oprean (Magheru 29C -2BR)]: \"Thank you so much for staying with us, Dan! We are glad you enjoyed your stay. Have a wonderful day ahead, and we hope to welcome you back soon! 🌟\"\n2026-11-19 11:00:42,668 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-19 11:10:48,405 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:10:48,605 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 11:20:54,066 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:20:54,232 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 11:30:59,365 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:30:59,590 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 11:41:04,473 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:41:04,686 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 11:51:09,876 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:51:10,079 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:01:14,969 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:01:15,206 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:11:20,165 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:11:20,409 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1\n2026-11-19 12:11:20,443 [INFO] 🧠 Mesaj NOU #24289 (1 lipite) de la Mirela Teodorescu (Magheru 29A -2BR): \"Buna ziua,\nVoiam sa va spun ca fetita mea a lasat bagajul si cheia din nou in cutia postala.\nMultume...\"\n2026-11-19 12:11:20,443 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 12:11:20,444 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 12:11:28,511 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 12:11:28,512 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 12:11:28,512 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 12:11:28,512 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 12:11:32,701 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 12:11:33,226 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mirela Teodorescu (Magheru 29A -2BR)]: \"Thank you for letting us know, Mirela! 🎒 We hope your daughter has a wonderful and successful time with her tutoring today. Please let us know if you or she needs anything else! 😊\"\n2026-11-19 12:21:38,515 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:21:38,699 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:31:43,620 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:31:43,812 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-19 12:41:43",
+  "raw_logs": "2026-11-19 11:30:59,590 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 11:41:04,473 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:41:04,686 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 11:51:09,876 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 11:51:10,079 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:01:14,969 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:01:15,206 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:11:20,165 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:11:20,409 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 1\n2026-11-19 12:11:20,443 [INFO] 🧠 Mesaj NOU #24289 (1 lipite) de la Mirela Teodorescu (Magheru 29A -2BR): \"Buna ziua,\nVoiam sa va spun ca fetita mea a lasat bagajul si cheia din nou in cutia postala.\nMultume...\"\n2026-11-19 12:11:20,443 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 12:11:20,444 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 12:11:28,511 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 12:11:28,512 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 12:11:28,512 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 12:11:28,512 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 12:11:32,701 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 12:11:33,226 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mirela Teodorescu (Magheru 29A -2BR)]: \"Thank you for letting us know, Mirela! 🎒 We hope your daughter has a wonderful and successful time with her tutoring today. Please let us know if you or she needs anything else! 😊\"\n2026-11-19 12:21:38,515 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:21:38,699 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:31:43,620 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:31:43,812 [INFO] 📊 Conversatii verificate: 60 | Rezervari cu mesaje NOI: 0\n2026-11-19 12:41:49,601 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 12:41:49,831 [INFO] 📊 Conversatii verificate: 61 | Rezervari cu mesaje NOI: 1\n2026-11-19 12:41:49,865 [INFO] 🧠 Mesaj NOU #24295 (1 lipite) de la Andrea Sciurti (Campineanu22 B): \"Hello, good morning—pleasure to meet you, I’m Andrea. We’ll be arriving around 3:00 PM for check-in;...\"\n2026-11-19 12:41:49,866 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 12:41:49,866 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 12:42:09,151 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 12:42:09,152 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 12:42:09,152 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 12:42:09,152 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 12:42:13,800 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 12:42:14,908 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Sciurti (Campineanu22 B)]: \"Hello Andrea! 👋 It's a pleasure to meet you too. There is no problem at all to check in anytime after 3:00 PM (15:00) via our self check-in system. Please note that all exact access instructions and key/lockbox details are sent automatically via a dedicated message 1 day before your arrival date. Looking forward to hosting you! 🌟\"",
+  "last_cloud_sync": "2026-11-19 12:52:15",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
