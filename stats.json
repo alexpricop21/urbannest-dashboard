@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:04:35",
+  "updated_at": "14:15:00",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
-    "time_saved_str": "45 min",
-    "actions_today": 15,
-    "last_check": "14:04"
+    "time_saved_str": "48 min",
+    "actions_today": 16,
+    "last_check": "14:15"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "12 răspunsuri azi",
+      "worked_today": "13 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "16 mesaje"
+      "metric_value": "17 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "4 alerte azi",
+      "worked_today": "5 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -71,7 +71,8 @@
       "guest": "Jiwon Choi (Check-in azi)",
       "urgenta_azi": true,
       "urgente_mesaje": [
-        "[10:52] Oaspete (Dan Oprean): Bună ziua! Am plecat din apartament. Mulțumim frumos pentru găzduire. O zi deosebită! \n Mesaj tradus: Hello there! We have left the apartment. Thank you so much for hosting us. Have a great day!"
+        "[10:52] Oaspete (Dan Oprean): Bună ziua! Am plecat din apartament. Mulțumim frumos pentru găzduire. O zi deosebită! \n Mesaj tradus: Hello there! We have left the apartment. Thank you so much for hosting us. Have a great day!",
+        "[14:02] Oaspete (Laura Radu): Buna Alexandru, te-as ruga sa te uiti peste refund request-ul le care l-am facut intrucat mare parte din excursia noastra la bucuresti a fost afectata de variile probleme din apartament. Merci\n Mesaj tradus: Hi, Alexandru. Could you please review the refund request I submitted, as a significant portion of our trip to Bucharest was impacted by various issues in the apartment? Thank you."
       ]
     },
     {
@@ -87,6 +88,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Ghica 1",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "13:54",
+      "status": "working",
+      "guest": "Gaetano Maurici (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Campineanu22 B",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -95,18 +108,6 @@
       "last_time": "12:52",
       "status": "working",
       "guest": "Andrea Sciurti",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Ghica 1",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "13:50",
-      "status": "working",
-      "guest": "Gaetano Maurici (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -221,6 +222,27 @@
   ],
   "feed": [
     {
+      "time": "14:04",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 14:04:59,926 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "14:04",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 14:04:59,670 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Laura Radu (Magheru 29C -2BR)]: \"Hi Laura, thank you for",
+      "type": "success"
+    },
+    {
+      "time": "14:04",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-19 14:04:41,136 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "13:54",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -254,31 +276,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-19 13:44:07,861 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hello Gaetano! 👋 T",
       "type": "success"
-    },
-    {
-      "time": "13:44",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 13:44:05,411 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "13:43",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 13:43:30,919 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "13:33",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 13:33:25,730 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-19 13:03:08,361 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:03:09,356 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 13:03:10,146 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Shir Salis (Old Town Tonitza 11 B)]: \"Hi Shir! 😊 The apartment features 1 bathroom with a shower rather than a bathtub. Let me know if you have any other questions!\"\n2026-11-19 13:13:15,258 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:13:15,444 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-19 13:23:20,502 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:23:20,683 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-19 13:33:25,536 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:33:25,730 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-19 13:43:30,757 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:43:30,919 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1\n2026-11-19 13:43:30,959 [INFO] 🧠 Mesaj NOU #24310 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ciao, dovremmo arrivare dopo le 19\nMesaj tradus: Hi, we should arrive after 7:00 p.m....\"\n2026-11-19 13:43:30,960 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 13:43:30,960 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:44:05,410 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 13:44:05,411 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 13:44:05,411 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 13:44:05,411 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:44:07,335 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 13:44:07,861 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hello Gaetano! 👋 There is no problem at all to check in after 7:00 PM via self check-in. All exact access instructions and details will be sent automatically 1 day before your arrival. Have a safe trip, and we look forward to hosting you!\"\n2026-11-19 13:54:14,086 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:54:14,567 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1\n2026-11-19 13:54:14,597 [INFO] 🧠 Mesaj NOU #24313 (2 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ok grazie\nMesaj tradus: Ok thanks | Come funziona per la tassa di soggiorno?\nMesaj tradus: How do...\"\n2026-11-19 13:54:14,597 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 13:54:14,597 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:54:33,847 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 13:54:33,857 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 13:54:33,858 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 13:54:33,858 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:54:34,785 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 13:54:35,475 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hello Gaetano! For your Airbnb reservation, we will send the payment link directly through the Airbnb platform (Resolution Center) so you can pay conveniently and securely right inside the app. Let me know if you have any other questions! 😊\"\n2026-11-19 13:54:35,710 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-19 14:04:35",
+  "raw_logs": "2026-11-19 13:33:25,730 [INFO] 📊 Conversatii verificate: 62 | Rezervari cu mesaje NOI: 0\n2026-11-19 13:43:30,757 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:43:30,919 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1\n2026-11-19 13:43:30,959 [INFO] 🧠 Mesaj NOU #24310 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ciao, dovremmo arrivare dopo le 19\nMesaj tradus: Hi, we should arrive after 7:00 p.m....\"\n2026-11-19 13:43:30,960 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 13:43:30,960 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:44:05,410 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 13:44:05,411 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 13:44:05,411 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 13:44:05,411 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:44:07,335 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 13:44:07,861 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hello Gaetano! 👋 There is no problem at all to check in after 7:00 PM via self check-in. All exact access instructions and details will be sent automatically 1 day before your arrival. Have a safe trip, and we look forward to hosting you!\"\n2026-11-19 13:54:14,086 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 13:54:14,567 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1\n2026-11-19 13:54:14,597 [INFO] 🧠 Mesaj NOU #24313 (2 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ok grazie\nMesaj tradus: Ok thanks | Come funziona per la tassa di soggiorno?\nMesaj tradus: How do...\"\n2026-11-19 13:54:14,597 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 13:54:14,597 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:54:33,847 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 13:54:33,857 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 13:54:33,858 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 13:54:33,858 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 13:54:34,785 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 13:54:35,475 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hello Gaetano! For your Airbnb reservation, we will send the payment link directly through the Airbnb platform (Resolution Center) so you can pay conveniently and securely right inside the app. Let me know if you have any other questions! 😊\"\n2026-11-19 13:54:35,710 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-19 14:04:40,924 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:04:41,136 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 1\n2026-11-19 14:04:41,173 [INFO] 🧠 Mesaj NOU #24316 (1 lipite) de la Laura Radu (Magheru 29C -2BR): \"Buna Alexandru, te-as ruga sa te uiti peste refund request-ul le care l-am facut intrucat mare parte...\"\n2026-11-19 14:04:41,174 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 14:04:41,174 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:04:59,167 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:04:59,670 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Laura Radu (Magheru 29C -2BR)]: \"Hi Laura, thank you for reaching out. I have immediately notified Alexandru about your refund request, and he will review it and get back to you in the shortest time possible.\"\n2026-11-19 14:04:59,926 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+  "last_cloud_sync": "2026-11-19 14:15:00",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
