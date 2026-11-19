@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:56:04",
+  "updated_at": "15:06:30",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
     "time_saved_str": "57 min",
     "actions_today": 19,
-    "last_check": "14:56"
+    "last_check": "15:06"
   },
   "core_agents": [
     {
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "6 alerte azi",
+      "worked_today": "7 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -222,6 +222,34 @@
   ],
   "feed": [
     {
+      "time": "14:56",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 14:56:30,448 [INFO] 📲 Alerta WhatsApp [OK] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "14:56",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 14:56:30,193 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! We are ",
+      "type": "success"
+    },
+    {
+      "time": "14:56",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 14:56:28,010 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "14:56",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-19 14:56:09,225 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "14:46",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -248,38 +276,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-19 14:25:52,345 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Diego Rodriguez (Magheru 29B -2BR)]: \"Hello Diego! 👋 Saf",
       "type": "success"
-    },
-    {
-      "time": "14:25",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 14:25:50,532 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "14:25",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 14:25:30,719 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michela Nigro (Rigas29 -2BR)]: \"Hello Michela! 🚗 Safe tr",
-      "type": "success"
-    },
-    {
-      "time": "14:25",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 14:25:28,791 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "14:25",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 14:25:10,759 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-19 14:04:41,174 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 14:04:41,174 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:04:59,167 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:04:59,670 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Laura Radu (Magheru 29C -2BR)]: \"Hi Laura, thank you for reaching out. I have immediately notified Alexandru about your refund request, and he will review it and get back to you in the shortest time possible.\"\n2026-11-19 14:04:59,926 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-19 14:15:05,288 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:15:05,516 [INFO] 📊 Conversatii verificate: 63 | Rezervari cu mesaje NOI: 0\n2026-11-19 14:25:10,578 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:25:10,759 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 2\n2026-11-19 14:25:10,796 [INFO] 🧠 Mesaj NOU #24320 (2 lipite) de la Michela Nigro (Rigas29 -2BR): \"Hello, no problem we are waiting for the car at the airport so we will arrive around 4/4.30 | Can I ...\"\n2026-11-19 14:25:10,797 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 14:25:10,797 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:28,790 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 14:25:28,791 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 14:25:28,791 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 14:25:28,792 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:29,892 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:25:30,719 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michela Nigro (Rigas29 -2BR)]: \"Hello Michela! 🚗 Safe travels to the apartment! Regarding parking, street parking is available around Str. Rigas 29A, but please note that public spots depend on availability and may have local hourly fees. Have a smooth journey, and we look forward to hosting you!\"\n2026-11-19 14:25:30,957 [INFO] 🧠 Mesaj NOU #24318 (1 lipite) de la Diego Rodriguez (Magheru 29B -2BR): \"Bună,\nSuntem deja pe drum spre voi, ajungem în cât timp ne ia să venim de la aeroport.\nSalutări!\n...\"\n2026-11-19 14:25:30,958 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 14:25:30,958 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:50,530 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 14:25:50,532 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 14:25:50,532 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 14:25:50,532 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:51,767 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:25:52,345 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Diego Rodriguez (Magheru 29B -2BR)]: \"Hello Diego! 👋 Safe travels from the airport. Please note that standard check-in starts at 3:00 PM (15:00). However, since your arrival is today, if you happen to arrive after 11:00 AM, you are very welcome to drop off your luggage inside the apartment while our cleaning team finishes up, on the strict condition that you place the key right back inside the lockbox when you leave so the cleaners can finish their work! We will let you know as soon as the apartment is fully ready and clean for you. 😊\"\n2026-11-19 14:25:52,708 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-19 14:35:57,871 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:35:58,041 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-19 14:46:03,889 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:46:04,061 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-19 14:56:04",
+  "raw_logs": "2026-11-19 14:25:28,790 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 14:25:28,791 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 14:25:28,791 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 14:25:28,792 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:29,892 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:25:30,719 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michela Nigro (Rigas29 -2BR)]: \"Hello Michela! 🚗 Safe travels to the apartment! Regarding parking, street parking is available around Str. Rigas 29A, but please note that public spots depend on availability and may have local hourly fees. Have a smooth journey, and we look forward to hosting you!\"\n2026-11-19 14:25:30,957 [INFO] 🧠 Mesaj NOU #24318 (1 lipite) de la Diego Rodriguez (Magheru 29B -2BR): \"Bună,\nSuntem deja pe drum spre voi, ajungem în cât timp ne ia să venim de la aeroport.\nSalutări!\n...\"\n2026-11-19 14:25:30,958 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 14:25:30,958 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:50,530 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 14:25:50,532 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 14:25:50,532 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 14:25:50,532 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:25:51,767 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:25:52,345 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Diego Rodriguez (Magheru 29B -2BR)]: \"Hello Diego! 👋 Safe travels from the airport. Please note that standard check-in starts at 3:00 PM (15:00). However, since your arrival is today, if you happen to arrive after 11:00 AM, you are very welcome to drop off your luggage inside the apartment while our cleaning team finishes up, on the strict condition that you place the key right back inside the lockbox when you leave so the cleaners can finish their work! We will let you know as soon as the apartment is fully ready and clean for you. 😊\"\n2026-11-19 14:25:52,708 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-19 14:35:57,871 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:35:58,041 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-19 14:46:03,889 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:46:04,061 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-19 14:56:09,032 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 14:56:09,225 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 1\n2026-11-19 14:56:09,271 [INFO] 🧠 Mesaj NOU #24324 (1 lipite) de la Oaspete #109556 (Apartament UrbanNest): \"From Booking.com: This guest wants to modify their booking. Because of the way this request was sent...\"\n2026-11-19 14:56:09,271 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 14:56:09,272 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:56:28,009 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 14:56:28,010 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 14:56:28,010 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 14:56:28,010 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 14:56:28,942 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 14:56:30,193 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! We are very sorry to hear about your family or personal emergency. Please note that modification requests for your reservation need to be handled directly through your Booking.com account. If you need any further assistance regarding your booking details, please let us know!\"\n2026-11-19 14:56:30,448 [INFO] 📲 Alerta WhatsApp [OK] trimisa!",
+  "last_cloud_sync": "2026-11-19 15:06:30",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
