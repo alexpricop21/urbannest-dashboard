@@ -1,11 +1,11 @@
 {
-  "updated_at": "07:07:08",
+  "updated_at": "07:17:35",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
-    "time_saved_str": "3 min",
-    "actions_today": 1,
-    "last_check": "07:07"
+    "time_saved_str": "6 min",
+    "actions_today": 2,
+    "last_check": "07:17"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "1 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "1 mesaje"
+      "metric_value": "4 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "0 update-uri azi",
+      "worked_today": "1 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -60,6 +60,18 @@
     }
   ],
   "apartments": [
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 07:07 + Sync Tabel",
+      "last_time": "07:07",
+      "status": "working",
+      "guest": "Mirela Teodorescu (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
     {
       "name": "Old Town Victoriei 25",
       "tasks_today": 1,
@@ -117,18 +129,6 @@
       "last_time": "Azi",
       "status": "standby",
       "guest": "Ralph Ralph (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Mirela Teodorescu (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,41 @@
   ],
   "feed": [
     {
+      "time": "07:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 07:07:35,134 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "07:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 07:07:34,467 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emmanuell Norbert Tulbure (Magheru 29A -2BR)]: \"Good mor",
+      "type": "success"
+    },
+    {
+      "time": "07:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 07:07:32,820 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "07:07",
+      "icon": "📲",
+      "title": "Notificare WhatsApp & Sincronizare",
+      "desc": "2026-11-19 07:07:13,462 [INFO] 🧠 Mesaj NOU #24251 (3 lipite) de la Emmanuell Norbert Tulbure (Magheru 29A -2BR): \"B",
+      "type": "warning"
+    },
+    {
+      "time": "07:07",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-19 07:07:13,425 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "06:57",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -238,45 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-19 06:36:58,204 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "06:26",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 06:26:52,384 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "06:16",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 06:16:46,568 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "06:06",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 06:06:41,521 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "05:56",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 05:56:36,634 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "05:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 05:46:31,601 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-19 04:05:41,354 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 04:15:46,044 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 04:15:46,244 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 04:25:50,847 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 04:25:51,017 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 04:35:56,739 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 04:35:56,901 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 04:46:01,674 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 04:46:01,844 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 04:56:06,489 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 04:56:06,669 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:06:11,608 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:06:11,769 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:16:16,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:16:16,637 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:26:21,450 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:26:21,649 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:36:26,566 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:36:26,725 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:46:31,399 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:46:31,601 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:56:36,449 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:56:36,634 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:06:41,347 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:06:41,521 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:16:46,381 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:16:46,568 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:26:52,190 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:26:52,384 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:36:58,004 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:36:58,204 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:47:03,186 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:47:03,373 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:57:08,019 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:57:08,228 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-19 07:07:08",
+  "raw_logs": "2026-11-19 05:16:16,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:16:16,637 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:26:21,450 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:26:21,649 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:36:26,566 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:36:26,725 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:46:31,399 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:46:31,601 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 05:56:36,449 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 05:56:36,634 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:06:41,347 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:06:41,521 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:16:46,381 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:16:46,568 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:26:52,190 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:26:52,384 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:36:58,004 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:36:58,204 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:47:03,186 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:47:03,373 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 06:57:08,019 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 06:57:08,228 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 0\n2026-11-19 07:07:13,234 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 07:07:13,425 [INFO] 📊 Conversatii verificate: 58 | Rezervari cu mesaje NOI: 1\n2026-11-19 07:07:13,462 [INFO] 🧠 Mesaj NOU #24251 (3 lipite) de la Emmanuell Norbert Tulbure (Magheru 29A -2BR): \"Buna Dimineata, am facut checkout-ul\nMesaj tradus: Good morning, I have checked out. | Multumesc de...\"\n2026-11-19 07:07:13,462 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 07:07:13,463 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 07:07:32,819 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 07:07:32,820 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 07:07:32,820 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 07:07:32,820 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 07:07:33,933 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 07:07:34,467 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emmanuell Norbert Tulbure (Magheru 29A -2BR)]: \"Good morning Emmanuell! Thank you so much for staying with us, and we are glad you enjoyed your time at UrbanNest Bucharest! 🌟 Regarding the city tax, since your reservation is through Airbnb, we will send the payment link directly via the Airbnb platform shortly. Have a wonderful day ahead and a safe journey back home!\"\n2026-11-19 07:07:35,134 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-19 07:17:35",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
