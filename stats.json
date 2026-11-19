@@ -1,11 +1,11 @@
 {
-  "updated_at": "15:58:11",
+  "updated_at": "16:08:28",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
     "time_saved_str": "1h 0m",
     "actions_today": 20,
-    "last_check": "15:58"
+    "last_check": "16:08"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "17 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "21 mesaje"
+      "metric_value": "22 mesaje"
     },
     {
       "id": "clean",
@@ -222,6 +222,34 @@
   ],
   "feed": [
     {
+      "time": "15:58",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 15:58:27,892 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "15:58",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 15:58:27,664 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jiwon Choi (Magheru 29C -2BR)]: \"Hello Jiwon! I am very ",
+      "type": "success"
+    },
+    {
+      "time": "15:58",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 15:58:17,892 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "type": "success"
+    },
+    {
+      "time": "15:58",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-19 15:58:16,438 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "15:48",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -248,38 +276,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-19 15:47:59,165 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "15:37",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 15:37:53,739 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "15:27",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 15:27:48,450 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "15:17",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 15:17:42,837 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "15:17",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 15:17:42,622 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! We are ",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-19 15:07:16,121 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 15:07:16,121 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 15:07:16,121 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 15:07:16,122 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:07:24,598 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 15:07:25,104 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jiwon Choi (Magheru 29C -2BR)]: \"Hello Jiwon! I noticed your reservation is scheduled for November 19, 2026. Please note that the exact check-in instructions and access details are sent automatically 1 day before your arrival date. If you booked for today by mistake or have any questions about your reservation dates, please let me know!\"\n2026-11-19 15:07:25,343 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-19 15:17:30,717 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:17:30,891 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-19 15:17:30,928 [INFO] 🧠 Mesaj NOU #24334 (6 lipite) de la Oaspete #109556 (Apartament UrbanNest): \"Can i book it again please | So i don’t have to pay again | I thought i have to pay a fee not the en...\"\n2026-11-19 15:17:30,928 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 15:17:30,928 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:17:32,825 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 15:17:32,826 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 15:17:32,827 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 15:17:32,827 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:17:41,982 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 15:17:42,622 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! We are very sorry for the confusion regarding the payment. Because your reservation was made through Booking.com, all booking modifications, reinstatements, or payment issues must be handled directly through your Booking.com account or via their customer support team, as we cannot manually recreate or modify bookings from our side. Please reach out to Booking.com support, and they will be happy to assist you!\"\n2026-11-19 15:17:42,837 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-19 15:27:48,139 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:27:48,450 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-19 15:37:53,432 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:37:53,739 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-19 15:47:58,815 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:47:59,165 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-19 15:47:59,198 [INFO] 🧠 Mesaj NOU #24337 (1 lipite) de la Oaspete #109556 (Apartament UrbanNest): \"Will i get refunded for the full amount that i paid for the property?...\"\n2026-11-19 15:47:59,198 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 15:47:59,198 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:48:00,306 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 15:48:00,307 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 15:48:00,307 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 15:48:00,308 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:48:09,732 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 15:48:10,520 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! Regarding refunds and payment issues for reservations made through Booking.com, all financial matters, cancellations, and refunds are managed directly by Booking.com according to their policies. Please contact Booking.com customer support through your account, and they will be able to check your refund status and assist you with this!\"\n2026-11-19 15:48:10,785 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-19 15:58:11",
+  "raw_logs": "2026-11-19 15:17:32,825 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 15:17:32,826 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 15:17:32,827 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 15:17:32,827 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:17:41,982 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 15:17:42,622 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! We are very sorry for the confusion regarding the payment. Because your reservation was made through Booking.com, all booking modifications, reinstatements, or payment issues must be handled directly through your Booking.com account or via their customer support team, as we cannot manually recreate or modify bookings from our side. Please reach out to Booking.com support, and they will be happy to assist you!\"\n2026-11-19 15:17:42,837 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-19 15:27:48,139 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:27:48,450 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-19 15:37:53,432 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:37:53,739 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-19 15:47:58,815 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:47:59,165 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-19 15:47:59,198 [INFO] 🧠 Mesaj NOU #24337 (1 lipite) de la Oaspete #109556 (Apartament UrbanNest): \"Will i get refunded for the full amount that i paid for the property?...\"\n2026-11-19 15:47:59,198 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 15:47:59,198 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:48:00,306 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 15:48:00,307 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 15:48:00,307 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 15:48:00,308 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:48:09,732 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 15:48:10,520 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109556 (Apartament UrbanNest)]: \"Hello! Regarding refunds and payment issues for reservations made through Booking.com, all financial matters, cancellations, and refunds are managed directly by Booking.com according to their policies. Please contact Booking.com customer support through your account, and they will be able to check your refund status and assist you with this!\"\n2026-11-19 15:48:10,785 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-19 15:58:16,255 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 15:58:16,438 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-19 15:58:16,481 [INFO] 🧠 Mesaj NOU #24339 (1 lipite) de la Jiwon Choi (Magheru 29C -2BR): \"Hi How can I use the shower? I keep spinning the top valve clockwise and the other way but water doe...\"\n2026-11-19 15:58:16,481 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 15:58:16,482 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:58:17,892 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 15:58:17,892 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 15:58:17,892 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 15:58:17,893 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 15:58:27,136 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 15:58:27,664 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jiwon Choi (Magheru 29C -2BR)]: \"Hello Jiwon! I am very sorry for this inconvenience. I have just notified the property manager right now about the shower issue, and he is immediately checking the situation (or contacting our technical team) and will get back to you as quickly as possible to help resolve this. Thank you for your patience!\"\n2026-11-19 15:58:27,892 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+  "last_cloud_sync": "2026-11-19 16:08:28",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
