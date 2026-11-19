@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:09:14",
+  "updated_at": "23:19:42",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 21,
-    "time_saved_str": "2h 0m",
-    "actions_today": 40,
-    "last_check": "23:09"
+    "time_saved_str": "2h 3m",
+    "actions_today": 41,
+    "last_check": "23:19"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "36 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "42 mesaje"
+      "metric_value": "43 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "4 update-uri azi",
+      "worked_today": "5 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "7 alerte azi",
+      "worked_today": "8 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -77,11 +77,11 @@
     },
     {
       "name": "Old Town Ghica 1",
-      "tasks_today": 6,
-      "tasks_total": 6,
-      "manual_minutes": 18,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:47",
+      "tasks_today": 7,
+      "tasks_total": 7,
+      "manual_minutes": 21,
+      "last_action": "Check-out înregistrat la ora 10:00 + Sync Tabel",
+      "last_time": "23:09",
       "status": "working",
       "guest": "Gaetano Maurici (Check-in azi)",
       "urgenta_azi": true,
@@ -228,6 +228,34 @@
   ],
   "feed": [
     {
+      "time": "23:09",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 23:09:41,800 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "23:09",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 23:09:41,288 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hi Gaetano! I am t",
+      "type": "success"
+    },
+    {
+      "time": "23:09",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-19 23:09:39,323 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "23:09",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-19 23:09:20,029 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "22:59",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -254,38 +282,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-19 22:28:56,455 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "22:18",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 22:18:50,464 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Nefeli Dasygeni (Old Town Carada 5)]: \"Hello Nefeli! Yes",
-      "type": "success"
-    },
-    {
-      "time": "22:18",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 22:18:49,058 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "22:18",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-19 22:18:29,711 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "22:08",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-19 22:08:23,999 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-19 21:48:10,778 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 21:48:10,980 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-19 21:58:16,490 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 21:58:16,772 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:08:21,990 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:08:22,176 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-19 22:08:22,213 [INFO] 🧠 Mesaj NOU #24397 (1 lipite) de la Nefeli Dasygeni (Old Town Carada 5): \"Hello! I would like to ask you something, will there be any towels and a hair dryer in the room?...\"\n2026-11-19 22:08:22,213 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 22:08:22,214 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:08:22,661 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-19 22:08:22,662 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 11h51m37.41121421s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42697s'}]}}), incerc urmatorul...\n2026-11-19 22:08:22,662 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 22:08:22,662 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:08:23,998 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 22:08:23,999 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 22:08:23,999 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24397: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-19 22:18:29,516 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:18:29,711 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-19 22:18:29,751 [INFO] 🧠 Mesaj NOU #24397 (1 lipite) de la Nefeli Dasygeni (Old Town Carada 5): \"Hello! I would like to ask you something, will there be any towels and a hair dryer in the room?...\"\n2026-11-19 22:18:29,752 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 22:18:29,752 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:18:49,056 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 22:18:49,058 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 22:18:49,058 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 22:18:49,058 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:18:49,860 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 22:18:50,464 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Nefeli Dasygeni (Old Town Carada 5)]: \"Hello Nefeli! Yes, absolutely! Towels and a hair dryer are provided in the apartment for your stay. Let us know if you need anything else! 🧴✨\"\n2026-11-19 22:28:56,264 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:28:56,455 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:39:01,996 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:39:02,203 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:49:07,720 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:49:07,886 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:59:14,058 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:59:14,255 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-19 23:09:14",
+  "raw_logs": "2026-11-19 22:08:22,662 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:08:23,998 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-19 22:08:23,999 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-19 22:08:23,999 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24397: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-19 22:18:29,516 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:18:29,711 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-19 22:18:29,751 [INFO] 🧠 Mesaj NOU #24397 (1 lipite) de la Nefeli Dasygeni (Old Town Carada 5): \"Hello! I would like to ask you something, will there be any towels and a hair dryer in the room?...\"\n2026-11-19 22:18:29,752 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 22:18:29,752 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:18:49,056 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 22:18:49,058 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 22:18:49,058 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 22:18:49,058 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 22:18:49,860 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 22:18:50,464 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Nefeli Dasygeni (Old Town Carada 5)]: \"Hello Nefeli! Yes, absolutely! Towels and a hair dryer are provided in the apartment for your stay. Let us know if you need anything else! 🧴✨\"\n2026-11-19 22:28:56,264 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:28:56,455 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:39:01,996 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:39:02,203 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:49:07,720 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:49:07,886 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 22:59:14,058 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 22:59:14,255 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-19 23:09:19,797 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-19 23:09:20,029 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-19 23:09:20,064 [INFO] 🧠 Mesaj NOU #24405 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Si, ora questa sera siamo costretti a dormire sul divano...domani ci aspettiamo di trovare il terzo ...\"\n2026-11-19 23:09:20,065 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-19 23:09:20,065 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 23:09:39,322 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-19 23:09:39,323 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-19 23:09:39,323 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-19 23:09:39,323 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-19 23:09:40,559 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-19 23:09:41,288 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hi Gaetano! I am truly sorry again for this major inconvenience tonight. I have immediately escalated this to our manager and the cleaning team so the third bed is properly prepared and the extra towels are provided tomorrow. Also, thank you for letting us know about your check-out at 10:00 AM; please remember to place the keys back inside the lockbox and scramble the code when you leave. Have a peaceful night, and we will make sure everything is fully sorted out tomorrow!\"\n2026-11-19 23:09:41,800 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-19 23:19:42",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
