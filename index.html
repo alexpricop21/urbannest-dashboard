@@ -229,6 +229,25 @@
         .stat-block .lbl { font-size: 11px; color: var(--text-muted); display: block; margin-top: 2px; }
 
 
+
+        .err-dismiss-btn {
+            background: rgba(239, 68, 68, 0.18);
+            border: 1px solid rgba(239, 68, 68, 0.45);
+            color: #fecaca;
+            font-family: inherit;
+            font-size: 11.5px;
+            font-weight: 600;
+            padding: 5px 11px;
+            border-radius: 7px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s ease;
+        }
+        .err-dismiss-btn:hover {
+            background: rgba(239, 68, 68, 0.35);
+            color: #ffffff;
+        }
+
         /* AI Command Center Bar */
         .cmd-panel {
             background: var(--bg-surface);
@@ -920,6 +939,76 @@
         }
 
 
+
+        let currentVisibleErrors = [];
+
+        function getDismissedErrorsSet() {
+            try {
+                const raw = localStorage.getItem('un_dismissed_errors_v1');
+                return new Set(raw ? JSON.parse(raw) : []);
+            } catch (e) {
+                return new Set();
+            }
+        }
+
+        function saveDismissedErrorsSet(setObj) {
+            try {
+                // Păstrăm ultimele 300 de semnături ca să nu crească inutil
+                const arr = Array.from(setObj).slice(-300);
+                localStorage.setItem('un_dismissed_errors_v1', JSON.stringify(arr));
+            } catch (e) {}
+        }
+
+        function dismissAllErrors() {
+            const dismissed = getDismissedErrorsSet();
+            currentVisibleErrors.forEach(errTxt => dismissed.add(errTxt));
+            saveDismissedErrorsSet(dismissed);
+            currentVisibleErrors = [];
+            const banner = document.getElementById('errorBanner') || document.querySelector('.error-banner, .alert-banner, [id*="error" i][style*="display"]');
+            if (banner) {
+                banner.style.display = 'none';
+            }
+            if (typeof refreshDashboard === 'function') {
+        
+        // Hook automat pe orice banner care afișează "Watchdog Alert" sau erori
+        setInterval(() => {
+            const candidates = document.querySelectorAll('[id*="banner" i], [id*="error" i], [id*="alert" i], .error-banner, .alert-banner');
+            const dismissed = getDismissedErrorsSet();
+            candidates.forEach(el => {
+                if (el.id === 'aiCmdStatus' || el.closest('#aiCommandBar') || el.closest('.modal')) return;
+                const rawTxt = (el.getAttribute('data-raw-err') || el.innerText || '').replace('✓ Marchează ca citite', '').trim();
+                if (!rawTxt) return;
+                if (rawTxt.includes('Watchdog Alert') || rawTxt.includes('Eroare repetată') || rawTxt.includes('⚠️') || rawTxt.includes('❌')) {
+                    el.setAttribute('data-raw-err', rawTxt);
+                    // Împărțim erorile individuale separate prin • sau linie nouă
+                    const parts = rawTxt.split(/•|\n/).map(s => s.trim()).filter(Boolean);
+                    const unread = parts.filter(p => !dismissed.has(p));
+
+                    if (unread.length === 0) {
+                        el.style.display = 'none';
+                    } else {
+                        currentVisibleErrors = unread;
+                        el.style.display = 'flex';
+                        el.style.justifyContent = 'space-between';
+                        el.style.alignItems = 'center';
+                        el.style.gap = '12px';
+                        if (!el.querySelector('.err-dismiss-btn')) {
+                            el.innerHTML = `<div style="flex:1;">${unread.join(' • ')}</div><button class="err-dismiss-btn" onclick="dismissAllErrors()">✓ Marchează ca citite</button>`;
+                        } else {
+                            const txtDiv = el.querySelector('div');
+                            if (txtDiv && txtDiv.innerText !== unread.join(' • ')) {
+                                txtDiv.innerText = unread.join(' • ');
+                            }
+                        }
+                    }
+                }
+            });
+        }, 1200);
+
+        refreshDashboard();
+            }
+        }
+
         function configureGitHubToken() {
             const cur = localStorage.getItem('un_gh_token') || '';
             const val = prompt('Introdu GitHub Personal Access Token (cu drept Read/Write pe repo-ul urbannest-dashboard). Se salvează STRICT local în browserul tău:', cur);
@@ -1029,6 +1118,42 @@
                 btnPrev.disabled = false;
             }
         }
+
+
+        // Hook automat pe orice banner care afișează "Watchdog Alert" sau erori
+        setInterval(() => {
+            const candidates = document.querySelectorAll('[id*="banner" i], [id*="error" i], [id*="alert" i], .error-banner, .alert-banner');
+            const dismissed = getDismissedErrorsSet();
+            candidates.forEach(el => {
+                if (el.id === 'aiCmdStatus' || el.closest('#aiCommandBar') || el.closest('.modal')) return;
+                const rawTxt = (el.getAttribute('data-raw-err') || el.innerText || '').replace('✓ Marchează ca citite', '').trim();
+                if (!rawTxt) return;
+                if (rawTxt.includes('Watchdog Alert') || rawTxt.includes('Eroare repetată') || rawTxt.includes('⚠️') || rawTxt.includes('❌')) {
+                    el.setAttribute('data-raw-err', rawTxt);
+                    // Împărțim erorile individuale separate prin • sau linie nouă
+                    const parts = rawTxt.split(/•|\n/).map(s => s.trim()).filter(Boolean);
+                    const unread = parts.filter(p => !dismissed.has(p));
+
+                    if (unread.length === 0) {
+                        el.style.display = 'none';
+                    } else {
+                        currentVisibleErrors = unread;
+                        el.style.display = 'flex';
+                        el.style.justifyContent = 'space-between';
+                        el.style.alignItems = 'center';
+                        el.style.gap = '12px';
+                        if (!el.querySelector('.err-dismiss-btn')) {
+                            el.innerHTML = `<div style="flex:1;">${unread.join(' • ')}</div><button class="err-dismiss-btn" onclick="dismissAllErrors()">✓ Marchează ca citite</button>`;
+                        } else {
+                            const txtDiv = el.querySelector('div');
+                            if (txtDiv && txtDiv.innerText !== unread.join(' • ')) {
+                                txtDiv.innerText = unread.join(' • ');
+                            }
+                        }
+                    }
+                }
+            });
+        }, 1200);
 
         refreshDashboard();
         loadCommandStatus();
