@@ -1,18 +1,18 @@
 {
-  "updated_at": "18:49:06",
+  "updated_at": "18:56:21",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 14,
     "time_saved_str": "2h 54m",
     "actions_today": 58,
-    "last_check": "18:49"
+    "last_check": "18:56"
   },
   "core_agents": [
     {
       "id": "pms",
       "name": "Roboțelul Recepționer (5StarDesk)",
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
-      "status": "Oprit / Offline",
+      "status": "Atenție (Eroare Watchdog)",
       "state": "error",
       "worked_today": "14 discuții azi",
       "metric_label": "Rezervări active azi",
@@ -22,7 +22,7 @@
       "id": "ai",
       "name": "Roboțelul Concierge AI (Gemini)",
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
-      "status": "Oprit / Offline",
+      "status": "Atenție (Eroare Watchdog)",
       "state": "error",
       "worked_today": "35 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
@@ -32,8 +32,8 @@
       "id": "clean",
       "name": "Roboțelul Coordonator Curățenie",
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
-      "status": "Oprit / Offline",
-      "state": "error",
+      "status": "Activ (Sync 15m)",
+      "state": "working",
       "worked_today": "2 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
@@ -42,7 +42,7 @@
       "id": "reviews",
       "name": "Roboțelul Recenzii Airbnb (5★)",
       "role": "Acordă automat 5 stele oaspeților fără probleme la ora 20:00",
-      "status": "Oprit / Offline",
+      "status": "Atenție (Eroare Watchdog)",
       "state": "error",
       "worked_today": "21 recenzii azi",
       "metric_label": "Total auto-review",
@@ -52,8 +52,8 @@
       "id": "wa",
       "name": "Roboțelul Curier WhatsApp",
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
-      "status": "Oprit / Offline",
-      "state": "error",
+      "status": "Conectat 24/7",
+      "state": "working",
       "worked_today": "7 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
@@ -288,12 +288,11 @@
       "type": "info"
     }
   ],
-  "raw_logs": "2026-11-20 15:07:07,566 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:07:07,566 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:25,804 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 15:07:25,805 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 15:07:25,805 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 15:07:25,806 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:26,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:07:27,160 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 😊 Yes, exactly! Just place the keys back inside the lockbox and scramble the numbers randomly when you leave tomorrow. Have a wonderful rest of your stay! 🌟\"\n2026-11-20 15:17:34,025 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:17:34,215 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 15:17:34,253 [INFO] 🧠 Mesaj NOU #24574 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Alright thank you...\"\n2026-11-20 15:17:34,254 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:17:34,254 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:17:53,457 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:17:53,930 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"You're very welcome, Victor! 😊 Enjoy the rest of your stay, and feel free to reach out if you need anything else! 🌟\"\n2026-11-20 15:28:00,341 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:28:00,520 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:38:06,545 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:38:06,749 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:48:12,733 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:48:13,010 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:58:19,171 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:58:19,346 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:08:25,354 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:08:25,558 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:18:31,521 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:18:31,705 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:28:37,707 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:28:37,910 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:38:43,881 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:38:45,811 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:48:51,893 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:48:52,072 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:58:57,911 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:58:58,077 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-20 18:49:06",
+  "raw_logs": "2026-11-20 15:07:07,566 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:25,804 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 15:07:25,805 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 15:07:25,805 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 15:07:25,806 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:26,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:07:27,160 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 😊 Yes, exactly! Just place the keys back inside the lockbox and scramble the numbers randomly when you leave tomorrow. Have a wonderful rest of your stay! 🌟\"\n2026-11-20 15:17:34,025 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:17:34,215 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 15:17:34,253 [INFO] 🧠 Mesaj NOU #24574 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Alright thank you...\"\n2026-11-20 15:17:34,254 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:17:34,254 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:17:53,457 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:17:53,930 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"You're very welcome, Victor! 😊 Enjoy the rest of your stay, and feel free to reach out if you need anything else! 🌟\"\n2026-11-20 15:28:00,341 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:28:00,520 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:38:06,545 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:38:06,749 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:48:12,733 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:48:13,010 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:58:19,171 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:58:19,346 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:08:25,354 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:08:25,558 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:18:31,521 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:18:31,705 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:28:37,707 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:28:37,910 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:38:43,881 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:38:45,811 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:48:51,893 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:48:52,072 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 16:58:57,911 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 16:58:58,077 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 18:56:18,867 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).",
+  "last_cloud_sync": "2026-11-20 18:56:21",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
-      "Procesul principal agent_mesaje.py nu rulează pe laptop!",
       "Eroare repetată (4x) pe msg_24203",
       "Eroare repetată (3x) pe msg_24217",
       "Eroare repetată (8x) pe msg_24359",
@@ -303,9 +302,9 @@
       "Eroare repetată (2x) pe msg_24535"
     ],
     "processes": {
-      "agent_mesaje": false,
+      "agent_mesaje": true,
       "agent_curatenie": true,
-      "agent_pms": false
+      "agent_pms": true
     }
   }
 }
