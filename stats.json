@@ -1,11 +1,11 @@
 {
-  "updated_at": "03:33:06",
+  "updated_at": "03:43:15",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 13,
-    "time_saved_str": "12 min",
-    "actions_today": 4,
-    "last_check": "03:33"
+    "time_saved_str": "15 min",
+    "actions_today": 5,
+    "last_check": "03:43"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "4 răspunsuri azi",
+      "worked_today": "5 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "6 mesaje"
+      "metric_value": "9 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "9 alerte azi",
+      "worked_today": "10 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -62,11 +62,11 @@
   "apartments": [
     {
       "name": "Old Town Tonitza 11 B",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "03:14",
+      "last_time": "03:24",
       "status": "working",
       "guest": "Jeanne Hullin",
       "urgenta_azi": true,
@@ -222,6 +222,34 @@
   ],
   "feed": [
     {
+      "time": "03:33",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 03:33:15,018 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "03:33",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 03:33:14,758 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I ",
+      "type": "success"
+    },
+    {
+      "time": "03:33",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 03:33:12,850 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "type": "success"
+    },
+    {
+      "time": "03:33",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-20 03:33:12,495 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "03:23",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -248,38 +276,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-20 03:22:45,013 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "03:12",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 03:12:39,250 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "03:12",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 03:12:39,019 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I ",
-      "type": "success"
-    },
-    {
-      "time": "03:12",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 03:12:37,407 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "03:12",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 03:12:17,974 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-20 02:11:42,759 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-20 02:21:48,164 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 02:21:48,357 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-20 02:31:54,283 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 02:31:54,477 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-20 02:41:59,964 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 02:42:00,131 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-20 02:52:05,660 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 02:52:05,823 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-20 03:02:11,978 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 03:02:12,169 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-20 03:12:17,783 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 03:12:17,974 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-20 03:12:18,009 [INFO] 🧠 Mesaj NOU #24425 (1 lipite) de la Jeanne Hullin (Old Town Tonitza 11 B): \"Hello, we are disappointed, we don't have any water at the apartment, we can't take a shower and plu...\"\n2026-11-20 03:12:18,010 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 03:12:18,010 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:12:37,406 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 03:12:37,407 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 03:12:37,407 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 03:12:37,407 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:12:38,441 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 03:12:39,019 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I am so sorry to hear about this! Please accept our sincere apologies for the lack of water and the cleanliness issues. I have just notified our property manager right now about this urgent situation, and he is checking it immediately with the building administration and our cleaning team to get it sorted out for you as quickly as possible. We will get back to you shortly with an update. Thank you for your patience.\"\n2026-11-20 03:12:39,250 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-20 03:22:44,811 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 03:22:45,013 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-20 03:22:45,055 [INFO] 🧠 Mesaj NOU #24427 (1 lipite) de la Jeanne Hullin (Old Town Tonitza 11 B): \"i mean for the cleaning we will pass but not for water, i am looking to get probably another apartme...\"\n2026-11-20 03:22:45,056 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 03:22:45,057 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:23:04,351 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 03:23:04,352 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 03:23:04,352 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 03:23:04,352 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:23:05,627 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 03:23:06,257 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I completely understand your frustration and I am truly sorry that you are facing this situation. I have escalated this as a top priority right now, and our property manager is personally handling the issue with the building administration and our team. He will contact you directly in the shortest time possible to get this sorted out for you immediately. Thank you for your patience while we work on resolving this urgently.\"\n2026-11-20 03:23:06,489 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-  "last_cloud_sync": "2026-11-20 03:33:06",
+  "raw_logs": "2026-11-20 03:12:17,974 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-20 03:12:18,009 [INFO] 🧠 Mesaj NOU #24425 (1 lipite) de la Jeanne Hullin (Old Town Tonitza 11 B): \"Hello, we are disappointed, we don't have any water at the apartment, we can't take a shower and plu...\"\n2026-11-20 03:12:18,010 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 03:12:18,010 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:12:37,406 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 03:12:37,407 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 03:12:37,407 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 03:12:37,407 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:12:38,441 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 03:12:39,019 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I am so sorry to hear about this! Please accept our sincere apologies for the lack of water and the cleanliness issues. I have just notified our property manager right now about this urgent situation, and he is checking it immediately with the building administration and our cleaning team to get it sorted out for you as quickly as possible. We will get back to you shortly with an update. Thank you for your patience.\"\n2026-11-20 03:12:39,250 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-20 03:22:44,811 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 03:22:45,013 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-20 03:22:45,055 [INFO] 🧠 Mesaj NOU #24427 (1 lipite) de la Jeanne Hullin (Old Town Tonitza 11 B): \"i mean for the cleaning we will pass but not for water, i am looking to get probably another apartme...\"\n2026-11-20 03:22:45,056 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 03:22:45,057 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:23:04,351 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 03:23:04,352 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 03:23:04,352 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 03:23:04,352 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:23:05,627 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 03:23:06,257 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I completely understand your frustration and I am truly sorry that you are facing this situation. I have escalated this as a top priority right now, and our property manager is personally handling the issue with the building administration and our team. He will contact you directly in the shortest time possible to get this sorted out for you immediately. Thank you for your patience while we work on resolving this urgently.\"\n2026-11-20 03:23:06,489 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-20 03:33:12,306 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 03:33:12,495 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-20 03:33:12,534 [INFO] 🧠 Mesaj NOU #24431 (3 lipite) de la Jeanne Hullin (Old Town Tonitza 11 B): \"yes but we have two days here. Wilts already too much, if people really came here to clean today i t...\"\n2026-11-20 03:33:12,535 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 03:33:12,535 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:33:12,850 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-20 03:33:12,850 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 6h26m47.22121714s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23207s'}]}}), incerc urmatorul...\n2026-11-20 03:33:12,850 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 03:33:12,851 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 03:33:14,147 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 03:33:14,758 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Jeanne Hullin (Old Town Tonitza 11 B)]: \"Dear Jeanne, I completely understand your disappointment and I am truly sorry that your stay has been affected like this. I have escalated your concerns and the urgent situation directly to our property manager right now, and he is reviewing this with our team as a top priority. He will contact you shortly to address your concerns and assist you further. Thank you for your patience.\"\n2026-11-20 03:33:15,018 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+  "last_cloud_sync": "2026-11-20 03:43:15",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
