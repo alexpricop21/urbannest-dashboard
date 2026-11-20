@@ -1,11 +1,11 @@
 {
-  "updated_at": "19:48:08",
+  "updated_at": "19:58:16",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 14,
     "time_saved_str": "3h 0m",
     "actions_today": 60,
-    "last_check": "19:48"
+    "last_check": "19:58"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "37 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "59 mesaje"
+      "metric_value": "58 mesaje"
     },
     {
       "id": "clean",
@@ -94,6 +94,20 @@
       ]
     },
     {
+      "name": "Old Town Ghica 1",
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "19:38",
+      "status": "working",
+      "guest": "Gaetano Maurici",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[11:54] Oaspete (Gaetano Maurici): Ciao, è venuto il ragazzo e ha portato la biancheria,  quindi apposto...per la temperatura invece ha detto che non è possibile far nulla.\n Mesaj tradus: Hi. The guy came and brought the linens, so that's taken care of... But as for the temperature, he said there's nothing that can be done."
+      ]
+    },
+    {
       "name": "Campineanu22 A",
       "tasks_today": 3,
       "tasks_total": 3,
@@ -105,20 +119,6 @@
       "urgenta_azi": true,
       "urgente_mesaje": [
         "[10:18] Oaspete (Димитър Андреев): Thank you! We are gonna leave the apartment around 11."
-      ]
-    },
-    {
-      "name": "Old Town Ghica 1",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "19:19",
-      "status": "working",
-      "guest": "Gaetano Maurici",
-      "urgenta_azi": true,
-      "urgente_mesaje": [
-        "[11:54] Oaspete (Gaetano Maurici): Ciao, è venuto il ragazzo e ha portato la biancheria,  quindi apposto...per la temperatura invece ha detto che non è possibile far nulla.\n Mesaj tradus: Hi. The guy came and brought the linens, so that's taken care of... But as for the temperature, he said there's nothing that can be done."
       ]
     },
     {
@@ -170,18 +170,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Rigas29 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:52",
-      "status": "working",
-      "guest": "Aurora Ermini (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Biserica Amzei 27",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -228,9 +216,28 @@
       "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
+    },
+    {
+      "name": "Rigas29 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Aurora Ermini (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "19:48",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-20 19:48:15,096 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "19:38",
       "icon": "💬",
@@ -279,17 +286,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-20 19:27:31,746 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "19:17",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 19:17:24,285 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-20 19:07:13,996 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:07:14,365 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-20 19:07:14,366 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h52m45.700036081s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53565s'}]}}), incerc urmatorul...\n2026-11-20 19:07:14,366 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 19:07:14,367 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:07:15,815 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 19:07:16,422 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Nefeli Dasygeni (Old Town Carada 5)]: \"Hello Nefeli! Awesome, I'm glad you found it successfully! Enjoy your stay, and please let us know if you need anything else during your time with us! 🗝️✨\"\n2026-11-20 19:17:24,090 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:17:24,285 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 19:27:31,532 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:27:31,746 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 19:27:31,792 [INFO] 🧠 Mesaj NOU #24606 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ok allora attendo il link per pagare tassa di soggiorno\nMesaj tradus: Okay, then I'll wait for the...\"\n2026-11-20 19:27:31,793 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 19:27:31,794 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:27:51,069 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 19:27:51,070 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 19:27:51,070 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 19:27:51,070 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:27:57,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 19:27:57,596 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 19:27:57,596 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24606: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-20 19:38:04,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:38:05,058 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 19:38:05,102 [INFO] 🧠 Mesaj NOU #24606 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ok allora attendo il link per pagare tassa di soggiorno\nMesaj tradus: Okay, then I'll wait for the...\"\n2026-11-20 19:38:05,103 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 19:38:05,104 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:38:05,375 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-20 19:38:05,376 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h21m54.664453743s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51714s'}]}}), incerc urmatorul...\n2026-11-20 19:38:05,376 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 19:38:05,376 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:38:06,483 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 19:38:06,978 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hi Gaetano! Perfect, we will send you the payment link directly through the Airbnb Resolution Center shortly. Thank you for your patience and have a wonderful stay! ✨\"\n2026-11-20 19:38:07,318 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-20 19:48:08",
+  "raw_logs": "2026-11-20 19:07:14,366 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h52m45.700036081s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53565s'}]}}), incerc urmatorul...\n2026-11-20 19:07:14,366 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 19:07:14,367 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:07:15,815 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 19:07:16,422 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Nefeli Dasygeni (Old Town Carada 5)]: \"Hello Nefeli! Awesome, I'm glad you found it successfully! Enjoy your stay, and please let us know if you need anything else during your time with us! 🗝️✨\"\n2026-11-20 19:17:24,090 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:17:24,285 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 19:27:31,532 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:27:31,746 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 19:27:31,792 [INFO] 🧠 Mesaj NOU #24606 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ok allora attendo il link per pagare tassa di soggiorno\nMesaj tradus: Okay, then I'll wait for the...\"\n2026-11-20 19:27:31,793 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 19:27:31,794 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:27:51,069 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 19:27:51,070 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 19:27:51,070 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 19:27:51,070 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:27:57,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 19:27:57,596 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 19:27:57,596 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24606: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-20 19:38:04,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:38:05,058 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 19:38:05,102 [INFO] 🧠 Mesaj NOU #24606 (1 lipite) de la Gaetano Maurici (Old Town Ghica 1): \"Ok allora attendo il link per pagare tassa di soggiorno\nMesaj tradus: Okay, then I'll wait for the...\"\n2026-11-20 19:38:05,103 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 19:38:05,104 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:38:05,375 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-20 19:38:05,376 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h21m54.664453743s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51714s'}]}}), incerc urmatorul...\n2026-11-20 19:38:05,376 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 19:38:05,376 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 19:38:06,483 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 19:38:06,978 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gaetano Maurici (Old Town Ghica 1)]: \"Hi Gaetano! Perfect, we will send you the payment link directly through the Airbnb Resolution Center shortly. Thank you for your patience and have a wonderful stay! ✨\"\n2026-11-20 19:38:07,318 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 19:48:14,898 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 19:48:15,096 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-20 19:58:16",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
