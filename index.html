@@ -959,6 +959,67 @@
             } catch (e) {}
         }
 
+
+        function applyCleanStateToHeaderAndCards(allRead) {
+            if (!allRead) return;
+
+            // 1. Resetăm alerta roșie din dreapta sus (Header)
+            const headerEls = document.querySelectorAll('header *, .header *, .top-bar *, .navbar *');
+            headerEls.forEach(el => {
+                if (el.children.length > 2) return;
+                const txt = (el.innerText || '').trim();
+                const cls = (el.className || '').toString().toLowerCase();
+                const isRedAlert =
+                    cls.includes('error') || cls.includes('danger') || cls.includes('alert') || cls.includes('warn') ||
+                    txt.includes('Alerte') || txt.includes('Erori') || txt.includes('Eroare') || txt.includes('Watchdog') || txt.includes('⚠️') || txt.includes('❌');
+
+                if (isRedAlert && el.tagName !== 'HEADER' && !el.closest('#aiCommandBar')) {
+                    el.classList.remove('error', 'danger', 'alert', 'status-error', 'badge-error', 'pill-error', 'is-error', 'has-error');
+                    el.style.background = 'rgba(16, 185, 129, 0.14)';
+                    el.style.borderColor = 'rgba(16, 185, 129, 0.35)';
+                    el.style.color = '#34d399';
+                    if (txt.match(/\d+\s*(eror|alert)/i) || txt.includes('Eroare') || txt.includes('Watchdog') || txt.includes('⚠️')) {
+                        el.innerHTML = '● Sistem Operațional';
+                    }
+                }
+            });
+
+            // 2. Resetăm cardurile agenților marcate cu roșu
+            const cards = document.querySelectorAll('.bot-card, .agent-card, .telemetry-card, .status-card, [class*="card"]');
+            cards.forEach(card => {
+                if (card.closest('#aiCommandBar') || card.closest('.modal')) return;
+                const cls = (card.className || '').toString().toLowerCase();
+                const styleStr = (card.getAttribute('style') || '').toLowerCase();
+                const txt = (card.innerText || '');
+
+                if (
+                    cls.includes('error') || cls.includes('danger') || cls.includes('alert') ||
+                    styleStr.includes('ef4444') || styleStr.includes('dc2626') || styleStr.includes('239, 68, 68') ||
+                    txt.includes('Eroare') || txt.includes('⚠️')
+                ) {
+                    card.classList.remove('error', 'danger', 'alert', 'status-error', 'card-error', 'has-error', 'is-error');
+                    card.style.borderColor = 'var(--border-hairline, rgba(255,255,255,0.08))';
+                    card.style.boxShadow = 'none';
+                    card.style.background = 'var(--bg-card, #1e293b)';
+
+                    // Resetăm badge-urile / bulinele roșii din interiorul cardului
+                    card.querySelectorAll('span, div, small').forEach(sub => {
+                        const sCls = (sub.className || '').toString().toLowerCase();
+                        const sTxt = (sub.innerText || '').trim();
+                        if (sCls.includes('error') || sCls.includes('danger') || sCls.includes('red') || sTxt.includes('Eroare') || sTxt.includes('⚠️')) {
+                            sub.classList.remove('error', 'danger', 'badge-error', 'status-error', 'dot-red');
+                            sub.style.color = '#34d399';
+                            if (sTxt.includes('Eroare') || sTxt.includes('⚠️')) {
+                                sub.style.background = 'rgba(16, 185, 129, 0.14)';
+                                sub.style.borderColor = 'rgba(16, 185, 129, 0.35)';
+                                sub.innerText = 'Activ • OK';
+                            }
+                        }
+                    });
+                }
+            });
+        }
+
         function dismissAllErrors() {
             const dismissed = getDismissedErrorsSet();
             currentVisibleErrors.forEach(errTxt => dismissed.add(errTxt));
@@ -968,6 +1029,7 @@
             if (banner) {
                 banner.style.display = 'none';
             }
+            applyCleanStateToHeaderAndCards(true);
             if (typeof refreshDashboard === 'function') {
         
         // Hook automat pe orice banner care afișează "Watchdog Alert" sau erori
@@ -986,6 +1048,7 @@
 
                     if (unread.length === 0) {
                         el.style.display = 'none';
+                        applyCleanStateToHeaderAndCards(true);
                     } else {
                         currentVisibleErrors = unread;
                         el.style.display = 'flex';
@@ -1136,6 +1199,7 @@
 
                     if (unread.length === 0) {
                         el.style.display = 'none';
+                        applyCleanStateToHeaderAndCards(true);
                     } else {
                         currentVisibleErrors = unread;
                         el.style.display = 'flex';
