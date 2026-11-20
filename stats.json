@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:03:15",
+  "updated_at": "13:13:43",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 14,
     "time_saved_str": "1h 27m",
     "actions_today": 29,
-    "last_check": "13:03"
+    "last_check": "13:13"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "27 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "43 mesaje"
+      "metric_value": "42 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "11 alerte azi",
+      "worked_today": "10 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -220,15 +220,36 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "12:44",
-      "status": "working",
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
       "guest": "Aurora Ermini (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "13:03",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 13:03:42,774 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Thank you s",
+      "type": "success"
+    },
+    {
+      "time": "13:03",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 13:03:41,032 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "13:03",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-20 13:03:21,075 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "12:53",
       "icon": "💬",
@@ -263,31 +284,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-20 12:53:00,773 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #104207 (Apartament UrbanNest)]: \"Hello Matteo! ",
       "type": "success"
-    },
-    {
-      "time": "12:52",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 12:52:58,960 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
-      "type": "success"
-    },
-    {
-      "time": "12:52",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 12:52:58,144 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
-    },
-    {
-      "time": "12:42",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 12:42:51,879 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! We loo",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-20 12:42:40,314 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:42:40,314 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24535: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-20 12:42:40,317 [INFO] 🧠 Mesaj NOU #24539 (1 lipite) de la Razvan Bor (None): \"e perfect, multumesc...\"\n2026-11-20 12:42:40,318 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 12:42:40,318 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:42:51,283 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 12:42:51,879 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! We look forward to hosting you. Please feel free to reach out if you have any other questions in the meantime! 😊\"\n2026-11-20 12:52:57,965 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 12:52:58,144 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-20 12:52:58,177 [INFO] 🧠 Mesaj NOU #24542 (1 lipite) de la Oaspete #104207 (Apartament UrbanNest): \"Non riesco a vedere questo link per il pagamento della tassa di soggiorno, potresti mandarmi il link...\"\n2026-11-20 12:52:58,177 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 12:52:58,177 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:52:58,959 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:52:58,960 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:52:58,960 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 12:52:58,960 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:00,104 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 12:53:00,773 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #104207 (Apartament UrbanNest)]: \"Hello Matteo! 😊 Since this is a Booking.com reservation, you can easily pay the city tax using one of the following secure payment methods. Please let us know which option you prefer:\n• PayPal: https://www.paypal.me/pricopalexandrumihai\n• Revolut tag: @alexpricop\n• Wise: https://wise.com/pay/me/alexandrup80\n• Bank transfer (EUR IBAN): RO40REVO0000107967693391 (Account holder: Alexandru-Mihai Pricop)\nKindly mention your name or reservation details in the payment reference and let us know once completed. Thank you! 🌟\"\n2026-11-20 12:53:00,979 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 12:53:05,311 [INFO] 🧠 Mesaj NOU #24535 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"I will wait for the team to do their job in peace , thank youu...\"\n2026-11-20 12:53:05,312 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 12:53:05,313 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:12,088 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:53:12,088 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:53:12,089 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 12:53:12,089 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:15,203 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:53:15,203 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:53:15,203 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24535: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-20 12:53:15,363 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24535",
-  "last_cloud_sync": "2026-11-20 13:03:15",
+  "raw_logs": "2026-11-20 12:52:58,177 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:52:58,959 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:52:58,960 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:52:58,960 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 12:52:58,960 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:00,104 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 12:53:00,773 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #104207 (Apartament UrbanNest)]: \"Hello Matteo! 😊 Since this is a Booking.com reservation, you can easily pay the city tax using one of the following secure payment methods. Please let us know which option you prefer:\n• PayPal: https://www.paypal.me/pricopalexandrumihai\n• Revolut tag: @alexpricop\n• Wise: https://wise.com/pay/me/alexandrup80\n• Bank transfer (EUR IBAN): RO40REVO0000107967693391 (Account holder: Alexandru-Mihai Pricop)\nKindly mention your name or reservation details in the payment reference and let us know once completed. Thank you! 🌟\"\n2026-11-20 12:53:00,979 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 12:53:05,311 [INFO] 🧠 Mesaj NOU #24535 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"I will wait for the team to do their job in peace , thank youu...\"\n2026-11-20 12:53:05,312 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 12:53:05,313 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:12,088 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:53:12,088 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:53:12,089 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 12:53:12,089 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:15,203 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:53:15,203 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:53:15,203 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24535: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-20 12:53:15,363 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24535\n2026-11-20 13:03:20,890 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 13:03:21,075 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 13:03:21,107 [INFO] 🧠 Mesaj NOU #24535 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"I will wait for the team to do their job in peace , thank youu...\"\n2026-11-20 13:03:21,108 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 13:03:21,108 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:03:41,031 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 13:03:41,032 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 13:03:41,032 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 13:03:41,032 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:03:42,271 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 13:03:42,774 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Thank you so much for your understanding and kindness, Victor! 🌟 We truly appreciate it. We will notify you the very moment the apartment is ready. Have a wonderful afternoon!\"",
+  "last_cloud_sync": "2026-11-20 13:13:43",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
