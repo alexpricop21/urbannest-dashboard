@@ -1,11 +1,11 @@
 {
-  "updated_at": "00:02:09",
+  "updated_at": "00:12:22",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 6,
     "time_saved_str": "0 min",
     "actions_today": 0,
-    "last_check": "00:02"
+    "last_check": "00:12"
   },
   "core_agents": [
     {
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "8 alerte azi",
+      "worked_today": "9 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -219,6 +219,48 @@
   ],
   "feed": [
     {
+      "time": "00:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 00:02:21,408 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Stefania Zanzottera (Old Town Ghica 1)]: \"You're very we",
+      "type": "success"
+    },
+    {
+      "time": "00:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 00:02:19,371 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "type": "success"
+    },
+    {
+      "time": "00:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 00:02:19,045 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "00:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 00:02:18,707 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Anida-Maria Babtan (Old Town Tonitza 11 B)]: \"Hello Anid",
+      "type": "success"
+    },
+    {
+      "time": "00:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 00:02:16,807 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "type": "success"
+    },
+    {
+      "time": "00:02",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-21 00:02:16,452 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "23:52",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -231,52 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-20 23:52:08,089 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Anida-Maria Babtan (Old Town Tonitza 11 B)]: \"Hello Anid",
       "type": "success"
-    },
-    {
-      "time": "23:51",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 23:51:56,234 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "23:41",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 23:41:48,502 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "23:31",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 23:31:40,841 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "23:21",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 23:21:33,390 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "23:11",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 23:11:25,862 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "23:01",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 23:01:18,224 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-20 21:40:15,393 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 21:40:15,609 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 21:50:23,413 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 21:50:23,617 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 22:00:31,146 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 22:00:31,448 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 22:10:38,756 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 22:10:38,948 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 22:20:46,322 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 22:20:46,516 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 22:30:54,020 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 22:30:54,205 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 22:41:01,558 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 22:41:01,753 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 22:51:10,083 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 22:51:10,281 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:01:18,012 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:01:18,224 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:11:25,670 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:11:25,862 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:21:33,203 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:21:33,390 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:31:40,670 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:31:40,841 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:41:48,317 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:41:48,502 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:51:56,047 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:51:56,234 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1\n2026-11-20 23:51:56,269 [INFO] 🧠 Mesaj NOU #24637 (2 lipite) de la Anida-Maria Babtan (Old Town Tonitza 11 B): \"Salut! Cheile\nNu sunt la locul lor | Nu e nici o cheie la 19B...\"\n2026-11-20 23:51:56,270 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 23:51:56,270 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 23:52:07,195 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 23:52:08,089 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Anida-Maria Babtan (Old Town Tonitza 11 B)]: \"Hello Anida-Maria! I am very sorry for the inconvenience. I have just notified our property manager right now about this issue. He is checking into it urgently and will get back to you immediately to assist you and resolve this as quickly as possible. Thank you for your patience!\"\n2026-11-20 23:52:08,330 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-  "last_cloud_sync": "2026-11-21 00:02:09",
+  "raw_logs": "2026-11-20 23:21:33,390 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:31:40,670 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:31:40,841 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:41:48,317 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:41:48,502 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-20 23:51:56,047 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 23:51:56,234 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1\n2026-11-20 23:51:56,269 [INFO] 🧠 Mesaj NOU #24637 (2 lipite) de la Anida-Maria Babtan (Old Town Tonitza 11 B): \"Salut! Cheile\nNu sunt la locul lor | Nu e nici o cheie la 19B...\"\n2026-11-20 23:51:56,270 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 23:51:56,270 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 23:52:07,195 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 23:52:08,089 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Anida-Maria Babtan (Old Town Tonitza 11 B)]: \"Hello Anida-Maria! I am very sorry for the inconvenience. I have just notified our property manager right now about this issue. He is checking into it urgently and will get back to you immediately to assist you and resolve this as quickly as possible. Thank you for your patience!\"\n2026-11-20 23:52:08,330 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-21 00:02:16,251 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 00:02:16,452 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 2\n2026-11-21 00:02:16,487 [INFO] 🧠 Mesaj NOU #24640 (1 lipite) de la Anida-Maria Babtan (Old Town Tonitza 11 B): \"Sunt în fața ușii și nu e nici o cheie...\"\n2026-11-21 00:02:16,488 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 00:02:16,488 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 00:02:16,805 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-21 00:02:16,807 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 9h57m43.258896771s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35863s'}]}}), incerc urmatorul...\n2026-11-21 00:02:16,807 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-21 00:02:16,807 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 00:02:17,896 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 00:02:18,707 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Anida-Maria Babtan (Old Town Tonitza 11 B)]: \"Hello Anida-Maria! I am very sorry for this stressful situation. I have immediately notified our property manager right now about this issue, and he is checking into it urgently to assist you and resolve this right away. Thank you for your patience!\"\n2026-11-21 00:02:19,045 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-21 00:02:19,198 [INFO] 🧠 Mesaj NOU #24642 (1 lipite) de la Stefania Zanzottera (Old Town Ghica 1): \"Perfetto, grazie!...\"\n2026-11-21 00:02:19,199 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 00:02:19,200 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 00:02:19,370 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-21 00:02:19,371 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 9h57m40.693077484s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35860s'}]}}), incerc urmatorul...\n2026-11-21 00:02:19,371 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-21 00:02:19,372 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 00:02:20,140 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 00:02:21,408 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Stefania Zanzottera (Old Town Ghica 1)]: \"You're very welcome, Stefania! If you need anything else before your arrival, please don't hesitate to reach out. Have a wonderful day! 😊\"",
+  "last_cloud_sync": "2026-11-21 00:12:22",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
