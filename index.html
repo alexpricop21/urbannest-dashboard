@@ -616,6 +616,96 @@
             .agents-row { grid-template-columns: 1fr; }
             .topbar-kpis, .breadcrumb { display: none; }
         }
+    
+        /* Hero KPI Cards (Upgrade vizual zona de metrici) */
+        .kpi-hero-grid {
+            display: grid !important;
+            grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            gap: 14px !important;
+            width: 100% !important;
+            margin: 14px 0 20px 0 !important;
+            padding: 0 !important;
+            background: transparent !important;
+            border: none !important;
+        }
+        .kpi-hero-card {
+            position: relative;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: space-between !important;
+            gap: 8px !important;
+            padding: 16px 18px !important;
+            border-radius: 14px !important;
+            background: linear-gradient(145deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.95)) !important;
+            border: 1px solid rgba(148, 163, 184, 0.16) !important;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+            transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease !important;
+            overflow: hidden;
+        }
+        .kpi-hero-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(148, 163, 184, 0.35) !important;
+        }
+        .kpi-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: var(--kpi-accent, #38bdf8);
+            opacity: 0.85;
+        }
+        .kpi-hero-card.accent-emerald {
+            --kpi-accent: #10b981;
+            background: linear-gradient(145deg, rgba(16, 185, 129, 0.14), rgba(15, 23, 42, 0.96)) !important;
+            border-color: rgba(16, 185, 129, 0.35) !important;
+            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.12) !important;
+        }
+        .kpi-hero-card.accent-indigo { --kpi-accent: #818cf8; }
+        .kpi-hero-card.accent-sky    { --kpi-accent: #38bdf8; }
+        .kpi-hero-card.accent-amber  { --kpi-accent: #f59e0b; }
+
+        .kpi-hero-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+        .kpi-hero-label {
+            font-size: 11.5px !important;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #94a3b8 !important;
+        }
+        .kpi-hero-icon {
+            font-size: 15px;
+            width: 28px;
+            height: 28px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.06);
+        }
+        .kpi-hero-value {
+            font-size: 28px !important;
+            font-weight: 800 !important;
+            letter-spacing: -0.02em;
+            font-variant-numeric: tabular-nums;
+            color: #f8fafc !important;
+            line-height: 1.1;
+        }
+        .kpi-hero-card.accent-emerald .kpi-hero-value {
+            color: #34d399 !important;
+            text-shadow: 0 0 18px rgba(52, 211, 153, 0.25);
+        }
+        @media (max-width: 900px) {
+            .kpi-hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+        }
+        @media (max-width: 520px) {
+            .kpi-hero-grid { grid-template-columns: 1fr !important; }
+        }
+
     </style>
 </head>
 <body>
@@ -1068,6 +1158,55 @@
             });
         }, 1200);
 
+
+        function upgradeKpiStripToHeroCards() {
+            const allEls = Array.from(document.querySelectorAll('div, section, ul'));
+            const kpiContainer = allEls.find(el => {
+                if (el.classList.contains('kpi-hero-grid')) return false;
+                const txt = el.innerText || '';
+                return txt.includes('Proprietăți') && txt.includes('Timp economisit azi') &&
+                       txt.includes('Discuții azi') && txt.includes('Acțiuni azi') &&
+                       el.children.length >= 4 && el.children.length <= 8;
+            });
+            if (!kpiContainer) return;
+
+            kpiContainer.classList.add('kpi-hero-grid');
+
+            const metaMap = [
+                { match: 'Proprietăți',         accent: 'accent-indigo',  icon: '🏢' },
+                { match: 'Timp economisit azi', accent: 'accent-emerald', icon: '⏱️' },
+                { match: 'Discuții azi',        accent: 'accent-sky',     icon: '💬' },
+                { match: 'Acțiuni azi',         accent: 'accent-amber',   icon: '⚡' }
+            ];
+
+            Array.from(kpiContainer.children).forEach(child => {
+                if (child.classList.contains('kpi-hero-card')) return;
+                const txt = (child.innerText || '').trim();
+                const cfg = metaMap.find(m => txt.includes(m.match));
+                if (!cfg) return;
+
+                child.classList.add('kpi-hero-card', cfg.accent);
+
+                // Găsim elementul care ține valoarea (ca să păstrăm ID-ul intact pentru refresh live!)
+                const valEl = child.querySelector('strong, b, [id]') || child.lastElementChild;
+                const labelText = cfg.match;
+
+                if (valEl && valEl !== child) {
+                    valEl.classList.add('kpi-hero-value');
+                    // Curățăm nodurile de text vechi și construim structura Hero păstrând exact nodul valEl
+                    const topRow = document.createElement('div');
+                    topRow.className = 'kpi-hero-top';
+                    topRow.innerHTML = `<span class="kpi-hero-label">${labelText}</span><span class="kpi-hero-icon">${cfg.icon}</span>`;
+
+                    child.innerHTML = '';
+                    child.appendChild(topRow);
+                    child.appendChild(valEl);
+                }
+            });
+        }
+
+        upgradeKpiStripToHeroCards();
+        setTimeout(upgradeKpiStripToHeroCards, 800);
         refreshDashboard();
             }
         }
@@ -1219,6 +1358,55 @@
             });
         }, 1200);
 
+
+        function upgradeKpiStripToHeroCards() {
+            const allEls = Array.from(document.querySelectorAll('div, section, ul'));
+            const kpiContainer = allEls.find(el => {
+                if (el.classList.contains('kpi-hero-grid')) return false;
+                const txt = el.innerText || '';
+                return txt.includes('Proprietăți') && txt.includes('Timp economisit azi') &&
+                       txt.includes('Discuții azi') && txt.includes('Acțiuni azi') &&
+                       el.children.length >= 4 && el.children.length <= 8;
+            });
+            if (!kpiContainer) return;
+
+            kpiContainer.classList.add('kpi-hero-grid');
+
+            const metaMap = [
+                { match: 'Proprietăți',         accent: 'accent-indigo',  icon: '🏢' },
+                { match: 'Timp economisit azi', accent: 'accent-emerald', icon: '⏱️' },
+                { match: 'Discuții azi',        accent: 'accent-sky',     icon: '💬' },
+                { match: 'Acțiuni azi',         accent: 'accent-amber',   icon: '⚡' }
+            ];
+
+            Array.from(kpiContainer.children).forEach(child => {
+                if (child.classList.contains('kpi-hero-card')) return;
+                const txt = (child.innerText || '').trim();
+                const cfg = metaMap.find(m => txt.includes(m.match));
+                if (!cfg) return;
+
+                child.classList.add('kpi-hero-card', cfg.accent);
+
+                // Găsim elementul care ține valoarea (ca să păstrăm ID-ul intact pentru refresh live!)
+                const valEl = child.querySelector('strong, b, [id]') || child.lastElementChild;
+                const labelText = cfg.match;
+
+                if (valEl && valEl !== child) {
+                    valEl.classList.add('kpi-hero-value');
+                    // Curățăm nodurile de text vechi și construim structura Hero păstrând exact nodul valEl
+                    const topRow = document.createElement('div');
+                    topRow.className = 'kpi-hero-top';
+                    topRow.innerHTML = `<span class="kpi-hero-label">${labelText}</span><span class="kpi-hero-icon">${cfg.icon}</span>`;
+
+                    child.innerHTML = '';
+                    child.appendChild(topRow);
+                    child.appendChild(valEl);
+                }
+            });
+        }
+
+        upgradeKpiStripToHeroCards();
+        setTimeout(upgradeKpiStripToHeroCards, 800);
         refreshDashboard();
         loadCommandStatus();
         setInterval(() => { refreshDashboard(); loadCommandStatus(); }, 15000);
