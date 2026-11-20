@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:24:10",
+  "updated_at": "13:34:44",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 14,
-    "time_saved_str": "1h 33m",
-    "actions_today": 31,
-    "last_check": "13:24"
+    "time_saved_str": "1h 36m",
+    "actions_today": 32,
+    "last_check": "13:34"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "29 răspunsuri azi",
+      "worked_today": "30 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "44 mesaje"
     },
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "9 alerte azi",
+      "worked_today": "8 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -81,9 +81,9 @@
     },
     {
       "name": "Campineanu22 A",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
       "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
       "last_time": "10:28",
       "status": "working",
@@ -230,6 +230,27 @@
   ],
   "feed": [
     {
+      "time": "13:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 13:24:44,361 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! 😊 We a",
+      "type": "success"
+    },
+    {
+      "time": "13:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-20 13:24:36,095 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "13:24",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-20 13:24:16,523 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "13:14",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -263,31 +284,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-20 13:03:41,032 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
       "type": "success"
-    },
-    {
-      "time": "13:03",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-20 13:03:21,075 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "12:53",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 12:53:15,363 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24535",
-      "type": "success"
-    },
-    {
-      "time": "12:53",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 12:53:15,203 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-20 12:53:05,311 [INFO] 🧠 Mesaj NOU #24535 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"I will wait for the team to do their job in peace , thank youu...\"\n2026-11-20 12:53:05,312 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 12:53:05,313 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:12,088 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:53:12,088 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:53:12,089 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 12:53:12,089 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 12:53:15,203 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-20 12:53:15,203 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-20 12:53:15,203 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24535: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-20 12:53:15,363 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_24535\n2026-11-20 13:03:20,890 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 13:03:21,075 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 13:03:21,107 [INFO] 🧠 Mesaj NOU #24535 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"I will wait for the team to do their job in peace , thank youu...\"\n2026-11-20 13:03:21,108 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 13:03:21,108 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:03:41,031 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 13:03:41,032 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 13:03:41,032 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 13:03:41,032 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:03:42,271 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 13:03:42,774 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Thank you so much for your understanding and kindness, Victor! 🌟 We truly appreciate it. We will notify you the very moment the apartment is ready. Have a wonderful afternoon!\"\n2026-11-20 13:13:49,491 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 13:13:49,677 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 13:13:49,709 [INFO] 🧠 Mesaj NOU #24547 (1 lipite) de la Philippe Caloin (Campineanu22 A): \"Merci Alexandru, nous terminons notre repas et nous y rendons.\nBonne journée.\nMesaj tradus: Thanks,...\"\n2026-11-20 13:13:49,710 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 13:13:49,710 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:14:09,093 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 13:14:09,094 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 13:14:09,094 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 13:14:09,094 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:14:09,834 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 13:14:10,327 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Philippe Caloin (Campineanu22 A)]: \"You're very welcome, Philippe! Enjoy your meal, and have a safe trip to the apartment. We'll be in touch as soon as the cleaning team finishes! 🌟\"",
-  "last_cloud_sync": "2026-11-20 13:24:10",
+  "raw_logs": "2026-11-20 13:03:21,075 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 13:03:21,107 [INFO] 🧠 Mesaj NOU #24535 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"I will wait for the team to do their job in peace , thank youu...\"\n2026-11-20 13:03:21,108 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 13:03:21,108 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:03:41,031 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 13:03:41,032 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 13:03:41,032 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 13:03:41,032 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:03:42,271 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 13:03:42,774 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Thank you so much for your understanding and kindness, Victor! 🌟 We truly appreciate it. We will notify you the very moment the apartment is ready. Have a wonderful afternoon!\"\n2026-11-20 13:13:49,491 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 13:13:49,677 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 13:13:49,709 [INFO] 🧠 Mesaj NOU #24547 (1 lipite) de la Philippe Caloin (Campineanu22 A): \"Merci Alexandru, nous terminons notre repas et nous y rendons.\nBonne journée.\nMesaj tradus: Thanks,...\"\n2026-11-20 13:13:49,710 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 13:13:49,710 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:14:09,093 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 13:14:09,094 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 13:14:09,094 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 13:14:09,094 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:14:09,834 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 13:14:10,327 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Philippe Caloin (Campineanu22 A)]: \"You're very welcome, Philippe! Enjoy your meal, and have a safe trip to the apartment. We'll be in touch as soon as the cleaning team finishes! 🌟\"\n2026-11-20 13:24:16,345 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 13:24:16,523 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 13:24:16,556 [INFO] 🧠 Mesaj NOU #24549 (1 lipite) de la Razvan Bor (None): \"va multumesc tare mult!\nMesaj tradus: Thank you so much!...\"\n2026-11-20 13:24:16,557 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 13:24:16,557 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:24:36,094 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 13:24:36,095 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 13:24:36,095 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 13:24:36,096 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 13:24:43,810 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 13:24:44,361 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! 😊 We are happy to help. Have a wonderful day, and we look forward to welcoming you soon!\"",
+  "last_cloud_sync": "2026-11-20 13:34:44",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
