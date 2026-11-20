@@ -1,11 +1,11 @@
 {
-  "updated_at": "15:48:06",
+  "updated_at": "15:58:13",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 14,
-    "time_saved_str": "1h 51m",
-    "actions_today": 37,
-    "last_check": "15:48"
+    "time_saved_str": "1h 48m",
+    "actions_today": 36,
+    "last_check": "15:58"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "35 răspunsuri azi",
+      "worked_today": "34 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "54 mesaje"
+      "metric_value": "53 mesaje"
     },
     {
       "id": "clean",
@@ -170,18 +170,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Rigas29 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:52",
-      "status": "working",
-      "guest": "Aurora Ermini (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Biserica Amzei 27",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -228,9 +216,28 @@
       "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
+    },
+    {
+      "name": "Rigas29 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Aurora Ermini (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "15:48",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-20 15:48:13,010 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "15:38",
       "icon": "🔄",
@@ -279,17 +286,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-20 15:07:07,526 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "14:57",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-20 14:57:01,279 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-20 14:46:48,678 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 14:46:49,303 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 😊 No need to apologize at all! Regarding your check-in, as we mentioned earlier, all exact access instructions and the key/lockbox details will be sent to you automatically via a dedicated message today. As for the city tax (10 RON per person per night), since your booking is through Airbnb, we kindly request that you pay it directly through the Airbnb platform (Resolution Center) using a card payment link that we can provide. We cannot accept cash inside the apartment. Thank you so much for your understanding! 🌟\"\n2026-11-20 14:46:49,553 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 14:56:55,619 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 14:56:55,862 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 14:56:55,901 [INFO] 🧠 Mesaj NOU #24570 (4 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Ok , when you can send me the link plz | Even now it s fine | Alright , thank you | We are in , it s...\"\n2026-11-20 14:56:55,901 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 14:56:55,902 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 14:57:00,525 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 14:57:01,047 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"We are so thrilled to hear that you are in and loving the apartment, Victor! 😊\nRegarding the city tax payment, our manager will send the payment request directly to you through the Airbnb Resolution Center shortly so you can complete it easily right inside the Airbnb app.\nHave a wonderful stay, and feel free to reach out if you need anything at all! 🌟\"\n2026-11-20 14:57:01,279 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 15:07:07,316 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:07:07,526 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 15:07:07,566 [INFO] 🧠 Mesaj NOU #24572 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"About the leaving , we put the keys in the box and randomly scroll the numbers correct ? Just to kno...\"\n2026-11-20 15:07:07,566 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:07:07,566 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:25,804 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 15:07:25,805 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 15:07:25,805 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 15:07:25,806 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:26,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:07:27,160 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 😊 Yes, exactly! Just place the keys back inside the lockbox and scramble the numbers randomly when you leave tomorrow. Have a wonderful rest of your stay! 🌟\"\n2026-11-20 15:17:34,025 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:17:34,215 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 15:17:34,253 [INFO] 🧠 Mesaj NOU #24574 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Alright thank you...\"\n2026-11-20 15:17:34,254 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:17:34,254 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:17:53,457 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:17:53,930 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"You're very welcome, Victor! 😊 Enjoy the rest of your stay, and feel free to reach out if you need anything else! 🌟\"\n2026-11-20 15:28:00,341 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:28:00,520 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:38:06,545 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:38:06,749 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-20 15:48:06",
+  "raw_logs": "2026-11-20 14:46:49,553 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 14:56:55,619 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 14:56:55,862 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 14:56:55,901 [INFO] 🧠 Mesaj NOU #24570 (4 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Ok , when you can send me the link plz | Even now it s fine | Alright , thank you | We are in , it s...\"\n2026-11-20 14:56:55,901 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 14:56:55,902 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 14:57:00,525 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 14:57:01,047 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"We are so thrilled to hear that you are in and loving the apartment, Victor! 😊\nRegarding the city tax payment, our manager will send the payment request directly to you through the Airbnb Resolution Center shortly so you can complete it easily right inside the Airbnb app.\nHave a wonderful stay, and feel free to reach out if you need anything at all! 🌟\"\n2026-11-20 14:57:01,279 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-20 15:07:07,316 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:07:07,526 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 15:07:07,566 [INFO] 🧠 Mesaj NOU #24572 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"About the leaving , we put the keys in the box and randomly scroll the numbers correct ? Just to kno...\"\n2026-11-20 15:07:07,566 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:07:07,566 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:25,804 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-20 15:07:25,805 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-20 15:07:25,805 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-20 15:07:25,806 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:07:26,596 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:07:27,160 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 😊 Yes, exactly! Just place the keys back inside the lockbox and scramble the numbers randomly when you leave tomorrow. Have a wonderful rest of your stay! 🌟\"\n2026-11-20 15:17:34,025 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:17:34,215 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-20 15:17:34,253 [INFO] 🧠 Mesaj NOU #24574 (1 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Alright thank you...\"\n2026-11-20 15:17:34,254 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-20 15:17:34,254 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-20 15:17:53,457 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-20 15:17:53,930 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"You're very welcome, Victor! 😊 Enjoy the rest of your stay, and feel free to reach out if you need anything else! 🌟\"\n2026-11-20 15:28:00,341 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:28:00,520 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:38:06,545 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:38:06,749 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-20 15:48:12,733 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-20 15:48:13,010 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-20 15:58:13",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
