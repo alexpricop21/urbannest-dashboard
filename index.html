@@ -617,95 +617,82 @@
             .topbar-kpis, .breadcrumb { display: none; }
         }
     
-        /* Hero KPI Cards (Upgrade vizual zona de metrici) */
+        /* Hero KPI Cards (Versiune compactă, plată, pe un singur rând în header) */
         .kpi-hero-grid {
-            display: grid !important;
-            grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-            gap: 14px !important;
-            width: 100% !important;
-            margin: 14px 0 20px 0 !important;
+            display: flex !important;
+            flex-wrap: wrap !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 8px !important;
+            width: auto !important;
+            margin: 0 !important;
             padding: 0 !important;
             background: transparent !important;
             border: none !important;
         }
         .kpi-hero-card {
             position: relative;
-            display: flex !important;
-            flex-direction: column !important;
-            justify-content: space-between !important;
+            display: inline-flex !important;
+            flex-direction: row !important;
+            align-items: center !important;
             gap: 8px !important;
-            padding: 16px 18px !important;
-            border-radius: 14px !important;
-            background: linear-gradient(145deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.95)) !important;
+            padding: 6px 12px !important;
+            border-radius: 8px !important;
+            background: rgba(30, 41, 59, 0.55) !important;
             border: 1px solid rgba(148, 163, 184, 0.16) !important;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
-            transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease !important;
-            overflow: hidden;
+            box-shadow: none !important;
+            transition: border-color 0.15s ease, background 0.15s ease !important;
+            white-space: nowrap;
         }
         .kpi-hero-card:hover {
-            transform: translateY(-2px);
             border-color: rgba(148, 163, 184, 0.35) !important;
+            background: rgba(30, 41, 59, 0.85) !important;
         }
         .kpi-hero-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: var(--kpi-accent, #38bdf8);
-            opacity: 0.85;
+            display: none !important;
         }
         .kpi-hero-card.accent-emerald {
-            --kpi-accent: #10b981;
-            background: linear-gradient(145deg, rgba(16, 185, 129, 0.14), rgba(15, 23, 42, 0.96)) !important;
-            border-color: rgba(16, 185, 129, 0.35) !important;
-            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.12) !important;
+            background: rgba(16, 185, 129, 0.12) !important;
+            border-color: rgba(16, 185, 129, 0.38) !important;
         }
-        .kpi-hero-card.accent-indigo { --kpi-accent: #818cf8; }
-        .kpi-hero-card.accent-sky    { --kpi-accent: #38bdf8; }
-        .kpi-hero-card.accent-amber  { --kpi-accent: #f59e0b; }
+        .kpi-hero-card.accent-indigo { border-left: 2px solid #818cf8 !important; }
+        .kpi-hero-card.accent-sky    { border-left: 2px solid #38bdf8 !important; }
+        .kpi-hero-card.accent-amber  { border-left: 2px solid #f59e0b !important; }
+        .kpi-hero-card.accent-emerald { border-left: 2px solid #10b981 !important; }
 
         .kpi-hero-top {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 8px;
+            display: inline-flex !important;
+            flex-direction: row-reverse !important;
+            align-items: center !important;
+            gap: 5px !important;
         }
         .kpi-hero-label {
-            font-size: 11.5px !important;
+            font-size: 11px !important;
             font-weight: 600 !important;
             text-transform: uppercase;
-            letter-spacing: 0.06em;
+            letter-spacing: 0.04em;
             color: #94a3b8 !important;
         }
         .kpi-hero-icon {
-            font-size: 15px;
-            width: 28px;
-            height: 28px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.06);
+            font-size: 13px !important;
+            width: auto !important;
+            height: auto !important;
+            background: transparent !important;
+            padding: 0 !important;
+            line-height: 1;
         }
         .kpi-hero-value {
-            font-size: 28px !important;
+            font-size: 15px !important;
             font-weight: 800 !important;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.01em;
             font-variant-numeric: tabular-nums;
             color: #f8fafc !important;
-            line-height: 1.1;
+            line-height: 1 !important;
         }
         .kpi-hero-card.accent-emerald .kpi-hero-value {
             color: #34d399 !important;
-            text-shadow: 0 0 18px rgba(52, 211, 153, 0.25);
+            text-shadow: none !important;
         }
-        @media (max-width: 900px) {
-            .kpi-hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-        }
-        @media (max-width: 520px) {
-            .kpi-hero-grid { grid-template-columns: 1fr !important; }
-        }
-
     </style>
 </head>
 <body>
