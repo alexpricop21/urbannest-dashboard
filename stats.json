@@ -1,11 +1,11 @@
 {
-  "updated_at": "01:26:50",
+  "updated_at": "01:37:10",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
     "time_saved_str": "0 min",
     "actions_today": 0,
-    "last_check": "01:26"
+    "last_check": "01:37"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "0 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "0 mesaje"
+      "metric_value": "1 mesaje"
     },
     {
       "id": "clean",
@@ -61,6 +61,20 @@
   ],
   "apartments": [
     {
+      "name": "Kogalniceanu 9 1BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "01:22",
+      "status": "working",
+      "guest": "Marius Cretu (Check-in azi)",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[01:22] Oaspete (Sila Duman): Hi! 😊\n\nWe’re really looking forward to our stay!\n\nWe’ll be travelling from Istanbul to Bucharest by bus, which takes around 12 hours, and we’re expected to arrive at approximately 6:00 AM. Since it will be quite a long journey, I wanted to ask if there might be any possibility of an early check-in, even just a few hours before the regular check-in time. It would be really helpful for us to get some rest after the journey.\n\nAlso, since we’ll be visiting in December, could you please tell us a little about the heating system? Is the apartment sufficiently warm throughout the day and night?\n\nOne last thing: I’ll be travelling with my younger sibling, who is 15 years old. I have a signed document in Turkish regarding our travel together. Based on your experience, do you think it would be necessary to have this document translated into English or Romanian? We’d really appreciate your advice on this, as we want to make sure we have everything prepared for our trip.\n\nThank you so much for your help! Looking forward to staying at your place! 😊"
+      ]
+    },
+    {
       "name": "Biserica Amzei 27",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -93,18 +107,6 @@
       "last_time": "Azi",
       "status": "standby",
       "guest": "Valentina Artini (Check-out azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Marius Cretu (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +221,27 @@
   ],
   "feed": [
     {
+      "time": "01:27",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 01:27:08,559 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "01:27",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 01:27:08,247 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Sila Duman (Kogalniceanu 9 -1BR)]: \"Hi Sila! 😊",
+      "type": "success"
+    },
+    {
+      "time": "01:26",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 01:26:58,872 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "01:16",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -252,31 +275,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-22 00:36:06,064 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "00:25",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 00:25:55,879 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "00:15",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 00:15:46,783 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "00:05",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 00:05:37,775 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-21 22:34:12,767 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 22:34:13,333 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ralph Ralph (Kogalniceanu 9 -1BR)]: \"Hi Ralph! Thank you for letting us know. Your check-out at 11:00 AM tomorrow is confirmed. When leaving, please make sure to place the key back inside the lockbox and scramble the code. Safe travels, and we hope you had a great stay!\"\n2026-11-21 22:34:14,016 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-21 22:44:23,485 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 22:44:23,695 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 22:54:32,557 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 22:54:32,725 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 23:04:41,548 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 23:04:41,718 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 23:14:51,317 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 23:14:51,545 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 23:25:00,350 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 23:25:00,549 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 23:35:09,507 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 23:35:09,693 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 23:45:19,208 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 23:45:19,426 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 23:55:28,560 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 23:55:28,734 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:05:37,608 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:05:37,775 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:15:46,586 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:15:46,783 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:25:55,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:25:55,879 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:36:05,863 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:36:06,064 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:46:15,059 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:46:15,315 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:56:24,855 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:56:25,065 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 01:06:38,210 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 01:06:38,500 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 01:16:49,118 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 01:16:49,291 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-22 01:26:50",
+  "raw_logs": "2026-11-22 00:05:37,775 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:15:46,586 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:15:46,783 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:25:55,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:25:55,879 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:36:05,863 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:36:06,064 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:46:15,059 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:46:15,315 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 00:56:24,855 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 00:56:25,065 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 01:06:38,210 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 01:06:38,500 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 01:16:49,118 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 01:16:49,291 [INFO] 📊 Conversatii verificate: 64 | Rezervari cu mesaje NOI: 0\n2026-11-22 01:26:58,307 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 01:26:58,872 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 1\n2026-11-22 01:26:58,909 [INFO] 🧠 Mesaj NOU #24762 (1 lipite) de la Sila Duman (Kogalniceanu 9 -1BR): \"Hi! 😊\nWe’re really looking forward to our stay!\nWe’ll be travelling from Istanbul to Bucharest by ...\"\n2026-11-22 01:26:58,909 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 01:26:58,910 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 01:27:07,691 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 01:27:08,247 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Sila Duman (Kogalniceanu 9 -1BR)]: \"Hi Sila! 😊\nThank you for reaching out! We are looking forward to welcoming you and your sibling to Bucharest!\nRegarding your early arrival:\n- Our standard check-in time is at 15:00 (3:00 PM). While we cannot guarantee a check-in as early as 6:00 AM because previous guests may be staying the night before, we will certainly do our best to have the apartment ready for you before 3:00 PM on your arrival day, and we'll let you know as soon as the cleaning is finished.\n- Also, on your check-in day (12 Dec), you are welcome to drop off your luggage in the apartment after 11:00 AM (once previous guests check out), provided you put the key back in the lockbox so our cleaning team can prepare the space.\n- All exact check-in and access details will be sent to you automatically 1 day before your arrival.\nRegarding heating:\nYes, absolutely! The apartment is very warm, well-heated, and comfortable throughout the day and night during December, so you will have a cosy stay after your journey.\nRegarding the document for your sibling:\nFor checking into our apartment, we don't require translated documents. However, for border control purposes when entering Romania with a minor, customs/immigration officers generally require authorization letters to be translated into English (or Romanian) and notarized. Having an English translation with you is highly recommended to avoid any delays at the border!\nSafe travels from Istanbul, and feel free to reach out if you need anything else! 😊\"\n2026-11-22 01:27:08,559 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
+  "last_cloud_sync": "2026-11-22 01:37:10",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
