@@ -1,11 +1,11 @@
 {
-  "updated_at": "15:47:18",
+  "updated_at": "15:57:27",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 9,
     "time_saved_str": "51 min",
     "actions_today": 17,
-    "last_check": "15:47"
+    "last_check": "15:57"
   },
   "core_agents": [
     {
@@ -224,6 +224,13 @@
   ],
   "feed": [
     {
+      "time": "15:47",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-21 15:47:26,274 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "15:37",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -271,17 +278,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-21 14:56:18,580 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "14:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-21 14:46:09,816 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-21 13:35:10,410 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:35:10,576 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:45:18,813 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:45:19,008 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:55:27,255 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:55:27,443 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:05:35,583 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:05:35,770 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:15:43,945 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:15:44,152 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:25:52,304 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:25:52,503 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:36:01,138 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:36:01,339 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:46:09,647 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:46:09,816 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:56:18,232 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:56:18,580 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:06:27,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:06:27,604 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-21 15:06:27,647 [INFO] 🧠 Mesaj NOU #24709 (1 lipite) de la Yam Tabo (Campineanu22 B): \"I'd like to request check-in at 19:00 - 20:00. Is this ok?...\"\n2026-11-21 15:06:27,648 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 15:06:27,648 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 15:06:46,901 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-21 15:06:46,903 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-21 15:06:46,903 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-21 15:06:46,903 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 15:06:50,418 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 15:06:51,493 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yam Tabo (Campineanu22 B)]: \"Hello Yam! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access instructions will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟\"\n2026-11-21 15:17:00,057 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:17:00,254 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:27:08,460 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:27:08,649 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:37:17,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:37:17,299 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-21 15:47:18",
+  "raw_logs": "2026-11-21 13:45:18,813 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:45:19,008 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:55:27,255 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:55:27,443 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:05:35,583 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:05:35,770 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:15:43,945 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:15:44,152 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:25:52,304 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:25:52,503 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:36:01,138 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:36:01,339 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:46:09,647 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:46:09,816 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:56:18,232 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:56:18,580 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:06:27,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:06:27,604 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-21 15:06:27,647 [INFO] 🧠 Mesaj NOU #24709 (1 lipite) de la Yam Tabo (Campineanu22 B): \"I'd like to request check-in at 19:00 - 20:00. Is this ok?...\"\n2026-11-21 15:06:27,648 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 15:06:27,648 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 15:06:46,901 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-21 15:06:46,903 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-21 15:06:46,903 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-21 15:06:46,903 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 15:06:50,418 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 15:06:51,493 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yam Tabo (Campineanu22 B)]: \"Hello Yam! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access instructions will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟\"\n2026-11-21 15:17:00,057 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:17:00,254 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:27:08,460 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:27:08,649 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:37:17,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:37:17,299 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:47:26,098 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:47:26,274 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-21 15:57:27",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
