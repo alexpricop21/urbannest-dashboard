@@ -1,11 +1,11 @@
 {
-  "updated_at": "18:09:40",
+  "updated_at": "18:20:10",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 9,
     "time_saved_str": "54 min",
     "actions_today": 18,
-    "last_check": "18:09"
+    "last_check": "18:20"
   },
   "core_agents": [
     {
@@ -224,6 +224,34 @@
   ],
   "feed": [
     {
+      "time": "18:10",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 18:10:09,462 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "18:10",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 18:10:09,092 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"Thank you for letting us know, Razv",
+      "type": "success"
+    },
+    {
+      "time": "18:10",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-21 18:10:07,560 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "18:09",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-21 18:09:48,315 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "17:59",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -250,38 +278,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-21 17:29:12,404 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "17:19",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-21 17:19:03,699 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "17:08",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-21 17:08:54,849 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "16:58",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-21 16:58:45,458 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "16:48",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-21 16:48:36,903 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-21 15:37:17,299 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:47:26,098 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:47:26,274 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 15:57:34,841 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 15:57:35,034 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 16:07:43,408 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:07:43,591 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 16:17:52,154 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:17:52,327 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 16:28:00,965 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:28:01,155 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 16:38:09,666 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:38:12,756 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-21 16:38:12,787 [INFO] 🧠 Mesaj NOU #24722 (1 lipite) de la Vera Andrianova (Biserica Amzei 27): \"Hi! Just wanted to check when you'll be able to send me the payment link for the fee. Thanks!...\"\n2026-11-21 16:38:12,788 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 16:38:12,788 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 16:38:27,211 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 16:38:27,913 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"Hi Vera! Thank you for following up. Since your booking was made through Airbnb, we will send the payment request directly through the Airbnb platform (Resolution Center) shortly, so you will be able to pay easily right inside the Airbnb app. Thank you again for your patience!\"\n2026-11-21 16:38:28,163 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-21 16:48:36,731 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:48:36,903 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 16:58:45,289 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:58:45,458 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:08:54,670 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:08:54,849 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:19:03,476 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:19:03,699 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:29:12,220 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:29:12,404 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:39:21,079 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:39:21,290 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:49:30,068 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:49:30,231 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:59:38,918 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:59:39,122 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-21 18:09:40",
+  "raw_logs": "2026-11-21 16:38:12,787 [INFO] 🧠 Mesaj NOU #24722 (1 lipite) de la Vera Andrianova (Biserica Amzei 27): \"Hi! Just wanted to check when you'll be able to send me the payment link for the fee. Thanks!...\"\n2026-11-21 16:38:12,788 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 16:38:12,788 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 16:38:27,211 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 16:38:27,913 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"Hi Vera! Thank you for following up. Since your booking was made through Airbnb, we will send the payment request directly through the Airbnb platform (Resolution Center) shortly, so you will be able to pay easily right inside the Airbnb app. Thank you again for your patience!\"\n2026-11-21 16:38:28,163 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-21 16:48:36,731 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:48:36,903 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 16:58:45,289 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 16:58:45,458 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:08:54,670 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:08:54,849 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:19:03,476 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:19:03,699 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:29:12,220 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:29:12,404 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:39:21,079 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:39:21,290 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:49:30,068 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:49:30,231 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 17:59:38,918 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 17:59:39,122 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-21 18:09:48,127 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 18:09:48,315 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-21 18:09:48,356 [INFO] 🧠 Mesaj NOU #24729 (1 lipite) de la Razvan Bor (None): \"solicitati plata sj la 11 o sa plec 10:30\nMesaj tradus: Please request the payment. I'll leave at ...\"\n2026-11-21 18:09:48,356 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-21 18:09:48,357 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 18:10:07,559 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-21 18:10:07,560 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-21 18:10:07,560 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-21 18:10:07,560 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-21 18:10:08,604 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-21 18:10:09,092 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"Thank you for letting us know, Razvan! We have noted your departure at 10:30. Also, regarding the city tax, we will send you the payment link directly through the Airbnb Resolution Center shortly. Safe travels, and we hope to host you again soon! 😊\"\n2026-11-21 18:10:09,462 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-21 18:20:10",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
