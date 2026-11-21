@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:56:11",
+  "updated_at": "15:06:20",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 8,
     "time_saved_str": "48 min",
     "actions_today": 16,
-    "last_check": "14:56"
+    "last_check": "15:06"
   },
   "core_agents": [
     {
@@ -224,6 +224,13 @@
   ],
   "feed": [
     {
+      "time": "14:56",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-21 14:56:18,580 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "14:46",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -271,17 +278,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-21 13:45:19,008 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "13:35",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-21 13:35:10,576 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-21 11:53:47,571 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:03:55,593 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:03:55,770 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:14:03,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:14:04,057 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:24:12,036 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:24:12,216 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:34:20,276 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:34:20,475 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:44:28,566 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:44:28,766 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:54:36,888 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:54:37,071 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:04:45,859 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:04:46,044 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:14:54,016 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:14:54,214 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:25:02,166 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:25:02,365 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:35:10,410 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:35:10,576 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:45:18,813 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:45:19,008 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:55:27,255 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:55:27,443 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:05:35,583 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:05:35,770 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:15:43,945 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:15:44,152 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:25:52,304 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:25:52,503 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:36:01,138 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:36:01,339 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:46:09,647 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:46:09,816 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-21 14:56:11",
+  "raw_logs": "2026-11-21 12:03:55,770 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:14:03,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:14:04,057 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:24:12,036 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:24:12,216 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:34:20,276 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:34:20,475 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:44:28,566 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:44:28,766 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 12:54:36,888 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 12:54:37,071 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:04:45,859 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:04:46,044 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:14:54,016 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:14:54,214 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:25:02,166 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:25:02,365 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:35:10,410 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:35:10,576 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:45:18,813 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:45:19,008 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 13:55:27,255 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 13:55:27,443 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:05:35,583 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:05:35,770 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:15:43,945 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:15:44,152 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:25:52,304 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:25:52,503 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:36:01,138 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:36:01,339 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:46:09,647 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:46:09,816 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0\n2026-11-21 14:56:18,232 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-21 14:56:18,580 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-21 15:06:20",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
