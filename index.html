@@ -693,6 +693,92 @@
             color: #34d399 !important;
             text-shadow: none !important;
         }
+    
+        /* Modal detalii eroare per card */
+        #agentErrModalOverlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(2, 6, 23, 0.72);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+        #agentErrModalBox {
+            background: #0f172a;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            border-radius: 14px;
+            max-width: 560px;
+            width: 100%;
+            padding: 20px 22px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            color: #e2e8f0;
+        }
+        #agentErrModalTitle {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fca5a5;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #agentErrModalList {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 18px 0;
+            max-height: 280px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        #agentErrModalList li {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.25);
+            border-radius: 8px;
+            padding: 10px 12px;
+            font-size: 12.5px;
+            line-height: 1.45;
+            color: #fecaca;
+            word-break: break-word;
+        }
+        .agent-err-modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        .agent-err-btn-close {
+            background: rgba(148, 163, 184, 0.15);
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            color: #e2e8f0;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .agent-err-btn-read {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid rgba(16, 185, 129, 0.45);
+            color: #34d399;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .card-clickable-err {
+            cursor: pointer !important;
+            transition: transform 0.15s ease, border-color 0.15s ease !important;
+        }
+        .card-clickable-err:hover {
+            transform: translateY(-2px);
+            border-color: rgba(239, 68, 68, 0.65) !important;
+        }
+
     </style>
 </head>
 <body>
@@ -1097,6 +1183,106 @@
             });
         }
 
+        
+        function openAgentErrorModal(agentName) {
+            const overlay = document.getElementById('agentErrModalOverlay');
+            const titleEl = document.getElementById('agentErrModalName');
+            const listEl = document.getElementById('agentErrModalList');
+            if (!overlay || !listEl) return;
+
+            titleEl.textContent = '⚠️ Erori active — ' + agentName;
+            const allErrs = (typeof currentVisibleErrors !== 'undefined' && currentVisibleErrors.length)
+                ? currentVisibleErrors
+                : [];
+
+            // Filtrăm erorile relevante pentru agentul respectiv; dacă Watchdog are erori generale, le afișăm pe toate
+            const keyMap = {
+                '5Star PMS': ['pms', '5star', 'sync', 'rezerv', 'mesaj', 'msg_'],
+                'Gemini Concierge': ['gemini', 'msg_', 'mesaj', 'concierge', 'ai', '429', '503', 'eroare repetată'],
+                'Clean Sync': ['clean', 'curatenie', 'sheets'],
+                'Airbnb 5★': ['airbnb', 'review', 'recenzi'],
+                'WA Courier': ['whatsapp', 'wa', 'courier']
+            };
+            const keys = keyMap[agentName] || [];
+            let matched = allErrs.filter(e => keys.some(k => e.toLowerCase().includes(k)));
+            if (matched.length === 0) matched = allErrs;
+
+            if (matched.length === 0) {
+                listEl.innerHTML = '<li>Nu există erori necitite în acest moment.</li>';
+            } else {
+                listEl.innerHTML = matched.map(e => `<li>${e}</li>`).join('');
+            }
+            overlay.style.display = 'flex';
+        }
+
+        function closeAgentErrorModal() {
+            const overlay = document.getElementById('agentErrModalOverlay');
+            if (overlay) overlay.style.display = 'none';
+        }
+
+        function syncAgentCardsVisualAndClick() {
+            const hasUnread = (typeof currentVisibleErrors !== 'undefined' && currentVisibleErrors.length > 0);
+            const agentNames = ['5Star PMS', 'Gemini Concierge', 'Clean Sync', 'Airbnb 5★', 'WA Courier'];
+
+            // Găsim cele 5 carduri de agenți
+            const allCards = Array.from(document.querySelectorAll('div, section, article')).filter(el => {
+                if (el.closest('#agentErrModalOverlay') || el.closest('#aiCommandBar')) return false;
+                const txt = el.innerText || '';
+                const matchedName = agentNames.find(n => txt.includes(n));
+                return matchedName && el.querySelector('svg') && el.offsetHeight > 80 && el.offsetHeight < 300;
+            });
+
+            // Păstrăm doar cardurile directe (nu containerele părinte care le cuprind pe toate)
+            const leafCards = allCards.filter(c => !allCards.some(other => other !== c && c.contains(other)));
+
+            leafCards.forEach(card => {
+                const txt = card.innerText || '';
+                const agentName = agentNames.find(n => txt.includes(n)) || 'Agent';
+                const isRedCard = txt.includes('Atenție') || txt.includes('Eroare');
+
+                if (!hasUnread && isRedCard) {
+                    // 1. Resetăm cardul pe verde complet (badge + bulină + grafic SVG)
+                    card.classList.remove('card-clickable-err', 'error', 'danger', 'has-error', 'is-error');
+                    card.onclick = null;
+
+                    card.querySelectorAll('span, div').forEach(sub => {
+                        const sTxt = (sub.innerText || '').trim();
+                        // Badge-ul "Atenție (Eroare Watchdog)"
+                        if (sTxt.includes('Atenție') || sTxt.includes('Eroare Watchdog')) {
+                            sub.style.background = 'rgba(16, 185, 129, 0.14)';
+                            sub.style.borderColor = 'rgba(16, 185, 129, 0.35)';
+                            sub.style.color = '#34d399';
+                            sub.innerText = 'Activ • OK';
+                        }
+                        // Bulina roșie din dreapta sus
+                        const bg = window.getComputedStyle(sub).backgroundColor;
+                        if (sub.offsetWidth <= 14 && sub.offsetHeight <= 14 && (bg.includes('239, 68, 68') || bg.includes('220, 38, 38') || bg.includes('248, 113, 113'))) {
+                            sub.style.backgroundColor = '#10b981';
+                            sub.style.boxShadow = '0 0 8px rgba(16, 185, 129, 0.5)';
+                        }
+                    });
+
+                    // Linia roșie din graficul SVG
+                    card.querySelectorAll('svg path, svg polyline, svg line').forEach(line => {
+                        const st = (line.getAttribute('stroke') || window.getComputedStyle(line).stroke || '').toLowerCase();
+                        if (st.includes('ef4444') || st.includes('f87171') || st.includes('dc2626') || st.includes('239, 68, 68') || st.includes('248, 113, 113')) {
+                            line.setAttribute('stroke', '#10b981');
+                            line.style.stroke = '#10b981';
+                        }
+                    });
+                } else if (hasUnread && isRedCard) {
+                    // 2. Cardul are eroare activă -> îl facem clicabil pentru a vedea eroarea
+                    card.classList.add('card-clickable-err');
+                    card.title = 'Click pentru a vedea detaliile erorii';
+                    card.onclick = () => openAgentErrorModal(agentName);
+                } else {
+                    card.classList.remove('card-clickable-err');
+                    card.onclick = null;
+                }
+            });
+        }
+        setInterval(syncAgentCardsVisualAndClick, 1000);
+
         function dismissAllErrors() {
             const dismissed = getDismissedErrorsSet();
             currentVisibleErrors.forEach(errTxt => dismissed.add(errTxt));
@@ -1398,5 +1584,20 @@
         loadCommandStatus();
         setInterval(() => { refreshDashboard(); loadCommandStatus(); }, 15000);
     </script>
+
+    <div id="agentErrModalOverlay" onclick="if(event.target===this) closeAgentErrorModal()">
+        <div id="agentErrModalBox">
+            <div id="agentErrModalTitle">
+                <span id="agentErrModalName">Erori Agent</span>
+                <span style="cursor:pointer;color:#94a3b8;font-size:18px;" onclick="closeAgentErrorModal()">✕</span>
+            </div>
+            <ul id="agentErrModalList"></ul>
+            <div class="agent-err-modal-actions">
+                <button class="agent-err-btn-read" onclick="dismissAllErrors(); closeAgentErrorModal();">✓ Marchează ca citite</button>
+                <button class="agent-err-btn-close" onclick="closeAgentErrorModal()">Închide</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
