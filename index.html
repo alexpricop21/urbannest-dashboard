@@ -1172,7 +1172,7 @@
                         if (sCls.includes('error') || sCls.includes('danger') || sCls.includes('red') || sTxt.includes('Eroare') || sTxt.includes('⚠️')) {
                             sub.classList.remove('error', 'danger', 'badge-error', 'status-error', 'dot-red');
                             sub.style.color = '#34d399';
-                            if (sTxt.includes('Eroare') || sTxt.includes('⚠️')) {
+                            if (sub.children.length === 0 && (sTxt.includes('Eroare') || sTxt.includes('⚠️'))) {
                                 sub.style.background = 'rgba(16, 185, 129, 0.14)';
                                 sub.style.borderColor = 'rgba(16, 185, 129, 0.35)';
                                 sub.innerText = 'Activ • OK';
@@ -1248,7 +1248,7 @@
                     card.querySelectorAll('span, div').forEach(sub => {
                         const sTxt = (sub.innerText || '').trim();
                         // Badge-ul "Atenție (Eroare Watchdog)"
-                        if (sTxt.includes('Atenție') || sTxt.includes('Eroare Watchdog')) {
+                        if (sub.children.length === 0 && (sTxt.includes('Atenție') || sTxt.includes('Eroare Watchdog'))) {
                             sub.style.background = 'rgba(16, 185, 129, 0.14)';
                             sub.style.borderColor = 'rgba(16, 185, 129, 0.35)';
                             sub.style.color = '#34d399';
