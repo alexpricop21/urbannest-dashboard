@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:10:15",
+  "updated_at": "13:20:24",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 15,
-    "time_saved_str": "24 min",
-    "actions_today": 8,
-    "last_check": "13:10"
+    "conversations_monitored": 16,
+    "time_saved_str": "27 min",
+    "actions_today": 9,
+    "last_check": "13:20"
   },
   "core_agents": [
     {
@@ -14,9 +14,9 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "15 discuții azi",
+      "worked_today": "16 discuții azi",
       "metric_label": "Rezervări active azi",
-      "metric_value": "15 check-in/out"
+      "metric_value": "16 check-in/out"
     },
     {
       "id": "ai",
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "7 răspunsuri azi",
+      "worked_today": "8 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "8 mesaje"
     },
@@ -103,6 +103,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "13:00",
+      "status": "working",
+      "guest": "Razvan Prata (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Campineanu22 A",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -123,18 +135,6 @@
       "last_time": "Azi",
       "status": "standby",
       "guest": "Valentina Artini (Check-out azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "12:39",
-      "status": "working",
-      "guest": "Razvan Prata (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -182,7 +182,7 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Anida-Maria Babtan (Check-out azi)",
+      "guest": "Boaz Shoshan (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -224,6 +224,13 @@
     }
   ],
   "feed": [
+    {
+      "time": "13:10",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 13:10:23,644 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "13:00",
       "icon": "💬",
@@ -272,17 +279,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-22 12:29:02,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "12:18",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 12:18:52,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-22 11:48:13,773 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:48:13,773 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:48:21,884 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:48:22,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 Have a wonderful day ahead, and we look forward to hosting you soon! Safe travels! 🚗✨\"\n2026-11-22 11:58:32,286 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:58:32,507 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:08:42,015 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:08:42,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:18:51,920 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:18:52,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:29:01,959 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:29:02,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:39:11,971 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:39:12,222 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:49:22,252 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:49:22,455 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 1\n2026-11-22 12:49:22,500 [INFO] 🧠 Mesaj NOU #24794 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Multumesc, voi ajunge in jur de ora 17.00, daca am intrebari va scriu. O zi buna va doresc\nMesaj tr...\"\n2026-11-22 12:49:22,501 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:49:22,501 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 12:49:41,806 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 12:49:41,807 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 12:49:41,807 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 12:49:41,807 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 12:49:46,104 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-22 12:49:46,105 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-22 12:49:46,105 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24794: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-22 12:59:55,422 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:59:55,611 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 1\n2026-11-22 12:59:55,670 [INFO] 🧠 Mesaj NOU #24794 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Multumesc, voi ajunge in jur de ora 17.00, daca am intrebari va scriu. O zi buna va doresc\nMesaj tr...\"\n2026-11-22 12:59:55,671 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:59:55,671 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:00:13,235 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:00:13,772 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Hi Razvan! Thank you for letting us know. Arriving around 5:00 PM (17:00) is completely fine, as check-in is flexible anytime after 3:00 PM via self check-in. You will automatically receive all the detailed access instructions and keybox details 1 day before your check-in date. Wishing you a great day ahead, and please don't hesitate to reach out if you have any questions!\"",
-  "last_cloud_sync": "2026-11-22 13:10:15",
+  "raw_logs": "2026-11-22 11:48:21,884 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:48:22,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 Have a wonderful day ahead, and we look forward to hosting you soon! Safe travels! 🚗✨\"\n2026-11-22 11:58:32,286 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:58:32,507 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:08:42,015 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:08:42,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:18:51,920 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:18:52,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:29:01,959 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:29:02,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:39:11,971 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:39:12,222 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:49:22,252 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:49:22,455 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 1\n2026-11-22 12:49:22,500 [INFO] 🧠 Mesaj NOU #24794 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Multumesc, voi ajunge in jur de ora 17.00, daca am intrebari va scriu. O zi buna va doresc\nMesaj tr...\"\n2026-11-22 12:49:22,501 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:49:22,501 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 12:49:41,806 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 12:49:41,807 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 12:49:41,807 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 12:49:41,807 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 12:49:46,104 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-22 12:49:46,105 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-22 12:49:46,105 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24794: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-22 12:59:55,422 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:59:55,611 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 1\n2026-11-22 12:59:55,670 [INFO] 🧠 Mesaj NOU #24794 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Multumesc, voi ajunge in jur de ora 17.00, daca am intrebari va scriu. O zi buna va doresc\nMesaj tr...\"\n2026-11-22 12:59:55,671 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:59:55,671 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:00:13,235 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:00:13,772 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Hi Razvan! Thank you for letting us know. Arriving around 5:00 PM (17:00) is completely fine, as check-in is flexible anytime after 3:00 PM via self check-in. You will automatically receive all the detailed access instructions and keybox details 1 day before your check-in date. Wishing you a great day ahead, and please don't hesitate to reach out if you have any questions!\"\n2026-11-22 13:10:23,406 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:10:23,644 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-22 13:20:24",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
