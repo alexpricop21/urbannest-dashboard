@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:01:26",
+  "updated_at": "14:11:39",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 16,
     "time_saved_str": "33 min",
     "actions_today": 11,
-    "last_check": "14:01"
+    "last_check": "14:11"
   },
   "core_agents": [
     {
@@ -225,6 +225,13 @@
   ],
   "feed": [
     {
+      "time": "14:01",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 14:01:38,343 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "13:51",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -272,17 +279,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-22 13:20:32,853 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "13:10",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 13:10:23,644 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-22 12:59:55,670 [INFO] 🧠 Mesaj NOU #24794 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Multumesc, voi ajunge in jur de ora 17.00, daca am intrebari va scriu. O zi buna va doresc\nMesaj tr...\"\n2026-11-22 12:59:55,671 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:59:55,671 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:00:13,235 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:00:13,772 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Hi Razvan! Thank you for letting us know. Arriving around 5:00 PM (17:00) is completely fine, as check-in is flexible anytime after 3:00 PM via self check-in. You will automatically receive all the detailed access instructions and keybox details 1 day before your check-in date. Wishing you a great day ahead, and please don't hesitate to reach out if you have any questions!\"\n2026-11-22 13:10:23,406 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:10:23,644 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 0\n2026-11-22 13:20:32,659 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:20:32,853 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1\n2026-11-22 13:20:32,894 [INFO] 🧠 Mesaj NOU #24797 (1 lipite) de la Boaz Shoshan (Old Town Tonitza 11 B): \"Hello Denisa & Alex,\nCan I check in early today? No worries if not!\nAll the best,\nBoaz...\"\n2026-11-22 13:20:32,894 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 13:20:32,895 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:20:45,905 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:20:46,435 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Boaz Shoshan (Old Town Tonitza 11 B)]: \"Hello Boaz,\nThank you for reaching out! Standard check-in starts at 3:00 PM (15:00). We will do our best to be ready before 3:00 PM (15:00), and we will let you know as soon as the cleaning team finishes preparing the apartment.\nIf you arrive after 11:00 AM and would like to drop off your luggage early, you are welcome to leave your bags inside the apartment. Please make sure to place the key right back into the lockbox immediately so our cleaners can enter and finish cleaning.\nExact check-in instructions are sent automatically. We will update you as soon as the apartment is ready!\nBest regards,\nAlex & Denisa\"\n2026-11-22 13:20:47,096 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-22 13:30:57,103 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:30:57,264 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1\n2026-11-22 13:30:57,299 [INFO] 🧠 Mesaj NOU #24799 (1 lipite) de la Boaz Shoshan (Old Town Tonitza 11 B): \"Righto, thank you!...\"\n2026-11-22 13:30:57,299 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 13:30:57,299 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:31:04,725 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:31:05,298 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Boaz Shoshan (Old Town Tonitza 11 B)]: \"You're very welcome, Boaz! 😊 We will let you know as soon as the apartment is ready for you. Have a great day!\"\n2026-11-22 13:41:14,525 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:41:14,686 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-22 13:51:23,808 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:51:24,029 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-22 14:01:26",
+  "raw_logs": "2026-11-22 12:59:55,671 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:59:55,671 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:00:13,235 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:00:13,772 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Hi Razvan! Thank you for letting us know. Arriving around 5:00 PM (17:00) is completely fine, as check-in is flexible anytime after 3:00 PM via self check-in. You will automatically receive all the detailed access instructions and keybox details 1 day before your check-in date. Wishing you a great day ahead, and please don't hesitate to reach out if you have any questions!\"\n2026-11-22 13:10:23,406 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:10:23,644 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 0\n2026-11-22 13:20:32,659 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:20:32,853 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1\n2026-11-22 13:20:32,894 [INFO] 🧠 Mesaj NOU #24797 (1 lipite) de la Boaz Shoshan (Old Town Tonitza 11 B): \"Hello Denisa & Alex,\nCan I check in early today? No worries if not!\nAll the best,\nBoaz...\"\n2026-11-22 13:20:32,894 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 13:20:32,895 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:20:45,905 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:20:46,435 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Boaz Shoshan (Old Town Tonitza 11 B)]: \"Hello Boaz,\nThank you for reaching out! Standard check-in starts at 3:00 PM (15:00). We will do our best to be ready before 3:00 PM (15:00), and we will let you know as soon as the cleaning team finishes preparing the apartment.\nIf you arrive after 11:00 AM and would like to drop off your luggage early, you are welcome to leave your bags inside the apartment. Please make sure to place the key right back into the lockbox immediately so our cleaners can enter and finish cleaning.\nExact check-in instructions are sent automatically. We will update you as soon as the apartment is ready!\nBest regards,\nAlex & Denisa\"\n2026-11-22 13:20:47,096 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-22 13:30:57,103 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:30:57,264 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1\n2026-11-22 13:30:57,299 [INFO] 🧠 Mesaj NOU #24799 (1 lipite) de la Boaz Shoshan (Old Town Tonitza 11 B): \"Righto, thank you!...\"\n2026-11-22 13:30:57,299 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 13:30:57,299 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 13:31:04,725 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 13:31:05,298 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Boaz Shoshan (Old Town Tonitza 11 B)]: \"You're very welcome, Boaz! 😊 We will let you know as soon as the apartment is ready for you. Have a great day!\"\n2026-11-22 13:41:14,525 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:41:14,686 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-22 13:51:23,808 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 13:51:24,029 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-22 14:01:38,148 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 14:01:38,343 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-22 14:11:39",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
