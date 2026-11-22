@@ -1,11 +1,11 @@
 {
-  "updated_at": "11:27:18",
+  "updated_at": "11:37:33",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
-    "time_saved_str": "12 min",
-    "actions_today": 4,
-    "last_check": "11:27"
+    "time_saved_str": "15 min",
+    "actions_today": 5,
+    "last_check": "11:37"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "3 răspunsuri azi",
+      "worked_today": "4 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "4 mesaje"
+      "metric_value": "5 mesaje"
     },
     {
       "id": "clean",
@@ -73,6 +73,20 @@
       "urgente_mesaje": [
         "[01:22] Oaspete (Sila Duman): Hi! 😊\n\nWe’re really looking forward to our stay!\n\nWe’ll be travelling from Istanbul to Bucharest by bus, which takes around 12 hours, and we’re expected to arrive at approximately 6:00 AM. Since it will be quite a long journey, I wanted to ask if there might be any possibility of an early check-in, even just a few hours before the regular check-in time. It would be really helpful for us to get some rest after the journey.\n\nAlso, since we’ll be visiting in December, could you please tell us a little about the heating system? Is the apartment sufficiently warm throughout the day and night?\n\nOne last thing: I’ll be travelling with my younger sibling, who is 15 years old. I have a signed document in Turkish regarding our travel together. Based on your experience, do you think it would be necessary to have this document translated into English or Romanian? We’d really appreciate your advice on this, as we want to make sure we have everything prepared for our trip.\n\nThank you so much for your help! Looking forward to staying at your place! 😊",
         "[01:31] Oaspete (Sila Duman): Thank you so much for your detailed response and for taking the time to answer all my questions! We really appreciate your help and kindness. It’s great to know that the apartment will be warm and comfortable during our stay. We’ll also make sure to have the necessary documents prepared for our trip.\n\nWe’re looking forward to visiting Bucharest and staying at your place! See you soon! 😊"
+      ]
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "11:18",
+      "status": "working",
+      "guest": "Marilena Gianina Birsan",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[11:18] Oaspete (Marilena Gianina Birsan): Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\n Mesaj tradus: Sure, if anything comes up, I'll get in touch with you. Thanks again, and have a great day 🤗"
       ]
     },
     {
@@ -148,18 +162,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "11:07",
-      "status": "working",
-      "guest": "Marilena Gianina Birsan",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Old Town Ghica 1",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -222,6 +224,20 @@
   ],
   "feed": [
     {
+      "time": "11:27",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 11:27:31,843 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are v",
+      "type": "success"
+    },
+    {
+      "time": "11:27",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 11:27:27,937 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "11:17",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -262,24 +278,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "10:36",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 10:36:11,381 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "10:26",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 10:26:01,537 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "Thank you so much for your kind words! We are delighted to hear that you had a wonderful stay and enjoyed your time at the apartment.\nRegarding the city tax payment link, since your reservation is through Airbnb, we will request/send the payment link directly through the Airbnb platform (Resolution Center) so you can easily complete it right inside the Airbnb app.\nPlease make sure to place the keys back inside the lockbox and scramble the code upon your departure.\nSafe travels, and we hope to welcome you back to Bucharest in the future!\"\n2026-11-22 09:35:11,605 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-22 09:45:21,494 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:45:21,708 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:55:32,039 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:55:32,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:05:41,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:05:41,973 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:15:51,581 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:15:51,807 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:26:01,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:26:01,537 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:36:11,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:36:11,381 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:46:21,528 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:56:35,236 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:56:35,446 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:06:45,247 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:06:45,499 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:16:55,412 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:16:55,637 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:16:55,678 [INFO] 🧠 Mesaj NOU #24782 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună ziua, mulțumesc 🤗\nMesaj tradus: Hello, thank you 🤗...\"\n2026-11-22 11:16:55,679 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:16:55,679 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,003 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 11:17:15,003 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 11:17:15,003 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:17:15,003 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:17:16,399 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 If you need anything else before your arrival or during your stay, please don't hesitate to ask. Safe travels to Bucharest! 🚗✨\"",
-  "last_cloud_sync": "2026-11-22 11:27:18",
+  "raw_logs": "2026-11-22 09:55:32,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:05:41,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:05:41,973 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:15:51,581 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:15:51,807 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:26:01,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:26:01,537 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:36:11,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:36:11,381 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:46:21,528 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:56:35,236 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:56:35,446 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:06:45,247 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:06:45,499 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:16:55,412 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:16:55,637 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:16:55,678 [INFO] 🧠 Mesaj NOU #24782 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună ziua, mulțumesc 🤗\nMesaj tradus: Hello, thank you 🤗...\"\n2026-11-22 11:16:55,679 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:16:55,679 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,003 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 11:17:15,003 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 11:17:15,003 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:17:15,003 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:17:16,399 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 If you need anything else before your arrival or during your stay, please don't hesitate to ask. Safe travels to Bucharest! 🚗✨\"\n2026-11-22 11:27:27,668 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:27:27,937 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:27:27,985 [INFO] 🧠 Mesaj NOU #24784 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\nMesaj tradus...\"\n2026-11-22 11:27:27,986 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:27:27,986 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:27:31,274 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:27:31,843 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! Have a wonderful day ahead, and we look forward to hosting you! 🤗✨\"",
+  "last_cloud_sync": "2026-11-22 11:37:33",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
