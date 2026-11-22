@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:46:12",
+  "updated_at": "10:56:23",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
     "time_saved_str": "12 min",
     "actions_today": 4,
-    "last_check": "10:46"
+    "last_check": "10:56"
   },
   "core_agents": [
     {
@@ -222,6 +222,13 @@
   ],
   "feed": [
     {
+      "time": "10:46",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "10:36",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -269,17 +276,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-22 09:35:11,605 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "09:35",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-22 09:35:11,115 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Daniel Donatz (Biserica Amzei 27)]: \"Hi Daniel,",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-22 08:44:10,253 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 08:44:10,508 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 08:54:20,258 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 08:54:20,501 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:04:29,966 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:04:30,201 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:14:39,937 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:14:40,187 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:24:51,404 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:24:51,654 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:35:01,370 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:35:01,561 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 09:35:01,603 [INFO] 🧠 Mesaj NOU #24772 (1 lipite) de la Daniel Donatz (Biserica Amzei 27): \"Hi Denisa and Alex,\nWe are leaving the appartment now. Sorry for the late message, did not check th...\"\n2026-11-22 09:35:01,603 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 09:35:01,604 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 09:35:10,544 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 09:35:11,115 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Daniel Donatz (Biserica Amzei 27)]: \"Hi Daniel,\nThank you so much for your kind words! We are delighted to hear that you had a wonderful stay and enjoyed your time at the apartment.\nRegarding the city tax payment link, since your reservation is through Airbnb, we will request/send the payment link directly through the Airbnb platform (Resolution Center) so you can easily complete it right inside the Airbnb app.\nPlease make sure to place the keys back inside the lockbox and scramble the code upon your departure.\nSafe travels, and we hope to welcome you back to Bucharest in the future!\"\n2026-11-22 09:35:11,605 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-22 09:45:21,494 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:45:21,708 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:55:32,039 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:55:32,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:05:41,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:05:41,973 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:15:51,581 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:15:51,807 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:26:01,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:26:01,537 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:36:11,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:36:11,381 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-22 10:46:12",
+  "raw_logs": "2026-11-22 08:54:20,258 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 08:54:20,501 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:04:29,966 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:04:30,201 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:14:39,937 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:14:40,187 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:24:51,404 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:24:51,654 [INFO] 📊 Conversatii verificate: 65 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:35:01,370 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:35:01,561 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 09:35:01,603 [INFO] 🧠 Mesaj NOU #24772 (1 lipite) de la Daniel Donatz (Biserica Amzei 27): \"Hi Denisa and Alex,\nWe are leaving the appartment now. Sorry for the late message, did not check th...\"\n2026-11-22 09:35:01,603 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 09:35:01,604 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 09:35:10,544 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 09:35:11,115 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Daniel Donatz (Biserica Amzei 27)]: \"Hi Daniel,\nThank you so much for your kind words! We are delighted to hear that you had a wonderful stay and enjoyed your time at the apartment.\nRegarding the city tax payment link, since your reservation is through Airbnb, we will request/send the payment link directly through the Airbnb platform (Resolution Center) so you can easily complete it right inside the Airbnb app.\nPlease make sure to place the keys back inside the lockbox and scramble the code upon your departure.\nSafe travels, and we hope to welcome you back to Bucharest in the future!\"\n2026-11-22 09:35:11,605 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-22 09:45:21,494 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:45:21,708 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 09:55:32,039 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 09:55:32,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:05:41,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:05:41,973 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:15:51,581 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:15:51,807 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:26:01,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:26:01,537 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:36:11,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:36:11,381 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:46:21,528 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-22 10:56:23",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
