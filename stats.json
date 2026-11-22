@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:49:13",
+  "updated_at": "12:59:47",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
     "time_saved_str": "24 min",
     "actions_today": 8,
-    "last_check": "12:49"
+    "last_check": "12:59"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "7 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "7 mesaje"
+      "metric_value": "8 mesaje"
     },
     {
       "id": "clean",
@@ -131,9 +131,9 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "12:39",
+      "status": "working",
       "guest": "Razvan Prata (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
@@ -225,6 +225,27 @@
   ],
   "feed": [
     {
+      "time": "12:49",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 12:49:46,105 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "type": "success"
+    },
+    {
+      "time": "12:49",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 12:49:41,807 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "12:49",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 12:49:22,455 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "12:39",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -258,31 +279,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-22 11:58:32,507 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "11:48",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-22 11:48:22,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are v",
-      "type": "success"
-    },
-    {
-      "time": "11:48",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 11:48:13,724 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "11:38",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-22 11:38:03,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Mar",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-22 11:27:27,985 [INFO] 🧠 Mesaj NOU #24784 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\nMesaj tradus...\"\n2026-11-22 11:27:27,986 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:27:27,986 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:27:31,274 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:27:31,843 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! Have a wonderful day ahead, and we look forward to hosting you! 🤗✨\"\n2026-11-22 11:37:41,612 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:37:41,801 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:37:41,839 [INFO] 🧠 Mesaj NOU #24787 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Am o intrebare: m-am uitat pe google maps si am observat ca sunt masini parcate/locuri de parcare (p...\"\n2026-11-22 11:37:41,840 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:37:41,840 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:38:01,445 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 11:38:01,446 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 11:38:01,446 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:38:01,446 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:38:02,880 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:38:03,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Marilena! 🤗 Regarding street parking on Str. Carada or Str. Doamnei, most available spots in the immediate historical pedestrian center are public city parking spaces (managed by the municipality / parking meters) or sometimes reserved for local institutions. If you find an empty marked public parking space on the surrounding streets, you can park there, but please make sure to check the local parking signs or payment meters (such as the municipal Blue/Yellow lines or apps like AmParcat) to pay the standard city parking fee and avoid any fines. Safe travels, and let us know if you need anything else! 🚗✨\"\n2026-11-22 11:48:13,503 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:48:13,724 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:48:13,772 [INFO] 🧠 Mesaj NOU #24789 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Am înțeles, mulțumesc 🤗\nMesaj tradus: Got it, thanks 🤗...\"\n2026-11-22 11:48:13,773 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:48:13,773 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:48:21,884 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:48:22,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 Have a wonderful day ahead, and we look forward to hosting you soon! Safe travels! 🚗✨\"\n2026-11-22 11:58:32,286 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:58:32,507 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:08:42,015 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:08:42,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:18:51,920 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:18:52,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:29:01,959 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:29:02,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:39:11,971 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:39:12,222 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-22 12:49:13",
+  "raw_logs": "2026-11-22 11:38:01,446 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:38:01,446 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:38:02,880 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:38:03,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Marilena! 🤗 Regarding street parking on Str. Carada or Str. Doamnei, most available spots in the immediate historical pedestrian center are public city parking spaces (managed by the municipality / parking meters) or sometimes reserved for local institutions. If you find an empty marked public parking space on the surrounding streets, you can park there, but please make sure to check the local parking signs or payment meters (such as the municipal Blue/Yellow lines or apps like AmParcat) to pay the standard city parking fee and avoid any fines. Safe travels, and let us know if you need anything else! 🚗✨\"\n2026-11-22 11:48:13,503 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:48:13,724 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:48:13,772 [INFO] 🧠 Mesaj NOU #24789 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Am înțeles, mulțumesc 🤗\nMesaj tradus: Got it, thanks 🤗...\"\n2026-11-22 11:48:13,773 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:48:13,773 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:48:21,884 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:48:22,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 Have a wonderful day ahead, and we look forward to hosting you soon! Safe travels! 🚗✨\"\n2026-11-22 11:58:32,286 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:58:32,507 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:08:42,015 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:08:42,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:18:51,920 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:18:52,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:29:01,959 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:29:02,133 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:39:11,971 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:39:12,222 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 12:49:22,252 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 12:49:22,455 [INFO] 📊 Conversatii verificate: 67 | Rezervari cu mesaje NOI: 1\n2026-11-22 12:49:22,500 [INFO] 🧠 Mesaj NOU #24794 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Multumesc, voi ajunge in jur de ora 17.00, daca am intrebari va scriu. O zi buna va doresc\nMesaj tr...\"\n2026-11-22 12:49:22,501 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 12:49:22,501 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 12:49:41,806 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 12:49:41,807 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 12:49:41,807 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 12:49:41,807 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 12:49:46,104 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-22 12:49:46,105 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-22 12:49:46,105 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #24794: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "last_cloud_sync": "2026-11-22 12:59:47",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
