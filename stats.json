@@ -1,11 +1,11 @@
 {
-  "updated_at": "11:37:33",
+  "updated_at": "11:48:04",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
-    "time_saved_str": "15 min",
-    "actions_today": 5,
-    "last_check": "11:37"
+    "time_saved_str": "18 min",
+    "actions_today": 6,
+    "last_check": "11:48"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "4 răspunsuri azi",
+      "worked_today": "5 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "5 mesaje"
+      "metric_value": "6 mesaje"
     },
     {
       "id": "clean",
@@ -77,16 +77,17 @@
     },
     {
       "name": "Old Town Carada 5",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "11:18",
+      "last_time": "11:30",
       "status": "working",
       "guest": "Marilena Gianina Birsan",
       "urgenta_azi": true,
       "urgente_mesaje": [
-        "[11:18] Oaspete (Marilena Gianina Birsan): Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\n Mesaj tradus: Sure, if anything comes up, I'll get in touch with you. Thanks again, and have a great day 🤗"
+        "[11:18] Oaspete (Marilena Gianina Birsan): Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\n Mesaj tradus: Sure, if anything comes up, I'll get in touch with you. Thanks again, and have a great day 🤗",
+        "[11:30] Oaspete (Marilena Gianina Birsan): Am o intrebare: m-am uitat pe google maps si am observat ca sunt masini parcate/locuri de parcare (presupun) chiar pe str. Carada sau pe str. Doamnei. Credeti ca este vreo plroblema daca voi aprca in zona, in cazul in care gasesc locuri libere sau acestea apartin unor institutii si sunt rezervate?\n Mesaj tradus: I have a question: I looked on Google Maps and noticed that there are parked cars/parking spots (I assume) right on Str. Carada or on str. Doamnei Street. Do you think there would be any problem if I park in the area, if I find available spots, or do they belong to institutions and are reserved?"
       ]
     },
     {
@@ -224,6 +225,27 @@
   ],
   "feed": [
     {
+      "time": "11:38",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 11:38:03,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Mar",
+      "type": "success"
+    },
+    {
+      "time": "11:38",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-22 11:38:01,446 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "11:37",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-22 11:37:41,801 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "11:27",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -257,31 +279,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-22 11:16:55,637 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "11:06",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 11:06:45,499 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "10:56",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 10:56:35,446 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "10:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-22 09:55:32,236 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:05:41,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:05:41,973 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:15:51,581 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:15:51,807 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:26:01,353 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:26:01,537 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:36:11,191 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:36:11,381 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:46:21,528 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:46:21,752 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 10:56:35,236 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:56:35,446 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:06:45,247 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:06:45,499 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:16:55,412 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:16:55,637 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:16:55,678 [INFO] 🧠 Mesaj NOU #24782 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună ziua, mulțumesc 🤗\nMesaj tradus: Hello, thank you 🤗...\"\n2026-11-22 11:16:55,679 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:16:55,679 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,003 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 11:17:15,003 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 11:17:15,003 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:17:15,003 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:17:16,399 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 If you need anything else before your arrival or during your stay, please don't hesitate to ask. Safe travels to Bucharest! 🚗✨\"\n2026-11-22 11:27:27,668 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:27:27,937 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:27:27,985 [INFO] 🧠 Mesaj NOU #24784 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\nMesaj tradus...\"\n2026-11-22 11:27:27,986 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:27:27,986 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:27:31,274 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:27:31,843 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! Have a wonderful day ahead, and we look forward to hosting you! 🤗✨\"",
-  "last_cloud_sync": "2026-11-22 11:37:33",
+  "raw_logs": "2026-11-22 10:56:35,236 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 10:56:35,446 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:06:45,247 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:06:45,499 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 0\n2026-11-22 11:16:55,412 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:16:55,637 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:16:55,678 [INFO] 🧠 Mesaj NOU #24782 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună ziua, mulțumesc 🤗\nMesaj tradus: Hello, thank you 🤗...\"\n2026-11-22 11:16:55,679 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:16:55,679 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,003 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 11:17:15,003 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 11:17:15,003 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:17:15,003 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:17:15,799 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:17:16,399 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! 🤗 If you need anything else before your arrival or during your stay, please don't hesitate to ask. Safe travels to Bucharest! 🚗✨\"\n2026-11-22 11:27:27,668 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:27:27,937 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:27:27,985 [INFO] 🧠 Mesaj NOU #24784 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Sigur, în cazul în care apare ceva, vă contactez. Mulțumesc încă o dată, zi frumoasă 🤗\nMesaj tradus...\"\n2026-11-22 11:27:27,986 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:27:27,986 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:27:31,274 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:27:31,843 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"You are very welcome, Marilena! Have a wonderful day ahead, and we look forward to hosting you! 🤗✨\"\n2026-11-22 11:37:41,612 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-22 11:37:41,801 [INFO] 📊 Conversatii verificate: 66 | Rezervari cu mesaje NOI: 1\n2026-11-22 11:37:41,839 [INFO] 🧠 Mesaj NOU #24787 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Am o intrebare: m-am uitat pe google maps si am observat ca sunt masini parcate/locuri de parcare (p...\"\n2026-11-22 11:37:41,840 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-22 11:37:41,840 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:38:01,445 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-22 11:38:01,446 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-22 11:38:01,446 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-22 11:38:01,446 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-22 11:38:02,880 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-22 11:38:03,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Marilena! 🤗 Regarding street parking on Str. Carada or Str. Doamnei, most available spots in the immediate historical pedestrian center are public city parking spaces (managed by the municipality / parking meters) or sometimes reserved for local institutions. If you find an empty marked public parking space on the surrounding streets, you can park there, but please make sure to check the local parking signs or payment meters (such as the municipal Blue/Yellow lines or apps like AmParcat) to pay the standard city parking fee and avoid any fines. Safe travels, and let us know if you need anything else! 🚗✨\"",
+  "last_cloud_sync": "2026-11-22 11:48:04",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
