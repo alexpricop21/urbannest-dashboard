@@ -709,6 +709,39 @@
         @media (max-width: 760px) {
             .kpi-hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
         }
+    
+        /* Buton Cast către Google Nest Hub */
+        #btnCastHub {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: rgba(56, 189, 248, 0.16);
+            border: 1px solid rgba(56, 189, 248, 0.45);
+            color: #7dd3fc;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s ease, transform 0.15s ease;
+            white-space: nowrap;
+            z-index: 1000;
+        }
+        #btnCastHub:hover {
+            background: rgba(56, 189, 248, 0.3);
+            transform: translateY(-1px);
+        }
+        #btnCastHub.floating-hub-btn {
+            position: fixed;
+            bottom: 18px;
+            right: 18px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+            background: #0f172a;
+        }
+        body.hub-mode #btnCastHub {
+            display: none !important;
+        }
+
     </style>
 </head>
 <body>
@@ -1547,5 +1580,37 @@
         </div>
     </div>
 
+<script>
+
+        function initCastHubButton() {
+            if (document.getElementById('btnCastHub') || window.location.search.includes('hub=1')) return;
+
+            const btn = document.createElement('button');
+            btn.id = 'btnCastHub';
+            btn.innerHTML = '📺 Trimite pe Hub';
+            btn.title = 'Trimite Dashboard-ul pe GoogleHubLivingroom';
+            btn.onclick = async () => {
+                btn.innerHTML = '⏳ Trimit...';
+                try {
+                    const res = await fetch('http://127.0.0.1:8095/api/cast-hub');
+                    btn.innerHTML = res.ok ? '✅ Trimis pe Hub!' : '❌ Eroare';
+                } catch (e) {
+                    btn.innerHTML = '⚠️ Pornește server.py';
+                }
+                setTimeout(() => { btn.innerHTML = '📺 Trimite pe Hub'; }, 3000);
+            };
+
+            const hdr = document.querySelector('header, .header, .top-bar, nav');
+            if (hdr) {
+                hdr.appendChild(btn);
+            } else {
+                btn.classList.add('floating-hub-btn');
+                document.body.appendChild(btn);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initCastHubButton);
+        setTimeout(initCastHubButton, 500);
+
+</script>
 </body>
 </html>
