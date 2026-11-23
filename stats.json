@@ -1,11 +1,11 @@
 {
-  "updated_at": "18:25:11",
+  "updated_at": "18:35:25",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
-    "time_saved_str": "1h 9m",
-    "actions_today": 23,
-    "last_check": "18:25"
+    "time_saved_str": "1h 18m",
+    "actions_today": 26,
+    "last_check": "18:35"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "21 răspunsuri azi",
+      "worked_today": "23 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "36 mesaje"
+      "metric_value": "39 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "2 update-uri azi",
+      "worked_today": "3 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "5 alerte azi",
+      "worked_today": "6 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -88,6 +88,20 @@
       "urgente_mesaje": [
         "[16:02] Oaspete (Rares Stinga): Dar cablul tv nu funcționează?\n Mesaj tradus: But the cable TV is not working?",
         "[17:55] Oaspete (Rares Stinga): Si nici radiatorul de caldura nu funcționează \n Mesaj tradus: And the heater is not working either."
+      ]
+    },
+    {
+      "name": "Magheru 29B 2BR",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "16:12",
+      "status": "working",
+      "guest": "Антон Ступак (Check-in azi)",
+      "urgenta_azi": true,
+      "urgente_mesaje": [
+        "[07:53] Oaspete (Carla Magaud): Je ne suis plus dans l’appartement depuis le 12 novembre \n Mesaj tradus: I haven't been in the apartment since November 12th."
       ]
     },
     {
@@ -131,6 +145,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Carada 5",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
+      "last_time": "18:25",
+      "status": "working",
+      "guest": "Marilena Gianina Birsan (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Biserica Amzei 27",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -139,30 +165,6 @@
       "last_time": "08:25",
       "status": "working",
       "guest": "Eduard-Constantin Neagovici-Negrila",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29B 2BR",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "16:12",
-      "status": "working",
-      "guest": "Антон Ступак (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Carada 5",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "18:05",
-      "status": "working",
-      "guest": "Marilena Gianina Birsan (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -179,6 +181,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Magheru 29C 2BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "07:04",
+      "status": "working",
+      "guest": "Daniel Cirstea (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Kogalniceanu 9 1BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -187,18 +201,6 @@
       "last_time": "Azi",
       "status": "standby",
       "guest": "Fără urgențe",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29C 2BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Daniel Cirstea (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -229,64 +231,64 @@
   ],
   "feed": [
     {
+      "time": "18:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 18:25:24,446 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "18:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 18:25:24,330 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Good even",
+      "type": "success"
+    },
+    {
+      "time": "18:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 18:25:20,303 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "type": "success"
+    },
+    {
+      "time": "18:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 18:25:18,826 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_25033",
+      "type": "success"
+    },
+    {
+      "time": "18:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 18:25:18,714 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "type": "success"
+    },
+    {
+      "time": "18:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 18:25:16,384 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "type": "success"
+    },
+    {
+      "time": "18:25",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-23 18:25:15,827 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "18:15",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-23 18:15:10,412 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
       "type": "success"
-    },
-    {
-      "time": "18:15",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:15:09,464 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
-    },
-    {
-      "time": "18:14",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:14:50,245 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
-    },
-    {
-      "time": "18:14",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:14:35,774 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
-      "type": "success"
-    },
-    {
-      "time": "18:14",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-23 18:14:35,184 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
-    },
-    {
-      "time": "18:04",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:04:29,062 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
-    },
-    {
-      "time": "18:04",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:04:20,117 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
-      "type": "success"
-    },
-    {
-      "time": "18:04",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-23 18:04:19,529 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-23 18:04:19,529 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-23 18:04:19,559 [INFO] 🧠 Mesaj NOU #25031 (5 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Probabil | Priza funcționează\nMesaj tradus: The outlet is working | Si nu are buton de on off | Ga...\"\n2026-11-23 18:04:19,559 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:04:19,560 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:04:20,116 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:04:20,117 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:04:20,117 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:04:20,117 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:04:29,061 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:04:29,062 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:04:29,062 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25031: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 18:14:34,977 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 18:14:35,184 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-23 18:14:35,213 [INFO] 🧠 Mesaj NOU #25033 (6 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Probabil | Priza funcționează\nMesaj tradus: The outlet is working | Si nu are buton de on off | Ga...\"\n2026-11-23 18:14:35,214 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:14:35,214 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:14:35,774 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:14:35,774 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:14:35,774 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:14:35,775 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:14:50,244 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:14:50,245 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:14:50,245 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 18:14:50,246 [INFO] 🧠 Mesaj NOU #25032 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună seara, vom pleca mâine dimineață, în jur de ora 8.00. Puteți solicita plata pt taxa de oraș, su...\"\n2026-11-23 18:14:50,247 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:14:50,247 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:15:09,463 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-23 18:15:09,464 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-23 18:15:09,464 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:15:09,464 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:15:10,412 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:15:10,412 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:15:10,412 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25032: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-  "last_cloud_sync": "2026-11-23 18:25:11",
+  "raw_logs": "2026-11-23 18:14:50,245 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 18:14:50,246 [INFO] 🧠 Mesaj NOU #25032 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună seara, vom pleca mâine dimineață, în jur de ora 8.00. Puteți solicita plata pt taxa de oraș, su...\"\n2026-11-23 18:14:50,247 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:14:50,247 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:15:09,463 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-23 18:15:09,464 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-23 18:15:09,464 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:15:09,464 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:15:10,412 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:15:10,412 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:15:10,412 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25032: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 18:25:15,629 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 18:25:15,827 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-23 18:25:15,856 [INFO] 🧠 Mesaj NOU #25033 (6 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Probabil | Priza funcționează\nMesaj tradus: The outlet is working | Si nu are buton de on off | Ga...\"\n2026-11-23 18:25:15,857 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:25:15,857 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:25:16,384 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:25:16,384 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:25:16,384 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:25:16,384 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:25:18,713 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:25:18,714 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:25:18,714 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 18:25:18,826 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_25033\n2026-11-23 18:25:18,828 [INFO] 🧠 Mesaj NOU #25032 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Bună seara, vom pleca mâine dimineață, în jur de ora 8.00. Puteți solicita plata pt taxa de oraș, su...\"\n2026-11-23 18:25:18,828 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:25:18,829 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:25:20,303 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:25:20,303 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:25:20,303 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:25:20,303 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:25:23,777 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 18:25:24,330 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Good evening, Marilena! Thank you for letting us know. We have noted that you will be checking out tomorrow at 8:00 AM. For the city tax (10 RON per person per night for 2 guests, totaling 20 RON), we will send you the payment request link directly here through the Airbnb Resolution Center. When you leave tomorrow, please don't forget to place the keys back inside the lockbox and scramble the code. Have a wonderful rest of your evening! 🏙️✨\"\n2026-11-23 18:25:24,446 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-23 18:35:25",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
@@ -298,7 +300,8 @@
       "Eroare repetată (2x) pe msg_24385",
       "Eroare repetată (2x) pe msg_24535",
       "Eroare repetată (2x) pe msg_24827",
-      "Eroare repetată (4x) pe msg_24889"
+      "Eroare repetată (4x) pe msg_24889",
+      "Eroare repetată (2x) pe msg_25033"
     ],
     "processes": {
       "agent_mesaje": true,
