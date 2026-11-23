@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:30:55",
+  "updated_at": "14:41:02",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
     "time_saved_str": "57 min",
     "actions_today": 19,
-    "last_check": "14:30"
+    "last_check": "14:41"
   },
   "core_agents": [
     {
@@ -228,6 +228,13 @@
   ],
   "feed": [
     {
+      "time": "14:31",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-23 14:31:01,105 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "14:20",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -275,17 +282,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-23 13:20:16,311 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "13:10",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-23 13:10:10,369 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-23 12:19:17,175 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 12:19:17,209 [INFO] 🧠 Mesaj NOU #24986 (2 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Hello, it’s ok, not necessary | It wasn’t what I expected, and my plans changed, but I will manage...\"\n2026-11-23 12:19:17,210 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 12:19:17,210 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 12:19:33,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 12:19:34,001 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you for your message, Razvan. We really appreciate your understanding, and we're sorry that your stay didn't fully meet your expectations. If your plans change again or if you need anything at all during the rest of your stay, please don't hesitate to let us know. Have a great day!\"\n2026-11-23 12:29:39,256 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:29:39,431 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 12:29:39,465 [INFO] 🧠 Mesaj NOU #24989 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Thank you, all the best...\"\n2026-11-23 12:29:39,465 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 12:29:39,465 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 12:29:42,340 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 12:29:42,957 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you, Razvan! Wishing you all the best as well and safe travels ahead. Have a wonderful day! 😊\"\n2026-11-23 12:39:48,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:39:48,634 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 12:49:53,767 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:49:53,947 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:00:00,375 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:00:00,670 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:10:10,106 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:10:10,369 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:20:16,125 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:20:16,311 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:30:21,461 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:30:21,620 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:40:28,120 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:40:28,312 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:50:35,135 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:50:35,341 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:00:41,728 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:00:41,963 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:10:48,018 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:10:48,252 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:20:54,457 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:20:54,662 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-23 14:30:55",
+  "raw_logs": "2026-11-23 12:19:17,210 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 12:19:17,210 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 12:19:33,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 12:19:34,001 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you for your message, Razvan. We really appreciate your understanding, and we're sorry that your stay didn't fully meet your expectations. If your plans change again or if you need anything at all during the rest of your stay, please don't hesitate to let us know. Have a great day!\"\n2026-11-23 12:29:39,256 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:29:39,431 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 12:29:39,465 [INFO] 🧠 Mesaj NOU #24989 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Thank you, all the best...\"\n2026-11-23 12:29:39,465 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 12:29:39,465 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 12:29:42,340 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 12:29:42,957 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you, Razvan! Wishing you all the best as well and safe travels ahead. Have a wonderful day! 😊\"\n2026-11-23 12:39:48,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:39:48,634 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 12:49:53,767 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:49:53,947 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:00:00,375 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:00:00,670 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:10:10,106 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:10:10,369 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:20:16,125 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:20:16,311 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:30:21,461 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:30:21,620 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:40:28,120 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:40:28,312 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:50:35,135 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:50:35,341 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:00:41,728 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:00:41,963 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:10:48,018 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:10:48,252 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:20:54,457 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:20:54,662 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 14:31:00,902 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 14:31:01,105 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-23 14:41:02",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
