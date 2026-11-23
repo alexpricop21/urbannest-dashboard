@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:51:52",
+  "updated_at": "00:01:58",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 20,
-    "time_saved_str": "1h 57m",
-    "actions_today": 39,
-    "last_check": "23:51"
+    "conversations_monitored": 4,
+    "time_saved_str": "0 min",
+    "actions_today": 0,
+    "last_check": "00:01"
   },
   "core_agents": [
     {
@@ -14,9 +14,9 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "20 discuții azi",
+      "worked_today": "4 discuții azi",
       "metric_label": "Rezervări active azi",
-      "metric_value": "20 check-in/out"
+      "metric_value": "4 check-in/out"
     },
     {
       "id": "ai",
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "31 răspunsuri azi",
+      "worked_today": "0 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "45 mesaje"
+      "metric_value": "0 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "3 update-uri azi",
+      "worked_today": "0 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -44,7 +44,7 @@
       "role": "Acordă automat 5 stele oaspeților fără probleme la ora 20:00",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "5 recenzii azi",
+      "worked_today": "0 recenzii azi",
       "metric_label": "Total auto-review",
       "metric_value": "37 acordate"
     },
@@ -61,127 +61,115 @@
   ],
   "apartments": [
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 7,
-      "tasks_total": 7,
-      "manual_minutes": 21,
-      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
-      "last_time": "18:25",
-      "status": "working",
-      "guest": "Marilena Gianina Birsan (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Campineanu22 B",
-      "tasks_today": 6,
-      "tasks_total": 6,
-      "manual_minutes": 18,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:58",
-      "status": "working",
-      "guest": "Ayse Ozgen (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Tonitza 11 B",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "19:26",
-      "status": "working",
-      "guest": "Rares Stinga (Check-in azi)",
+      "name": "Biserica Amzei 27",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Eduard-Constantin Neagovici-Negrila (Check-out azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
     {
       "name": "Campineanu22 A",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "11:08",
-      "status": "working",
-      "guest": "Andreea Iosif (Check-in azi)",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
     {
-      "name": "Biserica Amzei 27",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:31",
-      "status": "working",
-      "guest": "Eduard-Constantin Neagovici-Negrila",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29B 2BR",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "16:12",
-      "status": "working",
-      "guest": "Антон Ступак (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:29",
-      "status": "working",
-      "guest": "Razvan Prata",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Ghica 1",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "Check-out înregistrat la ora 09:31 + Sync Tabel",
-      "last_time": "09:16",
-      "status": "working",
-      "guest": "Manuel Carvalho (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29C 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "07:04",
-      "status": "working",
-      "guest": "Daniel Cirstea (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Rigas29 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "10:07",
-      "status": "working",
-      "guest": "Mattia Romina Incorvaia (Check-in azi)",
+      "name": "Campineanu22 B",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
     {
       "name": "Kogalniceanu 9 1BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Данил Владыченко (Check-out azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29B 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29C 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Emil Rus (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Ghica 1",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Tonitza 11 B",
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
@@ -205,6 +193,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Rigas29 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Tonitza 11 A with terrace",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -212,12 +212,19 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Oleg Betivu (Check-in azi)",
+      "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "23:51",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-23 23:51:57,348 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "23:41",
       "icon": "🔄",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-23 22:41:17,062 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "22:31",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 22:31:11,545 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"Good evening, Ver",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-23 21:38:56,012 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:38:56,569 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:40:32,143 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-23 21:40:39,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:40:41,427 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:50:46,926 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:50:47,240 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:00:52,503 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:00:52,851 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:10:58,185 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:10:58,468 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:21:04,020 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:21:04,215 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:31:09,555 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:31:09,726 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1\n2026-11-23 22:31:09,816 [INFO] 🧠 Mesaj NOU #25068 (1 lipite) de la Vera Andrianova (Biserica Amzei 27): \"Good evening, Alexandru!\nI've paid the tax, thank you. Could you please write a review of my stay? ...\"\n2026-11-23 22:31:09,818 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 22:31:09,835 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 22:31:10,997 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 22:31:11,545 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"Good evening, Vera! Thank you very much for letting us know and for paying the city tax. It was an absolute pleasure hosting you! We've just left a wonderful review for you on your profile. Wishing you safe travels and all the best with your future trips! 🌟😊\"\n2026-11-23 22:41:16,866 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:41:17,062 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:51:22,201 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:51:22,394 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:01:28,438 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:01:28,641 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:11:33,839 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:11:34,031 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:21:39,640 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:21:39,854 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:31:45,782 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:31:45,997 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:41:51,559 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:41:51,791 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-23 23:51:52",
+  "raw_logs": "2026-11-23 21:40:32,143 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-23 21:40:39,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:40:41,427 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:50:46,926 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:50:47,240 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:00:52,503 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:00:52,851 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:10:58,185 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:10:58,468 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:21:04,020 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:21:04,215 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:31:09,555 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:31:09,726 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1\n2026-11-23 22:31:09,816 [INFO] 🧠 Mesaj NOU #25068 (1 lipite) de la Vera Andrianova (Biserica Amzei 27): \"Good evening, Alexandru!\nI've paid the tax, thank you. Could you please write a review of my stay? ...\"\n2026-11-23 22:31:09,818 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 22:31:09,835 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 22:31:10,997 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 22:31:11,545 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Vera Andrianova (Biserica Amzei 27)]: \"Good evening, Vera! Thank you very much for letting us know and for paying the city tax. It was an absolute pleasure hosting you! We've just left a wonderful review for you on your profile. Wishing you safe travels and all the best with your future trips! 🌟😊\"\n2026-11-23 22:41:16,866 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:41:17,062 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:51:22,201 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:51:22,394 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:01:28,438 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:01:28,641 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:11:33,839 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:11:34,031 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:21:39,640 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:21:39,854 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:31:45,782 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:31:45,997 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:41:51,559 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:41:51,791 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 23:51:57,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 23:51:57,348 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 00:01:58",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
