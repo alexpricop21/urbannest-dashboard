@@ -1,11 +1,11 @@
 {
-  "updated_at": "11:28:37",
+  "updated_at": "11:38:43",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
-    "time_saved_str": "42 min",
-    "actions_today": 14,
-    "last_check": "11:28"
+    "time_saved_str": "48 min",
+    "actions_today": 16,
+    "last_check": "11:38"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "12 răspunsuri azi",
+      "worked_today": "14 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "17 mesaje"
     },
@@ -62,11 +62,11 @@
   "apartments": [
     {
       "name": "Campineanu22 B",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "11:16",
+      "last_time": "11:18",
       "status": "working",
       "guest": "Ayse Ozgen (Check-in azi)",
       "urgenta_azi": true,
@@ -104,9 +104,9 @@
     },
     {
       "name": "Campineanu22 A",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
       "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
       "last_time": "11:08",
       "status": "working",
@@ -225,6 +225,13 @@
   ],
   "feed": [
     {
+      "time": "11:28",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-23 11:28:42,257 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "11:18",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -272,17 +279,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-23 11:07:53,783 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "10:57",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 10:57:48,350 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Антон Ступак (Magheru 29B -2BR)]: \"Hello Антон! You are ",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-23 10:27:24,983 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-23 10:37:30,205 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 10:37:30,387 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-23 10:47:35,302 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 10:47:35,489 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-23 10:57:40,575 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 10:57:40,750 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 10:57:40,781 [INFO] 🧠 Mesaj NOU #24970 (1 lipite) de la Антон Ступак (Magheru 29B -2BR): \"Hello thanks...\"\n2026-11-23 10:57:40,782 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 10:57:40,782 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 10:57:47,737 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 10:57:48,350 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Антон Ступак (Magheru 29B -2BR)]: \"Hello Антон! You are very welcome. If you have any questions before your stay, please feel free to reach out anytime. We look forward to hosting you!\"\n2026-11-23 11:07:53,563 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:07:53,783 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 11:07:53,814 [INFO] 🧠 Mesaj NOU #24972 (1 lipite) de la Mihai Ciobanu (Campineanu22 A): \"Ne-am decazat. Multumim.\nMesaj tradus: We have checked out. Thank you....\"\n2026-11-23 11:07:53,814 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 11:07:53,815 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 11:08:12,074 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 11:08:12,572 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mihai Ciobanu (Campineanu22 A)]: \"Thank you so much for staying with us, Mihai! It was a pleasure hosting you. Please make sure the keys are safely placed back inside the lockbox and the dial is scrambled. Safe travels, and we hope to welcome you back again in Bucharest!\"\n2026-11-23 11:08:12,757 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-23 11:18:18,721 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:18:18,872 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 2\n2026-11-23 11:18:18,903 [INFO] 🧠 Mesaj NOU #24974 (1 lipite) de la Mihai Ciobanu (Campineanu22 A): \"Da. Sunt puse in cutiuta. Zii buna in continuare!\nMesaj tradus: Yes. They're in the box. Have a nic...\"\n2026-11-23 11:18:18,904 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 11:18:18,904 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 11:18:26,946 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 11:18:27,470 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mihai Ciobanu (Campineanu22 A)]: \"Thank you so much for confirming, Mihai! We really appreciate it. Wishing you a wonderful rest of your day and safe travels!\"\n2026-11-23 11:18:27,567 [INFO] 🧠 Mesaj NOU #24975 (1 lipite) de la Ayse Ozgen (Campineanu22 B): \"Hello! We're here to drop off our suitcases, and we're waiting for the previous guests to leave the ...\"\n2026-11-23 11:18:27,568 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 11:18:27,568 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 11:18:35,863 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 11:18:36,696 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ayse Ozgen (Campineanu22 B)]: \"Hi Ayse! 😊 Thank you for letting us know! Please feel free to drop off your suitcases inside. Just a gentle reminder to place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment and prepare it for you. We will message you as soon as the cleaning is fully finished! Have a great afternoon in Bucharest! 🧳✨\"\n2026-11-23 11:18:36,788 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
-  "last_cloud_sync": "2026-11-23 11:28:37",
+  "raw_logs": "2026-11-23 10:37:30,387 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-23 10:47:35,302 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 10:47:35,489 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-23 10:57:40,575 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 10:57:40,750 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 10:57:40,781 [INFO] 🧠 Mesaj NOU #24970 (1 lipite) de la Антон Ступак (Magheru 29B -2BR): \"Hello thanks...\"\n2026-11-23 10:57:40,782 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 10:57:40,782 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 10:57:47,737 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 10:57:48,350 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Антон Ступак (Magheru 29B -2BR)]: \"Hello Антон! You are very welcome. If you have any questions before your stay, please feel free to reach out anytime. We look forward to hosting you!\"\n2026-11-23 11:07:53,563 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:07:53,783 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 11:07:53,814 [INFO] 🧠 Mesaj NOU #24972 (1 lipite) de la Mihai Ciobanu (Campineanu22 A): \"Ne-am decazat. Multumim.\nMesaj tradus: We have checked out. Thank you....\"\n2026-11-23 11:07:53,814 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 11:07:53,815 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 11:08:12,074 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 11:08:12,572 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mihai Ciobanu (Campineanu22 A)]: \"Thank you so much for staying with us, Mihai! It was a pleasure hosting you. Please make sure the keys are safely placed back inside the lockbox and the dial is scrambled. Safe travels, and we hope to welcome you back again in Bucharest!\"\n2026-11-23 11:08:12,757 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-23 11:18:18,721 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:18:18,872 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 2\n2026-11-23 11:18:18,903 [INFO] 🧠 Mesaj NOU #24974 (1 lipite) de la Mihai Ciobanu (Campineanu22 A): \"Da. Sunt puse in cutiuta. Zii buna in continuare!\nMesaj tradus: Yes. They're in the box. Have a nic...\"\n2026-11-23 11:18:18,904 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 11:18:18,904 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 11:18:26,946 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 11:18:27,470 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mihai Ciobanu (Campineanu22 A)]: \"Thank you so much for confirming, Mihai! We really appreciate it. Wishing you a wonderful rest of your day and safe travels!\"\n2026-11-23 11:18:27,567 [INFO] 🧠 Mesaj NOU #24975 (1 lipite) de la Ayse Ozgen (Campineanu22 B): \"Hello! We're here to drop off our suitcases, and we're waiting for the previous guests to leave the ...\"\n2026-11-23 11:18:27,568 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 11:18:27,568 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 11:18:35,863 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 11:18:36,696 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ayse Ozgen (Campineanu22 B)]: \"Hi Ayse! 😊 Thank you for letting us know! Please feel free to drop off your suitcases inside. Just a gentle reminder to place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment and prepare it for you. We will message you as soon as the cleaning is fully finished! Have a great afternoon in Bucharest! 🧳✨\"\n2026-11-23 11:18:36,788 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-23 11:28:42,073 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:28:42,257 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-23 11:38:43",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
