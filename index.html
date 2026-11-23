@@ -742,6 +742,32 @@
             display: none !important;
         }
 
+    
+        /* Buton Marchează urgența ca citită în modal */
+        #urgReadActionBar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(148, 163, 184, 0.16);
+        }
+        #btnMarkUrgencyRead {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid rgba(16, 185, 129, 0.45);
+            color: #34d399;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 12.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.15s ease, transform 0.15s ease;
+        }
+        #btnMarkUrgencyRead:hover {
+            background: rgba(16, 185, 129, 0.32);
+            transform: translateY(-1px);
+        }
+
     </style>
 </head>
 <body>
@@ -1610,6 +1636,133 @@
         }
         document.addEventListener('DOMContentLoaded', initCastHubButton);
         setTimeout(initCastHubButton, 500);
+
+</script>
+<script>
+
+        function getReadUrgencies() {
+            try {
+                return JSON.parse(localStorage.getItem('urbannest_read_urgencies') || '{}');
+            } catch (e) {
+                return {};
+            }
+        }
+
+        function markApartmentUrgencyRead(aptName, msgSignature) {
+            const map = getReadUrgencies();
+            map[aptName.trim()] = msgSignature || ('read_' + Date.now());
+            localStorage.setItem('urbannest_read_urgencies', JSON.stringify(map));
+            applyReadUrgenciesToCards();
+        }
+
+        function applyReadUrgenciesToCards() {
+            const readMap = getReadUrgencies();
+            const readApts = Object.keys(readMap);
+            if (!readApts.length) return;
+
+            // Găsim toate cardurile de apartamente care încă afișează URGENȚĂ AZI
+            const candidateCards = Array.from(document.querySelectorAll('div, article, section')).filter(el => {
+                if (el.closest('#agentErrModalOverlay') || el.closest('#urgReadActionBar')) return false;
+                const txt = el.innerText || '';
+                return txt.includes('URGENȚĂ AZI') && txt.includes('Sarcini azi:');
+            });
+            const leafCards = candidateCards.filter(c => !candidateCards.some(o => o !== c && c.contains(o)));
+
+            leafCards.forEach(card => {
+                const cardText = card.innerText || '';
+                const matchedApt = readApts.find(apt => cardText.includes(apt));
+                if (!matchedApt) return;
+
+                // Verificăm dacă există un mesaj nou necitit în datele curente; dacă e același, îl facem verde
+                if (typeof lastDashboardData !== 'undefined' && lastDashboardData && Array.isArray(lastDashboardData.apartments)) {
+                    const aptObj = lastDashboardData.apartments.find(a => (a.name || '').includes(matchedApt));
+                    if (aptObj && Array.isArray(aptObj.urgente_mesaje) && aptObj.urgente_mesaje.length > 0) {
+                        const liveSig = aptObj.urgente_mesaje.join(' | ');
+                        if (readMap[matchedApt] !== 'ALL' && !readMap[matchedApt].includes(aptObj.urgente_mesaje[0].slice(0, 30))) {
+                            // A apărut o urgență nouă ulterior — o lăsăm vizibilă
+                            return;
+                        }
+                    }
+                }
+
+                // Transformăm cardul din galben în verde (AI ACTIV AZI)
+                card.classList.remove('urgent', 'urgenta', 'warning', 'has-urgency');
+                card.style.borderColor = 'rgba(16, 185, 129, 0.35)';
+                card.style.background = 'linear-gradient(145deg, rgba(16, 185, 129, 0.10), rgba(15, 23, 42, 0.95))';
+                card.style.cursor = 'default';
+                card.onclick = null;
+
+                card.querySelectorAll('span, div, p, a, button').forEach(sub => {
+                    if (sub.children.length > 0) return;
+                    const t = (sub.innerText || '').trim();
+                    if (t === 'URGENȚĂ AZI') {
+                        sub.innerText = 'AI ACTIV AZI';
+                        sub.style.background = 'rgba(16, 185, 129, 0.16)';
+                        sub.style.borderColor = 'rgba(16, 185, 129, 0.35)';
+                        sub.style.color = '#34d399';
+                    } else if (t.includes('Click pentru a vedea mesajele de urgență')) {
+                        sub.style.display = 'none';
+                    }
+                });
+            });
+        }
+
+        function injectUrgencyModalReadButton() {
+            // Căutăm modalul deschis cu titlul "Urgențe azi — <Nume Apartament>"
+            const headers = Array.from(document.querySelectorAll('h1, h2, h3, h4, div, span')).filter(el => {
+                if (el.children.length > 2) return false;
+                const t = (el.innerText || '').trim();
+                return t.startsWith('Urgențe azi —') || t.includes('Urgențe azi —');
+            });
+
+            headers.forEach(h => {
+                const titleTxt = (h.innerText || '').trim();
+                const match = titleTxt.match(/Urgențe azi\s*[—-]\s*(.+)/);
+                if (!match) return;
+                const aptName = match[1].trim();
+
+                // Urcăm la containerul ferestrei modalului
+                let modalBox = h.parentElement;
+                for (let i = 0; i < 4 && modalBox; i++) {
+                    if (modalBox.offsetWidth > 260 && modalBox.offsetHeight > 100 && modalBox.offsetHeight < window.innerHeight * 0.85) {
+                        break;
+                    }
+                    modalBox = modalBox.parentElement;
+                }
+                if (!modalBox || modalBox.offsetParent === null) return;
+
+                let bar = modalBox.querySelector('#urgReadActionBar');
+                if (!bar) {
+                    bar = document.createElement('div');
+                    bar.id = 'urgReadActionBar';
+                    const btn = document.createElement('button');
+                    btn.id = 'btnMarkUrgencyRead';
+                    btn.innerHTML = '✓ Marchează ca citită';
+                    bar.appendChild(btn);
+                    modalBox.appendChild(bar);
+                }
+
+                const btn = bar.querySelector('#btnMarkUrgencyRead');
+                btn.onclick = () => {
+                    const msgSig = modalBox.innerText || aptName;
+                    markApartmentUrgencyRead(aptName, msgSig);
+                    // Închidem modalul simulând click pe butonul ✕ sau pe overlay
+                    const closeBtn = Array.from(modalBox.querySelectorAll('button, span, div')).find(
+                        el => el.children.length === 0 && ['✕', '×', 'X'].includes((el.innerText || '').trim())
+                    );
+                    if (closeBtn) {
+                        closeBtn.click();
+                    } else if (modalBox.parentElement) {
+                        modalBox.parentElement.style.display = 'none';
+                    }
+                };
+            });
+        }
+
+        setInterval(() => {
+            injectUrgencyModalReadButton();
+            applyReadUrgenciesToCards();
+        }, 500);
 
 </script>
 </body>
