@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:44:38",
+  "updated_at": "13:49:48",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
     "time_saved_str": "51 min",
     "actions_today": 17,
-    "last_check": "13:44"
+    "last_check": "13:49"
   },
   "core_agents": [
     {
@@ -61,49 +61,6 @@
   ],
   "apartments": [
     {
-      "name": "Campineanu22 B",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "11:38",
-      "status": "working",
-      "guest": "Ayse Ozgen (Check-in azi)",
-      "urgenta_azi": true,
-      "urgente_mesaje": [
-        "[00:26] Oaspete (Ayse Ozgen): Hi, thank you so much for the warm welcome!\n\nWe have a small question. When we made the reservation, the check-in time was shown as 13:00, which is why we booked this place. Now we see it's 15:00, and unfortunately we won't have anywhere to leave our luggage for a few hours.\n\nWould it be possible for us to come at 13:00 just to drop off our suitcases? We don't need the apartment to be ready — we'll leave right after and come back later in the evening.\n\nThank you very much for your understanding!",
-        "[11:33] Oaspete (Ayse Ozgen): Thank you! We're at the apartment now, but unfortunately there's no key in the lockbox yet🙏"
-      ]
-    },
-    {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:29",
-      "status": "working",
-      "guest": "Razvan Prata",
-      "urgenta_azi": true,
-      "urgente_mesaje": [
-        "[12:19] Oaspete (Razvan Prata): The apartment inside is ok"
-      ]
-    },
-    {
-      "name": "Rigas29 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "10:07",
-      "status": "working",
-      "guest": "Mattia Romina Incorvaia (Check-in azi)",
-      "urgenta_azi": true,
-      "urgente_mesaje": [
-        "[10:00] Oaspete (Aurora Ermini): Thanks for everything! The apartment was perfect"
-      ]
-    },
-    {
       "name": "Campineanu22 A",
       "tasks_today": 4,
       "tasks_total": 4,
@@ -116,6 +73,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Campineanu22 B",
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "11:38",
+      "status": "working",
+      "guest": "Ayse Ozgen (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Biserica Amzei 27",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -124,6 +93,18 @@
       "last_time": "08:25",
       "status": "working",
       "guest": "Eduard-Constantin Neagovici-Negrila",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "12:29",
+      "status": "working",
+      "guest": "Razvan Prata",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -160,6 +141,18 @@
       "last_time": "00:01",
       "status": "working",
       "guest": "Marilena Gianina Birsan (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Rigas29 2BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "10:07",
+      "status": "working",
+      "guest": "Mattia Romina Incorvaia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -283,7 +276,7 @@
     }
   ],
   "raw_logs": "2026-11-23 11:38:55,266 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ayse Ozgen (Campineanu22 B)]: \"Hi Ayse! 😊 That's wonderful news, thank you for updating us! Please feel free to drop off your suitcases inside. Just remember to place the key right back inside the lockbox once you leave so our cleaning team can get the apartment fresh and ready for you. We will message you as soon as cleaning is finished! Have a fantastic time exploring Bucharest! 🧳✨\"\n2026-11-23 11:49:00,437 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:49:00,626 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 11:59:06,026 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 11:59:06,207 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 12:09:11,512 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:09:11,792 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 12:19:16,985 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:19:17,175 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 12:19:17,209 [INFO] 🧠 Mesaj NOU #24986 (2 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Hello, it’s ok, not necessary | It wasn’t what I expected, and my plans changed, but I will manage...\"\n2026-11-23 12:19:17,210 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 12:19:17,210 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 12:19:33,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 12:19:34,001 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you for your message, Razvan. We really appreciate your understanding, and we're sorry that your stay didn't fully meet your expectations. If your plans change again or if you need anything at all during the rest of your stay, please don't hesitate to let us know. Have a great day!\"\n2026-11-23 12:29:39,256 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:29:39,431 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-23 12:29:39,465 [INFO] 🧠 Mesaj NOU #24989 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Thank you, all the best...\"\n2026-11-23 12:29:39,465 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 12:29:39,465 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 12:29:42,340 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 12:29:42,957 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you, Razvan! Wishing you all the best as well and safe travels ahead. Have a wonderful day! 😊\"\n2026-11-23 12:39:48,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:39:48,634 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 12:49:53,767 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 12:49:53,947 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:00:00,375 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:00:00,670 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:10:10,106 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:10:10,369 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:20:16,125 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:20:16,311 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:30:21,461 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:30:21,620 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-23 13:40:28,120 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 13:40:28,312 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-23 13:44:38",
+  "last_cloud_sync": "2026-11-23 13:49:48",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
