@@ -1,11 +1,11 @@
 {
-  "updated_at": "19:16:13",
+  "updated_at": "19:26:26",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
     "time_saved_str": "1h 21m",
     "actions_today": 27,
-    "last_check": "19:16"
+    "last_check": "19:26"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "24 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "39 mesaje"
+      "metric_value": "42 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "4 alerte azi",
+      "worked_today": "3 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -66,13 +66,14 @@
       "tasks_total": 4,
       "manual_minutes": 12,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "11:38",
+      "last_time": "19:14",
       "status": "working",
       "guest": "Ayse Ozgen (Check-in azi)",
       "urgenta_azi": true,
       "urgente_mesaje": [
         "[00:26] Oaspete (Ayse Ozgen): Hi, thank you so much for the warm welcome!\n\nWe have a small question. When we made the reservation, the check-in time was shown as 13:00, which is why we booked this place. Now we see it's 15:00, and unfortunately we won't have anywhere to leave our luggage for a few hours.\n\nWould it be possible for us to come at 13:00 just to drop off our suitcases? We don't need the apartment to be ready — we'll leave right after and come back later in the evening.\n\nThank you very much for your understanding!",
-        "[11:33] Oaspete (Ayse Ozgen): Thank you! We're at the apartment now, but unfortunately there's no key in the lockbox yet🙏"
+        "[11:33] Oaspete (Ayse Ozgen): Thank you! We're at the apartment now, but unfortunately there's no key in the lockbox yet🙏",
+        "[19:14] Oaspete (Isabela Vatavu): Buna ziua.\nOare unde pot parca in zona aparatamentului si care sunt conditiile?\n\nMultumesc.\nIsabela"
       ]
     },
     {
@@ -231,64 +232,64 @@
   ],
   "feed": [
     {
-      "time": "19:06",
+      "time": "19:16",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 19:06:12,556 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "desc": "2026-11-23 19:16:24,751 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
       "type": "success"
     },
     {
-      "time": "19:06",
+      "time": "19:16",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 19:06:11,542 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
+      "desc": "2026-11-23 19:16:24,106 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
       "type": "success"
     },
     {
-      "time": "19:06",
+      "time": "19:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 19:16:23,918 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "type": "success"
+    },
+    {
+      "time": "19:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 19:16:22,957 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "type": "success"
+    },
+    {
+      "time": "19:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 19:16:22,654 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"You're very welc",
+      "type": "success"
+    },
+    {
+      "time": "19:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 19:16:18,994 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "type": "success"
+    },
+    {
+      "time": "19:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-23 19:16:18,218 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code':",
+      "type": "success"
+    },
+    {
+      "time": "19:16",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-23 19:06:10,886 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
+      "desc": "2026-11-23 19:16:17,914 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 4",
       "type": "info"
-    },
-    {
-      "time": "18:56",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:56:05,065 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
-      "type": "success"
-    },
-    {
-      "time": "18:55",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:55:45,497 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
-      "type": "success"
-    },
-    {
-      "time": "18:55",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-23 18:55:44,862 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "18:45",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:45:39,372 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
-    },
-    {
-      "time": "18:45",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-23 18:45:38,378 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, '",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-23 18:45:37,803 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:45:37,803 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:45:38,377 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:45:38,378 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:45:38,378 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:45:38,378 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:45:39,371 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:45:39,372 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:45:39,372 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 18:55:44,675 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 18:55:44,862 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-23 18:55:44,892 [INFO] 🧠 Mesaj NOU #25033 (6 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Probabil | Priza funcționează\nMesaj tradus: The outlet is working | Si nu are buton de on off | Ga...\"\n2026-11-23 18:55:44,892 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 18:55:44,892 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:55:45,496 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 18:55:45,497 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 18:55:45,497 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 18:55:45,498 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 18:56:05,065 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-23 18:56:05,065 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-23 18:56:05,066 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-23 19:06:10,686 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 19:06:10,886 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-23 19:06:10,916 [INFO] 🧠 Mesaj NOU #25033 (6 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Probabil | Priza funcționează\nMesaj tradus: The outlet is working | Si nu are buton de on off | Ga...\"\n2026-11-23 19:06:10,917 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 19:06:10,917 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:06:11,542 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 19:06:11,542 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 19:06:11,542 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 19:06:11,543 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:06:12,555 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 19:06:12,556 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 19:06:12,556 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-  "last_cloud_sync": "2026-11-23 19:16:13",
+  "raw_logs": "2026-11-23 19:16:18,218 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 19:16:18,219 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:16:18,993 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 19:16:18,994 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 19:16:18,994 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25033: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 19:16:18,996 [INFO] 🧠 Mesaj NOU #25043 (1 lipite) de la Michelina Romano (Old Town Carada 5): \"fatto, grazie\nMesaj tradus: done, thank you...\"\n2026-11-23 19:16:18,997 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 19:16:18,997 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:16:22,046 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 19:16:22,654 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michelina Romano (Old Town Carada 5)]: \"You're very welcome, Michelina! 😊 Have a wonderful day, and please let us know if you need anything else!\"\n2026-11-23 19:16:22,761 [INFO] 🧠 Mesaj NOU #25042 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"În regulă.\nMesaj tradus: Alrighty....\"\n2026-11-23 19:16:22,762 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 19:16:22,762 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:16:22,955 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-23 19:16:22,957 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h43m37.101931744s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53017s'}]}}), incerc urmatorul...\n2026-11-23 19:16:22,957 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 19:16:22,957 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:16:23,918 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 19:16:23,918 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 19:16:23,918 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25042: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-23 19:16:23,920 [INFO] 🧠 Mesaj NOU #25044 (1 lipite) de la Isabela Vatavu (Campineanu22 B): \"Buna ziua.\nOare unde pot parca in zona aparatamentului si care sunt conditiile?\nMultumesc.\nIsabela...\"\n2026-11-23 19:16:23,920 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 19:16:23,920 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:16:24,105 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"\n2026-11-23 19:16:24,106 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 14h43m35.963252346s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53015s'}]}}), incerc urmatorul...\n2026-11-23 19:16:24,106 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 19:16:24,106 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 19:16:24,750 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-23 19:16:24,751 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-23 19:16:24,751 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25044: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "last_cloud_sync": "2026-11-23 19:26:26",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
@@ -301,7 +302,7 @@
       "Eroare repetată (2x) pe msg_24535",
       "Eroare repetată (2x) pe msg_24827",
       "Eroare repetată (4x) pe msg_24889",
-      "Eroare repetată (6x) pe msg_25033"
+      "Eroare repetată (7x) pe msg_25033"
     ],
     "processes": {
       "agent_mesaje": true,
