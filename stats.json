@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:20:59",
+  "updated_at": "22:31:05",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
     "time_saved_str": "1h 51m",
     "actions_today": 37,
-    "last_check": "22:20"
+    "last_check": "22:31"
   },
   "core_agents": [
     {
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "22:21",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-23 22:21:04,215 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "22:10",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-23 21:18:43,477 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "21:08",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-23 21:08:37,820 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-23 20:27:54,565 [INFO] 🚨 [WATCHDOG] Alertă WhatsApp trimisă către admin pentru: msg_25056\n2026-11-23 20:38:00,008 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 20:38:00,269 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1\n2026-11-23 20:38:00,298 [INFO] 🧠 Mesaj NOU #25056 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Unde gasesc linkul ca sa platesc taxa pentru oras?\nMesaj tradus: Where can I find the link to pay t...\"\n2026-11-23 20:38:00,298 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 20:38:00,299 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 20:38:20,017 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-23 20:38:20,017 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-23 20:38:20,017 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 20:38:20,018 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 20:38:20,998 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 20:38:21,561 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Marilena! For your Airbnb reservation, we will send the payment request link for the city tax directly here through the Airbnb Resolution Center. Thank you! 🏙️✨\"\n2026-11-23 20:38:21,672 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-23 20:48:26,885 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 20:48:27,128 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 20:58:32,159 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 20:58:32,425 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:08:37,555 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:08:37,820 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:18:43,302 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:18:43,477 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:28:49,457 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:28:49,654 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:38:56,012 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:38:56,569 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:40:32,143 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-23 21:40:39,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:40:41,427 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:50:46,926 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:50:47,240 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:00:52,503 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:00:52,851 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:10:58,185 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:10:58,468 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-23 22:20:59",
+  "raw_logs": "2026-11-23 20:38:00,269 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 1\n2026-11-23 20:38:00,298 [INFO] 🧠 Mesaj NOU #25056 (1 lipite) de la Marilena Gianina Birsan (Old Town Carada 5): \"Unde gasesc linkul ca sa platesc taxa pentru oras?\nMesaj tradus: Where can I find the link to pay t...\"\n2026-11-23 20:38:00,298 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-23 20:38:00,299 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 20:38:20,017 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-23 20:38:20,017 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-23 20:38:20,017 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-23 20:38:20,018 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-23 20:38:20,998 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-23 20:38:21,561 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marilena Gianina Birsan (Old Town Carada 5)]: \"Hello Marilena! For your Airbnb reservation, we will send the payment request link for the city tax directly here through the Airbnb Resolution Center. Thank you! 🏙️✨\"\n2026-11-23 20:38:21,672 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-23 20:48:26,885 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 20:48:27,128 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 20:58:32,159 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 20:58:32,425 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:08:37,555 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:08:37,820 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:18:43,302 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:18:43,477 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:28:49,457 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:28:49,654 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:38:56,012 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:38:56,569 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:40:32,143 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-23 21:40:39,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:40:41,427 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 21:50:46,926 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 21:50:47,240 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:00:52,503 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:00:52,851 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:10:58,185 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:10:58,468 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-23 22:21:04,020 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-23 22:21:04,215 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-23 22:31:05",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
