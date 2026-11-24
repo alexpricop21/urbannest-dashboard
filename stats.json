@@ -1,11 +1,11 @@
 {
-  "updated_at": "17:25:24",
+  "updated_at": "17:35:33",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 11,
-    "time_saved_str": "42 min",
-    "actions_today": 14,
-    "last_check": "17:25"
+    "time_saved_str": "48 min",
+    "actions_today": 16,
+    "last_check": "17:35"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "10 răspunsuri azi",
+      "worked_today": "12 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "14 mesaje"
     },
@@ -121,6 +121,30 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Tonitza 11 A with terrace",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "17:15",
+      "status": "working",
+      "guest": "Katie Rowlands",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Tonitza 11 B",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "17:15",
+      "status": "working",
+      "guest": "Genny Seri",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 1,
       "tasks_total": 1,
@@ -129,18 +153,6 @@
       "last_time": "16:38",
       "status": "working",
       "guest": "Gabriela Tufa",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Tonitza 11 A with terrace",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "17:10",
-      "status": "working",
-      "guest": "Katie Rowlands",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -193,18 +205,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Tonitza 11 B",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "17:00",
-      "status": "working",
-      "guest": "Genny Seri",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Rigas29 2BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -218,6 +218,13 @@
     }
   ],
   "feed": [
+    {
+      "time": "17:25",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 17:25:31,726 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "17:15",
       "icon": "💬",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-24 17:04:44,445 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
       "type": "success"
-    },
-    {
-      "time": "17:04",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 17:04:24,674 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 16:54:18,947 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-24 17:04:24,504 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 17:04:24,674 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-24 17:04:24,702 [INFO] 🧠 Mesaj NOU #25130 (1 lipite) de la Genny Seri (Old Town Tonitza 11 B): \"Buongiorno, è confermata la prenotazione si?\nMesaj tradus: Good morning. Is the reservation confirm...\"\n2026-11-24 17:04:24,702 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 17:04:24,703 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:04:44,444 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 17:04:44,445 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 17:04:44,445 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 17:04:44,445 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:04:44,630 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 17:04:44,630 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 17:04:44,630 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 17:04:44,631 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:04:44,814 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 17:04:44,815 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 17:04:44,815 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 17:04:44,815 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:05:04,226 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 17:05:04,227 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 17:05:04,227 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25130: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-24 17:15:09,904 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 17:15:10,082 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-24 17:15:10,111 [INFO] 🧠 Mesaj NOU #25132 (2 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Hi , i payed it , hope all good | I want to book for next month the appartment again and i wanted to...\"\n2026-11-24 17:15:10,112 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 17:15:10,112 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:15:12,650 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 17:15:13,200 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 👋 Thank you for confirming the city tax payment, everything is in order. 🌟 We are also absolutely thrilled to hear that you would like to book our apartment again for next month — it would be a pleasure to host you once more! Regarding an early check-in around 12:00 - 12:30, standard check-in starts at 3:00 PM (15:00), but we will certainly do our best to have the apartment ready for you earlier if possible, depending on the cleaning schedule. When you are ready to book, just let us know or send a new reservation request. Have a wonderful day! 😊\"\n2026-11-24 17:15:13,315 [INFO] 🧠 Mesaj NOU #25130 (1 lipite) de la Genny Seri (Old Town Tonitza 11 B): \"Buongiorno, è confermata la prenotazione si?\nMesaj tradus: Good morning. Is the reservation confirm...\"\n2026-11-24 17:15:13,316 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 17:15:13,316 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:15:22,659 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 17:15:23,184 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Genny Seri (Old Town Tonitza 11 B)]: \"Good morning Genny! Yes, your reservation for Old Town Tonitza 11 B (Dec 04 - Dec 07, 2026) is fully confirmed and secured. We are looking forward to hosting you in Bucharest! Let me know if you have any questions before your arrival. 🌟\"",
-  "last_cloud_sync": "2026-11-24 17:25:24",
+  "raw_logs": "2026-11-24 17:04:24,674 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-24 17:04:24,702 [INFO] 🧠 Mesaj NOU #25130 (1 lipite) de la Genny Seri (Old Town Tonitza 11 B): \"Buongiorno, è confermata la prenotazione si?\nMesaj tradus: Good morning. Is the reservation confirm...\"\n2026-11-24 17:04:24,702 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 17:04:24,703 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:04:44,444 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 17:04:44,445 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 17:04:44,445 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 17:04:44,445 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:04:44,630 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 17:04:44,630 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 17:04:44,630 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 17:04:44,631 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:04:44,814 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 17:04:44,815 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 17:04:44,815 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 17:04:44,815 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:05:04,226 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 17:05:04,227 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 17:05:04,227 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25130: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-24 17:15:09,904 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 17:15:10,082 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-24 17:15:10,111 [INFO] 🧠 Mesaj NOU #25132 (2 lipite) de la Victor Beraru (Tonitza 11 A with terrace): \"Hi , i payed it , hope all good | I want to book for next month the appartment again and i wanted to...\"\n2026-11-24 17:15:10,112 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 17:15:10,112 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:15:12,650 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 17:15:13,200 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Victor Beraru (Tonitza 11 A with terrace)]: \"Hello Victor! 👋 Thank you for confirming the city tax payment, everything is in order. 🌟 We are also absolutely thrilled to hear that you would like to book our apartment again for next month — it would be a pleasure to host you once more! Regarding an early check-in around 12:00 - 12:30, standard check-in starts at 3:00 PM (15:00), but we will certainly do our best to have the apartment ready for you earlier if possible, depending on the cleaning schedule. When you are ready to book, just let us know or send a new reservation request. Have a wonderful day! 😊\"\n2026-11-24 17:15:13,315 [INFO] 🧠 Mesaj NOU #25130 (1 lipite) de la Genny Seri (Old Town Tonitza 11 B): \"Buongiorno, è confermata la prenotazione si?\nMesaj tradus: Good morning. Is the reservation confirm...\"\n2026-11-24 17:15:13,316 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 17:15:13,316 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 17:15:22,659 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 17:15:23,184 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Genny Seri (Old Town Tonitza 11 B)]: \"Good morning Genny! Yes, your reservation for Old Town Tonitza 11 B (Dec 04 - Dec 07, 2026) is fully confirmed and secured. We are looking forward to hosting you in Bucharest! Let me know if you have any questions before your arrival. 🌟\"\n2026-11-24 17:25:31,534 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 17:25:31,726 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 17:35:33",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
