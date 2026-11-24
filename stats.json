@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:00:46",
+  "updated_at": "14:11:32",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 5,
+    "conversations_monitored": 6,
     "time_saved_str": "30 min",
     "actions_today": 10,
-    "last_check": "14:00"
+    "last_check": "14:11"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "5 discuții azi",
+      "worked_today": "6 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "6 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "6 mesaje"
+      "metric_value": "7 mesaje"
     },
     {
       "id": "clean",
@@ -219,6 +219,41 @@
   ],
   "feed": [
     {
+      "time": "14:01",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 14:01:31,322 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "14:01",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 14:01:11,926 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'me",
+      "type": "success"
+    },
+    {
+      "time": "14:01",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 14:01:11,791 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
+      "type": "success"
+    },
+    {
+      "time": "14:01",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 14:01:11,611 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
+      "type": "success"
+    },
+    {
+      "time": "14:00",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 14:00:52,137 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "13:50",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -238,45 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 13:30:33,191 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "13:20",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 13:20:27,269 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "13:10",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 13:10:19,913 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "13:00",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 13:00:14,405 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "12:50",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 12:50:08,368 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "12:50",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 12:50:08,209 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ayse Ozgen (Campineanu22 B)]: \"Hi Ayse! 😊 Thank you so m",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-24 12:39:39,440 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 12:39:39,440 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 12:39:39,440 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:39,566 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 12:39:39,568 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 12:39:39,568 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 12:39:39,568 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:39,695 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 12:39:39,696 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 12:39:39,696 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 12:39:39,697 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:59,153 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 12:39:59,153 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 12:39:59,153 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25107: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-24 12:50:04,562 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:50:04,746 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 1\n2026-11-24 12:50:04,774 [INFO] 🧠 Mesaj NOU #25107 (1 lipite) de la Ayse Ozgen (Campineanu22 B): \"Hi Denisa & Alex!\nThank you, we've really enjoyed our stay! We have an early flight tomorrow, so we...\"\n2026-11-24 12:50:04,774 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 12:50:04,775 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:50:06,168 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 12:50:08,209 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ayse Ozgen (Campineanu22 B)]: \"Hi Ayse! 😊 Thank you so much for letting us know about your check-out time at 09:30 AM tomorrow. Regarding the city tax, for Booking.com reservations the city tax (10 RON / person / night) is a local municipal tax that is collected separately and is not included in the room rate paid through the platform. Since you don't have cash, we will send you a secure online payment link shortly so you can pay easily by card! Also, please remember to place the keys back inside the lockbox and scramble the code when you leave. Safe travels! ✈️🧳\"\n2026-11-24 12:50:08,368 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 13:00:14,235 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:00:14,405 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:10:19,710 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:10:19,913 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:20:25,366 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:20:27,269 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:30:33,002 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:30:33,191 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:40:39,671 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:40:39,838 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:50:45,547 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:50:45,732 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-24 14:00:46",
+  "raw_logs": "2026-11-24 12:50:06,168 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 12:50:08,209 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ayse Ozgen (Campineanu22 B)]: \"Hi Ayse! 😊 Thank you so much for letting us know about your check-out time at 09:30 AM tomorrow. Regarding the city tax, for Booking.com reservations the city tax (10 RON / person / night) is a local municipal tax that is collected separately and is not included in the room rate paid through the platform. Since you don't have cash, we will send you a secure online payment link shortly so you can pay easily by card! Also, please remember to place the keys back inside the lockbox and scramble the code when you leave. Safe travels! ✈️🧳\"\n2026-11-24 12:50:08,368 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 13:00:14,235 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:00:14,405 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:10:19,710 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:10:19,913 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:20:25,366 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:20:27,269 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:30:33,002 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:30:33,191 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:40:39,671 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:40:39,838 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 13:50:45,547 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 13:50:45,732 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 14:00:51,949 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:00:52,137 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:00:52,173 [INFO] 🧠 Mesaj NOU #25112 (1 lipite) de la Chloe Anderson (Campineanu22 B): \"I'd like to request check-in at 20:00 - 21:00. Is this ok?...\"\n2026-11-24 14:00:52,173 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:00:52,174 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:01:11,610 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 14:01:11,611 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 14:01:11,611 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 14:01:11,611 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:01:11,790 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 14:01:11,791 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 14:01:11,791 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 14:01:11,791 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:01:11,925 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 14:01:11,926 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 14:01:11,926 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 14:01:11,926 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:01:31,321 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 14:01:31,322 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 14:01:31,322 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25112: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+  "last_cloud_sync": "2026-11-24 14:11:32",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
