@@ -1,11 +1,11 @@
 {
-  "updated_at": "19:47:54",
+  "updated_at": "19:58:00",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 12,
-    "time_saved_str": "1h 0m",
-    "actions_today": 20,
-    "last_check": "19:47"
+    "conversations_monitored": 13,
+    "time_saved_str": "1h 3m",
+    "actions_today": 21,
+    "last_check": "19:58"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "12 discuții azi",
+      "worked_today": "13 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "15 răspunsuri azi",
+      "worked_today": "16 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "17 mesaje"
+      "metric_value": "18 mesaje"
     },
     {
       "id": "clean",
@@ -85,6 +85,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Carada 5",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
+      "last_time": "08:26",
+      "status": "working",
+      "guest": "Emil Rus (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 3,
       "tasks_total": 3,
@@ -117,18 +129,6 @@
       "last_time": "08:47",
       "status": "working",
       "guest": "Данил Владыченко (Check-out azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Carada 5",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
-      "last_time": "08:26",
-      "status": "working",
-      "guest": "Emil Rus (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "19:47",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 19:47:59,370 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "19:37",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 18:47:19,897 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "18:37",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 18:37:13,918 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-24 18:27:01,034 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 18:27:01,035 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 18:27:03,858 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 18:27:04,464 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 Standard check-in starts at 3:00 PM (15:00). However, we will do our best to have the apartment ready for you before 3:00 PM, and we will let you know as soon as the cleaning team finishes! Also, if you arrive after 11:00 AM, you are welcome to drop off your luggage inside the apartment while cleaning is in progress, as long as you leave the key back in the lockbox for the cleaning team. Let me know if you need anything else!\"\n2026-11-24 18:27:04,829 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-24 18:37:11,058 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 18:37:11,262 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-24 18:37:11,299 [INFO] 🧠 Mesaj NOU #25135 (1 lipite) de la NATANAEL ANTONIO DOMINGUEZ OSORIO (Old Town Victoriei 25): \"Hello!!\nFirst of all, thank you so much for everything. The accommodation is wonderful; I’ve felt v...\"\n2026-11-24 18:37:11,300 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 18:37:11,300 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 18:37:12,712 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 18:37:13,352 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> NATANAEL ANTONIO DOMINGUEZ OSORIO (Old Town Victoriei 25)]: \"Hello Natanael!\nThank you so much for your kind words! We are thrilled to hear that you enjoyed your stay, the apartment, and the wonderful atmosphere of Bucharest. It was an absolute pleasure hosting you! 🌟\nRegarding your departure, leaving early in the morning is completely fine. As for the 30 lei, yes, you can gently leave them on the kitchen counter.\nBefore you head out, please kindly remember to place the apartment keys back inside the lockbox and scramble the code. We wish you a safe and smooth flight back home, and we look forward to welcoming you again in the future! ✈️\"\n2026-11-24 18:37:13,918 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 18:47:19,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 18:47:19,897 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 18:57:25,561 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 18:57:25,748 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-24 18:57:25,785 [INFO] 🧠 Mesaj NOU #25141 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Teşekkür ederim\nMesaj tradus: Thank you...\"\n2026-11-24 18:57:25,786 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 18:57:25,786 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 18:57:26,666 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 18:57:27,184 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"You're very welcome, Mehmet! 😊 If you need anything else before your arrival or during your stay, please don't hesitate to reach out. Have a great day!\"\n2026-11-24 19:07:33,842 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:07:34,063 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:17:39,984 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:17:40,186 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:27:45,877 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:27:46,077 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:37:52,342 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:37:52,507 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-24 19:47:54",
+  "raw_logs": "2026-11-24 18:27:03,858 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 18:27:04,464 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 Standard check-in starts at 3:00 PM (15:00). However, we will do our best to have the apartment ready for you before 3:00 PM, and we will let you know as soon as the cleaning team finishes! Also, if you arrive after 11:00 AM, you are welcome to drop off your luggage inside the apartment while cleaning is in progress, as long as you leave the key back in the lockbox for the cleaning team. Let me know if you need anything else!\"\n2026-11-24 18:27:04,829 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-24 18:37:11,058 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 18:37:11,262 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-24 18:37:11,299 [INFO] 🧠 Mesaj NOU #25135 (1 lipite) de la NATANAEL ANTONIO DOMINGUEZ OSORIO (Old Town Victoriei 25): \"Hello!!\nFirst of all, thank you so much for everything. The accommodation is wonderful; I’ve felt v...\"\n2026-11-24 18:37:11,300 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 18:37:11,300 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 18:37:12,712 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 18:37:13,352 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> NATANAEL ANTONIO DOMINGUEZ OSORIO (Old Town Victoriei 25)]: \"Hello Natanael!\nThank you so much for your kind words! We are thrilled to hear that you enjoyed your stay, the apartment, and the wonderful atmosphere of Bucharest. It was an absolute pleasure hosting you! 🌟\nRegarding your departure, leaving early in the morning is completely fine. As for the 30 lei, yes, you can gently leave them on the kitchen counter.\nBefore you head out, please kindly remember to place the apartment keys back inside the lockbox and scramble the code. We wish you a safe and smooth flight back home, and we look forward to welcoming you again in the future! ✈️\"\n2026-11-24 18:37:13,918 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 18:47:19,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 18:47:19,897 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 18:57:25,561 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 18:57:25,748 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 1\n2026-11-24 18:57:25,785 [INFO] 🧠 Mesaj NOU #25141 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Teşekkür ederim\nMesaj tradus: Thank you...\"\n2026-11-24 18:57:25,786 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 18:57:25,786 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 18:57:26,666 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 18:57:27,184 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"You're very welcome, Mehmet! 😊 If you need anything else before your arrival or during your stay, please don't hesitate to reach out. Have a great day!\"\n2026-11-24 19:07:33,842 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:07:34,063 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:17:39,984 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:17:40,186 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:27:45,877 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:27:46,077 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:37:52,342 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:37:52,507 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:47:59,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:47:59,370 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 19:58:00",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
