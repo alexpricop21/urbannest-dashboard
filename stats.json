@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:38:14",
+  "updated_at": "10:48:21",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 4,
-    "time_saved_str": "18 min",
-    "actions_today": 6,
-    "last_check": "10:38"
+    "time_saved_str": "21 min",
+    "actions_today": 7,
+    "last_check": "10:48"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "3 răspunsuri azi",
+      "worked_today": "4 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "4 mesaje"
     },
@@ -98,11 +98,11 @@
     },
     {
       "name": "Campineanu22 A",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "10:25",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "10:28",
       "status": "working",
       "guest": "Mehmet Aydin",
       "urgenta_azi": false,
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "10:38",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 10:38:20,022 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "10:28",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 09:37:39,911 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "09:27",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 09:27:33,356 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 08:37:01,821 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 08:47:07,317 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 08:47:07,489 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1\n2026-11-24 08:47:07,529 [INFO] 🧠 Mesaj NOU #25083 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Hi, I have just left the apartment, left the key inside the box outside the door. Thank you for your...\"\n2026-11-24 08:47:07,530 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 08:47:07,530 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 08:47:08,851 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 08:47:09,413 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you so much for staying with us, Razvan! We hope you had a wonderful time in Bucharest. Safe travels ahead, and we look forward to hosting you again in the future! 😊\"\n2026-11-24 08:47:09,558 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 08:57:14,854 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 08:57:15,061 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:07:21,674 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:07:21,880 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:17:27,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:17:27,748 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:27:33,150 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:27:33,356 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:37:39,700 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:37:39,911 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:47:45,146 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:47:45,368 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:57:50,659 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:57:50,867 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:07:56,236 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:07:56,440 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:18:03,415 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:18:03,651 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:28:10,847 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:28:11,044 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 1\n2026-11-24 10:28:11,080 [INFO] 🧠 Mesaj NOU #25093 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Peki anladım evin tam konumu nerede\nMesaj tradus: Okay, I understand. Where exactly is the house lo...\"\n2026-11-24 10:28:11,080 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 10:28:11,081 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 10:28:12,414 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 10:28:12,914 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 The exact address of the apartment is Str. 33, Bucharest. Please note that the exact check-in instructions, keybox location, and access codes are sent to you automatically via a dedicated message 1 day before your arrival date (25 Nov 2026). Let me know if you have any other questions!\"",
-  "last_cloud_sync": "2026-11-24 10:38:14",
+  "raw_logs": "2026-11-24 08:47:07,489 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 1\n2026-11-24 08:47:07,529 [INFO] 🧠 Mesaj NOU #25083 (1 lipite) de la Razvan Prata (Magheru 29A -2BR): \"Hi, I have just left the apartment, left the key inside the box outside the door. Thank you for your...\"\n2026-11-24 08:47:07,530 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 08:47:07,530 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 08:47:08,851 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 08:47:09,413 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Prata (Magheru 29A -2BR)]: \"Thank you so much for staying with us, Razvan! We hope you had a wonderful time in Bucharest. Safe travels ahead, and we look forward to hosting you again in the future! 😊\"\n2026-11-24 08:47:09,558 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 08:57:14,854 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 08:57:15,061 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:07:21,674 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:07:21,880 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:17:27,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:17:27,748 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:27:33,150 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:27:33,356 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:37:39,700 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:37:39,911 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:47:45,146 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:47:45,368 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 09:57:50,659 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 09:57:50,867 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:07:56,236 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:07:56,440 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:18:03,415 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:18:03,651 [INFO] 📊 Conversatii verificate: 68 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:28:10,847 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:28:11,044 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 1\n2026-11-24 10:28:11,080 [INFO] 🧠 Mesaj NOU #25093 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Peki anladım evin tam konumu nerede\nMesaj tradus: Okay, I understand. Where exactly is the house lo...\"\n2026-11-24 10:28:11,080 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 10:28:11,081 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 10:28:12,414 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 10:28:12,914 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 The exact address of the apartment is Str. 33, Bucharest. Please note that the exact check-in instructions, keybox location, and access codes are sent to you automatically via a dedicated message 1 day before your arrival date (25 Nov 2026). Let me know if you have any other questions!\"\n2026-11-24 10:38:19,797 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:38:20,022 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 10:48:21",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
