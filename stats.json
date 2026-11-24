@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:39:33",
+  "updated_at": "12:50:00",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 4,
+    "conversations_monitored": 5,
     "time_saved_str": "24 min",
     "actions_today": 8,
-    "last_check": "12:39"
+    "last_check": "12:50"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "4 discuții azi",
+      "worked_today": "5 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "5 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "5 mesaje"
+      "metric_value": "6 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "5 alerte azi",
+      "worked_today": "4 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -113,10 +113,10 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Fără urgențe",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "12:31",
+      "status": "working",
+      "guest": "Ayse Ozgen",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,41 @@
   ],
   "feed": [
     {
+      "time": "12:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 12:39:59,153 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "12:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 12:39:39,696 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'me",
+      "type": "success"
+    },
+    {
+      "time": "12:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 12:39:39,568 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
+      "type": "success"
+    },
+    {
+      "time": "12:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 12:39:39,440 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "type": "success"
+    },
+    {
+      "time": "12:39",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 12:39:38,107 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "12:29",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -238,45 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 12:09:21,018 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "11:59",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 11:59:15,340 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "11:49",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 11:49:09,726 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "11:39",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 11:39:03,826 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "11:28",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 11:28:57,570 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "11:18",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 11:18:50,335 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 10:28:11,080 [INFO] 🧠 Mesaj NOU #25093 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Peki anladım evin tam konumu nerede\nMesaj tradus: Okay, I understand. Where exactly is the house lo...\"\n2026-11-24 10:28:11,080 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 10:28:11,081 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 10:28:12,414 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 10:28:12,914 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 The exact address of the apartment is Str. 33, Bucharest. Please note that the exact check-in instructions, keybox location, and access codes are sent to you automatically via a dedicated message 1 day before your arrival date (25 Nov 2026). Let me know if you have any other questions!\"\n2026-11-24 10:38:19,797 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:38:20,022 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:48:26,831 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:48:27,090 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 10:58:33,941 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 10:58:34,207 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:08:41,007 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:08:41,238 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 1\n2026-11-24 11:08:41,269 [INFO] 🧠 Mesaj NOU #25097 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Thank you for everything...\"\n2026-11-24 11:08:41,270 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 11:08:41,270 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 11:08:42,224 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 11:08:42,693 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"You're very welcome, Mehmet! 😊 If you need anything else during your stay or have any other questions, feel free to reach out. Have a wonderful time!\"\n2026-11-24 11:18:50,113 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:18:50,335 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:28:57,355 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:28:57,570 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:39:03,650 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:39:03,826 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:49:09,531 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:49:09,726 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:59:15,126 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:59:15,340 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:09:20,786 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:09:21,018 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:19:26,873 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:19:27,073 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:29:32,395 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:29:32,589 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-24 12:39:33",
+  "raw_logs": "2026-11-24 11:28:57,355 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:28:57,570 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:39:03,650 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:39:03,826 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:49:09,531 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:49:09,726 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 11:59:15,126 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 11:59:15,340 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:09:20,786 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:09:21,018 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:19:26,873 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:19:27,073 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:29:32,395 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:29:32,589 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 0\n2026-11-24 12:39:37,939 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 12:39:38,107 [INFO] 📊 Conversatii verificate: 69 | Rezervari cu mesaje NOI: 1\n2026-11-24 12:39:38,136 [INFO] 🧠 Mesaj NOU #25107 (1 lipite) de la Ayse Ozgen (Campineanu22 B): \"Hi Denisa & Alex!\nThank you, we've really enjoyed our stay! We have an early flight tomorrow, so we...\"\n2026-11-24 12:39:38,136 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 12:39:38,136 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:39,439 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 12:39:39,440 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 12:39:39,440 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 12:39:39,440 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:39,566 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 12:39:39,568 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 12:39:39,568 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 12:39:39,568 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:39,695 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 12:39:39,696 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 12:39:39,696 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 12:39:39,697 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 12:39:59,153 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 12:39:59,153 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 12:39:59,153 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25107: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+  "last_cloud_sync": "2026-11-24 12:50:00",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
