@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:10:05",
+  "updated_at": "22:20:11",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 17,
-    "time_saved_str": "1h 30m",
-    "actions_today": 30,
-    "last_check": "22:10"
+    "conversations_monitored": 15,
+    "time_saved_str": "1h 21m",
+    "actions_today": 27,
+    "last_check": "22:20"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "17 discuții azi",
+      "worked_today": "15 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "22 răspunsuri azi",
+      "worked_today": "19 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "24 mesaje"
+      "metric_value": "21 mesaje"
     },
     {
       "id": "clean",
@@ -85,30 +85,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "08:47",
-      "status": "working",
-      "guest": "Данил Владыченко (Check-out azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Carada 5",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
-      "last_time": "08:26",
-      "status": "working",
-      "guest": "Emil Rus (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Campineanu22 B",
       "tasks_today": 3,
       "tasks_total": 3,
@@ -117,6 +93,18 @@
       "last_time": "12:50",
       "status": "working",
       "guest": "Ayse Ozgen",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
+      "last_time": "08:26",
+      "status": "working",
+      "guest": "Emil Rus (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -153,6 +141,18 @@
       "last_time": "20:39",
       "status": "working",
       "guest": "Marius Cretu",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
+      "last_time": "08:47",
+      "status": "working",
+      "guest": "Данил Владыченко (Check-out azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "22:10",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 22:10:10,025 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "22:00",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 21:19:35,552 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "21:09",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 21:09:28,901 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #102653 (Apartament UrbanNest)]: \"Hi Oaspete! Co",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-24 21:09:22,932 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:09:23,155 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1\n2026-11-24 21:09:23,189 [INFO] 🧠 Mesaj NOU #25165 (1 lipite) de la Oaspete #102653 (Apartament UrbanNest): \"What is this for...\"\n2026-11-24 21:09:23,189 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 21:09:23,189 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:24,048 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 21:09:24,049 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 21:09:24,049 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 21:09:24,049 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:24,243 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 21:09:24,244 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 21:09:24,244 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 21:09:24,244 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:24,418 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 21:09:24,419 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 21:09:24,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 21:09:24,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:28,383 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 21:09:28,901 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #102653 (Apartament UrbanNest)]: \"Hi Oaspete! Could you please clarify what you are referring to? We would be happy to help you once we have a bit more detail!\"\n2026-11-24 21:19:35,344 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:19:35,552 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1\n2026-11-24 21:19:35,580 [INFO] 🧠 Mesaj NOU #25167 (1 lipite) de la Oaspete #102653 (Apartament UrbanNest): \"A payment you are asking for...\"\n2026-11-24 21:19:35,580 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 21:19:35,580 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:19:37,169 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 21:19:37,722 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #102653 (Apartament UrbanNest)]: \"Hi Oaspete! For Booking.com reservations, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which option do you prefer so we can provide you with the exact payment details? 💳\"\n2026-11-24 21:19:37,954 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-24 21:29:44,268 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:29:44,451 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 21:39:50,468 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:39:50,672 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 21:49:57,433 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:49:57,618 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 22:00:03,866 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 22:00:04,047 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-24 22:10:05",
+  "raw_logs": "2026-11-24 21:09:23,189 [INFO] 🧠 Mesaj NOU #25165 (1 lipite) de la Oaspete #102653 (Apartament UrbanNest): \"What is this for...\"\n2026-11-24 21:09:23,189 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 21:09:23,189 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:24,048 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 21:09:24,049 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 21:09:24,049 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 21:09:24,049 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:24,243 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 21:09:24,244 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 21:09:24,244 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 21:09:24,244 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:24,418 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 21:09:24,419 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 21:09:24,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 21:09:24,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:09:28,383 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 21:09:28,901 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #102653 (Apartament UrbanNest)]: \"Hi Oaspete! Could you please clarify what you are referring to? We would be happy to help you once we have a bit more detail!\"\n2026-11-24 21:19:35,344 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:19:35,552 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1\n2026-11-24 21:19:35,580 [INFO] 🧠 Mesaj NOU #25167 (1 lipite) de la Oaspete #102653 (Apartament UrbanNest): \"A payment you are asking for...\"\n2026-11-24 21:19:35,580 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 21:19:35,580 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 21:19:37,169 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 21:19:37,722 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #102653 (Apartament UrbanNest)]: \"Hi Oaspete! For Booking.com reservations, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which option do you prefer so we can provide you with the exact payment details? 💳\"\n2026-11-24 21:19:37,954 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-24 21:29:44,268 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:29:44,451 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 21:39:50,468 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:39:50,672 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 21:49:57,433 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 21:49:57,618 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 22:00:03,866 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 22:00:04,047 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-24 22:10:09,817 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 22:10:10,025 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 22:20:11",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
