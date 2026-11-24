@@ -1,11 +1,11 @@
 {
-  "updated_at": "16:03:27",
+  "updated_at": "16:13:33",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 8,
     "time_saved_str": "39 min",
     "actions_today": 13,
-    "last_check": "16:03"
+    "last_check": "16:13"
   },
   "core_agents": [
     {
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "16:03",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 16:03:32,565 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "15:53",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 15:02:44,926 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "14:52",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 14:52:39,098 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 14:22:09,760 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:22:09,788 [INFO] 🧠 Mesaj NOU #25116 (1 lipite) de la Razvan Bor (None): \"multumesc\nMesaj tradus: Thank you...\"\n2026-11-24 14:22:09,789 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:22:09,789 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:22:18,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:22:19,290 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! 😊 If you need anything else, feel free to reach out. Have a wonderful day!\"\n2026-11-24 14:32:24,882 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:32:25,047 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:32:25,078 [INFO] 🧠 Mesaj NOU #25118 (1 lipite) de la Katie Rowlands (Tonitza 11 A with terrace): \"Thank you ☺️...\"\n2026-11-24 14:32:25,079 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:32:25,079 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:32:26,129 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:32:26,883 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Katie Rowlands (Tonitza 11 A with terrace)]: \"You're very welcome, Katie! ☺️ If you need anything else before or during your stay, just let us know. Have a wonderful day!\"\n2026-11-24 14:42:32,625 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:42:32,829 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 14:52:38,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:52:39,098 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:02:44,768 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:02:44,926 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:12:50,878 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:12:51,048 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:22:56,656 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:22:56,860 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:33:03,567 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:33:03,740 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-24 15:33:03,770 [INFO] 🧠 Mesaj NOU #25124 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Ok....\"\n2026-11-24 15:33:03,770 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 15:33:03,770 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 15:33:13,011 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 15:33:13,888 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"If you need anything else or have any questions regarding your stay at Old Town Victoriei 25, please let me know. Have a wonderful day, Gabriela! 😊\"\n2026-11-24 15:43:20,345 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:43:20,558 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:53:26,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:53:26,360 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-24 16:03:27",
+  "raw_logs": "Mesaj tradus: Thank you...\"\n2026-11-24 14:22:09,789 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:22:09,789 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:22:18,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:22:19,290 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! 😊 If you need anything else, feel free to reach out. Have a wonderful day!\"\n2026-11-24 14:32:24,882 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:32:25,047 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:32:25,078 [INFO] 🧠 Mesaj NOU #25118 (1 lipite) de la Katie Rowlands (Tonitza 11 A with terrace): \"Thank you ☺️...\"\n2026-11-24 14:32:25,079 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:32:25,079 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:32:26,129 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:32:26,883 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Katie Rowlands (Tonitza 11 A with terrace)]: \"You're very welcome, Katie! ☺️ If you need anything else before or during your stay, just let us know. Have a wonderful day!\"\n2026-11-24 14:42:32,625 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:42:32,829 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 14:52:38,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:52:39,098 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:02:44,768 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:02:44,926 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:12:50,878 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:12:51,048 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:22:56,656 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:22:56,860 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:33:03,567 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:33:03,740 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-24 15:33:03,770 [INFO] 🧠 Mesaj NOU #25124 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Ok....\"\n2026-11-24 15:33:03,770 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 15:33:03,770 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 15:33:13,011 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 15:33:13,888 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"If you need anything else or have any questions regarding your stay at Old Town Victoriei 25, please let me know. Have a wonderful day, Gabriela! 😊\"\n2026-11-24 15:43:20,345 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:43:20,558 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:53:26,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:53:26,360 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 16:03:32,225 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:03:32,565 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 16:13:33",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
