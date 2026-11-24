@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:11:35",
+  "updated_at": "23:21:42",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 19,
-    "time_saved_str": "1h 33m",
-    "actions_today": 31,
-    "last_check": "23:11"
+    "conversations_monitored": 16,
+    "time_saved_str": "1h 27m",
+    "actions_today": 29,
+    "last_check": "23:21"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "19 discuții azi",
+      "worked_today": "16 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "23 răspunsuri azi",
+      "worked_today": "21 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "28 mesaje"
+      "metric_value": "24 mesaje"
     },
     {
       "id": "clean",
@@ -85,30 +85,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "08:47",
-      "status": "working",
-      "guest": "Данил Владыченко (Check-out azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Carada 5",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
-      "last_time": "08:26",
-      "status": "working",
-      "guest": "Emil Rus (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Campineanu22 B",
       "tasks_today": 3,
       "tasks_total": 3,
@@ -117,6 +93,18 @@
       "last_time": "12:50",
       "status": "working",
       "guest": "Ayse Ozgen",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
+      "last_time": "08:26",
+      "status": "working",
+      "guest": "Emil Rus (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -157,6 +145,30 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
+      "last_time": "08:47",
+      "status": "working",
+      "guest": "Данил Владыченко (Check-out azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29B 2BR",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "23:01",
+      "status": "working",
+      "guest": "Антон Ступак",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Old Town Tonitza 11 B",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -165,18 +177,6 @@
       "last_time": "18:26",
       "status": "working",
       "guest": "Genny Seri",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29B 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:46",
-      "status": "working",
-      "guest": "Антон Ступак",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -209,15 +209,22 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "22:55",
-      "status": "working",
-      "guest": "Matteo Duke",
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "23:11",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 23:11:41,371 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "23:01",
       "icon": "💬",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 23:01:18,229 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 2",
       "type": "info"
-    },
-    {
-      "time": "22:51",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 22:51:12,267 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-24 22:50:52,711 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 22:50:52,711 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 22:50:52,846 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 22:50:52,847 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 22:50:52,847 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 22:50:52,847 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 22:51:12,266 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 22:51:12,267 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 22:51:12,267 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25175: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-24 23:01:18,051 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 23:01:18,229 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 2\n2026-11-24 23:01:18,257 [INFO] 🧠 Mesaj NOU #25176 (1 lipite) de la Oaspete #104207 (Apartament UrbanNest): \"Ho pagato la tassa tramite PayPal, controlla se é tutto giusto per favore\nMesaj tradus: I paid the ...\"\n2026-11-24 23:01:18,258 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 23:01:18,258 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:19,722 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 23:01:20,322 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #104207 (Apartament UrbanNest)]: \"Thank you for confirming your payment, Matteo! 😊 We will check our PayPal account to verify the transaction shortly. We appreciate your promptness! 🌟\"\n2026-11-24 23:01:20,549 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-24 23:01:20,699 [INFO] 🧠 Mesaj NOU #25175 (1 lipite) de la Антон Ступак (Magheru 29B -2BR): \"Thanks...\"\n2026-11-24 23:01:20,700 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 23:01:20,701 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:23,808 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 23:01:23,809 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 23:01:23,809 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 23:01:23,809 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:23,986 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 23:01:23,987 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 23:01:23,987 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 23:01:23,987 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:24,115 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 23:01:24,116 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 23:01:24,116 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 23:01:24,116 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:33,861 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 23:01:34,327 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Антон Ступак (Magheru 29B -2BR)]: \"You are very welcome, Антон! We will reach back out to you with an update as soon as possible.\"",
-  "last_cloud_sync": "2026-11-24 23:11:35",
+  "raw_logs": "2026-11-24 22:50:52,846 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 22:50:52,847 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 22:50:52,847 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 22:50:52,847 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 22:51:12,266 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 22:51:12,267 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 22:51:12,267 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25175: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-24 23:01:18,051 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 23:01:18,229 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 2\n2026-11-24 23:01:18,257 [INFO] 🧠 Mesaj NOU #25176 (1 lipite) de la Oaspete #104207 (Apartament UrbanNest): \"Ho pagato la tassa tramite PayPal, controlla se é tutto giusto per favore\nMesaj tradus: I paid the ...\"\n2026-11-24 23:01:18,258 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 23:01:18,258 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:19,722 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 23:01:20,322 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #104207 (Apartament UrbanNest)]: \"Thank you for confirming your payment, Matteo! 😊 We will check our PayPal account to verify the transaction shortly. We appreciate your promptness! 🌟\"\n2026-11-24 23:01:20,549 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-24 23:01:20,699 [INFO] 🧠 Mesaj NOU #25175 (1 lipite) de la Антон Ступак (Magheru 29B -2BR): \"Thanks...\"\n2026-11-24 23:01:20,700 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 23:01:20,701 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:23,808 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 23:01:23,809 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 23:01:23,809 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 23:01:23,809 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:23,986 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 23:01:23,987 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 23:01:23,987 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 23:01:23,987 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:24,115 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 23:01:24,116 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 23:01:24,116 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 23:01:24,116 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 23:01:33,861 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 23:01:34,327 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Антон Ступак (Magheru 29B -2BR)]: \"You are very welcome, Антон! We will reach back out to you with an update as soon as possible.\"\n2026-11-24 23:11:41,194 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 23:11:41,371 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 23:21:42",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
