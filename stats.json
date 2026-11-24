@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:42:27",
+  "updated_at": "14:52:33",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 7,
-    "time_saved_str": "33 min",
-    "actions_today": 11,
-    "last_check": "14:42"
+    "time_saved_str": "36 min",
+    "actions_today": 12,
+    "last_check": "14:52"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "7 răspunsuri azi",
+      "worked_today": "8 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "8 mesaje"
     },
@@ -121,6 +121,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Tonitza 11 A with terrace",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "14:32",
+      "status": "working",
+      "guest": "Katie Rowlands",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Kogalniceanu 9 1BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -203,21 +215,16 @@
       "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
-    },
-    {
-      "name": "Tonitza 11 A with terrace",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "14:29",
-      "status": "working",
-      "guest": "Katie Rowlands",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "14:42",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 14:42:32,829 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "14:32",
       "icon": "💬",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-24 14:12:01,761 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"Thank you for letting us know, Razv",
       "type": "success"
-    },
-    {
-      "time": "14:11",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 14:11:44,198 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'me",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-24 14:11:43,872 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 14:11:43,873 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 14:11:43,873 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 14:11:43,873 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:11:44,055 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 14:11:44,055 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 14:11:44,056 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 14:11:44,056 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:11:44,197 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 14:11:44,198 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 14:11:44,198 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 14:11:44,198 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:12:01,212 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:12:01,761 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"Thank you for letting us know, Razvan! I have notified our manager right now to check and issue the city tax payment request via the Airbnb Resolution Center shortly. You will be able to see and pay it directly within the Airbnb app soon. Thank you for your patience! 😊\"\n2026-11-24 14:12:01,852 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-24 14:12:01,897 [INFO] 🧠 Mesaj NOU #25112 (1 lipite) de la Chloe Anderson (Campineanu22 B): \"I'd like to request check-in at 20:00 - 21:00. Is this ok?...\"\n2026-11-24 14:12:01,898 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:12:01,898 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:12:02,908 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:12:04,099 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Chloe Anderson (Campineanu22 B)]: \"Hello Chloe! Yes, absolutely! You can check in anytime after 15:00 using our self check-in system. Exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🗝️\"\n2026-11-24 14:22:09,550 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:22:09,760 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:22:09,788 [INFO] 🧠 Mesaj NOU #25116 (1 lipite) de la Razvan Bor (None): \"multumesc\nMesaj tradus: Thank you...\"\n2026-11-24 14:22:09,789 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:22:09,789 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:22:18,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:22:19,290 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! 😊 If you need anything else, feel free to reach out. Have a wonderful day!\"\n2026-11-24 14:32:24,882 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:32:25,047 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:32:25,078 [INFO] 🧠 Mesaj NOU #25118 (1 lipite) de la Katie Rowlands (Tonitza 11 A with terrace): \"Thank you ☺️...\"\n2026-11-24 14:32:25,079 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:32:25,079 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:32:26,129 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:32:26,883 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Katie Rowlands (Tonitza 11 A with terrace)]: \"You're very welcome, Katie! ☺️ If you need anything else before or during your stay, just let us know. Have a wonderful day!\"",
-  "last_cloud_sync": "2026-11-24 14:42:27",
+  "raw_logs": "2026-11-24 14:11:43,873 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 14:11:43,873 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:11:44,055 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 14:11:44,055 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 14:11:44,056 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 14:11:44,056 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:11:44,197 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 14:11:44,198 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 14:11:44,198 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 14:11:44,198 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:12:01,212 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:12:01,761 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"Thank you for letting us know, Razvan! I have notified our manager right now to check and issue the city tax payment request via the Airbnb Resolution Center shortly. You will be able to see and pay it directly within the Airbnb app soon. Thank you for your patience! 😊\"\n2026-11-24 14:12:01,852 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-24 14:12:01,897 [INFO] 🧠 Mesaj NOU #25112 (1 lipite) de la Chloe Anderson (Campineanu22 B): \"I'd like to request check-in at 20:00 - 21:00. Is this ok?...\"\n2026-11-24 14:12:01,898 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:12:01,898 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:12:02,908 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:12:04,099 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Chloe Anderson (Campineanu22 B)]: \"Hello Chloe! Yes, absolutely! You can check in anytime after 15:00 using our self check-in system. Exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🗝️\"\n2026-11-24 14:22:09,550 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:22:09,760 [INFO] 📊 Conversatii verificate: 70 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:22:09,788 [INFO] 🧠 Mesaj NOU #25116 (1 lipite) de la Razvan Bor (None): \"multumesc\nMesaj tradus: Thank you...\"\n2026-11-24 14:22:09,789 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:22:09,789 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:22:18,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:22:19,290 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Razvan Bor (None)]: \"You're very welcome, Razvan! 😊 If you need anything else, feel free to reach out. Have a wonderful day!\"\n2026-11-24 14:32:24,882 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:32:25,047 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 1\n2026-11-24 14:32:25,078 [INFO] 🧠 Mesaj NOU #25118 (1 lipite) de la Katie Rowlands (Tonitza 11 A with terrace): \"Thank you ☺️...\"\n2026-11-24 14:32:25,079 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 14:32:25,079 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 14:32:26,129 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 14:32:26,883 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Katie Rowlands (Tonitza 11 A with terrace)]: \"You're very welcome, Katie! ☺️ If you need anything else before or during your stay, just let us know. Have a wonderful day!\"\n2026-11-24 14:42:32,625 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 14:42:32,829 [INFO] 📊 Conversatii verificate: 71 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 14:52:33",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
