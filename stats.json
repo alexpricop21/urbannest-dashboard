@@ -1,11 +1,11 @@
 {
-  "updated_at": "16:44:05",
+  "updated_at": "16:54:13",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 8,
-    "time_saved_str": "39 min",
-    "actions_today": 13,
-    "last_check": "16:44"
+    "conversations_monitored": 9,
+    "time_saved_str": "42 min",
+    "actions_today": 14,
+    "last_check": "16:54"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "8 discuții azi",
+      "worked_today": "9 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "9 răspunsuri azi",
+      "worked_today": "10 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "9 mesaje"
+      "metric_value": "11 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "5 alerte azi",
+      "worked_today": "4 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -69,6 +69,18 @@
       "last_time": "12:50",
       "status": "working",
       "guest": "Ayse Ozgen",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
+      "last_time": "08:26",
+      "status": "working",
+      "guest": "Emil Rus (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -109,24 +121,12 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
-      "last_time": "08:26",
-      "status": "working",
-      "guest": "Emil Rus (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 1,
       "tasks_total": 1,
       "manual_minutes": 3,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "15:33",
+      "last_time": "16:38",
       "status": "working",
       "guest": "Gabriela Tufa",
       "urgenta_azi": false,
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "16:44",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 16:44:11,503 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "16:34",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 16:23:44,061 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "16:13",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 16:13:38,229 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 15:43:20,345 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:43:20,558 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 15:53:26,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 15:53:26,360 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 16:03:32,225 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:03:32,565 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 16:13:38,047 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:13:38,229 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 16:23:43,868 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:23:44,061 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-24 16:23:44,094 [INFO] 🧠 Mesaj NOU #25127 (1 lipite) de la Oaspete #109006 (Apartament UrbanNest): \"Done !!...\"\n2026-11-24 16:23:44,094 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 16:23:44,095 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:44,939 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 16:23:44,944 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 16:23:44,944 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 16:23:44,944 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:45,121 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 16:23:45,124 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 16:23:45,124 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 16:23:45,125 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:45,311 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 16:23:45,312 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 16:23:45,312 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 16:23:45,312 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:56,083 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 16:23:56,084 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 16:23:56,084 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25127: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-24 16:34:01,880 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:34:02,053 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-24 16:34:02,084 [INFO] 🧠 Mesaj NOU #25127 (1 lipite) de la Oaspete #109006 (Apartament UrbanNest): \"Done !!...\"\n2026-11-24 16:34:02,084 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 16:34:02,085 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:34:04,247 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 16:34:04,863 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109006 (Apartament UrbanNest)]: \"Thank you for confirming! If you need anything else during your stay, please don't hesitate to reach out. Have a wonderful time! 😊\"",
-  "last_cloud_sync": "2026-11-24 16:44:05",
+  "raw_logs": "2026-11-24 16:13:38,047 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:13:38,229 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-24 16:23:43,868 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:23:44,061 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-24 16:23:44,094 [INFO] 🧠 Mesaj NOU #25127 (1 lipite) de la Oaspete #109006 (Apartament UrbanNest): \"Done !!...\"\n2026-11-24 16:23:44,094 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 16:23:44,095 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:44,939 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 16:23:44,944 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 16:23:44,944 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 16:23:44,944 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:45,121 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 16:23:45,124 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 16:23:45,124 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 16:23:45,125 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:45,311 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 16:23:45,312 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 16:23:45,312 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 16:23:45,312 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:23:56,083 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-24 16:23:56,084 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-24 16:23:56,084 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25127: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-24 16:34:01,880 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:34:02,053 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-24 16:34:02,084 [INFO] 🧠 Mesaj NOU #25127 (1 lipite) de la Oaspete #109006 (Apartament UrbanNest): \"Done !!...\"\n2026-11-24 16:34:02,084 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 16:34:02,085 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:34:04,247 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 16:34:04,863 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109006 (Apartament UrbanNest)]: \"Thank you for confirming! If you need anything else during your stay, please don't hesitate to reach out. Have a wonderful time! 😊\"\n2026-11-24 16:44:11,294 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 16:44:11,503 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-24 16:44:11,543 [INFO] 🧠 Mesaj NOU #25129 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"😊...\"\n2026-11-24 16:44:11,543 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 16:44:11,544 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 16:44:12,817 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"",
+  "last_cloud_sync": "2026-11-24 16:54:13",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
