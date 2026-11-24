@@ -1,11 +1,11 @@
 {
-  "updated_at": "20:38:54",
+  "updated_at": "20:49:05",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 15,
-    "time_saved_str": "1h 15m",
-    "actions_today": 25,
-    "last_check": "20:38"
+    "conversations_monitored": 16,
+    "time_saved_str": "1h 18m",
+    "actions_today": 26,
+    "last_check": "20:49"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "15 discuții azi",
+      "worked_today": "16 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "4 check-in/out"
     },
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "18 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "20 mesaje"
+      "metric_value": "22 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "6 update-uri azi",
+      "worked_today": "7 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -158,13 +158,13 @@
     },
     {
       "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Fără urgențe",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 09:30 + Sync Tabel",
+      "last_time": "20:39",
+      "status": "working",
+      "guest": "Marius Cretu",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,34 @@
   ],
   "feed": [
     {
+      "time": "20:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 20:39:03,967 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oleg Betivu (Tonitza 11 A with terrace)]: \"You're very w",
+      "type": "success"
+    },
+    {
+      "time": "20:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 20:39:02,173 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "20:39",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-24 20:39:01,623 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marius Cretu (Kogalniceanu 9 -1BR)]: \"Good evening, Mari",
+      "type": "success"
+    },
+    {
+      "time": "20:38",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 20:38:59,890 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "20:28",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -245,38 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-24 20:18:40,426 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
       "type": "success"
-    },
-    {
-      "time": "20:18",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 20:18:40,255 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'co",
-      "type": "success"
-    },
-    {
-      "time": "20:18",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 20:18:20,618 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "20:18",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-24 20:18:20,109 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oleg Betivu (Tonitza 11 A with terrace)]: \"Good evening ",
-      "type": "success"
-    },
-    {
-      "time": "20:18",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 20:18:18,013 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 19:47:59,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:47:59,370 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:58:05,565 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:58:05,774 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:08:11,826 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:08:12,016 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:08:12,017 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-24 20:18:17,831 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:18:18,013 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2\n2026-11-24 20:18:18,043 [INFO] 🧠 Mesaj NOU #25150 (1 lipite) de la Oleg Betivu (Tonitza 11 A with terrace): \"Bună seara. Până la 11:00 vom elibera apartamentul.\nMesaj tradus: Good evening. We will vacate the...\"\n2026-11-24 20:18:18,044 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:18,044 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:19,441 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:20,109 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oleg Betivu (Tonitza 11 A with terrace)]: \"Good evening Oleg! Thank you for letting us know. We hope you enjoyed your stay with us at Tonitza 11 A! When leaving, please kindly place the keys back inside the lockbox and scramble the code. Have a safe and pleasant journey home, and we hope to host you again!\"\n2026-11-24 20:18:20,618 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 20:18:20,765 [INFO] 🧠 Mesaj NOU #25145 (1 lipite) de la Emil Rus (Old Town Carada 5): \"thank you. I checked in , all is good...\"\n2026-11-24 20:18:20,766 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:20,766 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,255 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 20:18:40,255 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 20:18:40,256 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 20:18:40,256 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,426 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,426 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,426 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 20:18:40,426 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,571 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,572 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,572 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 20:18:40,572 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:46,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:47,272 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Hi Emil! You're very welcome! We are delighted to hear that you checked in smoothly and that everything is to your satisfaction. Wish you a wonderful stay in Bucharest, and please feel free to reach out if you need anything at all!\"\n2026-11-24 20:28:53,445 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:28:53,623 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-24 20:38:54",
+  "raw_logs": "2026-11-24 20:18:20,618 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 20:18:20,765 [INFO] 🧠 Mesaj NOU #25145 (1 lipite) de la Emil Rus (Old Town Carada 5): \"thank you. I checked in , all is good...\"\n2026-11-24 20:18:20,766 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:20,766 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,255 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 20:18:40,255 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 20:18:40,256 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 20:18:40,256 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,426 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,426 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,426 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 20:18:40,426 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,571 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,572 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,572 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 20:18:40,572 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:46,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:47,272 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Hi Emil! You're very welcome! We are delighted to hear that you checked in smoothly and that everything is to your satisfaction. Wish you a wonderful stay in Bucharest, and please feel free to reach out if you need anything at all!\"\n2026-11-24 20:28:53,445 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:28:53,623 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:38:59,708 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:38:59,890 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2\n2026-11-24 20:38:59,918 [INFO] 🧠 Mesaj NOU #25154 (1 lipite) de la Marius Cretu (Kogalniceanu 9 -1BR): \"Bună seara ! Intenționez să părăsesc apartamentul în jurul orei 9:30. Mulțumesc!\nMesaj tradus: Good...\"\n2026-11-24 20:38:59,919 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:38:59,919 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:39:01,089 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:39:01,623 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Marius Cretu (Kogalniceanu 9 -1BR)]: \"Good evening, Marius! Thank you for letting us know. Safe travels, and please don't forget to leave the keys back inside the lockbox when you depart. Have a wonderful rest of your stay! 😊\"\n2026-11-24 20:39:02,173 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 20:39:02,341 [INFO] 🧠 Mesaj NOU #25155 (1 lipite) de la Oleg Betivu (Tonitza 11 A with terrace): \"Ok vă mulțumesc.\nMesaj tradus: Okay thank u...\"\n2026-11-24 20:39:02,342 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:39:02,343 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:39:03,174 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:39:03,967 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oleg Betivu (Tonitza 11 A with terrace)]: \"You're very welcome, Oleg! 😊 Have a safe and pleasant journey home, and we look forward to hosting you again in the future!\"",
+  "last_cloud_sync": "2026-11-24 20:49:05",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
