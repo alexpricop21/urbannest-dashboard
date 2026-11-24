@@ -1,11 +1,11 @@
 {
-  "updated_at": "20:28:48",
+  "updated_at": "20:38:54",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
-    "time_saved_str": "1h 9m",
-    "actions_today": 23,
-    "last_check": "20:28"
+    "time_saved_str": "1h 15m",
+    "actions_today": 25,
+    "last_check": "20:38"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "16 răspunsuri azi",
+      "worked_today": "18 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "20 mesaje"
     },
@@ -73,6 +73,30 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Carada 5",
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
+      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
+      "last_time": "08:26",
+      "status": "working",
+      "guest": "Emil Rus (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Tonitza 11 A with terrace",
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
+      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
+      "last_time": "20:18",
+      "status": "working",
+      "guest": "Katie Rowlands",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Campineanu22 B",
       "tasks_today": 3,
       "tasks_total": 3,
@@ -85,18 +109,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "Check-out înregistrat la ora 08:26 + Sync Tabel",
-      "last_time": "08:26",
-      "status": "working",
-      "guest": "Emil Rus (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 3,
       "tasks_total": 3,
@@ -105,18 +117,6 @@
       "last_time": "18:37",
       "status": "working",
       "guest": "Gabriela Tufa",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Tonitza 11 A with terrace",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "20:18",
-      "status": "working",
-      "guest": "Katie Rowlands",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "20:28",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-24 20:28:53,623 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "20:18",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-24 20:18:18,013 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2",
       "type": "info"
-    },
-    {
-      "time": "20:08",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-24 20:08:12,016 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-24 19:37:52,342 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:37:52,507 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:47:59,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:47:59,370 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:58:05,565 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:58:05,774 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:08:11,826 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:08:12,016 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:08:12,017 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-24 20:18:17,831 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:18:18,013 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2\n2026-11-24 20:18:18,043 [INFO] 🧠 Mesaj NOU #25150 (1 lipite) de la Oleg Betivu (Tonitza 11 A with terrace): \"Bună seara. Până la 11:00 vom elibera apartamentul.\nMesaj tradus: Good evening. We will vacate the...\"\n2026-11-24 20:18:18,044 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:18,044 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:19,441 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:20,109 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oleg Betivu (Tonitza 11 A with terrace)]: \"Good evening Oleg! Thank you for letting us know. We hope you enjoyed your stay with us at Tonitza 11 A! When leaving, please kindly place the keys back inside the lockbox and scramble the code. Have a safe and pleasant journey home, and we hope to host you again!\"\n2026-11-24 20:18:20,618 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 20:18:20,765 [INFO] 🧠 Mesaj NOU #25145 (1 lipite) de la Emil Rus (Old Town Carada 5): \"thank you. I checked in , all is good...\"\n2026-11-24 20:18:20,766 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:20,766 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,255 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 20:18:40,255 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 20:18:40,256 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 20:18:40,256 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,426 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,426 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,426 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 20:18:40,426 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,571 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,572 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,572 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 20:18:40,572 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:46,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:47,272 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Hi Emil! You're very welcome! We are delighted to hear that you checked in smoothly and that everything is to your satisfaction. Wish you a wonderful stay in Bucharest, and please feel free to reach out if you need anything at all!\"",
-  "last_cloud_sync": "2026-11-24 20:28:48",
+  "raw_logs": "2026-11-24 19:47:59,178 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:47:59,370 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 19:58:05,565 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 19:58:05,774 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:08:11,826 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:08:12,016 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 0\n2026-11-24 20:08:12,017 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-24 20:18:17,831 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:18:18,013 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2\n2026-11-24 20:18:18,043 [INFO] 🧠 Mesaj NOU #25150 (1 lipite) de la Oleg Betivu (Tonitza 11 A with terrace): \"Bună seara. Până la 11:00 vom elibera apartamentul.\nMesaj tradus: Good evening. We will vacate the...\"\n2026-11-24 20:18:18,044 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:18,044 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:19,441 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:20,109 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oleg Betivu (Tonitza 11 A with terrace)]: \"Good evening Oleg! Thank you for letting us know. We hope you enjoyed your stay with us at Tonitza 11 A! When leaving, please kindly place the keys back inside the lockbox and scramble the code. Have a safe and pleasant journey home, and we hope to host you again!\"\n2026-11-24 20:18:20,618 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-24 20:18:20,765 [INFO] 🧠 Mesaj NOU #25145 (1 lipite) de la Emil Rus (Old Town Carada 5): \"thank you. I checked in , all is good...\"\n2026-11-24 20:18:20,766 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-24 20:18:20,766 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,255 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-24 20:18:40,255 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-24 20:18:40,256 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-24 20:18:40,256 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,426 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,426 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,426 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-24 20:18:40,426 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:40,571 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-24 20:18:40,572 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-24 20:18:40,572 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-24 20:18:40,572 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-24 20:18:46,609 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-24 20:18:47,272 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Hi Emil! You're very welcome! We are delighted to hear that you checked in smoothly and that everything is to your satisfaction. Wish you a wonderful stay in Bucharest, and please feel free to reach out if you need anything at all!\"\n2026-11-24 20:28:53,445 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-24 20:28:53,623 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-24 20:38:54",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
