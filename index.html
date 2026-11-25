@@ -768,6 +768,100 @@
             transform: translateY(-1px);
         }
 
+    
+        /* === UPGRADE: Modal Mesaje Apartament & Panou Review-uri Neacordate === */
+        .apt-item { cursor: pointer; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; }
+        .apt-item:hover { transform: translateY(-2px); border-color: rgba(56, 189, 248, 0.45) !important; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35); }
+        .apt-msg-hint { margin-top: 8px; font-size: 11px; color: #94a3b8; display: flex; align-items: center; gap: 5px; }
+        .apt-item:hover .apt-msg-hint { color: #38bdf8; }
+
+        .modal-box { max-width: 680px !important; width: 92% !important; max-height: 86vh; display: flex; flex-direction: column; }
+        .urgent-msg-list { overflow-y: auto; max-height: 68vh; padding-right: 4px; }
+
+        .modal-sec-title {
+            font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+            color: #94a3b8; margin: 14px 0 8px 0; display: flex; align-items: center; justify-content: space-between; gap: 8px;
+        }
+        .modal-sec-title:first-child { margin-top: 2px; }
+        .modal-tabs { display: inline-flex; gap: 6px; }
+        .modal-tab-btn {
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+            color: #94a3b8; font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px; cursor: pointer;
+        }
+        .modal-tab-btn.active { background: rgba(16,185,129,0.18); border-color: rgba(16,185,129,0.45); color: #34d399; }
+
+        .sent-msg-card {
+            background: rgba(15, 23, 42, 0.78); border: 1px solid rgba(255,255,255,0.08);
+            border-left: 3px solid #10b981; border-radius: 10px; padding: 11px 13px; margin-bottom: 9px;
+        }
+        .sent-msg-head {
+            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;
+            margin-bottom: 6px; font-size: 12px;
+        }
+        .sent-msg-guest { font-weight: 700; color: #f8fafc; }
+        .sent-msg-meta { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #94a3b8; }
+        .sent-badge-today {
+            background: rgba(16,185,129,0.16); color: #34d399; border: 1px solid rgba(16,185,129,0.35);
+            padding: 1px 6px; border-radius: 999px; font-size: 10px; font-weight: 700;
+        }
+        .sent-badge-src {
+            background: rgba(56,189,248,0.14); color: #38bdf8; border: 1px solid rgba(56,189,248,0.28);
+            padding: 1px 6px; border-radius: 999px; font-size: 10px; font-weight: 600;
+        }
+        .sent-msg-question {
+            font-size: 11.5px; color: #94a3b8; background: rgba(255,255,255,0.03);
+            border-radius: 6px; padding: 6px 8px; margin-bottom: 7px; font-style: italic; line-height: 1.4;
+        }
+        .sent-msg-body { font-size: 12.5px; color: #e2e8f0; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+
+        /* Panou Review-uri Neacordate */
+        .skipped-reviews-panel { margin-top: 18px; margin-bottom: 18px; }
+        .rev-badge-count {
+            background: rgba(245,158,11,0.16); color: #fbbf24; border: 1px solid rgba(245,158,11,0.38);
+            padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 700; margin-left: 8px;
+        }
+        .rev-badge-count.clean { background: rgba(16,185,129,0.16); color: #34d399; border-color: rgba(16,185,129,0.35); }
+        .rev-toggle-resolved {
+            background: transparent; border: 1px solid rgba(255,255,255,0.12); color: #94a3b8;
+            font-size: 11px; padding: 4px 10px; border-radius: 8px; cursor: pointer;
+        }
+        .rev-toggle-resolved:hover { color: #fff; border-color: rgba(255,255,255,0.28); }
+        .rev-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 12px; padding: 14px;
+        }
+        .rev-card {
+            background: rgba(15, 23, 42, 0.72); border: 1px solid rgba(245,158,11,0.28);
+            border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; justify-content: space-between; gap: 8px;
+        }
+        .rev-card.resolved { opacity: 0.55; border-color: rgba(16,185,129,0.25); }
+        .rev-card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+        .rev-guest { font-size: 14px; font-weight: 700; color: #f8fafc; }
+        .rev-apt { font-size: 11px; color: #38bdf8; margin-top: 2px; }
+        .rev-date { font-size: 11px; color: #64748b; white-space: nowrap; }
+        .rev-kw-pill {
+            display: inline-block; background: rgba(239,68,68,0.16); color: #f87171;
+            border: 1px solid rgba(239,68,68,0.35); border-radius: 6px; padding: 2px 7px;
+            font-size: 11px; font-weight: 700; margin-bottom: 5px;
+        }
+        .rev-reason { font-size: 12px; color: #cbd5e1; line-height: 1.45; }
+        .rev-actions { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.06); }
+        .rev-link {
+            font-size: 11.5px; font-weight: 600; color: #38bdf8; text-decoration: none;
+            padding: 4px 9px; border-radius: 7px; background: rgba(56,189,248,0.12); border: 1px solid rgba(56,189,248,0.25);
+        }
+        .rev-link:hover { background: rgba(56,189,248,0.22); color: #fff; }
+        .rev-done-btn {
+            font-size: 11px; font-weight: 600; color: #34d399; background: rgba(16,185,129,0.12);
+            border: 1px solid rgba(16,185,129,0.32); border-radius: 7px; padding: 4px 9px; cursor: pointer;
+        }
+        .rev-done-btn:hover { background: rgba(16,185,129,0.24); }
+        .agent-rev-pill {
+            display: inline-block; margin-top: 4px; font-size: 10px; font-weight: 700;
+            padding: 1px 7px; border-radius: 999px; background: rgba(245,158,11,0.18);
+            color: #fbbf24; border: 1px solid rgba(245,158,11,0.35);
+        }
+
     </style>
 </head>
 <body>
@@ -854,6 +948,21 @@
             </aside>
         </div>
 
+        <!-- Panou Review-uri Airbnb Neacordate -->
+        <section class="panel skipped-reviews-panel" id="skippedReviewsPanel">
+            <div class="panel-header">
+                <div class="panel-title">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    Review-uri Airbnb Neacordate (Verificare Manuală)
+                    <span class="rev-badge-count" id="skippedRevCount">0</span>
+                </div>
+                <button class="rev-toggle-resolved" id="btnToggleResolvedRev" onclick="toggleShowResolvedReviews()">Arată și rezolvate</button>
+            </div>
+            <div class="rev-grid" id="skippedReviewsGrid">
+                <div style="color:var(--text-muted);font-size:13px;">Se încarcă lista recenziilor omise...</div>
+            </div>
+        </section>
+
         <details class="console-drawer">
             <summary>Consolă tehnică & loguri brute server</summary>
             <pre id="rawLogs">Se încarcă...</pre>
@@ -906,15 +1015,199 @@
             renderApartments();
         }
 
-        function openUrgentModal(aptName) {
+        let cachedSkippedReviews = [];
+        let showResolvedReviews = false;
+        let currentModalAptName = '';
+        let currentModalMsgScope = 'all';
+
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function getResolvedReviewsSet() {
+            try {
+                return new Set(JSON.parse(localStorage.getItem('un_resolved_reviews_v1') || '[]'));
+            } catch (e) {
+                return new Set();
+            }
+        }
+
+        function markReviewResolved(revId, undo) {
+            const s = getResolvedReviewsSet();
+            if (undo) s.delete(revId);
+            else s.add(revId);
+            try {
+                localStorage.setItem('un_resolved_reviews_v1', JSON.stringify(Array.from(s).slice(-200)));
+            } catch (e) {}
+            renderSkippedReviews(cachedSkippedReviews);
+        }
+
+        function toggleShowResolvedReviews() {
+            showResolvedReviews = !showResolvedReviews;
+            const btn = document.getElementById('btnToggleResolvedRev');
+            if (btn) btn.innerText = showResolvedReviews ? 'Ascunde rezolvate' : 'Arată și rezolvate';
+            renderSkippedReviews(cachedSkippedReviews);
+        }
+
+        function scrollToSkippedReviews() {
+            const el = document.getElementById('skippedReviewsPanel');
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function renderSkippedReviews(list) {
+            cachedSkippedReviews = Array.isArray(list) ? list : [];
+            const resolved = getResolvedReviewsSet();
+            const pendingCount = cachedSkippedReviews.filter(r => !resolved.has(r.id || r.url || r.guest)).length;
+
+            const badge = document.getElementById('skippedRevCount');
+            if (badge) {
+                badge.innerText = pendingCount > 0 ? (pendingCount + ' de verificat') : '0 — Toate curate';
+                badge.classList.toggle('clean', pendingCount === 0);
+            }
+
+            const visible = showResolvedReviews
+                ? cachedSkippedReviews
+                : cachedSkippedReviews.filter(r => !resolved.has(r.id || r.url || r.guest));
+
+            const grid = document.getElementById('skippedReviewsGrid');
+            if (!grid) return;
+
+            if (visible.length === 0) {
+                grid.innerHTML = '<div style="color:var(--text-muted);font-size:13px;grid-column:1/-1;">✅ Niciun oaspete rămas fără review de verificat manual în ultimele 14 zile.</div>';
+                return;
+            }
+
+            grid.innerHTML = visible.map(r => {
+                const rid = r.id || r.url || r.guest;
+                const isRes = resolved.has(rid);
+                const safeId = escapeHtml(rid).replace(/'/g, "\\'");
+                const kwHtml = r.keyword ? `<div class="rev-kw-pill">⚠️ Cuvânt risc: '${escapeHtml(r.keyword)}'</div>` : '';
+                const aptHtml = r.apartment ? `<div class="rev-apt">🏠 ${escapeHtml(r.apartment)}</div>` : '';
+                const linkHtml = r.url
+                    ? `<a class="rev-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">Deschide pe Airbnb ↗</a>`
+                    : `<span style="font-size:11px;color:#64748b;">Fără link direct</span>`;
+                const btnHtml = isRes
+                    ? `<button class="rev-done-btn" onclick="markReviewResolved('${safeId}', true)">↺ Readu în listă</button>`
+                    : `<button class="rev-done-btn" onclick="markReviewResolved('${safeId}', false)">✓ Rezolvat</button>`;
+
+                return `
+                    <div class="rev-card ${isRes ? 'resolved' : ''}">
+                        <div>
+                            <div class="rev-card-top">
+                                <div>
+                                    <div class="rev-guest">👤 ${escapeHtml(r.guest)}</div>
+                                    ${aptHtml}
+                                </div>
+                                <span class="rev-date mono">${escapeHtml(r.date)}</span>
+                            </div>
+                            <div style="margin-top:8px;">
+                                ${kwHtml}
+                                <div class="rev-reason">${escapeHtml(r.reason)}</div>
+                            </div>
+                        </div>
+                        <div class="rev-actions">
+                            ${linkHtml}
+                            ${btnHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function setModalMsgScope(scope) {
+            currentModalMsgScope = scope;
+            if (currentModalAptName) openAptModal(currentModalAptName, scope);
+        }
+
+        function isAptUrgencyMarkedRead(apt) {
+            try {
+                const readMap = (typeof getReadUrgencies === 'function') ? getReadUrgencies() : {};
+                const sig = readMap[(apt.name || '').trim()];
+                if (!sig) return false;
+                if (Array.isArray(apt.urgente_mesaje) && apt.urgente_mesaje.length > 0) {
+                    return sig === 'ALL' || sig.includes(apt.urgente_mesaje[0].slice(0, 30));
+                }
+                return true;
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function openAptModal(aptName, scopeOverride) {
             const apt = cachedApartments.find(a => a.name === aptName);
-            if (!apt || !apt.urgenta_azi) return;
-            document.getElementById('modalAptTitle').innerText = '⚠️ Urgențe azi — ' + apt.name;
-            const msgs = (apt.urgente_mesaje && apt.urgente_mesaje.length > 0)
-                ? apt.urgente_mesaje
-                : [apt.last_action || 'A fost semnalată o urgență astăzi pentru acest apartament.'];
-            document.getElementById('modalMsgList').innerHTML = msgs.map(m => `<div class="urgent-msg-card">${m}</div>`).join('');
+            if (!apt) return;
+            currentModalAptName = apt.name;
+            const allSent = Array.isArray(apt.mesaje_trimise) ? apt.mesaje_trimise : [];
+            const todaySent = allSent.filter(m => m.is_today);
+            currentModalMsgScope = scopeOverride || 'all';
+
+            const hasUnreadUrg = Boolean(apt.urgenta_azi) && !isAptUrgencyMarkedRead(apt);
+            const titleEl = document.getElementById('modalAptTitle');
+            titleEl.innerText = hasUnreadUrg
+                ? ('⚠️ Urgențe azi — ' + apt.name)
+                : ('💬 Mesaje trimise — ' + apt.name);
+
+            // Dacă nu e urgență necitită, ascundem bara butonului „Marchează ca citită”
+            const existingBar = document.getElementById('urgReadActionBar');
+            if (existingBar && !hasUnreadUrg) existingBar.remove();
+
+            let htmlParts = [];
+
+            if (hasUnreadUrg) {
+                const urgMsgs = (apt.urgente_mesaje && apt.urgente_mesaje.length > 0)
+                    ? apt.urgente_mesaje
+                    : [apt.last_action || 'A fost semnalată o urgență astăzi pentru acest apartament.'];
+                htmlParts.push('<div class="modal-sec-title"><span>🚨 Mesaje de urgență detectate azi</span></div>');
+                htmlParts.push(urgMsgs.map(m => `<div class="urgent-msg-card">${escapeHtml(m)}</div>`).join(''));
+            }
+
+            const shown = (currentModalMsgScope === 'today') ? todaySent : allSent;
+            htmlParts.push(`
+                <div class="modal-sec-title">
+                    <span>🤖 Mesaje trimise către oaspeți</span>
+                    <span class="modal-tabs">
+                        <button class="modal-tab-btn ${currentModalMsgScope === 'all' ? 'active' : ''}" onclick="setModalMsgScope('all')">Recente (${allSent.length})</button>
+                        <button class="modal-tab-btn ${currentModalMsgScope === 'today' ? 'active' : ''}" onclick="setModalMsgScope('today')">Azi (${todaySent.length})</button>
+                    </span>
+                </div>
+            `);
+
+            if (shown.length === 0) {
+                htmlParts.push('<div style="color:#94a3b8;font-size:12.5px;padding:10px 4px;">Nu există mesaje trimise de agent în acest interval pentru ' + escapeHtml(apt.name) + '.</div>');
+            } else {
+                htmlParts.push(shown.map(m => {
+                    const qHtml = m.guest_msg
+                        ? `<div class="sent-msg-question">👤 Oaspete: "${escapeHtml(m.guest_msg)}"</div>`
+                        : '';
+                    const todayBadge = m.is_today ? '<span class="sent-badge-today">AZI</span>' : '';
+                    return `
+                        <div class="sent-msg-card">
+                            <div class="sent-msg-head">
+                                <span class="sent-msg-guest">👤 ${escapeHtml(m.guest || 'Oaspete')}</span>
+                                <span class="sent-msg-meta">
+                                    ${todayBadge}
+                                    <span class="sent-badge-src">${escapeHtml(m.source || 'Agent AI')}</span>
+                                    <span class="mono">${escapeHtml(m.date || m.time || '')}</span>
+                                </span>
+                            </div>
+                            ${qHtml}
+                            <div class="sent-msg-body">${escapeHtml(m.text)}</div>
+                        </div>
+                    `;
+                }).join(''));
+            }
+
+            document.getElementById('modalMsgList').innerHTML = htmlParts.join('');
             document.getElementById('urgentModal').classList.add('open');
+        }
+
+        function openUrgentModal(aptName) {
+            openAptModal(aptName);
         }
 
         function closeUrgentModal() {
@@ -949,8 +1242,12 @@
                 const st = classifyApartment(apt);
                 const realTasks = apt.tasks_today || 0;
                 const realMins = realTasks * 3;
-                const clickAttr = apt.urgenta_azi ? `onclick="openUrgentModal('${apt.name.replace(/'/g, "\\'")}')"` : '';
-                const urgentHint = apt.urgenta_azi ? '<div class="urgent-hint">🔍 Click pentru a vedea mesajele de urgență</div>' : '';
+                const sentCount = Array.isArray(apt.mesaje_trimise) ? apt.mesaje_trimise.length : 0;
+                const safeName = apt.name.replace(/'/g, "\\'");
+                const clickAttr = `onclick="openAptModal('${safeName}')"`;
+                const hintHtml = apt.urgenta_azi
+                    ? `<div class="urgent-hint">🔍 Click pentru urgențe & mesaje trimise (${sentCount})</div>`
+                    : `<div class="apt-msg-hint">💬 Click pentru mesaje trimise (${sentCount})</div>`;
 
                 return `
                     <div class="apt-item ${st.cls}" ${clickAttr}>
@@ -964,7 +1261,7 @@
                             </div>
                             <div class="apt-guest">👤 ${apt.guest}</div>
                             <div class="apt-action" style="margin-top:6px;">${apt.last_action}</div>
-                            ${urgentHint}
+                            ${hintHtml}
                         </div>
                         <div class="apt-meta">
                             <span>Sarcini azi: <b class="mono">${realTasks}</b></span>
@@ -1039,7 +1336,7 @@
                                         <div class="agent-icon-box">${svg}</div>
                                         <div style="min-width:0;">
                                             <div class="agent-name">${title}</div>
-                                            <span class="agent-substatus ${isErr ? 'err' : ''}">${bot.status}</span>
+                                            <span class="agent-substatus ${isErr ? 'err' : ''}">${bot.status}</span>${(bot.id === "reviews" && (bot.skipped_count || 0) > 0) ? `<div class="agent-rev-pill">⚠️ ${bot.skipped_count} neacordate • Click</div>` : ""}
                                         </div>
                                     </div>
                                     <span class="agent-led ${isErr ? 'err' : ''}"></span>
@@ -1266,7 +1563,13 @@
                     card.onclick = () => openAgentErrorModal(agentName);
                 } else {
                     card.classList.remove('card-clickable-err');
-                    card.onclick = null;
+                    if (agentName === 'Airbnb 5★') {
+                        card.style.cursor = 'pointer';
+                        card.title = 'Click pentru a vedea review-urile neacordate';
+                        card.onclick = () => scrollToSkippedReviews();
+                    } else {
+                        card.onclick = null;
+                    }
                 }
             });
         }
@@ -1689,8 +1992,7 @@
                 card.classList.remove('urgent', 'urgenta', 'warning', 'has-urgency');
                 card.style.borderColor = 'rgba(16, 185, 129, 0.35)';
                 card.style.background = 'linear-gradient(145deg, rgba(16, 185, 129, 0.10), rgba(15, 23, 42, 0.95))';
-                card.style.cursor = 'default';
-                card.onclick = null;
+                card.style.cursor = 'pointer';
 
                 card.querySelectorAll('span, div, p, a, button').forEach(sub => {
                     if (sub.children.length > 0) return;
