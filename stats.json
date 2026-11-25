@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:54:42",
+  "updated_at": "00:04:53",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 19,
-    "time_saved_str": "1h 36m",
-    "actions_today": 32,
-    "last_check": "23:54"
+    "conversations_monitored": 18,
+    "time_saved_str": "0 min",
+    "actions_today": 0,
+    "last_check": "00:04"
   },
   "core_agents": [
     {
@@ -14,9 +14,9 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "19 discuții azi",
+      "worked_today": "18 discuții azi",
       "metric_label": "Rezervări active azi",
-      "metric_value": "19 check-in/out"
+      "metric_value": "18 check-in/out"
     },
     {
       "id": "ai",
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "23 răspunsuri azi",
+      "worked_today": "0 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "26 mesaje"
+      "metric_value": "0 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "4 update-uri azi",
+      "worked_today": "0 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -44,7 +44,7 @@
       "role": "Acordă automat 5 stele oaspeților fără probleme la ora 20:00",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "5 recenzii azi",
+      "worked_today": "0 recenzii azi",
       "metric_label": "Total auto-review",
       "metric_value": "43 acordate"
     },
@@ -61,78 +61,6 @@
   ],
   "apartments": [
     {
-      "name": "Old Town Tonitza 11 B",
-      "tasks_today": 10,
-      "tasks_total": 10,
-      "manual_minutes": 30,
-      "last_action": "Check-out înregistrat la ora 09:48 + Sync Tabel",
-      "last_time": "09:48",
-      "status": "working",
-      "guest": "Balaceanu Sebi (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 6,
-      "tasks_total": 6,
-      "manual_minutes": 18,
-      "last_action": "Check-out înregistrat la ora 09:48 + Sync Tabel",
-      "last_time": "09:48",
-      "status": "working",
-      "guest": "Tamas Laszlo (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Tonitza 11 A with terrace",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "Check-out înregistrat la ora 09:58 + Sync Tabel",
-      "last_time": "09:59",
-      "status": "working",
-      "guest": "Wiktor Oles (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
-      "last_time": "09:28",
-      "status": "working",
-      "guest": "Gabriela Tufa (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Campineanu22 A",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "18:08",
-      "status": "working",
-      "guest": "Becchi Andrea (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:23",
-      "status": "working",
-      "guest": "Michele Salvatori (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Biserica Amzei 27",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -140,7 +68,19 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Luca Mouawad (Check-in azi)",
+      "guest": "Dana Balatsky (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Campineanu22 A",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Martina Longo (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -152,7 +92,31 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Nassar Bakri (Check-in azi)",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Kogalniceanu 9 1BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -164,7 +128,7 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe",
+      "guest": "Gabriel Negoita (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -188,7 +152,7 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe",
+      "guest": "Ignacio Moreno Garcia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -200,7 +164,31 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe",
+      "guest": "Cecilia Bica (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Tonitza 11 B",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Alex-Gabriel Sina (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Maria Teresa Toro Barahona (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -212,12 +200,38 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Georgiana Ambrus (Check-in azi)",
+      "guest": "Ben Barrett (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Tonitza 11 A with terrace",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
       "urgenta_azi": false,
       "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "23:54",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 23:54:52,080 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"You're very w",
+      "type": "success"
+    },
+    {
+      "time": "23:54",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-25 23:54:48,749 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "23:44",
       "icon": "💬",
@@ -259,24 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-25 23:34:13,421 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
       "type": "success"
-    },
-    {
-      "time": "23:34",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-25 23:34:13,329 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
-    },
-    {
-      "time": "23:34",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 23:34:11,764 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-25 22:53:44,375 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-25 23:03:50,962 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:03:51,173 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-25 23:13:58,066 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:13:58,276 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-25 23:24:04,887 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:24:05,068 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-25 23:34:11,567 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:34:11,764 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 23:34:11,798 [INFO] 🧠 Mesaj NOU #25299 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Hi, we’re so sorry for a late message. We accidentally left the key inside the apartment, and will n...\"\n2026-11-25 23:34:11,799 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 23:34:11,799 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:13,327 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-25 23:34:13,329 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-25 23:34:13,329 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-25 23:34:13,329 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:13,420 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 23:34:13,421 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 23:34:13,421 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-25 23:34:13,421 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:13,517 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 23:34:13,518 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 23:34:13,518 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-25 23:34:13,518 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:32,733 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-25 23:34:32,734 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-25 23:34:32,735 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25299: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-25 23:44:39,338 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:44:39,533 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 23:44:39,572 [INFO] 🧠 Mesaj NOU #25299 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Hi, we’re so sorry for a late message. We accidentally left the key inside the apartment, and will n...\"\n2026-11-25 23:44:39,573 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 23:44:39,573 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:44:40,989 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 23:44:41,585 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"Hello Wiktor! Please don't worry, accidents happen! I have immediately notified the property manager about this right now, and he is checking the situation and will get in touch with you as quickly as possible to help you access the apartment. Please stay close by!\"\n2026-11-25 23:44:41,865 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-  "last_cloud_sync": "2026-11-25 23:54:42",
+  "raw_logs": "2026-11-25 23:34:11,567 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:34:11,764 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 23:34:11,798 [INFO] 🧠 Mesaj NOU #25299 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Hi, we’re so sorry for a late message. We accidentally left the key inside the apartment, and will n...\"\n2026-11-25 23:34:11,799 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 23:34:11,799 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:13,327 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-25 23:34:13,329 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-25 23:34:13,329 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-25 23:34:13,329 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:13,420 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 23:34:13,421 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 23:34:13,421 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-25 23:34:13,421 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:13,517 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 23:34:13,518 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 23:34:13,518 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-25 23:34:13,518 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:34:32,733 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-25 23:34:32,734 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-25 23:34:32,735 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25299: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}\n2026-11-25 23:44:39,338 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:44:39,533 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 23:44:39,572 [INFO] 🧠 Mesaj NOU #25299 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Hi, we’re so sorry for a late message. We accidentally left the key inside the apartment, and will n...\"\n2026-11-25 23:44:39,573 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 23:44:39,573 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:44:40,989 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 23:44:41,585 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"Hello Wiktor! Please don't worry, accidents happen! I have immediately notified the property manager about this right now, and he is checking the situation and will get in touch with you as quickly as possible to help you access the apartment. Please stay close by!\"\n2026-11-25 23:44:41,865 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-25 23:54:48,539 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 23:54:48,749 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 23:54:48,785 [INFO] 🧠 Mesaj NOU #25301 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Okay, perfect. Thank you so much! We’re coming back right now, on our way...\"\n2026-11-25 23:54:48,786 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 23:54:48,786 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 23:54:51,119 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 23:54:52,080 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"You're very welcome, Wiktor! Safe travels back to the apartment, and let us know if you need anything else! 😊\"",
+  "last_cloud_sync": "2026-11-26 00:04:53",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
