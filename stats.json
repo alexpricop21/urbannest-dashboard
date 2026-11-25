@@ -1,11 +1,11 @@
 {
-  "updated_at": "20:40:53",
+  "updated_at": "20:51:25",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 19,
-    "time_saved_str": "1h 12m",
-    "actions_today": 24,
-    "last_check": "20:40"
+    "time_saved_str": "1h 18m",
+    "actions_today": 26,
+    "last_check": "20:51"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "15 răspunsuri azi",
+      "worked_today": "17 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "19 mesaje"
+      "metric_value": "20 mesaje"
     },
     {
       "id": "clean",
@@ -62,9 +62,9 @@
   "apartments": [
     {
       "name": "Old Town Tonitza 11 B",
-      "tasks_today": 6,
-      "tasks_total": 6,
-      "manual_minutes": 18,
+      "tasks_today": 8,
+      "tasks_total": 8,
+      "manual_minutes": 24,
       "last_action": "Check-out înregistrat la ora 09:48 + Sync Tabel",
       "last_time": "09:48",
       "status": "working",
@@ -219,6 +219,41 @@
   ],
   "feed": [
     {
+      "time": "20:41",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 20:41:24,004 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': ",
+      "type": "success"
+    },
+    {
+      "time": "20:41",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 20:41:04,603 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'me",
+      "type": "success"
+    },
+    {
+      "time": "20:41",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 20:41:04,501 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
+      "type": "success"
+    },
+    {
+      "time": "20:41",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 20:41:04,409 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
+      "type": "success"
+    },
+    {
+      "time": "20:40",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-25 20:40:59,355 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "20:30",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -238,45 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-25 20:30:48,166 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "20:30",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-25 20:30:47,908 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hi Rares! Thank ",
-      "type": "success"
-    },
-    {
-      "time": "20:30",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-25 20:30:39,808 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'me",
-      "type": "success"
-    },
-    {
-      "time": "20:30",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-25 20:30:39,684 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
-      "type": "success"
-    },
-    {
-      "time": "20:30",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-25 20:30:39,575 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 5",
-      "type": "success"
-    },
-    {
-      "time": "20:30",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 20:30:37,888 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-25 20:00:12,614 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hi Rares! Thank you for your message. I have passed your price inquiry regarding the extra night to our property manager, and he will get back to you shortly with availability and details!\"\n2026-11-25 20:00:13,022 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-25 20:00:13,024 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-25 20:10:23,135 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 20:10:23,346 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-25 20:20:30,770 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 20:20:31,004 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 0\n2026-11-25 20:30:37,683 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 20:30:37,888 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 2\n2026-11-25 20:30:37,927 [INFO] 🧠 Mesaj NOU #25278 (2 lipite) de la Rares Stinga (Old Town Tonitza 11 B): \"Ziceam pentru tv ca nu a mers, am uitat de acea taxa e ok daca nu mi mai dati nimic si ramane taxa a...\"\n2026-11-25 20:30:37,928 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 20:30:37,928 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:39,573 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-25 20:30:39,575 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-25 20:30:39,575 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-25 20:30:39,576 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:39,684 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 20:30:39,684 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 20:30:39,685 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-25 20:30:39,685 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:39,807 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 20:30:39,808 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 20:30:39,808 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-25 20:30:39,808 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:47,314 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 20:30:47,908 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hi Rares! Thank you for your message and for letting us know about the issue with the TV. I have immediately passed your request and note regarding the city tax to our property manager, and he will get back to you shortly!\"\n2026-11-25 20:30:48,166 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-25 20:30:48,167 [INFO] 🧠 Mesaj NOU #25279 (2 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"τον φορο πως τον πληρωνω?\nMesaj tradus: How do I pay the tax? | μεσα απο εδω θελω\nMesaj tradus: I ...\"\n2026-11-25 20:30:48,168 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 20:30:48,168 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:51,896 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 20:30:52,402 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! For your reservation through Airbnb, we will send the payment link directly via the Airbnb platform (Resolution Center) so you can pay easily right inside the app. Thank you! 💳\"\n2026-11-25 20:30:52,404 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-25 20:40:53",
+  "raw_logs": "2026-11-25 20:30:39,808 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 20:30:39,808 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-25 20:30:39,808 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:47,314 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 20:30:47,908 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Rares Stinga (Old Town Tonitza 11 B)]: \"Hi Rares! Thank you for your message and for letting us know about the issue with the TV. I have immediately passed your request and note regarding the city tax to our property manager, and he will get back to you shortly!\"\n2026-11-25 20:30:48,166 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-25 20:30:48,167 [INFO] 🧠 Mesaj NOU #25279 (2 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"τον φορο πως τον πληρωνω?\nMesaj tradus: How do I pay the tax? | μεσα απο εδω θελω\nMesaj tradus: I ...\"\n2026-11-25 20:30:48,168 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 20:30:48,168 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:30:51,896 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 20:30:52,402 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! For your reservation through Airbnb, we will send the payment link directly via the Airbnb platform (Resolution Center) so you can pay easily right inside the app. Thank you! 💳\"\n2026-11-25 20:30:52,404 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-25 20:40:59,152 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 20:40:59,355 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1\n2026-11-25 20:40:59,389 [INFO] 🧠 Mesaj NOU #25282 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"οκ θα χρειαστεις κατι αλλο ?\nMesaj tradus: Okay, will you need anything else?...\"\n2026-11-25 20:40:59,390 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 20:40:59,390 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:41:04,408 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-25 20:41:04,409 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-25 20:41:04,409 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-25 20:41:04,409 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:41:04,500 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 20:41:04,501 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 20:41:04,501 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-25 20:41:04,501 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:41:04,602 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-25 20:41:04,603 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-25 20:41:04,603 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-25 20:41:04,604 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 20:41:24,004 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 504 Gateway Timeout\"\n2026-11-25 20:41:24,004 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}), incerc urmatorul...\n2026-11-25 20:41:24,005 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25282: 504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}",
+  "last_cloud_sync": "2026-11-25 20:51:25",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
