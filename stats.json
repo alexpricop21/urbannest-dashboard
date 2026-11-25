@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:23:02",
+  "updated_at": "22:33:17",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 19,
-    "time_saved_str": "1h 24m",
-    "actions_today": 28,
-    "last_check": "22:23"
+    "time_saved_str": "1h 27m",
+    "actions_today": 29,
+    "last_check": "22:33"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "19 răspunsuri azi",
+      "worked_today": "20 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "22 mesaje"
+      "metric_value": "24 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "7 alerte azi",
+      "worked_today": "8 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -86,9 +86,9 @@
     },
     {
       "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
       "last_action": "Check-out înregistrat la ora 09:48 + Sync Tabel",
       "last_time": "09:48",
       "status": "working",
@@ -149,9 +149,9 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "22:15",
+      "status": "working",
       "guest": "Michele Salvatori (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
@@ -219,6 +219,34 @@
   ],
   "feed": [
     {
+      "time": "22:23",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 22:23:16,849 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "22:23",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 22:23:16,847 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109489 (Apartament UrbanNest)]: \"Hello! The cit",
+      "type": "success"
+    },
+    {
+      "time": "22:23",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 22:23:10,468 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #107386 (Apartament UrbanNest)]: \"Hello Emmanuel",
+      "type": "success"
+    },
+    {
+      "time": "22:23",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-25 22:23:08,703 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "22:13",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -245,38 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-25 22:02:48,176 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "21:52",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 21:52:41,292 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "21:42",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 21:42:34,359 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "21:32",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 21:32:27,559 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "21:22",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 21:22:20,620 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-25 21:02:01,581 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 21:02:01,581 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 21:02:02,916 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 21:02:03,767 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"No, George, everything is all set for now! If we need anything else, we will let you know. Have a wonderful day! 😊\"\n2026-11-25 21:12:10,416 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:12:10,605 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 1\n2026-11-25 21:12:10,636 [INFO] 🧠 Mesaj NOU #25286 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"σε ευχαριστω επισης οποτε μπορεις να δεις αυτο για τον φορο παρακαλω . σε αλλα διαμερισματα που ρωτη...\"\n2026-11-25 21:12:10,637 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 21:12:10,637 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 21:12:12,147 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 21:12:12,809 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! We totally understand. The city tax is a local legal requirement in Bucharest for all short-term rentals, but we will send the payment link via the Airbnb Resolution Center shortly so you can settle it easily right in the app. Thank you so much for your understanding! 😊\"\n2026-11-25 21:12:12,811 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-25 21:22:20,306 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:22:20,620 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 21:32:27,226 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:32:27,559 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 21:42:34,159 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:42:34,359 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 21:52:41,042 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:52:41,292 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 22:02:47,900 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 22:02:48,176 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 22:12:54,926 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 22:12:55,140 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 22:12:55,172 [INFO] 🧠 Mesaj NOU #25289 (1 lipite) de la Oaspete #109489 (Apartament UrbanNest): \"city tax?...\"\n2026-11-25 22:12:55,172 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 22:12:55,172 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 22:13:00,374 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 22:13:01,048 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109489 (Apartament UrbanNest)]: \"Hello! For the city tax payment, you can choose one of the following payment methods:\n• PayPal: https://www.paypal.me/pricopalexandrumihai\n• Revolut tag: @alexpricop\n• Wise link: https://wise.com/pay/me/alexandrup80\n• Bank account (EUR IBAN): RO40REVO0000107967693391 (Account holder: Alexandru-Mihai Pricop)\nPlease let us know which option you prefer or let us know once the payment is completed, making sure to include your name or reservation details in the transfer reference. Thank you!\"\n2026-11-25 22:13:01,051 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-25 22:23:02",
+  "raw_logs": "2026-11-25 21:32:27,559 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 21:42:34,159 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:42:34,359 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 21:52:41,042 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 21:52:41,292 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 22:02:47,900 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 22:02:48,176 [INFO] 📊 Conversatii verificate: 76 | Rezervari cu mesaje NOI: 0\n2026-11-25 22:12:54,926 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 22:12:55,140 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-25 22:12:55,172 [INFO] 🧠 Mesaj NOU #25289 (1 lipite) de la Oaspete #109489 (Apartament UrbanNest): \"city tax?...\"\n2026-11-25 22:12:55,172 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 22:12:55,172 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 22:13:00,374 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 22:13:01,048 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109489 (Apartament UrbanNest)]: \"Hello! For the city tax payment, you can choose one of the following payment methods:\n• PayPal: https://www.paypal.me/pricopalexandrumihai\n• Revolut tag: @alexpricop\n• Wise link: https://wise.com/pay/me/alexandrup80\n• Bank account (EUR IBAN): RO40REVO0000107967693391 (Account holder: Alexandru-Mihai Pricop)\nPlease let us know which option you prefer or let us know once the payment is completed, making sure to include your name or reservation details in the transfer reference. Thank you!\"\n2026-11-25 22:13:01,051 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-25 22:23:08,463 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 22:23:08,703 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 2\n2026-11-25 22:23:08,744 [INFO] 🧠 Mesaj NOU #25293 (1 lipite) de la Oaspete #107386 (Apartament UrbanNest): \"Salut, scuze de intarziere. Am rezolvat\nMesaj tradus: Hi. Sorry for the delay. I've taken care of i...\"\n2026-11-25 22:23:08,744 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 22:23:08,744 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 22:23:09,672 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 22:23:10,468 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #107386 (Apartament UrbanNest)]: \"Hello Emmanuell! Thank you for letting us know. We are glad to hear everything is sorted out. Have a wonderful day ahead!\"\n2026-11-25 22:23:10,471 [INFO] 🧠 Mesaj NOU #25292 (1 lipite) de la Oaspete #109489 (Apartament UrbanNest): \"am platit o noapte cu taxe incluse ,de ce ar trebui sa platesc acum alte taxe?\nMesaj tradus: I paid...\"\n2026-11-25 22:23:10,471 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 22:23:10,472 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 22:23:16,201 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 22:23:16,847 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Oaspete #109489 (Apartament UrbanNest)]: \"Hello! The city tax (tourist tax) is a local municipal tax mandated by the Bucharest City Hall for all accommodation providers, and it is separate from the accommodation rate charged by the booking platform. If you prefer, we can also provide the available payment methods again (PayPal, Revolut, Wise, or bank transfer) so you can easily complete it. Thank you for your understanding!\"\n2026-11-25 22:23:16,849 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+  "last_cloud_sync": "2026-11-25 22:33:17",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
