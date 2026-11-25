@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:16:13",
+  "updated_at": "13:26:23",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 19,
     "time_saved_str": "36 min",
     "actions_today": 12,
-    "last_check": "13:16"
+    "last_check": "13:26"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "8 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "8 mesaje"
+      "metric_value": "9 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "6 alerte azi",
+      "worked_today": "7 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -219,6 +219,27 @@
   ],
   "feed": [
     {
+      "time": "13:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 13:16:21,824 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "13:16",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-25 13:16:21,257 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Balaceanu Sebi (Old Town Tonitza 11 B)]: \"Hello Balacean",
+      "type": "success"
+    },
+    {
+      "time": "13:16",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-25 13:16:19,469 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "13:06",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -252,31 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-25 12:25:44,632 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 If you ",
       "type": "success"
-    },
-    {
-      "time": "12:25",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 12:25:42,993 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "12:15",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 12:15:35,885 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "12:05",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-25 12:05:28,832 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-25 11:04:45,867 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 11:14:52,102 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 11:14:52,348 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 11:24:58,537 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 11:24:58,814 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 11:35:04,934 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 11:35:05,158 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 11:45:11,530 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 11:45:11,734 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 11:55:18,037 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 11:55:18,263 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-25 11:55:18,359 [INFO] 🧠 Mesaj NOU #25221 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Great thank you very much :) stay in touch!...\"\n2026-11-25 11:55:18,362 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 11:55:18,376 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 11:55:19,466 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 11:55:20,027 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"You're very welcome, Wiktor! 😊 Have a wonderful and safe trip to Bucharest, and feel free to reach out if you need anything else. We look forward to hosting you!\"\n2026-11-25 12:05:27,340 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:05:28,832 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:15:35,665 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:15:35,885 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:25:42,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:25:42,993 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-25 12:25:43,038 [INFO] 🧠 Mesaj NOU #25228 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"İş this box...\"\n2026-11-25 12:25:43,039 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 12:25:43,040 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 12:25:43,968 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 12:25:44,632 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 If you have any questions or need anything regarding your stay or check-in, please feel free to let me know!\"\n2026-11-25 12:35:52,739 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:35:52,971 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:45:59,237 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:45:59,431 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:56:05,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:56:05,955 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 13:06:12,566 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 13:06:12,774 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-25 13:16:13",
+  "raw_logs": "2026-11-25 11:55:18,037 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 11:55:18,263 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-25 11:55:18,359 [INFO] 🧠 Mesaj NOU #25221 (1 lipite) de la Wiktor Oles (Tonitza 11 A with terrace): \"Great thank you very much :) stay in touch!...\"\n2026-11-25 11:55:18,362 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 11:55:18,376 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 11:55:19,466 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 11:55:20,027 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"You're very welcome, Wiktor! 😊 Have a wonderful and safe trip to Bucharest, and feel free to reach out if you need anything else. We look forward to hosting you!\"\n2026-11-25 12:05:27,340 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:05:28,832 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:15:35,665 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:15:35,885 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:25:42,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:25:42,993 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 1\n2026-11-25 12:25:43,038 [INFO] 🧠 Mesaj NOU #25228 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"İş this box...\"\n2026-11-25 12:25:43,039 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 12:25:43,040 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 12:25:43,968 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 12:25:44,632 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Hello Mehmet! 😊 If you have any questions or need anything regarding your stay or check-in, please feel free to let me know!\"\n2026-11-25 12:35:52,739 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:35:52,971 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:45:59,237 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:45:59,431 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 12:56:05,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 12:56:05,955 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 13:06:12,566 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 13:06:12,774 [INFO] 📊 Conversatii verificate: 72 | Rezervari cu mesaje NOI: 0\n2026-11-25 13:16:19,256 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-25 13:16:19,469 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-25 13:16:19,501 [INFO] 🧠 Mesaj NOU #25237 (1 lipite) de la Balaceanu Sebi (Old Town Tonitza 11 B): \"Bună ziua! Se poate face check in ul mai repede?\nMesaj tradus: Hello! Can the check-in be earlier?...\"\n2026-11-25 13:16:19,501 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-25 13:16:19,502 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-25 13:16:20,734 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-25 13:16:21,257 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Balaceanu Sebi (Old Town Tonitza 11 B)]: \"Hello Balaceanu! Standard check-in starts at 3:00 PM (15:00). We will do our best to have the apartment ready for you earlier if possible, and we will let you know as soon as the cleaning team finishes! Also, if you arrive after 11:00 AM, you are welcome to drop off your luggage inside the apartment as long as you leave the key back in the lockbox for our cleaners. 🧳✨\"\n2026-11-25 13:16:21,824 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
+  "last_cloud_sync": "2026-11-25 13:26:23",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
