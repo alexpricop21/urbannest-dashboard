@@ -1,11 +1,11 @@
 {
-  "updated_at": "00:57:17",
+  "updated_at": "01:07:27",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
     "time_saved_str": "3 min",
     "actions_today": 1,
-    "last_check": "00:57"
+    "last_check": "01:07"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "1 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "1 mesaje"
+      "metric_value": "2 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "12 alerte azi",
+      "worked_today": "13 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -66,7 +66,7 @@
       "tasks_total": 1,
       "manual_minutes": 3,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "00:37",
+      "last_time": "00:52",
       "status": "working",
       "guest": "Gabriel Negoita",
       "urgenta_azi": false,
@@ -219,6 +219,27 @@
   ],
   "feed": [
     {
+      "time": "00:57",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 00:57:26,355 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "00:57",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 00:57:26,043 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! I am s",
+      "type": "success"
+    },
+    {
+      "time": "00:57",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 00:57:24,442 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "00:47",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -252,31 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-27 00:16:49,334 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "00:06",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 00:06:41,639 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "23:56",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 23:56:33,668 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "23:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 23:46:25,600 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-26 23:15:58,021 [INFO] 🧠 Mesaj NOU #25438 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"How much would be? Via Revolut...\"\n2026-11-26 23:15:58,021 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:15:58,021 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:15:59,064 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:15:59,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! The city tax is 10 RON per person per night. For your reservation of 2 adults for 1 night, the total is 20 RON (which is approximately 4 EUR). You can easily send it via Revolut to my tag: @alexpricop. Please let me know once completed, and thank you so much! 💳\"\n2026-11-26 23:15:59,669 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:26:07,309 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:26:07,509 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 23:26:07,544 [INFO] 🧠 Mesaj NOU #25444 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"I’ve sent you 4€ by the name of David Dominguez...\"\n2026-11-26 23:26:07,545 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:26:07,545 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:26:08,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:26:09,637 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Thank you so much, Maria! We have received your payment. We wish you a wonderful stay at Old Town Victoriei 25! 🌟\"\n2026-11-26 23:26:09,639 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:36:17,628 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:36:17,838 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:46:25,391 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:46:25,600 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:56:33,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:56:33,668 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:06:41,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:06:41,639 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:16:49,147 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:16:49,334 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:26:56,872 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:26:57,076 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:37:05,222 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:37:05,423 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:37:05,476 [INFO] 🧠 Mesaj NOU #25449 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"What is the block number? 29B? Scara B?...\"\n2026-11-27 00:37:05,477 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:37:05,477 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:37:06,911 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:37:07,391 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! 🏙️ The building is located at Bd. Magheru nr. 29. Regarding the block/staircase details, all exact access instructions and key details will be sent to you automatically 1 day before your arrival. Let us know if you need anything else! ✨\"\n2026-11-27 00:47:16,429 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:47:16,652 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-27 00:57:17",
+  "raw_logs": "2026-11-26 23:26:07,544 [INFO] 🧠 Mesaj NOU #25444 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"I’ve sent you 4€ by the name of David Dominguez...\"\n2026-11-26 23:26:07,545 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:26:07,545 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:26:08,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:26:09,637 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Thank you so much, Maria! We have received your payment. We wish you a wonderful stay at Old Town Victoriei 25! 🌟\"\n2026-11-26 23:26:09,639 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:36:17,628 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:36:17,838 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:46:25,391 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:46:25,600 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:56:33,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:56:33,668 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:06:41,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:06:41,639 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:16:49,147 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:16:49,334 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:26:56,872 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:26:57,076 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:37:05,222 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:37:05,423 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:37:05,476 [INFO] 🧠 Mesaj NOU #25449 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"What is the block number? 29B? Scara B?...\"\n2026-11-27 00:37:05,477 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:37:05,477 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:37:06,911 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:37:07,391 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! 🏙️ The building is located at Bd. Magheru nr. 29. Regarding the block/staircase details, all exact access instructions and key details will be sent to you automatically 1 day before your arrival. Let us know if you need anything else! ✨\"\n2026-11-27 00:47:16,429 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:47:16,652 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:57:24,223 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:57:24,442 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:57:24,474 [INFO] 🧠 Mesaj NOU #25451 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"The downstairs door doesn’t unlock...\"\n2026-11-27 00:57:24,474 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:57:24,474 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:57:25,553 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:57:26,043 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! I am so sorry for the trouble with the downstairs door. I have just notified our property manager right now, who is immediately looking into the issue and will get back to you as quickly as possible. Please hang on for a moment!\"\n2026-11-27 00:57:26,355 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+  "last_cloud_sync": "2026-11-27 01:07:27",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
