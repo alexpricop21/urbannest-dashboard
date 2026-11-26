@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:56:26",
+  "updated_at": "13:06:34",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 19,
-    "time_saved_str": "1h 24m",
-    "actions_today": 28,
-    "last_check": "12:56"
+    "time_saved_str": "1h 30m",
+    "actions_today": 30,
+    "last_check": "13:06"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "24 răspunsuri azi",
+      "worked_today": "26 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "28 mesaje"
     },
@@ -74,11 +74,11 @@
     },
     {
       "name": "Old Town Tonitza 11 B",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
+      "tasks_today": 5,
+      "tasks_total": 5,
+      "manual_minutes": 15,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:40",
+      "last_time": "12:46",
       "status": "working",
       "guest": "Alex-Gabriel Sina (Check-in azi)",
       "urgenta_azi": false,
@@ -157,6 +157,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Magheru 29C 2BR",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "12:46",
+      "status": "working",
+      "guest": "Zac Moore`s",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Old Town Ghica 1",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -165,18 +177,6 @@
       "last_time": "11:45",
       "status": "working",
       "guest": "Cecilia Bica (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29C 2BR",
-      "tasks_today": 1,
-      "tasks_total": 1,
-      "manual_minutes": 3,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:40",
-      "status": "working",
-      "guest": "Zac Moore`s",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -218,6 +218,13 @@
     }
   ],
   "feed": [
+    {
+      "time": "12:56",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 12:56:33,662 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "12:46",
       "icon": "💬",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-26 12:25:59,206 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'me",
       "type": "success"
-    },
-    {
-      "time": "12:25",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 12:25:59,113 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-26 12:25:59,011 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-26 12:25:59,012 [INFO] ⚠️ Modelul gemini-3.5-flash-lite nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-26 12:25:59,012 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-26 12:25:59,013 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:25:59,112 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-26 12:25:59,113 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-26 12:25:59,114 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-26 12:25:59,114 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:25:59,205 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-26 12:25:59,206 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-26 12:25:59,207 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-26 12:25:59,207 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:26:03,773 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-26 12:26:03,774 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-26 12:26:03,774 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25372: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-26 12:36:11,857 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 12:36:12,017 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-26 12:36:12,050 [INFO] 🧠 Mesaj NOU #25372 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Cheers Alexandru thanks for sending the details over we’re looking forward to our visit 💪🏼...\"\n2026-11-26 12:36:12,050 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 12:36:12,050 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:36:13,477 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 12:36:13,948 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"You're very welcome, Zac! We're thrilled to host you and looking forward to your arrival. Have a great trip, and feel free to reach out if you need anything else before check-in! 🌟\"\n2026-11-26 12:46:21,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 12:46:21,354 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-26 12:46:21,386 [INFO] 🧠 Mesaj NOU #25374 (1 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"Va bene grazie\nMesaj tradus: All right, thanks....\"\n2026-11-26 12:46:21,387 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 12:46:21,387 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:46:24,063 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 12:46:24,583 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"You're very welcome, Alex-gabriel! Have a wonderful day, and we look forward to welcoming you soon! 🏡✨\"\n2026-11-26 12:46:24,585 [INFO] 🧠 Mesaj NOU #25375 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Thanks mate appreciate that will be in touch if we need anything else...\"\n2026-11-26 12:46:24,586 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 12:46:24,586 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:46:25,418 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 12:46:25,963 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"You're very welcome, Zac! Have a wonderful trip and feel free to reach out anytime if you need anything else. We look forward to hosting you! 🌟\"",
-  "last_cloud_sync": "2026-11-26 12:56:27",
+  "raw_logs": "2026-11-26 12:25:59,012 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash-lite...\n2026-11-26 12:25:59,013 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:25:59,112 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-26 12:25:59,113 [INFO] ⚠️ Modelul gemini-2.5-flash-lite nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-26 12:25:59,114 [INFO] 🤖 Analizez mesajul cu gemini-2.5-flash...\n2026-11-26 12:25:59,114 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:25:59,205 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 404 Not Found\"\n2026-11-26 12:25:59,206 [INFO] ⚠️ Modelul gemini-2.5-flash nu a raspuns (404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}), incerc urmatorul...\n2026-11-26 12:25:59,207 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash...\n2026-11-26 12:25:59,207 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:26:03,773 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent \"HTTP/1.1 503 Service Unavailable\"\n2026-11-26 12:26:03,774 [INFO] ⚠️ Modelul gemini-3.5-flash nu a raspuns (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}), incerc urmatorul...\n2026-11-26 12:26:03,774 [INFO] ⚠️ Eroare analiza/trimitere pt mesajul #25372: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\n2026-11-26 12:36:11,857 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 12:36:12,017 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-26 12:36:12,050 [INFO] 🧠 Mesaj NOU #25372 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Cheers Alexandru thanks for sending the details over we’re looking forward to our visit 💪🏼...\"\n2026-11-26 12:36:12,050 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 12:36:12,050 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:36:13,477 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 12:36:13,948 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"You're very welcome, Zac! We're thrilled to host you and looking forward to your arrival. Have a great trip, and feel free to reach out if you need anything else before check-in! 🌟\"\n2026-11-26 12:46:21,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 12:46:21,354 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-26 12:46:21,386 [INFO] 🧠 Mesaj NOU #25374 (1 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"Va bene grazie\nMesaj tradus: All right, thanks....\"\n2026-11-26 12:46:21,387 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 12:46:21,387 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:46:24,063 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 12:46:24,583 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"You're very welcome, Alex-gabriel! Have a wonderful day, and we look forward to welcoming you soon! 🏡✨\"\n2026-11-26 12:46:24,585 [INFO] 🧠 Mesaj NOU #25375 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Thanks mate appreciate that will be in touch if we need anything else...\"\n2026-11-26 12:46:24,586 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 12:46:24,586 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 12:46:25,418 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 12:46:25,963 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"You're very welcome, Zac! Have a wonderful trip and feel free to reach out anytime if you need anything else. We look forward to hosting you! 🌟\"\n2026-11-26 12:56:33,122 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 12:56:33,662 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-26 13:06:34",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
