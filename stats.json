@@ -1,11 +1,11 @@
 {
-  "updated_at": "11:14:06",
+  "updated_at": "11:24:18",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
-    "time_saved_str": "54 min",
-    "actions_today": 18,
-    "last_check": "11:14"
+    "time_saved_str": "57 min",
+    "actions_today": 19,
+    "last_check": "11:24"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "14 răspunsuri azi",
+      "worked_today": "15 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "16 mesaje"
+      "metric_value": "17 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "8 alerte azi",
+      "worked_today": "7 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -97,6 +97,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Tonitza 11 A with terrace",
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "11:04",
+      "status": "working",
+      "guest": "Wiktor Oles",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Campineanu22 A",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -117,18 +129,6 @@
       "last_time": "02:27",
       "status": "working",
       "guest": "Gabriel Negoita (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Tonitza 11 A with terrace",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "10:54",
-      "status": "working",
-      "guest": "Wiktor Oles",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,20 @@
   ],
   "feed": [
     {
+      "time": "11:14",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 11:14:17,364 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Yo",
+      "type": "success"
+    },
+    {
+      "time": "11:14",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 11:14:13,303 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "11:04",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -259,24 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-26 10:53:52,815 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi ",
       "type": "success"
-    },
-    {
-      "time": "10:53",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 10:53:46,200 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
-    },
-    {
-      "time": "10:43",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 10:43:38,730 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! 📦",
-      "type": "success"
     }
   ],
-  "raw_logs": "Mesaj tradus: Hello. I've left. I left the key in th...\"\n2026-11-26 10:43:32,728 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:43:32,728 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:43:35,885 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:43:36,454 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Thank you very much for staying with us, Emil! We hope you enjoyed your time in Bucharest and we look forward to hosting you again in the future. Safe travels home!\"\n2026-11-26 10:43:36,882 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-26 10:43:36,882 [INFO] 🧠 Mesaj NOU #25335 (2 lipite) de la Belgin Turkbeyler (Old Town Carada 5): \"Merhaba Alexandru,\nMesaj tradus: Hello, Alexandru, | Online alışveriş yapacağım Eve kargolamak isti...\"\n2026-11-26 10:43:36,883 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:43:36,883 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:43:38,192 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:43:38,730 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! 📦 Regarding your online shopping, unfortunately we do not have a mailbox, drop box, or concierge service at the building entrance to receive packages when no one is home. Therefore, couriers usually require someone to be present in person to hand over the delivery. If you are not at the apartment to receive it, couriers typically attempt redelivery or leave it at a nearby pickup point. Let me know if you need any other recommendations! 😊\"\n2026-11-26 10:53:46,026 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:53:46,200 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 2\n2026-11-26 10:53:46,231 [INFO] 🧠 Mesaj NOU #25339 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Hi Alexandru,\nReally looking forward to staying with you.\nMy girlfriend and I are flying at 6 am...\"\n2026-11-26 10:53:46,232 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:53:46,232 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:53:52,334 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:53:52,815 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! 👋 We are also looking forward to hosting you! Standard check-in starts at 3:00 PM (15:00), but since you are arriving around 10:00 - 11:00 AM, you are welcome to drop off your luggage inside the apartment after 11:00 AM (once the previous guests check out), on the condition that you place the key back inside the lockbox right after leaving your bags so our cleaning team can enter. Regarding early check-in, we will do our best to have the apartment ready before 3:00 PM and will notify you as soon as the cleaning team finishes! Have a safe flight! ✈️\"\n2026-11-26 10:53:53,062 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-26 10:53:53,062 [INFO] 🧠 Mesaj NOU #25340 (1 lipite) de la Michele Salvatori (Magheru 29A -2BR): \"Hi, everything Is fine thanks. Just one questione, no hot water is coming out of the shower; is ther...\"\n2026-11-26 10:53:53,062 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:53:53,063 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:53:55,982 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:53:56,635 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michele Salvatori (Magheru 29A -2BR)]: \"Hello Michele! Thank you for letting us know, and I am so sorry for this inconvenience. I have just notified the property manager right now about the hot water issue, and he is checking on it immediately (or contacting the building technical team) to get this resolved for you as quickly as possible. We will keep you updated shortly!\"\n2026-11-26 10:53:56,790 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-26 11:04:03,828 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 11:04:04,023 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-26 11:04:04,092 [INFO] 🧠 Mesaj NOU #25343 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Thank you! Really appreciate you working with us on this....\"\n2026-11-26 11:04:04,094 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 11:04:04,094 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 11:04:05,174 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 11:04:05,748 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"You're very welcome, Benjamin! 😊 We're always happy to help. Have a wonderful and safe flight tomorrow, and we look forward to welcoming you to Tonitza 11 A with terrace! ✈️\"",
-  "last_cloud_sync": "2026-11-26 11:14:06",
+  "raw_logs": "Mesaj tradus: Hello, Alexandru, | Online alışveriş yapacağım Eve kargolamak isti...\"\n2026-11-26 10:43:36,883 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:43:36,883 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:43:38,192 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:43:38,730 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! 📦 Regarding your online shopping, unfortunately we do not have a mailbox, drop box, or concierge service at the building entrance to receive packages when no one is home. Therefore, couriers usually require someone to be present in person to hand over the delivery. If you are not at the apartment to receive it, couriers typically attempt redelivery or leave it at a nearby pickup point. Let me know if you need any other recommendations! 😊\"\n2026-11-26 10:53:46,026 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:53:46,200 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 2\n2026-11-26 10:53:46,231 [INFO] 🧠 Mesaj NOU #25339 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Hi Alexandru,\nReally looking forward to staying with you.\nMy girlfriend and I are flying at 6 am...\"\n2026-11-26 10:53:46,232 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:53:46,232 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:53:52,334 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:53:52,815 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! 👋 We are also looking forward to hosting you! Standard check-in starts at 3:00 PM (15:00), but since you are arriving around 10:00 - 11:00 AM, you are welcome to drop off your luggage inside the apartment after 11:00 AM (once the previous guests check out), on the condition that you place the key back inside the lockbox right after leaving your bags so our cleaning team can enter. Regarding early check-in, we will do our best to have the apartment ready before 3:00 PM and will notify you as soon as the cleaning team finishes! Have a safe flight! ✈️\"\n2026-11-26 10:53:53,062 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-26 10:53:53,062 [INFO] 🧠 Mesaj NOU #25340 (1 lipite) de la Michele Salvatori (Magheru 29A -2BR): \"Hi, everything Is fine thanks. Just one questione, no hot water is coming out of the shower; is ther...\"\n2026-11-26 10:53:53,062 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:53:53,063 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:53:55,982 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:53:56,635 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michele Salvatori (Magheru 29A -2BR)]: \"Hello Michele! Thank you for letting us know, and I am so sorry for this inconvenience. I have just notified the property manager right now about the hot water issue, and he is checking on it immediately (or contacting the building technical team) to get this resolved for you as quickly as possible. We will keep you updated shortly!\"\n2026-11-26 10:53:56,790 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-26 11:04:03,828 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 11:04:04,023 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-26 11:04:04,092 [INFO] 🧠 Mesaj NOU #25343 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Thank you! Really appreciate you working with us on this....\"\n2026-11-26 11:04:04,094 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 11:04:04,094 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 11:04:05,174 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 11:04:05,748 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"You're very welcome, Benjamin! 😊 We're always happy to help. Have a wonderful and safe flight tomorrow, and we look forward to welcoming you to Tonitza 11 A with terrace! ✈️\"\n2026-11-26 11:14:13,107 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 11:14:13,303 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-26 11:14:13,334 [INFO] 🧠 Mesaj NOU #25350 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"Thank you so much!!...\"\n2026-11-26 11:14:13,335 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 11:14:13,335 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 11:14:16,502 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 11:14:17,364 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"You are very welcome, Maria! If you need anything else during your stay, please don't hesitate to reach out. Have a wonderful time in Bucharest!\"",
+  "last_cloud_sync": "2026-11-26 11:24:18",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
