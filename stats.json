@@ -1,11 +1,11 @@
 {
-  "updated_at": "01:37:54",
+  "updated_at": "01:48:02",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "9 min",
-    "actions_today": 3,
-    "last_check": "01:37"
+    "time_saved_str": "12 min",
+    "actions_today": 4,
+    "last_check": "01:48"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "3 răspunsuri azi",
+      "worked_today": "4 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "7 mesaje"
     },
@@ -69,6 +69,18 @@
       "last_time": "01:07",
       "status": "working",
       "guest": "Gabriel Negoita",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "01:27",
+      "status": "working",
+      "guest": "Ignacio Moreno Garcia",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -145,18 +157,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "01:25",
-      "status": "working",
-      "guest": "Ignacio Moreno Garcia",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Old Town Ghica 1",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "01:38",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 01:38:01,391 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "01:27",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 00:57:26,355 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "00:57",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 00:57:26,043 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! I am s",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-27 00:26:57,076 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:37:05,222 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:37:05,423 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:37:05,476 [INFO] 🧠 Mesaj NOU #25449 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"What is the block number? 29B? Scara B?...\"\n2026-11-27 00:37:05,477 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:37:05,477 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:37:06,911 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:37:07,391 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! 🏙️ The building is located at Bd. Magheru nr. 29. Regarding the block/staircase details, all exact access instructions and key details will be sent to you automatically 1 day before your arrival. Let us know if you need anything else! ✨\"\n2026-11-27 00:47:16,429 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:47:16,652 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:57:24,223 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:57:24,442 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:57:24,474 [INFO] 🧠 Mesaj NOU #25451 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"The downstairs door doesn’t unlock...\"\n2026-11-27 00:57:24,474 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:57:24,474 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:57:25,553 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:57:26,043 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! I am so sorry for the trouble with the downstairs door. I have just notified our property manager right now, who is immediately looking into the issue and will get back to you as quickly as possible. Please hang on for a moment!\"\n2026-11-27 00:57:26,355 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 01:07:34,013 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:07:34,244 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 01:07:34,293 [INFO] 🧠 Mesaj NOU #25455 (2 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"Hello! It just worked | The first 3,4 times it didn’t but now it opened!...\"\n2026-11-27 01:07:34,294 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 01:07:34,294 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 01:07:35,354 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 01:07:35,881 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"That's a relief, Gabriel! I'm so glad to hear it worked and that you managed to get inside safely. Have a wonderful rest of your night, and please let us know if you need anything else! 🏙️\"\n2026-11-27 01:07:36,144 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 01:17:43,848 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:17:44,016 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 01:27:51,651 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:27:51,836 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 01:27:51,869 [INFO] 🧠 Mesaj NOU #25459 (3 lipite) de la Ignacio Moreno Garcia (Old Town Carada 5): \"Hi! Sorry for the time, do you know where is the light of the kitchen? | Nicee!!! Thankss | Have a g...\"\n2026-11-27 01:27:51,869 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 01:27:51,870 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 01:27:52,857 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 01:27:53,569 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ignacio Moreno Garcia (Old Town Carada 5)]: \"Hi Ignacio! No worries at all! 🌙 The kitchen light switch is usually located right near the entrance of the kitchen area on the wall. If you still have any trouble finding it, just let me know. Have a wonderful and restful night! ✨\"",
-  "last_cloud_sync": "2026-11-27 01:37:54",
+  "raw_logs": "2026-11-27 00:37:05,423 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:37:05,476 [INFO] 🧠 Mesaj NOU #25449 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"What is the block number? 29B? Scara B?...\"\n2026-11-27 00:37:05,477 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:37:05,477 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:37:06,911 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:37:07,391 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! 🏙️ The building is located at Bd. Magheru nr. 29. Regarding the block/staircase details, all exact access instructions and key details will be sent to you automatically 1 day before your arrival. Let us know if you need anything else! ✨\"\n2026-11-27 00:47:16,429 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:47:16,652 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 00:57:24,223 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 00:57:24,442 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 00:57:24,474 [INFO] 🧠 Mesaj NOU #25451 (1 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"The downstairs door doesn’t unlock...\"\n2026-11-27 00:57:24,474 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 00:57:24,474 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 00:57:25,553 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 00:57:26,043 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"Hi Gabriel! I am so sorry for the trouble with the downstairs door. I have just notified our property manager right now, who is immediately looking into the issue and will get back to you as quickly as possible. Please hang on for a moment!\"\n2026-11-27 00:57:26,355 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 01:07:34,013 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:07:34,244 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 01:07:34,293 [INFO] 🧠 Mesaj NOU #25455 (2 lipite) de la Gabriel Negoita (Magheru 29B -2BR): \"Hello! It just worked | The first 3,4 times it didn’t but now it opened!...\"\n2026-11-27 01:07:34,294 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 01:07:34,294 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 01:07:35,354 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 01:07:35,881 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriel Negoita (Magheru 29B -2BR)]: \"That's a relief, Gabriel! I'm so glad to hear it worked and that you managed to get inside safely. Have a wonderful rest of your night, and please let us know if you need anything else! 🏙️\"\n2026-11-27 01:07:36,144 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 01:17:43,848 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:17:44,016 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0\n2026-11-27 01:27:51,651 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:27:51,836 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 1\n2026-11-27 01:27:51,869 [INFO] 🧠 Mesaj NOU #25459 (3 lipite) de la Ignacio Moreno Garcia (Old Town Carada 5): \"Hi! Sorry for the time, do you know where is the light of the kitchen? | Nicee!!! Thankss | Have a g...\"\n2026-11-27 01:27:51,869 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 01:27:51,870 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 01:27:52,857 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 01:27:53,569 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ignacio Moreno Garcia (Old Town Carada 5)]: \"Hi Ignacio! No worries at all! 🌙 The kitchen light switch is usually located right near the entrance of the kitchen area on the wall. If you still have any trouble finding it, just let me know. Have a wonderful and restful night! ✨\"\n2026-11-27 01:38:01,214 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 01:38:01,391 [INFO] 📊 Conversatii verificate: 77 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-27 01:48:02",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
