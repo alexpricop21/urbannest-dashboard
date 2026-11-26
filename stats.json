@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:04:52",
+  "updated_at": "22:14:59",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 21,
     "time_saved_str": "2h 27m",
     "actions_today": 49,
-    "last_check": "22:04"
+    "last_check": "22:14"
   },
   "core_agents": [
     {
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "22:04",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 22:04:58,953 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "21:54",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-26 21:04:11,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Metaxia Kirpitzi (Old Town Victoriei 25)]: \"Hello Metaxi",
       "type": "success"
-    },
-    {
-      "time": "21:04",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 21:04:09,142 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-26 19:43:06,013 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 19:53:14,275 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 19:53:14,463 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:03:21,901 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:03:22,084 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:03:22,087 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-26 20:13:29,780 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:13:29,981 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:23:37,517 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:23:37,689 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:33:45,317 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:33:45,509 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:43:53,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:43:53,916 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:54:01,164 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:54:01,374 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:04:08,908 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:04:09,142 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 21:04:09,174 [INFO] 🧠 Mesaj NOU #25428 (1 lipite) de la Metaxia Kirpitzi (Old Town Victoriei 25): \"Thank you for the information.\nI would like to ask about the 10 RON per person, per night city tax. ...\"\n2026-11-26 21:04:09,175 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 21:04:09,175 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 21:04:10,894 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 21:04:11,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Metaxia Kirpitzi (Old Town Victoriei 25)]: \"Hello Metaxia! 👋 The city tax (10 RON per person, per night) is not included in the initial booking price and is paid separately. For your 3-night stay with 2 adults, the total city tax is 60 RON (calculated as 10 RON x 2 adults x 3 nights). Regarding your accommodation total, you can check the exact breakdown and payment status directly in your Booking.com account. Let me know if you would like me to send you the payment options for the city tax!\"\n2026-11-26 21:04:11,986 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 21:14:19,524 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:14:19,719 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:24:27,059 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:24:27,242 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:34:35,104 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:34:35,304 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:44:43,324 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:44:43,522 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:54:50,993 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:54:51,156 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-26 22:04:52",
+  "raw_logs": "2026-11-26 19:53:14,463 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:03:21,901 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:03:22,084 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:03:22,087 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-26 20:13:29,780 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:13:29,981 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:23:37,517 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:23:37,689 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:33:45,317 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:33:45,509 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:43:53,701 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:43:53,916 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 20:54:01,164 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 20:54:01,374 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:04:08,908 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:04:09,142 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 21:04:09,174 [INFO] 🧠 Mesaj NOU #25428 (1 lipite) de la Metaxia Kirpitzi (Old Town Victoriei 25): \"Thank you for the information.\nI would like to ask about the 10 RON per person, per night city tax. ...\"\n2026-11-26 21:04:09,175 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 21:04:09,175 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 21:04:10,894 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 21:04:11,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Metaxia Kirpitzi (Old Town Victoriei 25)]: \"Hello Metaxia! 👋 The city tax (10 RON per person, per night) is not included in the initial booking price and is paid separately. For your 3-night stay with 2 adults, the total city tax is 60 RON (calculated as 10 RON x 2 adults x 3 nights). Regarding your accommodation total, you can check the exact breakdown and payment status directly in your Booking.com account. Let me know if you would like me to send you the payment options for the city tax!\"\n2026-11-26 21:04:11,986 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 21:14:19,524 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:14:19,719 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:24:27,059 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:24:27,242 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:34:35,104 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:34:35,304 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:44:43,324 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:44:43,522 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:54:50,993 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:54:51,156 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:04:58,766 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:04:58,953 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-26 22:15:00",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
