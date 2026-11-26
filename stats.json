@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:05:42",
+  "updated_at": "23:15:51",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 21,
-    "time_saved_str": "2h 27m",
-    "actions_today": 49,
-    "last_check": "23:05"
+    "time_saved_str": "2h 30m",
+    "actions_today": 50,
+    "last_check": "23:15"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "43 răspunsuri azi",
+      "worked_today": "44 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "49 mesaje"
     },
@@ -73,6 +73,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 6,
+      "tasks_total": 6,
+      "manual_minutes": 18,
+      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
+      "last_time": "10:02",
+      "status": "working",
+      "guest": "Maria Teresa Toro Barahona (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Magheru 29A 2BR",
       "tasks_today": 5,
       "tasks_total": 5,
@@ -105,18 +117,6 @@
       "last_time": "10:43",
       "status": "working",
       "guest": "Ignacio Moreno Garcia (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
-      "last_time": "10:02",
-      "status": "working",
-      "guest": "Maria Teresa Toro Barahona (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "23:05",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 23:05:50,322 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "22:55",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -266,17 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-26 22:15:06,784 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "22:04",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 22:04:58,953 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-26 21:04:09,174 [INFO] 🧠 Mesaj NOU #25428 (1 lipite) de la Metaxia Kirpitzi (Old Town Victoriei 25): \"Thank you for the information.\nI would like to ask about the 10 RON per person, per night city tax. ...\"\n2026-11-26 21:04:09,175 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 21:04:09,175 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 21:04:10,894 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 21:04:11,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Metaxia Kirpitzi (Old Town Victoriei 25)]: \"Hello Metaxia! 👋 The city tax (10 RON per person, per night) is not included in the initial booking price and is paid separately. For your 3-night stay with 2 adults, the total city tax is 60 RON (calculated as 10 RON x 2 adults x 3 nights). Regarding your accommodation total, you can check the exact breakdown and payment status directly in your Booking.com account. Let me know if you would like me to send you the payment options for the city tax!\"\n2026-11-26 21:04:11,986 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 21:14:19,524 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:14:19,719 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:24:27,059 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:24:27,242 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:34:35,104 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:34:35,304 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:44:43,324 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:44:43,522 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:54:50,993 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:54:51,156 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:04:58,766 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:04:58,953 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:15:06,595 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:15:06,784 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:25:14,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:25:14,763 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:35:22,296 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:35:22,479 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:45:30,961 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:45:31,149 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:55:38,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:55:38,881 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 22:55:38,915 [INFO] 🧠 Mesaj NOU #25434 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"Podemos pagar el impuesto en euro?...\"\n2026-11-26 22:55:38,916 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 22:55:38,916 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 22:55:40,737 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 22:55:41,489 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! Yes, absolutely, you can pay the city tax in EUR. Since your reservation is on Booking.com, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which payment method would you prefer, and I will send you the exact details right away?\"\n2026-11-26 22:55:41,491 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-26 23:05:42",
+  "raw_logs": "2026-11-26 21:04:09,175 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 21:04:09,175 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 21:04:10,894 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 21:04:11,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Metaxia Kirpitzi (Old Town Victoriei 25)]: \"Hello Metaxia! 👋 The city tax (10 RON per person, per night) is not included in the initial booking price and is paid separately. For your 3-night stay with 2 adults, the total city tax is 60 RON (calculated as 10 RON x 2 adults x 3 nights). Regarding your accommodation total, you can check the exact breakdown and payment status directly in your Booking.com account. Let me know if you would like me to send you the payment options for the city tax!\"\n2026-11-26 21:04:11,986 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 21:14:19,524 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:14:19,719 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:24:27,059 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:24:27,242 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:34:35,104 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:34:35,304 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:44:43,324 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:44:43,522 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 21:54:50,993 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 21:54:51,156 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:04:58,766 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:04:58,953 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:15:06,595 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:15:06,784 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:25:14,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:25:14,763 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:35:22,296 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:35:22,479 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:45:30,961 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:45:31,149 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:55:38,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:55:38,881 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 22:55:38,915 [INFO] 🧠 Mesaj NOU #25434 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"Podemos pagar el impuesto en euro?...\"\n2026-11-26 22:55:38,916 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 22:55:38,916 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 22:55:40,737 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 22:55:41,489 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! Yes, absolutely, you can pay the city tax in EUR. Since your reservation is on Booking.com, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which payment method would you prefer, and I will send you the exact details right away?\"\n2026-11-26 22:55:41,491 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:05:49,106 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:05:50,322 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-26 23:15:51",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
