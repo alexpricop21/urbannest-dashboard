@@ -1,11 +1,11 @@
 {
-  "updated_at": "19:02:08",
+  "updated_at": "19:12:28",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 20,
-    "time_saved_str": "2h 6m",
-    "actions_today": 42,
-    "last_check": "19:02"
+    "time_saved_str": "2h 9m",
+    "actions_today": 43,
+    "last_check": "19:12"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "37 răspunsuri azi",
+      "worked_today": "38 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "40 mesaje"
+      "metric_value": "43 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "8 alerte azi",
+      "worked_today": "9 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -66,9 +66,21 @@
       "tasks_total": 7,
       "manual_minutes": 21,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "18:41",
+      "last_time": "19:00",
       "status": "working",
       "guest": "Alex-Gabriel Sina (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 5,
+      "tasks_total": 5,
+      "manual_minutes": 15,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "18:58",
+      "status": "working",
+      "guest": "Michele Salvatori",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -121,18 +133,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "18:43",
-      "status": "working",
-      "guest": "Michele Salvatori",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 4,
       "tasks_total": 4,
@@ -162,7 +162,7 @@
       "tasks_total": 3,
       "manual_minutes": 9,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "14:07",
+      "last_time": "19:00",
       "status": "working",
       "guest": "Cecilia Bica (Check-in azi)",
       "urgenta_azi": false,
@@ -219,6 +219,41 @@
   ],
   "feed": [
     {
+      "time": "19:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 19:02:24,064 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "19:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 19:02:23,897 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Thank you f",
+      "type": "success"
+    },
+    {
+      "time": "19:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 19:02:21,131 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "19:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 19:02:20,896 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Cecilia Bica (Old Town Ghica 1)]: \"Good evening, Cecilia",
+      "type": "success"
+    },
+    {
+      "time": "19:02",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 19:02:15,533 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 3",
+      "type": "info"
+    },
+    {
       "time": "18:52",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -238,45 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-26 18:41:54,577 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "18:41",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 18:41:54,412 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"Hi Elena! 👋 Standard ",
-      "type": "success"
-    },
-    {
-      "time": "18:41",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 18:41:52,584 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "18:41",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 18:41:52,330 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Good evenin",
-      "type": "success"
-    },
-    {
-      "time": "18:41",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 18:41:50,498 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
-    },
-    {
-      "time": "18:31",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 18:31:41,884 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-26 18:11:20,313 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:11:20,951 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Wiktor Oles (Tonitza 11 A with terrace)]: \"Hello Wiktor! Thank you so much for letting us know. To ensure everything is secure, please make sure to place ALL keys back inside the lockbox (keybox) by 11:00 AM and scramble the code when leaving. Have a wonderful rest of your stay, and safe travels back home! 😊\"\n2026-11-26 18:11:21,531 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-26 18:11:21,532 [INFO] 🧠 Mesaj NOU #25403 (1 lipite) de la Michele Salvatori (Magheru 29A -2BR): \"Confermiamo il checkout alle 10:30/11:00. Il soggiorno presso l'appartemento sta andando bene ma l'a...\"\n2026-11-26 18:11:21,533 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 18:11:21,533 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 18:11:23,288 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:11:23,819 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Michele Salvatori (Magheru 29A -2BR)]: \"Hello Michele! Thank you for the update regarding your check-out. Regarding the hot water, I sincerely apologize that this is still ongoing; I have just notified our property manager right now about this urgent matter, and he is checking with the technical team immediately to get it resolved for you as quickly as possible. We truly appreciate your patience and will keep you updated shortly!\"\n2026-11-26 18:11:24,116 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-26 18:21:33,748 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 18:21:33,955 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-26 18:31:41,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 18:31:41,884 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-26 18:41:50,302 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 18:41:50,498 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 2\n2026-11-26 18:41:50,531 [INFO] 🧠 Mesaj NOU #25411 (1 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"Buonasera volevamo chiederle in quale posto della casa potrebbe esserci la carta igienica perchè abb...\"\n2026-11-26 18:41:50,532 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 18:41:50,532 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 18:41:51,731 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:41:52,330 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Good evening, Alex-gabriel! Thank you for letting us know! I have immediately informed the manager about this, and he will get back to you in the shortest time possible. 🏡✨\"\n2026-11-26 18:41:52,584 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-26 18:41:52,585 [INFO] 🧠 Mesaj NOU #25410 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Bună! Ar fi posibil, contra cost bineînțeles sa facem un cheek in mai devreme? Pentru ca eu aterizez...\"\n2026-11-26 18:41:52,586 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 18:41:52,586 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 18:41:53,936 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:41:54,412 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"Hi Elena! 👋 Standard check-in starts at 3:00 PM (15:00), but since you land around 11:00 AM, you are very welcome to drop off your luggage inside the apartment after 11:00 AM once the previous guests leave! 🧳✨ Please just make sure to place the key right back into the lockbox immediately after leaving your bags so our cleaning team can access the apartment. We will notify you as soon as the cleaning is finished and the apartment is fully ready for you. Have a safe flight! ✈️\"\n2026-11-26 18:41:54,577 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-26 18:52:02,667 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 18:52:02,845 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-26 18:52:02,880 [INFO] 🧠 Mesaj NOU #25415 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Ok, perfect. Mulțumesc 🙏🏼\nMesaj tradus: Ok, perfect. Thank you 🙏🏼...\"\n2026-11-26 18:52:02,882 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 18:52:02,882 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 18:52:07,199 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:52:07,736 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"You're very welcome, Elena! 😊 Have a smooth and safe trip to Bucharest, and we look forward to welcoming you soon! Let us know if you need anything else before your arrival. ✨\"",
-  "last_cloud_sync": "2026-11-26 19:02:08",
+  "raw_logs": "2026-11-26 18:41:52,584 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-26 18:41:52,585 [INFO] 🧠 Mesaj NOU #25410 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Bună! Ar fi posibil, contra cost bineînțeles sa facem un cheek in mai devreme? Pentru ca eu aterizez...\"\n2026-11-26 18:41:52,586 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 18:41:52,586 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 18:41:53,936 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:41:54,412 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"Hi Elena! 👋 Standard check-in starts at 3:00 PM (15:00), but since you land around 11:00 AM, you are very welcome to drop off your luggage inside the apartment after 11:00 AM once the previous guests leave! 🧳✨ Please just make sure to place the key right back into the lockbox immediately after leaving your bags so our cleaning team can access the apartment. We will notify you as soon as the cleaning is finished and the apartment is fully ready for you. Have a safe flight! ✈️\"\n2026-11-26 18:41:54,577 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-26 18:52:02,667 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 18:52:02,845 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-26 18:52:02,880 [INFO] 🧠 Mesaj NOU #25415 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Ok, perfect. Mulțumesc 🙏🏼\nMesaj tradus: Ok, perfect. Thank you 🙏🏼...\"\n2026-11-26 18:52:02,882 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 18:52:02,882 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 18:52:07,199 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 18:52:07,736 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"You're very welcome, Elena! 😊 Have a smooth and safe trip to Bucharest, and we look forward to welcoming you soon! Let us know if you need anything else before your arrival. ✨\"\n2026-11-26 19:02:15,319 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 19:02:15,533 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 3\n2026-11-26 19:02:15,567 [INFO] 🧠 Mesaj NOU #25419 (1 lipite) de la Cecilia Bica (Old Town Ghica 1): \"Buna seara. Da, va rog sa trimiteti link de plata pentru taxa de oras. De asemenea, nu am gasit cani...\"\n2026-11-26 19:02:15,567 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 19:02:15,568 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 19:02:20,266 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 19:02:20,896 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Cecilia Bica (Old Town Ghica 1)]: \"Good evening, Cecilia! I will send you the payment link for the city tax directly through the Airbnb Resolution Center shortly. Regarding the coffee mugs, thank you for letting me know! I have immediately informed the manager about this, and he will get back to you in the shortest time possible to help you locate them. Have a wonderful evening!\"\n2026-11-26 19:02:21,131 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-26 19:02:21,132 [INFO] 🧠 Mesaj NOU #25418 (1 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"Okay allora ti direi che abbiamo giá guardato li e abbiamo trovato quello quasi finito😅\nMesaj tradu...\"\n2026-11-26 19:02:21,132 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 19:02:21,133 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 19:02:23,282 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 19:02:23,897 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Thank you for letting us know, Alex-gabriel! I have immediately notified the manager about this, and he will get back to you and assist you with the toilet paper in the shortest time possible. 🏡✨\"\n2026-11-26 19:02:24,064 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-26 19:02:24,064 [INFO] 🧠 Mesaj NOU #25417 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Sigur\nMesaj tradus: Victory...\"\n2026-11-26 19:02:24,065 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 19:02:24,065 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 19:02:26,970 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"",
+  "last_cloud_sync": "2026-11-26 19:12:28",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
