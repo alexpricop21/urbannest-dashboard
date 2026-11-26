@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:56:26",
+  "updated_at": "00:06:34",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 21,
-    "time_saved_str": "2h 36m",
-    "actions_today": 52,
-    "last_check": "23:56"
+    "conversations_monitored": 22,
+    "time_saved_str": "0 min",
+    "actions_today": 0,
+    "last_check": "00:06"
   },
   "core_agents": [
     {
@@ -14,9 +14,9 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "21 discuții azi",
+      "worked_today": "22 discuții azi",
       "metric_label": "Rezervări active azi",
-      "metric_value": "19 check-in/out"
+      "metric_value": "22 check-in/out"
     },
     {
       "id": "ai",
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "46 răspunsuri azi",
+      "worked_today": "0 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "51 mesaje"
+      "metric_value": "0 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "5 update-uri azi",
+      "worked_today": "0 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -44,7 +44,7 @@
       "role": "Acordă automat 5 stele oaspeților fără probleme la ora 20:00",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "1 recenzii azi",
+      "worked_today": "0 recenzii azi",
       "metric_label": "Total auto-review",
       "metric_value": "44 acordate"
     },
@@ -61,122 +61,26 @@
   ],
   "apartments": [
     {
-      "name": "Old Town Tonitza 11 B",
-      "tasks_today": 10,
-      "tasks_total": 10,
-      "manual_minutes": 30,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "19:22",
-      "status": "working",
-      "guest": "Alex-Gabriel Sina (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 8,
-      "tasks_total": 8,
-      "manual_minutes": 24,
-      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
-      "last_time": "10:02",
-      "status": "working",
-      "guest": "Maria Teresa Toro Barahona (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "18:58",
-      "status": "working",
-      "guest": "Michele Salvatori",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29B 2BR",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "02:27",
-      "status": "working",
-      "guest": "Gabriel Negoita (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Carada 5",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "10:43",
-      "status": "working",
-      "guest": "Ignacio Moreno Garcia (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Tonitza 11 A with terrace",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "18:11",
-      "status": "working",
-      "guest": "Wiktor Oles",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Biserica Amzei 27",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "17:40",
-      "status": "working",
-      "guest": "Dana Balatsky (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Ghica 1",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "19:02",
-      "status": "working",
-      "guest": "Cecilia Bica (Check-in azi)",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Alice Merenda (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
     {
       "name": "Campineanu22 A",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "10:33",
-      "status": "working",
-      "guest": "Martina Longo (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Magheru 29C 2BR",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:46",
-      "status": "working",
-      "guest": "Zac Moore`s",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Juana Marin Gallardo (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -188,7 +92,7 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Fără urgențe",
+      "guest": "Isabela Vatavu (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -200,7 +104,91 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
+      "guest": "Yasser Ghassiri (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Andrei Vornicu (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29B 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
       "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Magheru 29C 2BR",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Zac Moore`s (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Ghica 1",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Renata TolgyesiTolgyesi Renata (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Tonitza 11 B",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Fără urgențe",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Francesco Cornacchia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -212,12 +200,31 @@
       "last_action": "Monitorizează rezervările și mesajele noi",
       "last_time": "Azi",
       "status": "standby",
-      "guest": "Ben Barrett (Check-in azi)",
+      "guest": "Luca Corrado Maggio (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Tonitza 11 A with terrace",
+      "tasks_today": 0,
+      "tasks_total": 0,
+      "manual_minutes": 0,
+      "last_action": "Monitorizează rezervările și mesajele noi",
+      "last_time": "Azi",
+      "status": "standby",
+      "guest": "Benjamin Ellis Archer (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     }
   ],
   "feed": [
+    {
+      "time": "23:56",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 23:56:33,668 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
     {
       "time": "23:46",
       "icon": "🔄",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-26 23:15:59,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"He",
       "type": "success"
-    },
-    {
-      "time": "23:15",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 23:15:57,988 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-26 22:25:14,763 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:35:22,296 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:35:22,479 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:45:30,961 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:45:31,149 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:55:38,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:55:38,881 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 22:55:38,915 [INFO] 🧠 Mesaj NOU #25434 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"Podemos pagar el impuesto en euro?...\"\n2026-11-26 22:55:38,916 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 22:55:38,916 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 22:55:40,737 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 22:55:41,489 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! Yes, absolutely, you can pay the city tax in EUR. Since your reservation is on Booking.com, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which payment method would you prefer, and I will send you the exact details right away?\"\n2026-11-26 22:55:41,491 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:05:49,106 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:05:50,322 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:15:57,795 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:15:57,988 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 23:15:58,021 [INFO] 🧠 Mesaj NOU #25438 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"How much would be? Via Revolut...\"\n2026-11-26 23:15:58,021 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:15:58,021 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:15:59,064 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:15:59,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! The city tax is 10 RON per person per night. For your reservation of 2 adults for 1 night, the total is 20 RON (which is approximately 4 EUR). You can easily send it via Revolut to my tag: @alexpricop. Please let me know once completed, and thank you so much! 💳\"\n2026-11-26 23:15:59,669 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:26:07,309 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:26:07,509 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 23:26:07,544 [INFO] 🧠 Mesaj NOU #25444 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"I’ve sent you 4€ by the name of David Dominguez...\"\n2026-11-26 23:26:07,545 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:26:07,545 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:26:08,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:26:09,637 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Thank you so much, Maria! We have received your payment. We wish you a wonderful stay at Old Town Victoriei 25! 🌟\"\n2026-11-26 23:26:09,639 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:36:17,628 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:36:17,838 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:46:25,391 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:46:25,600 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-26 23:56:26",
+  "raw_logs": "2026-11-26 22:35:22,479 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:45:30,961 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:45:31,149 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 22:55:38,679 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 22:55:38,881 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 22:55:38,915 [INFO] 🧠 Mesaj NOU #25434 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"Podemos pagar el impuesto en euro?...\"\n2026-11-26 22:55:38,916 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 22:55:38,916 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 22:55:40,737 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 22:55:41,489 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! Yes, absolutely, you can pay the city tax in EUR. Since your reservation is on Booking.com, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which payment method would you prefer, and I will send you the exact details right away?\"\n2026-11-26 22:55:41,491 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:05:49,106 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:05:50,322 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:15:57,795 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:15:57,988 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 23:15:58,021 [INFO] 🧠 Mesaj NOU #25438 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"How much would be? Via Revolut...\"\n2026-11-26 23:15:58,021 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:15:58,021 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:15:59,064 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:15:59,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! The city tax is 10 RON per person per night. For your reservation of 2 adults for 1 night, the total is 20 RON (which is approximately 4 EUR). You can easily send it via Revolut to my tag: @alexpricop. Please let me know once completed, and thank you so much! 💳\"\n2026-11-26 23:15:59,669 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:26:07,309 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:26:07,509 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 1\n2026-11-26 23:26:07,544 [INFO] 🧠 Mesaj NOU #25444 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"I’ve sent you 4€ by the name of David Dominguez...\"\n2026-11-26 23:26:07,545 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 23:26:07,545 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 23:26:08,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 23:26:09,637 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Thank you so much, Maria! We have received your payment. We wish you a wonderful stay at Old Town Victoriei 25! 🌟\"\n2026-11-26 23:26:09,639 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-26 23:36:17,628 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:36:17,838 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:46:25,391 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:46:25,600 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0\n2026-11-26 23:56:33,442 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 23:56:33,668 [INFO] 📊 Conversatii verificate: 86 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-27 00:06:34",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
