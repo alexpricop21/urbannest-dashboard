@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:43:26",
+  "updated_at": "10:53:39",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
-    "time_saved_str": "33 min",
-    "actions_today": 11,
-    "last_check": "10:43"
+    "time_saved_str": "42 min",
+    "actions_today": 14,
+    "last_check": "10:53"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "8 răspunsuri azi",
+      "worked_today": "10 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "10 mesaje"
+      "metric_value": "13 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "3 update-uri azi",
+      "worked_today": "4 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -85,6 +85,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Campineanu22 A",
+      "tasks_today": 2,
+      "tasks_total": 2,
+      "manual_minutes": 6,
+      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
+      "last_time": "10:33",
+      "status": "working",
+      "guest": "Martina Longo (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Magheru 29B 2BR",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -97,14 +109,26 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Campineanu22 A",
+      "name": "Biserica Amzei 27",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "10:33",
+      "status": "working",
+      "guest": "Dana Balatsky (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Carada 5",
       "tasks_today": 1,
       "tasks_total": 1,
       "manual_minutes": 3,
       "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "10:33",
+      "last_time": "10:43",
       "status": "working",
-      "guest": "Martina Longo (Check-in azi)",
+      "guest": "Ignacio Moreno Garcia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -129,18 +153,6 @@
       "last_time": "00:15",
       "status": "working",
       "guest": "Wiktor Oles",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Biserica Amzei 27",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "10:32",
-      "status": "working",
-      "guest": "Dana Balatsky (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -193,18 +205,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Carada 5",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Ignacio Moreno Garcia (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Rigas29 2BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -218,6 +218,34 @@
     }
   ],
   "feed": [
+    {
+      "time": "10:43",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 10:43:38,730 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! 📦",
+      "type": "success"
+    },
+    {
+      "time": "10:43",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 10:43:36,882 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "10:43",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 10:43:36,454 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Thank you very much for ",
+      "type": "success"
+    },
+    {
+      "time": "10:43",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 10:43:32,694 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
     {
       "time": "10:33",
       "icon": "💬",
@@ -245,38 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-26 10:33:19,218 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2",
       "type": "info"
-    },
-    {
-      "time": "10:23",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 10:23:11,219 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"He",
-      "type": "success"
-    },
-    {
-      "time": "10:23",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 10:23:08,407 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "10:13",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 10:13:01,200 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "10:02",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 10:02:54,013 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-26 09:42:34,149 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:52:41,167 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:52:41,376 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 10:02:48,428 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:02:48,610 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-26 10:02:48,641 [INFO] 🧠 Mesaj NOU #25321 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"We will leave early maybe 8-9 am. May I ask you if there’s any place we could leave our luggage? Tha...\"\n2026-11-26 10:02:48,642 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:02:48,642 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:02:53,062 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:02:53,729 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! Thank you for letting us know. Since your check-in is today, you are more than welcome to drop off your luggage inside the apartment after 11:00 AM once the previous guests check out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment. We will notify you as soon as the place is ready for you! Also, when you leave tomorrow, please remember to place the keys back inside the lockbox and scramble the code.\"\n2026-11-26 10:02:54,013 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-26 10:13:01,005 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:13:01,200 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 10:23:08,228 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:23:08,407 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-26 10:23:08,441 [INFO] 🧠 Mesaj NOU #25326 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"It was in order to store our luggage after we leave the apartment because we stay in Bucarest until ...\"\n2026-11-26 10:23:08,441 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:23:08,441 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:23:10,661 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:23:11,219 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! 🧳 Since check-out time is at 11:00 AM and our cleaning team needs to prepare the apartment for incoming guests, unfortunately, we cannot store luggage inside the apartment after check-out. However, for storing your bags until 17:00, we highly recommend the Bounce Luggage Storage locations available nearby in Bucharest, where you can safely leave your luggage. Safe travels and let us know if you need any other recommendations!\"\n2026-11-26 10:33:19,008 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:33:19,218 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-26 10:33:19,259 [INFO] 🧠 Mesaj NOU #25330 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Çıkış yaptım\nMesaj tradus: I logged out...\"\n2026-11-26 10:33:19,260 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:33:19,260 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:33:22,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:33:22,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Thank you for staying with us, Mehmet! 😊 I hope you had a wonderful time in Bucharest. Have a safe and pleasant journey home, and we hope to welcome you back again!\"\n2026-11-26 10:33:23,603 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-26 10:33:23,604 [INFO] 🧠 Mesaj NOU #25331 (1 lipite) de la Alice Merenda (Biserica Amzei 27): \"grazie mille !\nMesaj tradus: Thank you so much!...\"\n2026-11-26 10:33:23,605 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:33:23,605 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:33:24,589 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:33:25,334 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alice Merenda (Biserica Amzei 27)]: \"You are very welcome, Alice! 😊 If you need anything else at all before or during your stay, please don't hesitate to reach out. Have a wonderful day!\"",
-  "last_cloud_sync": "2026-11-26 10:43:26",
+  "raw_logs": "2026-11-26 10:23:08,441 [INFO] 🧠 Mesaj NOU #25326 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"It was in order to store our luggage after we leave the apartment because we stay in Bucarest until ...\"\n2026-11-26 10:23:08,441 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:23:08,441 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:23:10,661 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:23:11,219 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! 🧳 Since check-out time is at 11:00 AM and our cleaning team needs to prepare the apartment for incoming guests, unfortunately, we cannot store luggage inside the apartment after check-out. However, for storing your bags until 17:00, we highly recommend the Bounce Luggage Storage locations available nearby in Bucharest, where you can safely leave your luggage. Safe travels and let us know if you need any other recommendations!\"\n2026-11-26 10:33:19,008 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:33:19,218 [INFO] 📊 Conversatii verificate: 74 | Rezervari cu mesaje NOI: 2\n2026-11-26 10:33:19,259 [INFO] 🧠 Mesaj NOU #25330 (1 lipite) de la Mehmet Aydin (Campineanu22 A): \"Çıkış yaptım\nMesaj tradus: I logged out...\"\n2026-11-26 10:33:19,260 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:33:19,260 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:33:22,434 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:33:22,983 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Mehmet Aydin (Campineanu22 A)]: \"Thank you for staying with us, Mehmet! 😊 I hope you had a wonderful time in Bucharest. Have a safe and pleasant journey home, and we hope to welcome you back again!\"\n2026-11-26 10:33:23,603 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-26 10:33:23,604 [INFO] 🧠 Mesaj NOU #25331 (1 lipite) de la Alice Merenda (Biserica Amzei 27): \"grazie mille !\nMesaj tradus: Thank you so much!...\"\n2026-11-26 10:33:23,605 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:33:23,605 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:33:24,589 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:33:25,334 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alice Merenda (Biserica Amzei 27)]: \"You are very welcome, Alice! 😊 If you need anything else at all before or during your stay, please don't hesitate to reach out. Have a wonderful day!\"\n2026-11-26 10:43:32,518 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:43:32,694 [INFO] 📊 Conversatii verificate: 75 | Rezervari cu mesaje NOI: 2\n2026-11-26 10:43:32,727 [INFO] 🧠 Mesaj NOU #25336 (1 lipite) de la Emil Rus (Old Town Carada 5): \"bună ziua. am plecat. am lăsat cheia în cutie\nMesaj tradus: Hello. I've left. I left the key in th...\"\n2026-11-26 10:43:32,728 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:43:32,728 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:43:35,885 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:43:36,454 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Emil Rus (Old Town Carada 5)]: \"Thank you very much for staying with us, Emil! We hope you enjoyed your time in Bucharest and we look forward to hosting you again in the future. Safe travels home!\"\n2026-11-26 10:43:36,882 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-26 10:43:36,882 [INFO] 🧠 Mesaj NOU #25335 (2 lipite) de la Belgin Turkbeyler (Old Town Carada 5): \"Merhaba Alexandru,\nMesaj tradus: Hello, Alexandru, | Online alışveriş yapacağım Eve kargolamak isti...\"\n2026-11-26 10:43:36,883 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:43:36,883 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:43:38,192 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:43:38,730 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! 📦 Regarding your online shopping, unfortunately we do not have a mailbox, drop box, or concierge service at the building entrance to receive packages when no one is home. Therefore, couriers usually require someone to be present in person to hand over the delivery. If you are not at the apartment to receive it, couriers typically attempt redelivery or leave it at a nearby pickup point. Let me know if you need any other recommendations! 😊\"",
+  "last_cloud_sync": "2026-11-26 10:53:39",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
