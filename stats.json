@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:02:42",
+  "updated_at": "10:12:55",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 18,
-    "time_saved_str": "21 min",
-    "actions_today": 7,
-    "last_check": "10:02"
+    "time_saved_str": "24 min",
+    "actions_today": 8,
+    "last_check": "10:12"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "6 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "6 mesaje"
+      "metric_value": "7 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "1 update-uri azi",
+      "worked_today": "2 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "6 alerte azi",
+      "worked_today": "7 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -93,6 +93,18 @@
       "last_time": "04:48",
       "status": "working",
       "guest": "Cecilia Bica (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 08:00 + Sync Tabel",
+      "last_time": "10:02",
+      "status": "working",
+      "guest": "Maria Teresa Toro Barahona (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -193,18 +205,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Maria Teresa Toro Barahona (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Rigas29 2BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -218,6 +218,27 @@
     }
   ],
   "feed": [
+    {
+      "time": "10:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 10:02:54,013 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "10:02",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-26 10:02:53,729 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"He",
+      "type": "success"
+    },
+    {
+      "time": "10:02",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-26 10:02:48,610 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "09:52",
       "icon": "🔄",
@@ -252,31 +273,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-26 09:12:12,131 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "09:02",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 09:02:04,704 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "08:51",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-26 08:51:57,477 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "08:41",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-26 08:41:50,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello ",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-26 08:21:27,668 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 08:21:27,669 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 08:21:30,114 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 08:21:30,678 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Good morning George! Standard check-in starts at 3:00 PM (15:00), but we will do our best to have the apartment ready for you earlier if possible, and we will let you know as soon as the cleaning team finishes! Also, if you arrive after 11:00 AM, you are very welcome to drop off your luggage inside the apartment as long as you leave the key back in the lockbox for the cleaners. Have a wonderful day! 😊\"\n2026-11-26 08:21:30,975 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-26 08:31:38,977 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 08:31:39,183 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-26 08:31:39,232 [INFO] 🧠 Mesaj NOU #25315 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Ωραια τελεια θα μιλήσουμε και τοτε\nMesaj tradus: Great, perfect. We'll talk then....\"\n2026-11-26 08:31:39,232 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 08:31:39,232 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 08:31:40,243 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 08:31:40,811 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Sounds great, George! Looking forward to it. If you need anything else before your arrival, just let us know. Have a wonderful day! 😊\"\n2026-11-26 08:41:47,643 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 08:41:47,849 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-26 08:41:47,881 [INFO] 🧠 Mesaj NOU #25317 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Την ταυτότητα μου την χρειάζεσαι?\nMesaj tradus: Do you need my ID?...\"\n2026-11-26 08:41:47,882 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 08:41:47,882 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 08:41:49,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 08:41:50,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! No, we don't need your ID for check-in. Everything is ready for your self check-in via the lockbox. Let us know if you need any other information before your arrival! 😊\"\n2026-11-26 08:51:57,280 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 08:51:57,477 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:02:04,493 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:02:04,704 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:12:11,961 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:12:12,131 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:22:19,155 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:22:19,369 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:32:26,598 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:32:26,794 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:42:33,960 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:42:34,149 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:52:41,167 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:52:41,376 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-26 10:02:42",
+  "raw_logs": "Mesaj tradus: Great, perfect. We'll talk then....\"\n2026-11-26 08:31:39,232 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 08:31:39,232 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 08:31:40,243 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 08:31:40,811 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Sounds great, George! Looking forward to it. If you need anything else before your arrival, just let us know. Have a wonderful day! 😊\"\n2026-11-26 08:41:47,643 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 08:41:47,849 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-26 08:41:47,881 [INFO] 🧠 Mesaj NOU #25317 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Την ταυτότητα μου την χρειάζεσαι?\nMesaj tradus: Do you need my ID?...\"\n2026-11-26 08:41:47,882 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 08:41:47,882 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 08:41:49,697 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 08:41:50,381 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! No, we don't need your ID for check-in. Everything is ready for your self check-in via the lockbox. Let us know if you need any other information before your arrival! 😊\"\n2026-11-26 08:51:57,280 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 08:51:57,477 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:02:04,493 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:02:04,704 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:12:11,961 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:12:12,131 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:22:19,155 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:22:19,369 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:32:26,598 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:32:26,794 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:42:33,960 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:42:34,149 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 09:52:41,167 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 09:52:41,376 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 0\n2026-11-26 10:02:48,428 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-26 10:02:48,610 [INFO] 📊 Conversatii verificate: 73 | Rezervari cu mesaje NOI: 1\n2026-11-26 10:02:48,641 [INFO] 🧠 Mesaj NOU #25321 (1 lipite) de la Maria Teresa Toro Barahona (Old Town Victoriei 25): \"We will leave early maybe 8-9 am. May I ask you if there’s any place we could leave our luggage? Tha...\"\n2026-11-26 10:02:48,642 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-26 10:02:48,642 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-26 10:02:53,062 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-26 10:02:53,729 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Maria Teresa Toro Barahona (Old Town Victoriei 25)]: \"Hello Maria! Thank you for letting us know. Since your check-in is today, you are more than welcome to drop off your luggage inside the apartment after 11:00 AM once the previous guests check out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment. We will notify you as soon as the place is ready for you! Also, when you leave tomorrow, please remember to place the keys back inside the lockbox and scramble the code.\"\n2026-11-26 10:02:54,013 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-26 10:12:55",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
