@@ -1,11 +1,11 @@
 {
-  "updated_at": "01:11:35",
+  "updated_at": "01:21:43",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 6,
-    "time_saved_str": "6 min",
-    "actions_today": 2,
-    "last_check": "01:11"
+    "time_saved_str": "12 min",
+    "actions_today": 4,
+    "last_check": "01:21"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "2 răspunsuri azi",
+      "worked_today": "4 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "6 mesaje"
+      "metric_value": "8 mesaje"
     },
     {
       "id": "clean",
@@ -63,16 +63,25 @@
   "apartments": [
     {
       "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 2,
-      "tasks_total": 2,
-      "manual_minutes": 6,
+      "tasks_today": 3,
+      "tasks_total": 3,
+      "manual_minutes": 9,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "00:57",
+      "last_time": "01:01",
       "status": "working",
       "guest": "Andrea Garcia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-28 01:11",
+          "time": "01:11",
+          "is_today": true,
+          "guest": "Yasser Ghassiri",
+          "guest_msg": "Ok\n Mesaj tradus: OK...",
+          "text": "Thank you for your patience, Yasser! I am still checking with the property manager regarding the extension for those dates, and I will update you very shortly. 🌟",
+          "source": "Agent AI"
+        },
         {
           "date": "2026-11-28 00:51",
           "time": "00:51",
@@ -198,14 +207,146 @@
           "guest_msg": "¡Buenas, tenemos muchas ganas de llegar ya!\nNosotros llegaremos a Bucarest sobre las 11:30h/12:00h....",
           "text": "Hello Andrea! We are so excited to welcome you! 🎒 Since your check-in is today (28 Nov 2026), you are more than welcome to drop off your backpacks inside the apartment after 11:00 AM once the previous guests have checked out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can enter and clean. We will also message you as soon as the apartment is fully clean and ready for you! Have a wonderful trip to Bucharest! ✨",
           "source": "Agent AI"
+        }
+      ],
+      "mesaje_trimise_azi": 3
+    },
+    {
+      "name": "Magheru 29C 2BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "01:04",
+      "status": "working",
+      "guest": "Zac Moore`s",
+      "urgenta_azi": false,
+      "urgente_mesaje": [],
+      "mesaje_trimise": [
+        {
+          "date": "2026-11-28 01:11",
+          "time": "01:11",
+          "is_today": true,
+          "guest": "Zac Moore`s",
+          "guest_msg": "Hi alex thanks for getting back to us so quickly this late on and for letting the guys know I think ...",
+          "text": "Thank you for the update, Zac! I've noted that it affects the taps as well, which definitely points to a building-wide issue. Our property manager is already coordinating with the building administration right now to get this sorted out for you as quickly as possible. We truly appreciate your patience!",
+          "source": "Agent AI"
         },
         {
-          "date": "2026-11-27 12:07",
-          "time": "12:07",
+          "date": "2026-11-28 01:01",
+          "time": "01:01",
+          "is_today": true,
+          "guest": "Zac Moore`s",
+          "guest_msg": "Hi just got here the place is lovely however experiencing some issues with warm water on the shower...",
+          "text": "Hi Zac! Thank you for letting us know, and I am so sorry to hear you're experiencing an issue with the warm water in the shower. Please be assured that I have just notified the property manager right now, who is immediately checking the issue with the building administration and technical team and will get back to you as quickly as possible to resolve it!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "23 Nov 2026 07:0",
+          "time": "07:04",
           "is_today": false,
-          "guest": "Gema Martin",
-          "guest_msg": "Mil gracias\n Mesaj tradus: Thank you very much...",
-          "text": "You are very welcome, Gema! 😊 If you need anything else before your arrival, please don't hesitate to ask. Have a wonderful day!",
+          "guest": "Robie Singh",
+          "guest_msg": "",
+          "text": "Hi Oaspete! Thank you very much for confirming and for completing the city tax payment. We have noted it in our system. If you have any other questions before your stay, please feel free to ask. Have a wonderful day!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 20:0",
+          "time": "20:03",
+          "is_today": false,
+          "guest": "Jiwon Choi",
+          "guest_msg": "",
+          "text": "Hello Jiwon! I am so sorry for the delay and for the discomfort with the heat! I have just escalated this as an urgent matter to the property manager right now, and he is checking with the building administration immediately to get this sorted out for you as quickly as possible. Thank you for your patience!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 17:2",
+          "time": "17:29",
+          "is_today": false,
+          "guest": "Jiwon Choi",
+          "guest_msg": "",
+          "text": "Hello Jiwon! Yes, exactly, standard check-out tomorrow is by 11:00 AM. When you leave, please don't forget to put the keys back inside the lockbox and scramble the code. Have a wonderful rest of your stay! 🌟",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 15:5",
+          "time": "15:56",
+          "is_today": false,
+          "guest": "Daniel Cirstea",
+          "guest_msg": "",
+          "text": "Hello Daniel! 👋 Thank you for your message. We'd love to chat with you about your periodic stays in Bucharest! However, to ensure all details and history of our communication are securely kept and easily accessible for both of us, Airbnb requires us to keep all our conversations right here in the chat platform. Please feel free to write to us here about any details or questions you might have regarding your upcoming reservation or future stays, and we'll be more than happy to help you! 🌟",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 14:5",
+          "time": "14:52",
+          "is_today": false,
+          "guest": "Jiwon Choi",
+          "guest_msg": "",
+          "text": "Hello Jiwon! Thank you for letting us know. I have immediately informed the manager about this, and he will get back to you in the shortest time possible with instructions on how to adjust the radiator!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "2026-11-27 21:59",
+          "time": "21:59",
+          "is_today": false,
+          "guest": "Yochanan Shachmurove",
+          "guest_msg": "Let me do the January 18-24, 2027 while I am back in the USA next Monday… I apologize....",
+          "text": "No problem at all, Yochanan! Take your time, and just let me know whenever you are ready next week and we can proceed. Have a wonderful rest of your day!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 21:39",
+          "time": "21:39",
+          "is_today": false,
+          "guest": "Yochanan Shachmurove",
+          "guest_msg": "Not sure what to do. Can you send me the address of the web where I can click, chose the dates etc.?...",
+          "text": "Hello Yochanan! Since your reservation is through Airbnb, you don't need an external website. I have just sent the payment request directly through the Airbnb Resolution Center. You should receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know once you see it!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 21:29",
+          "time": "21:29",
+          "is_today": false,
+          "guest": "Yochanan Shachmurove",
+          "guest_msg": "I need the one from January 18-24, 2027 for 310.64 dollars...",
+          "text": "Hello Yochanan! Perfect, I am sending the payment request right now through the Airbnb Resolution Center for your additional dates (January 18-24, 2027, $310.64). You will receive a notification and secure payment link directly in your Airbnb app messages shortly. Let me know once you complete it or if you need any further help!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 21:19",
+          "time": "21:19",
+          "is_today": false,
+          "guest": "Yochanan Shachmurove",
+          "guest_msg": "When will you send me what I need to do? I am not very good with this. The price yiu gave for that p...",
+          "text": "Hello Yochanan! Don't worry at all, I am here to guide you step by step. Since your reservation is on Airbnb, we will send the payment request directly through the Airbnb Resolution Center. Once we send it, you will receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know as soon as you are ready, and I will send it right over!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 21:09",
+          "time": "21:09",
+          "is_today": false,
+          "guest": "Yochanan Shachmurove",
+          "guest_msg": "I also need accommodation for January 18-24, 2027. You wrote me that I can pay 310.64 dollars. How d...",
+          "text": "Hello Yochanan! Thank you for inquiring about the additional dates (January 18-24, 2027). Since your reservation is through Airbnb, we will send you a payment request via the Airbnb Resolution Center so you can complete the payment securely right inside the Airbnb app. Let me know if you need any further assistance!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 12:46",
+          "time": "12:46",
+          "is_today": false,
+          "guest": "Zac Moore`s",
+          "guest_msg": "Thanks mate appreciate that will be in touch if we need anything else...",
+          "text": "You're very welcome, Zac! Have a wonderful trip and feel free to reach out anytime if you need anything else. We look forward to hosting you! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 12:36",
+          "time": "12:36",
+          "is_today": false,
+          "guest": "Zac Moore`s",
+          "guest_msg": "Cheers Alexandru thanks for sending the details over we’re looking forward to our visit 💪🏼...",
+          "text": "You're very welcome, Zac! We're thrilled to host you and looking forward to your arrival. Have a great trip, and feel free to reach out if you need anything else before check-in! 🌟",
           "source": "Agent AI"
         }
       ],
@@ -951,138 +1092,6 @@
         }
       ],
       "mesaje_trimise_azi": 0
-    },
-    {
-      "name": "Magheru 29C 2BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "00:55",
-      "status": "working",
-      "guest": "Zac Moore`s",
-      "urgenta_azi": false,
-      "urgente_mesaje": [],
-      "mesaje_trimise": [
-        {
-          "date": "2026-11-28 01:01",
-          "time": "01:01",
-          "is_today": true,
-          "guest": "Zac Moore`s",
-          "guest_msg": "Hi just got here the place is lovely however experiencing some issues with warm water on the shower...",
-          "text": "Hi Zac! Thank you for letting us know, and I am so sorry to hear you're experiencing an issue with the warm water in the shower. Please be assured that I have just notified the property manager right now, who is immediately checking the issue with the building administration and technical team and will get back to you as quickly as possible to resolve it!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "23 Nov 2026 07:0",
-          "time": "07:04",
-          "is_today": false,
-          "guest": "Robie Singh",
-          "guest_msg": "",
-          "text": "Hi Oaspete! Thank you very much for confirming and for completing the city tax payment. We have noted it in our system. If you have any other questions before your stay, please feel free to ask. Have a wonderful day!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 20:0",
-          "time": "20:03",
-          "is_today": false,
-          "guest": "Jiwon Choi",
-          "guest_msg": "",
-          "text": "Hello Jiwon! I am so sorry for the delay and for the discomfort with the heat! I have just escalated this as an urgent matter to the property manager right now, and he is checking with the building administration immediately to get this sorted out for you as quickly as possible. Thank you for your patience!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:2",
-          "time": "17:29",
-          "is_today": false,
-          "guest": "Jiwon Choi",
-          "guest_msg": "",
-          "text": "Hello Jiwon! Yes, exactly, standard check-out tomorrow is by 11:00 AM. When you leave, please don't forget to put the keys back inside the lockbox and scramble the code. Have a wonderful rest of your stay! 🌟",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 15:5",
-          "time": "15:56",
-          "is_today": false,
-          "guest": "Daniel Cirstea",
-          "guest_msg": "",
-          "text": "Hello Daniel! 👋 Thank you for your message. We'd love to chat with you about your periodic stays in Bucharest! However, to ensure all details and history of our communication are securely kept and easily accessible for both of us, Airbnb requires us to keep all our conversations right here in the chat platform. Please feel free to write to us here about any details or questions you might have regarding your upcoming reservation or future stays, and we'll be more than happy to help you! 🌟",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 14:5",
-          "time": "14:52",
-          "is_today": false,
-          "guest": "Jiwon Choi",
-          "guest_msg": "",
-          "text": "Hello Jiwon! Thank you for letting us know. I have immediately informed the manager about this, and he will get back to you in the shortest time possible with instructions on how to adjust the radiator!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "2026-11-27 21:59",
-          "time": "21:59",
-          "is_today": false,
-          "guest": "Yochanan Shachmurove",
-          "guest_msg": "Let me do the January 18-24, 2027 while I am back in the USA next Monday… I apologize....",
-          "text": "No problem at all, Yochanan! Take your time, and just let me know whenever you are ready next week and we can proceed. Have a wonderful rest of your day!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 21:39",
-          "time": "21:39",
-          "is_today": false,
-          "guest": "Yochanan Shachmurove",
-          "guest_msg": "Not sure what to do. Can you send me the address of the web where I can click, chose the dates etc.?...",
-          "text": "Hello Yochanan! Since your reservation is through Airbnb, you don't need an external website. I have just sent the payment request directly through the Airbnb Resolution Center. You should receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know once you see it!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 21:29",
-          "time": "21:29",
-          "is_today": false,
-          "guest": "Yochanan Shachmurove",
-          "guest_msg": "I need the one from January 18-24, 2027 for 310.64 dollars...",
-          "text": "Hello Yochanan! Perfect, I am sending the payment request right now through the Airbnb Resolution Center for your additional dates (January 18-24, 2027, $310.64). You will receive a notification and secure payment link directly in your Airbnb app messages shortly. Let me know once you complete it or if you need any further help!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 21:19",
-          "time": "21:19",
-          "is_today": false,
-          "guest": "Yochanan Shachmurove",
-          "guest_msg": "When will you send me what I need to do? I am not very good with this. The price yiu gave for that p...",
-          "text": "Hello Yochanan! Don't worry at all, I am here to guide you step by step. Since your reservation is on Airbnb, we will send the payment request directly through the Airbnb Resolution Center. Once we send it, you will receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know as soon as you are ready, and I will send it right over!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 21:09",
-          "time": "21:09",
-          "is_today": false,
-          "guest": "Yochanan Shachmurove",
-          "guest_msg": "I also need accommodation for January 18-24, 2027. You wrote me that I can pay 310.64 dollars. How d...",
-          "text": "Hello Yochanan! Thank you for inquiring about the additional dates (January 18-24, 2027). Since your reservation is through Airbnb, we will send you a payment request via the Airbnb Resolution Center so you can complete the payment securely right inside the Airbnb app. Let me know if you need any further assistance!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 12:46",
-          "time": "12:46",
-          "is_today": false,
-          "guest": "Zac Moore`s",
-          "guest_msg": "Thanks mate appreciate that will be in touch if we need anything else...",
-          "text": "You're very welcome, Zac! Have a wonderful trip and feel free to reach out anytime if you need anything else. We look forward to hosting you! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 12:36",
-          "time": "12:36",
-          "is_today": false,
-          "guest": "Zac Moore`s",
-          "guest_msg": "Cheers Alexandru thanks for sending the details over we’re looking forward to our visit 💪🏼...",
-          "text": "You're very welcome, Zac! We're thrilled to host you and looking forward to your arrival. Have a great trip, and feel free to reach out if you need anything else before check-in! 🌟",
-          "source": "Agent AI"
-        }
-      ],
-      "mesaje_trimise_azi": 1
     },
     {
       "name": "Old Town Carada 5",
@@ -1917,6 +1926,34 @@
   ],
   "feed": [
     {
+      "time": "01:11",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 01:11:42,633 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Thank you for y",
+      "type": "success"
+    },
+    {
+      "time": "01:11",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 01:11:41,324 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "01:11",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 01:11:41,079 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"Thank you for the upda",
+      "type": "success"
+    },
+    {
+      "time": "01:11",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 01:11:39,286 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "01:01",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1943,38 +1980,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-28 01:01:32,108 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"Hi Zac! Thank you for ",
       "type": "success"
-    },
-    {
-      "time": "01:01",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 01:01:30,434 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
-    },
-    {
-      "time": "00:51",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 00:51:26,024 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I",
-      "type": "success"
-    },
-    {
-      "time": "00:51",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 00:51:24,577 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "00:41",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 00:41:19,978 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! L",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-28 00:00:59,873 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 00:11:04,183 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 00:11:04,509 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 00:21:08,870 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 00:21:09,067 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 00:31:13,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 00:31:13,609 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 00:41:18,143 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 00:41:18,322 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 00:41:18,360 [INFO] 🧠 Mesaj NOU #25659 (1 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"Hi can I add nights or it's booked ?...\"\n2026-11-28 00:41:18,361 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 00:41:18,361 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 00:41:19,344 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 00:41:19,978 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! Let me check the availability for extra nights for you right away. I will get back to you shortly with an update. 🌟\"\n2026-11-28 00:51:24,333 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 00:51:24,577 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 00:51:24,613 [INFO] 🧠 Mesaj NOU #25661 (1 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"I'm waiting...\"\n2026-11-28 00:51:24,613 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 00:51:24,614 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 00:51:25,419 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 00:51:26,024 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I am checking right now with the property manager regarding the availability for extra nights, and I will get back to you with an update very shortly. Thank you for your patience! 🌟\"\n2026-11-28 01:01:30,269 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 01:01:30,434 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2\n2026-11-28 01:01:30,469 [INFO] 🧠 Mesaj NOU #25665 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Hi just got here the place is lovely however experiencing some issues with warm water on the shower...\"\n2026-11-28 01:01:30,470 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 01:01:30,470 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 01:01:31,513 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 01:01:32,108 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"Hi Zac! Thank you for letting us know, and I am so sorry to hear you're experiencing an issue with the warm water in the shower. Please be assured that I have just notified the property manager right now, who is immediately checking the issue with the building administration and technical team and will get back to you as quickly as possible to resolve it!\"\n2026-11-28 01:01:32,399 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 01:01:32,400 [INFO] 🧠 Mesaj NOU #25666 (3 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"Okk | I'm here | From 28 to 30...\"\n2026-11-28 01:01:32,401 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 01:01:32,402 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 01:01:33,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 01:01:33,906 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I am checking right now with the property manager regarding the availability for extending your stay for those dates. I will get back to you with an update very shortly. Thank you for your patience! 🌟\"\n2026-11-28 01:01:34,045 [INFO] 📲 Alerta WhatsApp [OK] trimisa!",
-  "last_cloud_sync": "2026-11-28 01:11:35",
+  "raw_logs": "2026-11-28 00:51:24,333 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 00:51:24,577 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 00:51:24,613 [INFO] 🧠 Mesaj NOU #25661 (1 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"I'm waiting...\"\n2026-11-28 00:51:24,613 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 00:51:24,614 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 00:51:25,419 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 00:51:26,024 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I am checking right now with the property manager regarding the availability for extra nights, and I will get back to you with an update very shortly. Thank you for your patience! 🌟\"\n2026-11-28 01:01:30,269 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 01:01:30,434 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2\n2026-11-28 01:01:30,469 [INFO] 🧠 Mesaj NOU #25665 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Hi just got here the place is lovely however experiencing some issues with warm water on the shower...\"\n2026-11-28 01:01:30,470 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 01:01:30,470 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 01:01:31,513 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 01:01:32,108 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"Hi Zac! Thank you for letting us know, and I am so sorry to hear you're experiencing an issue with the warm water in the shower. Please be assured that I have just notified the property manager right now, who is immediately checking the issue with the building administration and technical team and will get back to you as quickly as possible to resolve it!\"\n2026-11-28 01:01:32,399 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 01:01:32,400 [INFO] 🧠 Mesaj NOU #25666 (3 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"Okk | I'm here | From 28 to 30...\"\n2026-11-28 01:01:32,401 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 01:01:32,402 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 01:01:33,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 01:01:33,906 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I am checking right now with the property manager regarding the availability for extending your stay for those dates. I will get back to you with an update very shortly. Thank you for your patience! 🌟\"\n2026-11-28 01:01:34,045 [INFO] 📲 Alerta WhatsApp [OK] trimisa!\n2026-11-28 01:11:39,092 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 01:11:39,286 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2\n2026-11-28 01:11:39,320 [INFO] 🧠 Mesaj NOU #25670 (1 lipite) de la Zac Moore`s (Magheru 29C -2BR): \"Hi alex thanks for getting back to us so quickly this late on and for letting the guys know I think ...\"\n2026-11-28 01:11:39,321 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 01:11:39,321 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 01:11:40,572 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 01:11:41,079 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"Thank you for the update, Zac! I've noted that it affects the taps as well, which definitely points to a building-wide issue. Our property manager is already coordinating with the building administration right now to get this sorted out for you as quickly as possible. We truly appreciate your patience!\"\n2026-11-28 01:11:41,324 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 01:11:41,324 [INFO] 🧠 Mesaj NOU #25669 (1 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"Ok\nMesaj tradus: OK...\"\n2026-11-28 01:11:41,326 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 01:11:41,327 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 01:11:42,128 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 01:11:42,633 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Thank you for your patience, Yasser! I am still checking with the property manager regarding the extension for those dates, and I will update you very shortly. 🌟\"",
+  "last_cloud_sync": "2026-11-28 01:21:43",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
