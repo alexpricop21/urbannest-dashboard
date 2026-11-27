@@ -1,11 +1,11 @@
 {
-  "updated_at": "21:09:16",
+  "updated_at": "21:19:23",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "2h 39m",
-    "actions_today": 53,
-    "last_check": "21:09"
+    "time_saved_str": "2h 42m",
+    "actions_today": 54,
+    "last_check": "21:19"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "40 răspunsuri azi",
+      "worked_today": "41 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "53 mesaje"
+      "metric_value": "55 mesaje"
     },
     {
       "id": "clean",
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "15 alerte azi",
+      "worked_today": "16 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -663,11 +663,11 @@
     },
     {
       "name": "Magheru 29A 2BR",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
+      "tasks_today": 5,
+      "tasks_total": 5,
+      "manual_minutes": 15,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "20:52",
+      "last_time": "20:59",
       "status": "working",
       "guest": "Andrei Vornicu (Check-in azi)",
       "urgenta_azi": false,
@@ -1767,13 +1767,22 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "21:07",
+      "status": "working",
       "guest": "Zac Moore`s (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-27 21:09",
+          "time": "21:09",
+          "is_today": true,
+          "guest": "Yochanan Shachmurove",
+          "guest_msg": "I also need accommodation for January 18-24, 2027. You wrote me that I can pay 310.64 dollars. How d...",
+          "text": "Hello Yochanan! Thank you for inquiring about the additional dates (January 18-24, 2027). Since your reservation is through Airbnb, we will send you a payment request via the Airbnb Resolution Center so you can complete the payment securely right inside the Airbnb app. Let me know if you need any further assistance!",
+          "source": "Agent AI"
+        },
         {
           "date": "23 Nov 2026 07:0",
           "time": "07:04",
@@ -1856,7 +1865,7 @@
           "source": "5StarDesk"
         }
       ],
-      "mesaje_trimise_azi": 0
+      "mesaje_trimise_azi": 1
     }
   ],
   "reviews_skipped": [
@@ -1926,6 +1935,27 @@
   ],
   "feed": [
     {
+      "time": "21:09",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 21:09:22,777 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "21:09",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 21:09:22,775 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochana",
+      "type": "success"
+    },
+    {
+      "time": "21:09",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 21:09:20,943 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "20:59",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1959,31 +1989,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-27 20:49:06,458 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "20:39",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 20:39:01,801 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "20:39",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 20:39:01,538 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! I am so ",
-      "type": "success"
-    },
-    {
-      "time": "20:38",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 20:38:59,792 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 19:48:34,872 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-27 19:58:39,449 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 19:58:39,694 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-27 20:08:44,119 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:08:44,329 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-27 20:08:44,331 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-27 20:18:48,825 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:18:49,064 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-27 20:28:53,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:28:53,617 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-27 20:38:58,251 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:38:59,792 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1\n2026-11-27 20:38:59,836 [INFO] 🧠 Mesaj NOU #25615 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, pare că sunt probleme cu apa. Mu avem apă la rubinet…\nMesaj tradus: Hi, Alex. It seems ...\"\n2026-11-27 20:38:59,837 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 20:38:59,837 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 20:39:00,966 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 20:39:01,538 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! I am so sorry to hear that you are experiencing issues with the water. Please rest assured that I have just notified the property manager right now, who is immediately checking the issue and contacting the building administration to get this resolved for you as quickly as possible. We'll keep you updated shortly!\"\n2026-11-27 20:39:01,801 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 20:49:06,226 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:49:06,458 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1\n2026-11-27 20:49:06,495 [INFO] 🧠 Mesaj NOU #25618 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Nope, it’s not running in the kitchen either...\"\n2026-11-27 20:49:06,496 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 20:49:06,497 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 20:49:07,829 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 20:49:08,393 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei, I am so sorry that the water is still not running in the kitchen either. I have escalated this as a top priority to the property manager and building administration right now to find out what is causing this outage and restore the water supply as soon as possible. We will keep you updated immediately!\"\n2026-11-27 20:49:08,613 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 20:59:13,280 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:59:13,461 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1\n2026-11-27 20:59:13,503 [INFO] 🧠 Mesaj NOU #25626 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Mulțumesc Alex\nMesaj tradus: Thanks, Alex...\"\n2026-11-27 20:59:13,505 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 20:59:13,505 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 20:59:14,384 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 20:59:14,975 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"You're very welcome, Andrei! 😊 Please let us know once the water issue is resolved or if you need anything else. Have a great evening!\"",
-  "last_cloud_sync": "2026-11-27 21:09:16",
+  "raw_logs": "2026-11-27 20:28:53,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:28:53,617 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 0\n2026-11-27 20:38:58,251 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:38:59,792 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1\n2026-11-27 20:38:59,836 [INFO] 🧠 Mesaj NOU #25615 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, pare că sunt probleme cu apa. Mu avem apă la rubinet…\nMesaj tradus: Hi, Alex. It seems ...\"\n2026-11-27 20:38:59,837 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 20:38:59,837 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 20:39:00,966 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 20:39:01,538 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! I am so sorry to hear that you are experiencing issues with the water. Please rest assured that I have just notified the property manager right now, who is immediately checking the issue and contacting the building administration to get this resolved for you as quickly as possible. We'll keep you updated shortly!\"\n2026-11-27 20:39:01,801 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 20:49:06,226 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:49:06,458 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1\n2026-11-27 20:49:06,495 [INFO] 🧠 Mesaj NOU #25618 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Nope, it’s not running in the kitchen either...\"\n2026-11-27 20:49:06,496 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 20:49:06,497 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 20:49:07,829 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 20:49:08,393 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei, I am so sorry that the water is still not running in the kitchen either. I have escalated this as a top priority to the property manager and building administration right now to find out what is causing this outage and restore the water supply as soon as possible. We will keep you updated immediately!\"\n2026-11-27 20:49:08,613 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 20:59:13,280 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 20:59:13,461 [INFO] 📊 Conversatii verificate: 84 | Rezervari cu mesaje NOI: 1\n2026-11-27 20:59:13,503 [INFO] 🧠 Mesaj NOU #25626 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Mulțumesc Alex\nMesaj tradus: Thanks, Alex...\"\n2026-11-27 20:59:13,505 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 20:59:13,505 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 20:59:14,384 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 20:59:14,975 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"You're very welcome, Andrei! 😊 Please let us know once the water issue is resolved or if you need anything else. Have a great evening!\"\n2026-11-27 21:09:20,763 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:09:20,943 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-27 21:09:20,981 [INFO] 🧠 Mesaj NOU #25630 (2 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"I also need accommodation for January 18-24, 2027. You wrote me that I can pay 310.64 dollars. How d...\"\n2026-11-27 21:09:20,982 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:09:20,982 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:09:22,307 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:09:22,775 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Thank you for inquiring about the additional dates (January 18-24, 2027). Since your reservation is through Airbnb, we will send you a payment request via the Airbnb Resolution Center so you can complete the payment securely right inside the Airbnb app. Let me know if you need any further assistance!\"\n2026-11-27 21:09:22,777 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+  "last_cloud_sync": "2026-11-27 21:19:23",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
