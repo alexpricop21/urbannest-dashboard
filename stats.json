@@ -1,11 +1,11 @@
 {
-  "updated_at": "16:36:54",
+  "updated_at": "16:46:58",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "1h 54m",
-    "actions_today": 38,
-    "last_check": "16:36"
+    "time_saved_str": "1h 57m",
+    "actions_today": 39,
+    "last_check": "16:46"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "34 răspunsuri azi",
+      "worked_today": "35 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "47 mesaje"
     },
@@ -212,6 +212,156 @@
       "mesaje_trimise_azi": 8
     },
     {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 8,
+      "tasks_total": 8,
+      "manual_minutes": 24,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "16:26",
+      "status": "working",
+      "guest": "Francesco Cornacchia (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": [],
+      "mesaje_trimise": [
+        {
+          "date": "2026-11-27 16:26",
+          "time": "16:26",
+          "is_today": true,
+          "guest": "Gabriela Tufa",
+          "guest_msg": "Thank you!...",
+          "text": "You're very welcome, Gabriela! If you need anything else, please let us know. Have a wonderful day! 😊",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 16:16",
+          "time": "16:16",
+          "is_today": true,
+          "guest": "Gabriela Tufa",
+          "guest_msg": "Bună ziua, aș dori să solicit o factură pentru această rezervare. Vă rog să-mi trimiteți factura la ...",
+          "text": "Hello Gabriela! Thank you for your message. We are registered as private individuals and cannot issue official invoices, but I will notify the manager about your request. Have a wonderful day! 😊",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 13:59",
+          "time": "13:59",
+          "is_today": true,
+          "guest": "Francesco Cornacchia",
+          "guest_msg": "Bonifico effettuato....",
+          "text": "Thank you so much, Francesco! We have noted it down and will verify the transfer shortly. We appreciate your promptness! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 13:49",
+          "time": "13:49",
+          "is_today": true,
+          "guest": "Francesco Cornacchia",
+          "guest_msg": "Se mi dici l’importo in EURO vi faccio il\nBonifico...",
+          "text": "Hello Francesco! For 60 RON, the equivalent is approximately 12 EUR. You can make the bank transfer in EUR using the following details (Account Holder: Alexandru-Mihai Pricop, IBAN: RO40REVO0000107967693391). Please let us know once completed. Thank you so much! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 13:39",
+          "time": "13:39",
+          "is_today": true,
+          "guest": "Francesco Cornacchia",
+          "guest_msg": "Per inviarli tramite paypal mi chiede il vostro indirizzo e il vostro numero di telefono....",
+          "text": "Hello Francesco! For PayPal payments, you can simply use our direct link: https://www.paypal.me/pricopalexandrumihai, or if PayPal asks for an email address, you can use alexandru.pricop@gmail.com. Please let us know once completed. Thank you so much! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 13:28",
+          "time": "13:28",
+          "is_today": true,
+          "guest": "Francesco Cornacchia",
+          "guest_msg": "Procederò tramite paypal. Quindi complessivi 60 RON, corretto?...",
+          "text": "Hello Francesco! Yes, exactly! For 2 adults and 3 nights, the total city tax is 60 RON (10 RON per person per night). You can complete the payment securely via PayPal here: https://www.paypal.me/pricopalexandrumihai. Please let us know once completed. Thank you so much! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 13:18",
+          "time": "13:18",
+          "is_today": true,
+          "guest": "Francesco Cornacchia",
+          "guest_msg": "E per il pagamento di 10 RON a persona a notte, come faccio a pagare con carta?...",
+          "text": "Hello Francesco! For Booking.com reservations, you can pay the city tax (10 RON per person per night) using one of our convenient payment methods: via Revolut (@alexpricop), Wise (https://wise.com/pay/me/alexandrup80), PayPal (https://www.paypal.me/pricopalexandrumihai), or by bank transfer in EUR (IBAN: RO40REVO0000107967693391, holder: Alexandru-Mihai Pricop). Please let us know which method you prefer or have used, and drop us a quick note once completed. Thank you! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-27 13:08",
+          "time": "13:08",
+          "is_today": true,
+          "guest": "Francesco Cornacchia",
+          "guest_msg": "I'd like to request check-in at 01:00 - 02:00. Is this ok?...",
+          "text": "Hello Francesco! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access and keybox details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "21 Nov 2026 08:5",
+          "time": "08:50",
+          "is_today": false,
+          "guest": "Milena Rosati",
+          "guest_msg": "",
+          "text": "Good morning, Milena! Thank you for letting us know. Your check-out by 11:00 AM is noted. Upon leaving, please remember to place the key back inside the lockbox and scramble the code digits. We hope you enjoyed your stay and wish you a safe trip home!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "2026-11-26 23:26",
+          "time": "23:26",
+          "is_today": false,
+          "guest": "Maria Teresa Toro Barahona",
+          "guest_msg": "I’ve sent you 4€ by the name of David Dominguez...",
+          "text": "Thank you so much, Maria! We have received your payment. We wish you a wonderful stay at Old Town Victoriei 25! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 23:15",
+          "time": "23:15",
+          "is_today": false,
+          "guest": "Maria Teresa Toro Barahona",
+          "guest_msg": "How much would be? Via Revolut...",
+          "text": "Hello Maria! The city tax is 10 RON per person per night. For your reservation of 2 adults for 1 night, the total is 20 RON (which is approximately 4 EUR). You can easily send it via Revolut to my tag: @alexpricop. Please let me know once completed, and thank you so much! 💳",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 22:55",
+          "time": "22:55",
+          "is_today": false,
+          "guest": "Maria Teresa Toro Barahona",
+          "guest_msg": "Podemos pagar el impuesto en euro?...",
+          "text": "Hello Maria! Yes, absolutely, you can pay the city tax in EUR. Since your reservation is on Booking.com, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which payment method would you prefer, and I will send you the exact details right away?",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 21:04",
+          "time": "21:04",
+          "is_today": false,
+          "guest": "Metaxia Kirpitzi",
+          "guest_msg": "Thank you for the information.\nI would like to ask about the 10 RON per person, per night city tax. ...",
+          "text": "Hello Metaxia! 👋 The city tax (10 RON per person, per night) is not included in the initial booking price and is paid separately. For your 3-night stay with 2 adults, the total city tax is 60 RON (calculated as 10 RON x 2 adults x 3 nights). Regarding your accommodation total, you can check the exact breakdown and payment status directly in your Booking.com account. Let me know if you would like me to send you the payment options for the city tax!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 11:14",
+          "time": "11:14",
+          "is_today": false,
+          "guest": "Maria Teresa Toro Barahona",
+          "guest_msg": "Thank you so much!!...",
+          "text": "You are very welcome, Maria! If you need anything else during your stay, please don't hesitate to reach out. Have a wonderful time in Bucharest!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-26 10:23",
+          "time": "10:23",
+          "is_today": false,
+          "guest": "Maria Teresa Toro Barahona",
+          "guest_msg": "It was in order to store our luggage after we leave the apartment because we stay in Bucarest until ...",
+          "text": "Hello Maria! 🧳 Since check-out time is at 11:00 AM and our cleaning team needs to prepare the apartment for incoming guests, unfortunately, we cannot store luggage inside the apartment after check-out. However, for storing your bags until 17:00, we highly recommend the Bounce Luggage Storage locations available nearby in Bucharest, where you can safely leave your luggage. Safe travels and let us know if you need any other recommendations!",
+          "source": "Agent AI"
+        }
+      ],
+      "mesaje_trimise_azi": 8
+    },
+    {
       "name": "Tonitza 11 A with terrace",
       "tasks_today": 8,
       "tasks_total": 8,
@@ -360,156 +510,6 @@
         }
       ],
       "mesaje_trimise_azi": 7
-    },
-    {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 7,
-      "tasks_total": 7,
-      "manual_minutes": 21,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "16:18",
-      "status": "working",
-      "guest": "Francesco Cornacchia (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": [],
-      "mesaje_trimise": [
-        {
-          "date": "2026-11-27 16:26",
-          "time": "16:26",
-          "is_today": true,
-          "guest": "Gabriela Tufa",
-          "guest_msg": "Thank you!...",
-          "text": "You're very welcome, Gabriela! If you need anything else, please let us know. Have a wonderful day! 😊",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 16:16",
-          "time": "16:16",
-          "is_today": true,
-          "guest": "Gabriela Tufa",
-          "guest_msg": "Bună ziua, aș dori să solicit o factură pentru această rezervare. Vă rog să-mi trimiteți factura la ...",
-          "text": "Hello Gabriela! Thank you for your message. We are registered as private individuals and cannot issue official invoices, but I will notify the manager about your request. Have a wonderful day! 😊",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 13:59",
-          "time": "13:59",
-          "is_today": true,
-          "guest": "Francesco Cornacchia",
-          "guest_msg": "Bonifico effettuato....",
-          "text": "Thank you so much, Francesco! We have noted it down and will verify the transfer shortly. We appreciate your promptness! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 13:49",
-          "time": "13:49",
-          "is_today": true,
-          "guest": "Francesco Cornacchia",
-          "guest_msg": "Se mi dici l’importo in EURO vi faccio il\nBonifico...",
-          "text": "Hello Francesco! For 60 RON, the equivalent is approximately 12 EUR. You can make the bank transfer in EUR using the following details (Account Holder: Alexandru-Mihai Pricop, IBAN: RO40REVO0000107967693391). Please let us know once completed. Thank you so much! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 13:39",
-          "time": "13:39",
-          "is_today": true,
-          "guest": "Francesco Cornacchia",
-          "guest_msg": "Per inviarli tramite paypal mi chiede il vostro indirizzo e il vostro numero di telefono....",
-          "text": "Hello Francesco! For PayPal payments, you can simply use our direct link: https://www.paypal.me/pricopalexandrumihai, or if PayPal asks for an email address, you can use alexandru.pricop@gmail.com. Please let us know once completed. Thank you so much! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 13:28",
-          "time": "13:28",
-          "is_today": true,
-          "guest": "Francesco Cornacchia",
-          "guest_msg": "Procederò tramite paypal. Quindi complessivi 60 RON, corretto?...",
-          "text": "Hello Francesco! Yes, exactly! For 2 adults and 3 nights, the total city tax is 60 RON (10 RON per person per night). You can complete the payment securely via PayPal here: https://www.paypal.me/pricopalexandrumihai. Please let us know once completed. Thank you so much! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 13:18",
-          "time": "13:18",
-          "is_today": true,
-          "guest": "Francesco Cornacchia",
-          "guest_msg": "E per il pagamento di 10 RON a persona a notte, come faccio a pagare con carta?...",
-          "text": "Hello Francesco! For Booking.com reservations, you can pay the city tax (10 RON per person per night) using one of our convenient payment methods: via Revolut (@alexpricop), Wise (https://wise.com/pay/me/alexandrup80), PayPal (https://www.paypal.me/pricopalexandrumihai), or by bank transfer in EUR (IBAN: RO40REVO0000107967693391, holder: Alexandru-Mihai Pricop). Please let us know which method you prefer or have used, and drop us a quick note once completed. Thank you! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 13:08",
-          "time": "13:08",
-          "is_today": true,
-          "guest": "Francesco Cornacchia",
-          "guest_msg": "I'd like to request check-in at 01:00 - 02:00. Is this ok?...",
-          "text": "Hello Francesco! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access and keybox details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "21 Nov 2026 08:5",
-          "time": "08:50",
-          "is_today": false,
-          "guest": "Milena Rosati",
-          "guest_msg": "",
-          "text": "Good morning, Milena! Thank you for letting us know. Your check-out by 11:00 AM is noted. Upon leaving, please remember to place the key back inside the lockbox and scramble the code digits. We hope you enjoyed your stay and wish you a safe trip home!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "2026-11-26 23:26",
-          "time": "23:26",
-          "is_today": false,
-          "guest": "Maria Teresa Toro Barahona",
-          "guest_msg": "I’ve sent you 4€ by the name of David Dominguez...",
-          "text": "Thank you so much, Maria! We have received your payment. We wish you a wonderful stay at Old Town Victoriei 25! 🌟",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 23:15",
-          "time": "23:15",
-          "is_today": false,
-          "guest": "Maria Teresa Toro Barahona",
-          "guest_msg": "How much would be? Via Revolut...",
-          "text": "Hello Maria! The city tax is 10 RON per person per night. For your reservation of 2 adults for 1 night, the total is 20 RON (which is approximately 4 EUR). You can easily send it via Revolut to my tag: @alexpricop. Please let me know once completed, and thank you so much! 💳",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 22:55",
-          "time": "22:55",
-          "is_today": false,
-          "guest": "Maria Teresa Toro Barahona",
-          "guest_msg": "Podemos pagar el impuesto en euro?...",
-          "text": "Hello Maria! Yes, absolutely, you can pay the city tax in EUR. Since your reservation is on Booking.com, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which payment method would you prefer, and I will send you the exact details right away?",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 21:04",
-          "time": "21:04",
-          "is_today": false,
-          "guest": "Metaxia Kirpitzi",
-          "guest_msg": "Thank you for the information.\nI would like to ask about the 10 RON per person, per night city tax. ...",
-          "text": "Hello Metaxia! 👋 The city tax (10 RON per person, per night) is not included in the initial booking price and is paid separately. For your 3-night stay with 2 adults, the total city tax is 60 RON (calculated as 10 RON x 2 adults x 3 nights). Regarding your accommodation total, you can check the exact breakdown and payment status directly in your Booking.com account. Let me know if you would like me to send you the payment options for the city tax!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 11:14",
-          "time": "11:14",
-          "is_today": false,
-          "guest": "Maria Teresa Toro Barahona",
-          "guest_msg": "Thank you so much!!...",
-          "text": "You are very welcome, Maria! If you need anything else during your stay, please don't hesitate to reach out. Have a wonderful time in Bucharest!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-26 10:23",
-          "time": "10:23",
-          "is_today": false,
-          "guest": "Maria Teresa Toro Barahona",
-          "guest_msg": "It was in order to store our luggage after we leave the apartment because we stay in Bucarest until ...",
-          "text": "Hello Maria! 🧳 Since check-out time is at 11:00 AM and our cleaning team needs to prepare the apartment for incoming guests, unfortunately, we cannot store luggage inside the apartment after check-out. However, for storing your bags until 17:00, we highly recommend the Bounce Luggage Storage locations available nearby in Bucharest, where you can safely leave your luggage. Safe travels and let us know if you need any other recommendations!",
-          "source": "Agent AI"
-        }
-      ],
-      "mesaje_trimise_azi": 8
     },
     {
       "name": "Kogalniceanu 9 1BR",
@@ -1917,6 +1917,13 @@
   ],
   "feed": [
     {
+      "time": "16:36",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 16:36:57,993 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "16:26",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1964,17 +1971,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-27 15:56:35,238 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "15:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 15:46:29,165 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 15:06:07,935 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:16:12,526 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:16:12,718 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 15:16:12,845 [INFO] 🧠 Mesaj NOU #25580 (1 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"¡Buenas, tenemos muchas ganas de llegar ya!\nNosotros llegaremos a Bucarest sobre las 11:30h/12:00h....\"\n2026-11-27 15:16:12,846 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 15:16:12,860 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 15:16:14,051 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 15:16:14,508 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"Hello Andrea! We are so excited to welcome you! 🎒 Since your check-in is today (28 Nov 2026), you are more than welcome to drop off your backpacks inside the apartment after 11:00 AM once the previous guests have checked out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can enter and clean. We will also message you as soon as the apartment is fully clean and ready for you! Have a wonderful trip to Bucharest! ✨\"\n2026-11-27 15:16:15,178 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-27 15:26:19,495 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:26:19,697 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:36:24,233 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:36:24,404 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:46:28,963 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:46:29,165 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:56:35,030 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:56:35,238 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:06:39,875 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:06:40,052 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:16:44,626 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:16:44,927 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:16:44,966 [INFO] 🧠 Mesaj NOU #25590 (3 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Bună ziua, aș dori să solicit o factură pentru această rezervare. Vă rog să-mi trimiteți factura la ...\"\n2026-11-27 16:16:44,967 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:16:44,967 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:16:45,994 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:16:46,577 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"Hello Gabriela! Thank you for your message. We are registered as private individuals and cannot issue official invoices, but I will notify the manager about your request. Have a wonderful day! 😊\"\n2026-11-27 16:16:46,863 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 16:26:51,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:26:51,699 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:26:51,739 [INFO] 🧠 Mesaj NOU #25592 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Thank you!...\"\n2026-11-27 16:26:51,740 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:26:51,740 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:26:52,736 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:26:53,363 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"You're very welcome, Gabriela! If you need anything else, please let us know. Have a wonderful day! 😊\"",
-  "last_cloud_sync": "2026-11-27 16:36:54",
+  "raw_logs": "2026-11-27 15:16:12,718 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 15:16:12,845 [INFO] 🧠 Mesaj NOU #25580 (1 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"¡Buenas, tenemos muchas ganas de llegar ya!\nNosotros llegaremos a Bucarest sobre las 11:30h/12:00h....\"\n2026-11-27 15:16:12,846 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 15:16:12,860 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 15:16:14,051 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 15:16:14,508 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"Hello Andrea! We are so excited to welcome you! 🎒 Since your check-in is today (28 Nov 2026), you are more than welcome to drop off your backpacks inside the apartment after 11:00 AM once the previous guests have checked out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can enter and clean. We will also message you as soon as the apartment is fully clean and ready for you! Have a wonderful trip to Bucharest! ✨\"\n2026-11-27 15:16:15,178 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-27 15:26:19,495 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:26:19,697 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:36:24,233 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:36:24,404 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:46:28,963 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:46:29,165 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:56:35,030 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:56:35,238 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:06:39,875 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:06:40,052 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:16:44,626 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:16:44,927 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:16:44,966 [INFO] 🧠 Mesaj NOU #25590 (3 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Bună ziua, aș dori să solicit o factură pentru această rezervare. Vă rog să-mi trimiteți factura la ...\"\n2026-11-27 16:16:44,967 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:16:44,967 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:16:45,994 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:16:46,577 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"Hello Gabriela! Thank you for your message. We are registered as private individuals and cannot issue official invoices, but I will notify the manager about your request. Have a wonderful day! 😊\"\n2026-11-27 16:16:46,863 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 16:26:51,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:26:51,699 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:26:51,739 [INFO] 🧠 Mesaj NOU #25592 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Thank you!...\"\n2026-11-27 16:26:51,740 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:26:51,740 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:26:52,736 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:26:53,363 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"You're very welcome, Gabriela! If you need anything else, please let us know. Have a wonderful day! 😊\"\n2026-11-27 16:36:57,799 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:36:57,993 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-27 16:46:58",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
