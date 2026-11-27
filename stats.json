@@ -1,11 +1,11 @@
 {
-  "updated_at": "17:37:23",
+  "updated_at": "17:47:31",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
     "time_saved_str": "1h 57m",
     "actions_today": 39,
-    "last_check": "17:37"
+    "last_check": "17:47"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "35 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "47 mesaje"
+      "metric_value": "49 mesaje"
     },
     {
       "id": "clean",
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "16 alerte azi",
+      "worked_today": "15 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -146,6 +146,15 @@
           "source": "Agent AI"
         },
         {
+          "date": "23 Nov 2026 19:2",
+          "time": "19:26",
+          "is_today": false,
+          "guest": "Rares Stinga",
+          "guest_msg": "",
+          "text": "Hi Rares! I'm glad to hear the heater is working now. Regarding the TV, I have just notified our property manager once again about the TV cable issue, and they are checking on it right away to get it sorted out for you as quickly as possible. Thank you for your patience!",
+          "source": "5StarDesk"
+        },
+        {
           "date": "23 Nov 2026 17:5",
           "time": "17:54",
           "is_today": false,
@@ -197,15 +206,6 @@
           "guest": "Boaz Shoshan",
           "guest_msg": "",
           "text": "You're very welcome, Boaz! 😊 Please let us know if you need anything else during your stay at Old Town Tonitza 11 B. Have a wonderful time!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 15:3",
-          "time": "15:34",
-          "is_today": false,
-          "guest": "Boaz Shoshan",
-          "guest_msg": "",
-          "text": "Hi Boaz! I am very sorry for the inconvenience with the Wi-Fi. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to help you get connected!",
           "source": "5StarDesk"
         }
       ],
@@ -1099,12 +1099,21 @@
       "tasks_total": 1,
       "manual_minutes": 3,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:38",
+      "last_time": "17:33",
       "status": "working",
       "guest": "Andrei Vornicu (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-27 17:37",
+          "time": "17:37",
+          "is_today": true,
+          "guest": "Andrei Vornicu",
+          "guest_msg": "Am ajuns cu bine în apartament 👍🏻\n Mesaj tradus: We arrived safely at the apartment 👍🏻...",
+          "text": "That's wonderful to hear, Andrei! 🌟 I'm so glad you arrived safely. If you need anything at all during your stay, just let us know. Have a fantastic time in Bucharest!",
+          "source": "Agent AI"
+        },
         {
           "date": "2026-11-27 12:38",
           "time": "12:38",
@@ -1230,18 +1239,9 @@
           "guest_msg": "",
           "text": "Hi Razvan! As our manager is reviewing your request regarding alternative options and your feedback, he will contact you by phone shortly to discuss everything with you. Thank you for your patience and understanding! 🙏",
           "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:2",
-          "time": "17:29",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Hi Razvan! Thank you for following up. I have notified our manager once again about your request regarding alternative options and your feedback. He is reviewing the situation and will contact you by phone shortly. Thank you very much for your patience!",
-          "source": "5StarDesk"
         }
       ],
-      "mesaje_trimise_azi": 1
+      "mesaje_trimise_azi": 2
     },
     {
       "name": "Old Town Carada 5",
@@ -1794,13 +1794,22 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "17:35",
+      "status": "working",
       "guest": "Luca Corrado Maggio (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-27 17:37",
+          "time": "17:37",
+          "is_today": true,
+          "guest": "Sergio Rodriguez Rubio",
+          "guest_msg": "Hola! Necesitaremos el sofá cama para el niño, por favor prepare las sábanas...",
+          "text": "Hello Sergio! 👋 Noted, we will make sure the sofa bed is prepared for your child. For reference, to extend the sofa bed, you just need to lift and pull the seat towards you. If you need anything else, please let us know! 😊",
+          "source": "Agent AI"
+        },
         {
           "date": "24 Nov 2026 23:0",
           "time": "23:01",
@@ -1847,7 +1856,7 @@
           "source": "5StarDesk"
         }
       ],
-      "mesaje_trimise_azi": 0
+      "mesaje_trimise_azi": 1
     }
   ],
   "reviews_skipped": [
@@ -1917,6 +1926,27 @@
   ],
   "feed": [
     {
+      "time": "17:37",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 17:37:31,095 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Sergio Rodriguez Rubio (Rigas29 -2BR)]: \"Hello Sergio! 👋",
+      "type": "success"
+    },
+    {
+      "time": "17:37",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 17:37:29,177 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"That's wonderful to",
+      "type": "success"
+    },
+    {
+      "time": "17:37",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 17:37:27,570 [INFO] 📊 Conversatii verificate: 83 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "17:27",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -1950,31 +1980,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-27 16:47:02,622 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "16:36",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 16:36:57,993 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "16:26",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 16:26:53,363 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"You're very wel",
-      "type": "success"
-    },
-    {
-      "time": "16:26",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 16:26:51,699 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 15:36:24,233 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:36:24,404 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:46:28,963 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:46:29,165 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:56:35,030 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:56:35,238 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:06:39,875 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:06:40,052 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:16:44,626 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:16:44,927 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:16:44,966 [INFO] 🧠 Mesaj NOU #25590 (3 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Bună ziua, aș dori să solicit o factură pentru această rezervare. Vă rog să-mi trimiteți factura la ...\"\n2026-11-27 16:16:44,967 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:16:44,967 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:16:45,994 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:16:46,577 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"Hello Gabriela! Thank you for your message. We are registered as private individuals and cannot issue official invoices, but I will notify the manager about your request. Have a wonderful day! 😊\"\n2026-11-27 16:16:46,863 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 16:26:51,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:26:51,699 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:26:51,739 [INFO] 🧠 Mesaj NOU #25592 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Thank you!...\"\n2026-11-27 16:26:51,740 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:26:51,740 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:26:52,736 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:26:53,363 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"You're very welcome, Gabriela! If you need anything else, please let us know. Have a wonderful day! 😊\"\n2026-11-27 16:36:57,799 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:36:57,993 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:47:02,414 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:47:02,622 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:57:07,115 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:57:07,289 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:07:12,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:07:12,623 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:17:17,387 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:17:17,565 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:27:22,424 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:27:22,698 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-27 17:37:23",
+  "raw_logs": "2026-11-27 16:16:45,994 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:16:46,577 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"Hello Gabriela! Thank you for your message. We are registered as private individuals and cannot issue official invoices, but I will notify the manager about your request. Have a wonderful day! 😊\"\n2026-11-27 16:16:46,863 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 16:26:51,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:26:51,699 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 16:26:51,739 [INFO] 🧠 Mesaj NOU #25592 (1 lipite) de la Gabriela Tufa (Old Town Victoriei 25): \"Thank you!...\"\n2026-11-27 16:26:51,740 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 16:26:51,740 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 16:26:52,736 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 16:26:53,363 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gabriela Tufa (Old Town Victoriei 25)]: \"You're very welcome, Gabriela! If you need anything else, please let us know. Have a wonderful day! 😊\"\n2026-11-27 16:36:57,799 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:36:57,993 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:47:02,414 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:47:02,622 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 16:57:07,115 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 16:57:07,289 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:07:12,441 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:07:12,623 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:17:17,387 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:17:17,565 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:27:22,424 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:27:22,698 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 17:37:27,399 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 17:37:27,570 [INFO] 📊 Conversatii verificate: 83 | Rezervari cu mesaje NOI: 2\n2026-11-27 17:37:27,611 [INFO] 🧠 Mesaj NOU #25599 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Am ajuns cu bine în apartament 👍🏻\nMesaj tradus: We arrived safely at the apartment 👍🏻...\"\n2026-11-27 17:37:27,611 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 17:37:27,612 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 17:37:28,656 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 17:37:29,177 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"That's wonderful to hear, Andrei! 🌟 I'm so glad you arrived safely. If you need anything at all during your stay, just let us know. Have a fantastic time in Bucharest!\"\n2026-11-27 17:37:29,180 [INFO] 🧠 Mesaj NOU #25600 (1 lipite) de la Sergio Rodriguez Rubio (Rigas29 -2BR): \"Hola! Necesitaremos el sofá cama para el niño, por favor prepare las sábanas...\"\n2026-11-27 17:37:29,180 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 17:37:29,181 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 17:37:30,340 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 17:37:31,095 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Sergio Rodriguez Rubio (Rigas29 -2BR)]: \"Hello Sergio! 👋 Noted, we will make sure the sofa bed is prepared for your child. For reference, to extend the sofa bed, you just need to lift and pull the seat towards you. If you need anything else, please let us know! 😊\"",
+  "last_cloud_sync": "2026-11-27 17:47:31",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
