@@ -1,11 +1,11 @@
 {
-  "updated_at": "10:25:24",
+  "updated_at": "10:35:36",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "45 min",
-    "actions_today": 15,
-    "last_check": "10:25"
+    "time_saved_str": "48 min",
+    "actions_today": 16,
+    "last_check": "10:35"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "12 răspunsuri azi",
+      "worked_today": "13 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "20 mesaje"
+      "metric_value": "23 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "10 alerte azi",
+      "worked_today": "11 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -62,11 +62,11 @@
   "apartments": [
     {
       "name": "Old Town Tonitza 11 B",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
+      "tasks_today": 5,
+      "tasks_total": 5,
+      "manual_minutes": 15,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "10:05",
+      "last_time": "10:22",
       "status": "working",
       "guest": "George Tsabikos Makris",
       "urgenta_azi": false,
@@ -219,6 +219,34 @@
   ],
   "feed": [
     {
+      "time": "10:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 10:25:35,643 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello ",
+      "type": "success"
+    },
+    {
+      "time": "10:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 10:25:34,374 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "10:25",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 10:25:34,083 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Balaceanu Sebi (Old Town Tonitza 11 B)]: \"Thank you so m",
+      "type": "success"
+    },
+    {
+      "time": "10:25",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 10:25:32,306 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "10:15",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -245,38 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 10:05:13,645 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank ",
       "type": "success"
-    },
-    {
-      "time": "10:05",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 10:05:11,846 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "09:55",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 09:55:03,465 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "09:55",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 09:55:03,194 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank ",
-      "type": "success"
-    },
-    {
-      "time": "09:55",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 09:55:01,312 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 09:34:41,767 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:34:42,273 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Good morning George! ☀️ The apartment is equipped with modern air conditioning for heating, ensuring a cozy and comfortable temperature throughout your stay. Let us know if you need any other information before your arrival! 😊\"\n2026-11-27 09:44:50,363 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:44:50,670 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:44:50,703 [INFO] 🧠 Mesaj NOU #25483 (3 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"επειδη θα εχει πολυ κρυο οταν ερθουμε το μπανιο εχει καποια θερμανση?\nMesaj tradus: Since it will b...\"\n2026-11-27 09:44:50,703 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:44:50,704 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:44:52,324 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:44:52,773 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! ☀️ Regarding the heating, while there isn't a separate radiator in the bathroom, the powerful modern air conditioning unit in the apartment effectively heats the entire space, ensuring a comfortable and cozy temperature throughout, including the bathroom. As for the \"basic items not included,\" this usually refers to consumables beyond the initial courtesy items provided (such as extra coffee capsules, specialized toiletries, etc.). Everything essential for your comfortable arrival is fully taken care of! Let us know if you need any other information. 😊\"\n2026-11-27 09:55:01,074 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:55:01,312 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:55:01,345 [INFO] 🧠 Mesaj NOU #25486 (2 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Εχω διαβάσει αρκετα σχόλια για κρύο στο μπάνιο γο αυτό σε ρωτάω επειδη ξέρω για κλιματιστικά ηταν η ...\"\n2026-11-27 09:55:01,346 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:55:01,346 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:55:02,555 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:55:03,194 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank you for sharing your expertise on this, George! I completely understand your concern. While our modern AC unit is powerful and maintains a comfortable overall temperature, I have immediately informed the property manager about your feedback and he will review this with you to ensure you are fully comfortable during your stay. We will get back to you shortly!\"\n2026-11-27 09:55:03,465 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 10:05:11,658 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 10:05:11,846 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 10:05:11,890 [INFO] 🧠 Mesaj NOU #25489 (2 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Σας ευχαριστώ πάρα πολύ ειλικρινά\nMesaj tradus: Thank you very much sincerely | Και όποτε μπορείτε...\"\n2026-11-27 10:05:11,891 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 10:05:11,892 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 10:05:13,082 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 10:05:13,645 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank you so much, George! Regarding the city tax, since your reservation is through Airbnb, we will send you the payment request/link directly via the Airbnb platform so you can take care of it easily. Have a wonderful day, and please let us know if you need anything else! 😊\"\n2026-11-27 10:05:13,647 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 10:15:21,818 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 10:15:22,057 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 10:15:22,091 [INFO] 🧠 Mesaj NOU #25495 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Και εσείς να είστε καλά σας ευχαριστώ περιμένω ενημέρωση για τα θεματα\nMesaj tradus: And I hope you...\"\n2026-11-27 10:15:22,091 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 10:15:22,091 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 10:15:23,301 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 10:15:23,801 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank you so much, George! Our property manager is looking into the heating/bathroom query and will get back to you shortly with an update. Wishing you a great day ahead! 😊\"",
-  "last_cloud_sync": "2026-11-27 10:25:24",
+  "raw_logs": "2026-11-27 09:55:01,346 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:55:02,555 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:55:03,194 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank you for sharing your expertise on this, George! I completely understand your concern. While our modern AC unit is powerful and maintains a comfortable overall temperature, I have immediately informed the property manager about your feedback and he will review this with you to ensure you are fully comfortable during your stay. We will get back to you shortly!\"\n2026-11-27 09:55:03,465 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 10:05:11,658 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 10:05:11,846 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 10:05:11,890 [INFO] 🧠 Mesaj NOU #25489 (2 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Σας ευχαριστώ πάρα πολύ ειλικρινά\nMesaj tradus: Thank you very much sincerely | Και όποτε μπορείτε...\"\n2026-11-27 10:05:11,891 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 10:05:11,892 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 10:05:13,082 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 10:05:13,645 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank you so much, George! Regarding the city tax, since your reservation is through Airbnb, we will send you the payment request/link directly via the Airbnb platform so you can take care of it easily. Have a wonderful day, and please let us know if you need anything else! 😊\"\n2026-11-27 10:05:13,647 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 10:15:21,818 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 10:15:22,057 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 10:15:22,091 [INFO] 🧠 Mesaj NOU #25495 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Και εσείς να είστε καλά σας ευχαριστώ περιμένω ενημέρωση για τα θεματα\nMesaj tradus: And I hope you...\"\n2026-11-27 10:15:22,091 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 10:15:22,091 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 10:15:23,301 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 10:15:23,801 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Thank you so much, George! Our property manager is looking into the heating/bathroom query and will get back to you shortly with an update. Wishing you a great day ahead! 😊\"\n2026-11-27 10:25:32,084 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 10:25:32,306 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2\n2026-11-27 10:25:32,337 [INFO] 🧠 Mesaj NOU #25501 (2 lipite) de la Balaceanu Sebi (Old Town Tonitza 11 B): \"Era ceva mizerie pe par, dar în rest a fost ok. Nu voi menționa in review. Probabil echipa de curățe...\"\n2026-11-27 10:25:32,338 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 10:25:32,338 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 10:25:33,572 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 10:25:34,083 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Balaceanu Sebi (Old Town Tonitza 11 B)]: \"Thank you so much for your feedback, Balaceanu! We are glad you enjoyed your stay overall, but we sincerely apologize for the oversight with the floor. I have immediately notified our cleaning manager so we can ensure our team pays closer attention moving forward. Thank you for staying with us, and we hope to welcome you back to UrbanNest Bucharest in the future! 🌟\"\n2026-11-27 10:25:34,374 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 10:25:34,374 [INFO] 🧠 Mesaj NOU #25499 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"Επίσης\nMesaj tradus: Also...\"\n2026-11-27 10:25:34,375 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 10:25:34,376 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 10:25:35,200 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 10:25:35,643 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! Please go ahead and let me know what else you would like to share or ask. I'm here to help! 😊\"",
+  "last_cloud_sync": "2026-11-27 10:35:36",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
