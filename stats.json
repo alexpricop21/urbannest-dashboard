@@ -1,11 +1,11 @@
 {
-  "updated_at": "14:09:34",
+  "updated_at": "14:19:43",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "1h 39m",
-    "actions_today": 33,
-    "last_check": "14:09"
+    "time_saved_str": "1h 45m",
+    "actions_today": 35,
+    "last_check": "14:19"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "29 răspunsuri azi",
+      "worked_today": "31 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "41 mesaje"
     },
@@ -74,13 +74,25 @@
     },
     {
       "name": "Tonitza 11 A with terrace",
-      "tasks_today": 6,
-      "tasks_total": 6,
-      "manual_minutes": 18,
+      "tasks_today": 7,
+      "tasks_total": 7,
+      "manual_minutes": 21,
       "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
       "last_time": "11:06",
       "status": "working",
       "guest": "Benjamin Ellis Archer (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 6,
+      "tasks_total": 6,
+      "manual_minutes": 18,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "13:59",
+      "status": "working",
+      "guest": "Francesco Cornacchia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -93,18 +105,6 @@
       "last_time": "11:06",
       "status": "working",
       "guest": "Yasser Ghassiri (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "13:57",
-      "status": "working",
-      "guest": "Francesco Cornacchia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,13 @@
   ],
   "feed": [
     {
+      "time": "14:09",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 14:09:41,946 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "13:59",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -266,17 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 13:49:21,380 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Fr",
       "type": "success"
-    },
-    {
-      "time": "13:49",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 13:49:19,434 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-27 13:39:06,610 [INFO] 🧠 Mesaj NOU #25561 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"Per inviarli tramite paypal mi chiede il vostro indirizzo e il vostro numero di telefono....\"\n2026-11-27 13:39:06,611 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:39:06,611 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:39:07,622 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:39:08,568 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! For PayPal payments, you can simply use our direct link: https://www.paypal.me/pricopalexandrumihai, or if PayPal asks for an email address, you can use alexandru.pricop@gmail.com. Please let us know once completed. Thank you so much! 🌟\"\n2026-11-27 13:39:08,570 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 13:49:16,924 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:49:17,142 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 2\n2026-11-27 13:49:17,177 [INFO] 🧠 Mesaj NOU #25566 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Do you have an ETA on when they will arrive? We don’t want to leave out stuff unattended with the do...\"\n2026-11-27 13:49:17,178 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:49:17,178 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:49:18,485 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:49:19,192 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I completely understand your concern. I have just contacted the property manager again to get an exact ETA for you. He is treating this with top priority and will be there as soon as possible to fix the door lock. Thank you so much for your patience, and we will update you in just a moment!\"\n2026-11-27 13:49:19,434 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 13:49:19,435 [INFO] 🧠 Mesaj NOU #25565 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"Se mi dici l’importo in EURO vi faccio il\nBonifico...\"\n2026-11-27 13:49:19,436 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:49:19,436 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:49:20,504 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:49:21,380 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! For 60 RON, the equivalent is approximately 12 EUR. You can make the bank transfer in EUR using the following details (Account Holder: Alexandru-Mihai Pricop, IBAN: RO40REVO0000107967693391). Please let us know once completed. Thank you so much! 🌟\"\n2026-11-27 13:49:21,382 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 13:59:29,708 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:59:29,917 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 2\n2026-11-27 13:59:29,950 [INFO] 🧠 Mesaj NOU #25572 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Are we okay to stay at the property after the manager has been? It seems the cleaners have been and ...\"\n2026-11-27 13:59:29,950 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:59:29,951 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:59:30,986 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:59:31,532 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! Thank you for letting us know. I have immediately informed the manager about this, and he will get back to you in the shortest time possible to confirm!\"\n2026-11-27 13:59:31,776 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 13:59:31,777 [INFO] 🧠 Mesaj NOU #25574 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"Bonifico effettuato....\"\n2026-11-27 13:59:31,778 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:59:31,778 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:59:32,668 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:59:33,294 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Thank you so much, Francesco! We have noted it down and will verify the transfer shortly. We appreciate your promptness! 🌟\"\n2026-11-27 13:59:33,296 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
-  "last_cloud_sync": "2026-11-27 14:09:34",
+  "raw_logs": "2026-11-27 13:39:06,611 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:39:07,622 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:39:08,568 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! For PayPal payments, you can simply use our direct link: https://www.paypal.me/pricopalexandrumihai, or if PayPal asks for an email address, you can use alexandru.pricop@gmail.com. Please let us know once completed. Thank you so much! 🌟\"\n2026-11-27 13:39:08,570 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 13:49:16,924 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:49:17,142 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 2\n2026-11-27 13:49:17,177 [INFO] 🧠 Mesaj NOU #25566 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Do you have an ETA on when they will arrive? We don’t want to leave out stuff unattended with the do...\"\n2026-11-27 13:49:17,178 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:49:17,178 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:49:18,485 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:49:19,192 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I completely understand your concern. I have just contacted the property manager again to get an exact ETA for you. He is treating this with top priority and will be there as soon as possible to fix the door lock. Thank you so much for your patience, and we will update you in just a moment!\"\n2026-11-27 13:49:19,434 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 13:49:19,435 [INFO] 🧠 Mesaj NOU #25565 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"Se mi dici l’importo in EURO vi faccio il\nBonifico...\"\n2026-11-27 13:49:19,436 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:49:19,436 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:49:20,504 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:49:21,380 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! For 60 RON, the equivalent is approximately 12 EUR. You can make the bank transfer in EUR using the following details (Account Holder: Alexandru-Mihai Pricop, IBAN: RO40REVO0000107967693391). Please let us know once completed. Thank you so much! 🌟\"\n2026-11-27 13:49:21,382 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 13:59:29,708 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:59:29,917 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 2\n2026-11-27 13:59:29,950 [INFO] 🧠 Mesaj NOU #25572 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Are we okay to stay at the property after the manager has been? It seems the cleaners have been and ...\"\n2026-11-27 13:59:29,950 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:59:29,951 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:59:30,986 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:59:31,532 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! Thank you for letting us know. I have immediately informed the manager about this, and he will get back to you in the shortest time possible to confirm!\"\n2026-11-27 13:59:31,776 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-27 13:59:31,777 [INFO] 🧠 Mesaj NOU #25574 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"Bonifico effettuato....\"\n2026-11-27 13:59:31,778 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:59:31,778 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:59:32,668 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:59:33,294 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Thank you so much, Francesco! We have noted it down and will verify the transfer shortly. We appreciate your promptness! 🌟\"\n2026-11-27 13:59:33,296 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 14:09:41,747 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:09:41,946 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-27 14:19:43",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
