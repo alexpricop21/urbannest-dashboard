@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:18:34",
+  "updated_at": "13:28:45",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "1h 15m",
-    "actions_today": 25,
-    "last_check": "13:18"
+    "time_saved_str": "1h 18m",
+    "actions_today": 26,
+    "last_check": "13:28"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "21 răspunsuri azi",
+      "worked_today": "22 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "31 mesaje"
+      "metric_value": "32 mesaje"
     },
     {
       "id": "clean",
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "9 alerte azi",
+      "worked_today": "10 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -157,6 +157,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Victoriei 25",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "13:11",
+      "status": "working",
+      "guest": "Francesco Cornacchia (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Campineanu22 A",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -193,18 +205,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Victoriei 25",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "12:59",
-      "status": "working",
-      "guest": "Francesco Cornacchia (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Rigas29 2BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -218,6 +218,27 @@
     }
   ],
   "feed": [
+    {
+      "time": "13:18",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 13:18:44,423 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "13:18",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 13:18:44,420 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Fr",
+      "type": "success"
+    },
+    {
+      "time": "13:18",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 13:18:42,077 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "13:08",
       "icon": "💬",
@@ -252,31 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 12:38:03,895 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! You're v",
       "type": "success"
-    },
-    {
-      "time": "12:38",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 12:38:01,011 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "12:27",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 12:27:52,382 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "12:17",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 12:17:43,963 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 11:57:22,004 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 11:57:23,469 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 11:57:24,010 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gema Martin (Kogalniceanu 9 -1BR)]: \"Good morning Gema! ☀️ Standard check-in starts at 3:00 PM (15:00), but since you are arriving around 12:00 PM, you are very welcome to drop off your luggage inside the apartment after 11:00 AM once the previous guests have checked out! Please just make sure to leave the key back inside the lockbox immediately after so our cleaning team can access the apartment. We will do our best to have everything ready for you as early as possible and will let you know the moment the apartment is clean! 🧳\"\n2026-11-27 11:57:24,310 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-27 12:07:32,637 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:07:33,824 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 1\n2026-11-27 12:07:33,858 [INFO] 🧠 Mesaj NOU #25528 (1 lipite) de la Gema Martin (Kogalniceanu 9 -1BR): \"Mil gracias\nMesaj tradus: Thank you very much...\"\n2026-11-27 12:07:33,859 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 12:07:33,859 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 12:07:34,678 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 12:07:35,193 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gema Martin (Kogalniceanu 9 -1BR)]: \"You are very welcome, Gema! 😊 If you need anything else before your arrival, please don't hesitate to ask. Have a wonderful day!\"\n2026-11-27 12:17:43,724 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:17:43,963 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 0\n2026-11-27 12:27:52,184 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:27:52,382 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 0\n2026-11-27 12:38:00,797 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:38:01,011 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-27 12:38:01,046 [INFO] 🧠 Mesaj NOU #25534 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, mulțumesc mult pentru cazare. Ajungem per la 5 după-amiază\nMesaj tradus: Hi Alex, than...\"\n2026-11-27 12:38:01,047 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 12:38:01,047 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 12:38:03,336 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 12:38:03,895 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! You're very welcome! ✨ There's no problem at all to check in anytime after 3:00 PM (15:00) using our self check-in system. All the exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip, and let us know if you need anything else!\"\n2026-11-27 12:48:12,272 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:48:12,524 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-27 12:58:21,541 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:58:21,721 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-27 13:08:30,642 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:08:30,859 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 1\n2026-11-27 13:08:30,896 [INFO] 🧠 Mesaj NOU #25542 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"I'd like to request check-in at 01:00 - 02:00. Is this ok?...\"\n2026-11-27 13:08:30,896 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:08:30,897 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:08:32,433 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:08:33,475 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access and keybox details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟\"",
-  "last_cloud_sync": "2026-11-27 13:18:34",
+  "raw_logs": "2026-11-27 12:07:33,859 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 12:07:33,859 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 12:07:34,678 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 12:07:35,193 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Gema Martin (Kogalniceanu 9 -1BR)]: \"You are very welcome, Gema! 😊 If you need anything else before your arrival, please don't hesitate to ask. Have a wonderful day!\"\n2026-11-27 12:17:43,724 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:17:43,963 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 0\n2026-11-27 12:27:52,184 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:27:52,382 [INFO] 📊 Conversatii verificate: 79 | Rezervari cu mesaje NOI: 0\n2026-11-27 12:38:00,797 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:38:01,011 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-27 12:38:01,046 [INFO] 🧠 Mesaj NOU #25534 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, mulțumesc mult pentru cazare. Ajungem per la 5 după-amiază\nMesaj tradus: Hi Alex, than...\"\n2026-11-27 12:38:01,047 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 12:38:01,047 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 12:38:03,336 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 12:38:03,895 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! You're very welcome! ✨ There's no problem at all to check in anytime after 3:00 PM (15:00) using our self check-in system. All the exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip, and let us know if you need anything else!\"\n2026-11-27 12:48:12,272 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:48:12,524 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-27 12:58:21,541 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 12:58:21,721 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-27 13:08:30,642 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:08:30,859 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 1\n2026-11-27 13:08:30,896 [INFO] 🧠 Mesaj NOU #25542 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"I'd like to request check-in at 01:00 - 02:00. Is this ok?...\"\n2026-11-27 13:08:30,896 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:08:30,897 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:08:32,433 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:08:33,475 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access and keybox details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟\"\n2026-11-27 13:18:41,872 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 13:18:42,077 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 1\n2026-11-27 13:18:42,111 [INFO] 🧠 Mesaj NOU #25544 (1 lipite) de la Francesco Cornacchia (Old Town Victoriei 25): \"E per il pagamento di 10 RON a persona a notte, come faccio a pagare con carta?...\"\n2026-11-27 13:18:42,112 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 13:18:42,112 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 13:18:43,489 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:18:44,420 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Hello Francesco! For Booking.com reservations, you can pay the city tax (10 RON per person per night) using one of our convenient payment methods: via Revolut (@alexpricop), Wise (https://wise.com/pay/me/alexandrup80), PayPal (https://www.paypal.me/pricopalexandrumihai), or by bank transfer in EUR (IBAN: RO40REVO0000107967693391, holder: Alexandru-Mihai Pricop). Please let us know which method you prefer or have used, and drop us a quick note once completed. Thank you! 🌟\"\n2026-11-27 13:18:44,423 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
+  "last_cloud_sync": "2026-11-27 13:28:45",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
