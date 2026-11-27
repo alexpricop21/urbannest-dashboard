@@ -1,11 +1,11 @@
 {
-  "updated_at": "09:44:43",
+  "updated_at": "09:54:53",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "33 min",
-    "actions_today": 11,
-    "last_check": "09:44"
+    "time_saved_str": "36 min",
+    "actions_today": 12,
+    "last_check": "09:54"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "8 răspunsuri azi",
+      "worked_today": "9 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "12 mesaje"
+      "metric_value": "15 mesaje"
     },
     {
       "id": "clean",
@@ -121,6 +121,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Old Town Tonitza 11 B",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "09:39",
+      "status": "working",
+      "guest": "George Tsabikos Makris",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Tonitza 11 A with terrace",
       "tasks_today": 1,
       "tasks_total": 1,
@@ -181,18 +193,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Old Town Tonitza 11 B",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "A analizat mesajul oaspetelui",
-      "last_time": "09:27",
-      "status": "working",
-      "guest": "George Tsabikos Makris",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -218,6 +218,20 @@
     }
   ],
   "feed": [
+    {
+      "time": "09:44",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 09:44:52,773 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello ",
+      "type": "success"
+    },
+    {
+      "time": "09:44",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 09:44:50,670 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
     {
       "time": "09:34",
       "icon": "💬",
@@ -259,24 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 09:24:29,315 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Tamas Laszlo (Kogalniceanu 9 -1BR)]: \"Thank you for lett",
       "type": "success"
-    },
-    {
-      "time": "09:24",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 09:24:27,460 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
-    },
-    {
-      "time": "09:14",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 09:14:19,097 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 08:43:50,565 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:53:59,383 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:53:59,567 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 09:04:07,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:04:07,755 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:04:07,789 [INFO] 🧠 Mesaj NOU #25469 (1 lipite) de la George Soltuzu (Biserica Amzei 27): \"Hi there! Just letting you know that I’ve checked out and left the keys in the keybox. Thank you for...\"\n2026-11-27 09:04:07,790 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:04:07,790 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:04:08,823 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:04:09,428 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Soltuzu (Biserica Amzei 27)]: \"Thank you so much for staying with us, George! 🌟 We are thrilled to hear that you had a great time and that everything was to your satisfaction. We hope to welcome you back to UrbanNest Bucharest in the future. Safe travels and all the best! 😊\"\n2026-11-27 09:04:10,057 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:14:18,925 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:14:19,097 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 09:24:27,257 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:24:27,460 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2\n2026-11-27 09:24:27,509 [INFO] 🧠 Mesaj NOU #25475 (1 lipite) de la Tamas Laszlo (Kogalniceanu 9 -1BR): \"I'm planning on leaving between 10:30 and 11:00. As for the 10RON/night payment, okay, I will pay it...\"\n2026-11-27 09:24:27,509 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:24:27,510 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:24:28,482 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:24:29,315 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Tamas Laszlo (Kogalniceanu 9 -1BR)]: \"Thank you for letting us know, Tamas! Safe travels! When you leave, please remember to place the keys back inside the lockbox and scramble the code. We hope you enjoyed your stay at UrbanNest Bucharest and look forward to hosting you again!\"\n2026-11-27 09:24:30,043 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:24:30,043 [INFO] 🧠 Mesaj NOU #25472 (1 lipite) de la Cecilia Bica (Old Town Ghica 1): \"Plec acum de la apartament. A fost o sedere placuta. Multumesc\nMesaj tradus: I'm leaving the apartm...\"\n2026-11-27 09:24:30,044 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:24:30,044 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:24:30,939 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:24:31,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Cecilia Bica (Old Town Ghica 1)]: \"Thank you so much for staying with us, Cecilia! We are delighted to hear you had a pleasant stay. Please don't forget to place the keys back into the lockbox and scramble the code before you leave. Have a wonderful safe trip ahead, and we hope to welcome you back to UrbanNest Bucharest soon! 🌟\"\n2026-11-27 09:24:32,046 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:34:40,571 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:34:40,732 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:34:40,764 [INFO] 🧠 Mesaj NOU #25478 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"καλημερα να σας ρωτησω η θερμανση γινεται μονο με κλιματιστικο η εχει και καλοριφελ αν ναι τι τυπου?...\"\n2026-11-27 09:34:40,765 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:34:40,765 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:34:41,767 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:34:42,273 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Good morning George! ☀️ The apartment is equipped with modern air conditioning for heating, ensuring a cozy and comfortable temperature throughout your stay. Let us know if you need any other information before your arrival! 😊\"",
-  "last_cloud_sync": "2026-11-27 09:44:43",
+  "raw_logs": "2026-11-27 09:04:08,823 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:04:09,428 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Soltuzu (Biserica Amzei 27)]: \"Thank you so much for staying with us, George! 🌟 We are thrilled to hear that you had a great time and that everything was to your satisfaction. We hope to welcome you back to UrbanNest Bucharest in the future. Safe travels and all the best! 😊\"\n2026-11-27 09:04:10,057 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:14:18,925 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:14:19,097 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 09:24:27,257 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:24:27,460 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2\n2026-11-27 09:24:27,509 [INFO] 🧠 Mesaj NOU #25475 (1 lipite) de la Tamas Laszlo (Kogalniceanu 9 -1BR): \"I'm planning on leaving between 10:30 and 11:00. As for the 10RON/night payment, okay, I will pay it...\"\n2026-11-27 09:24:27,509 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:24:27,510 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:24:28,482 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:24:29,315 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Tamas Laszlo (Kogalniceanu 9 -1BR)]: \"Thank you for letting us know, Tamas! Safe travels! When you leave, please remember to place the keys back inside the lockbox and scramble the code. We hope you enjoyed your stay at UrbanNest Bucharest and look forward to hosting you again!\"\n2026-11-27 09:24:30,043 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:24:30,043 [INFO] 🧠 Mesaj NOU #25472 (1 lipite) de la Cecilia Bica (Old Town Ghica 1): \"Plec acum de la apartament. A fost o sedere placuta. Multumesc\nMesaj tradus: I'm leaving the apartm...\"\n2026-11-27 09:24:30,044 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:24:30,044 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:24:30,939 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:24:31,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Cecilia Bica (Old Town Ghica 1)]: \"Thank you so much for staying with us, Cecilia! We are delighted to hear you had a pleasant stay. Please don't forget to place the keys back into the lockbox and scramble the code before you leave. Have a wonderful safe trip ahead, and we hope to welcome you back to UrbanNest Bucharest soon! 🌟\"\n2026-11-27 09:24:32,046 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:34:40,571 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:34:40,732 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:34:40,764 [INFO] 🧠 Mesaj NOU #25478 (1 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"καλημερα να σας ρωτησω η θερμανση γινεται μονο με κλιματιστικο η εχει και καλοριφελ αν ναι τι τυπου?...\"\n2026-11-27 09:34:40,765 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:34:40,765 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:34:41,767 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:34:42,273 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Good morning George! ☀️ The apartment is equipped with modern air conditioning for heating, ensuring a cozy and comfortable temperature throughout your stay. Let us know if you need any other information before your arrival! 😊\"\n2026-11-27 09:44:50,363 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:44:50,670 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:44:50,703 [INFO] 🧠 Mesaj NOU #25483 (3 lipite) de la George Tsabikos Makris (Old Town Tonitza 11 B): \"επειδη θα εχει πολυ κρυο οταν ερθουμε το μπανιο εχει καποια θερμανση?\nMesaj tradus: Since it will b...\"\n2026-11-27 09:44:50,703 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:44:50,704 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:44:52,324 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:44:52,773 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Tsabikos Makris (Old Town Tonitza 11 B)]: \"Hello George! ☀️ Regarding the heating, while there isn't a separate radiator in the bathroom, the powerful modern air conditioning unit in the apartment effectively heats the entire space, ensuring a comfortable and cozy temperature throughout, including the bathroom. As for the \"basic items not included,\" this usually refers to consumables beyond the initial courtesy items provided (such as extra coffee capsules, specialized toiletries, etc.). Everything essential for your comfortable arrival is fully taken care of! Let us know if you need any other information. 😊\"",
+  "last_cloud_sync": "2026-11-27 09:54:53",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
