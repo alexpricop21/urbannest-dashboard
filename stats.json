@@ -1,11 +1,11 @@
 {
-  "updated_at": "09:24:20",
+  "updated_at": "09:34:33",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "21 min",
-    "actions_today": 7,
-    "last_check": "09:24"
+    "time_saved_str": "27 min",
+    "actions_today": 9,
+    "last_check": "09:34"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "6 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "9 mesaje"
+      "metric_value": "11 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "1 update-uri azi",
+      "worked_today": "3 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -54,7 +54,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "8 alerte azi",
+      "worked_today": "9 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -85,6 +85,18 @@
       "urgente_mesaje": []
     },
     {
+      "name": "Kogalniceanu 9 1BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
+      "last_time": "09:24",
+      "status": "working",
+      "guest": "Yasser Ghassiri (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
       "name": "Old Town Carada 5",
       "tasks_today": 1,
       "tasks_total": 1,
@@ -93,6 +105,18 @@
       "last_time": "01:27",
       "status": "working",
       "guest": "Ignacio Moreno Garcia",
+      "urgenta_azi": false,
+      "urgente_mesaje": []
+    },
+    {
+      "name": "Old Town Ghica 1",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 09:24 + Sync Tabel",
+      "last_time": "09:24",
+      "status": "working",
+      "guest": "Renata TolgyesiTolgyesi Renata (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -133,18 +157,6 @@
       "urgente_mesaje": []
     },
     {
-      "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Yasser Ghassiri (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
       "name": "Magheru 29A 2BR",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -165,18 +177,6 @@
       "last_time": "Azi",
       "status": "standby",
       "guest": "Zac Moore`s (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": []
-    },
-    {
-      "name": "Old Town Ghica 1",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Renata TolgyesiTolgyesi Renata (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": []
     },
@@ -219,6 +219,41 @@
   ],
   "feed": [
     {
+      "time": "09:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 09:24:32,046 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "09:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 09:24:31,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Cecilia Bica (Old Town Ghica 1)]: \"Thank you so much for",
+      "type": "success"
+    },
+    {
+      "time": "09:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 09:24:30,043 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "09:24",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-27 09:24:29,315 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Tamas Laszlo (Kogalniceanu 9 -1BR)]: \"Thank you for lett",
+      "type": "success"
+    },
+    {
+      "time": "09:24",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 09:24:27,460 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "09:14",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -238,45 +273,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 09:04:09,428 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Soltuzu (Biserica Amzei 27)]: \"Thank you so much ",
       "type": "success"
-    },
-    {
-      "time": "09:04",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 09:04:07,755 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "08:53",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 08:53:59,567 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "08:43",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 08:43:50,565 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "08:33",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 08:33:41,875 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "08:23",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 08:23:33,561 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 06:52:18,654 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 07:02:26,478 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 07:02:26,702 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 07:12:34,731 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 07:12:34,918 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 07:22:42,874 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 07:22:43,085 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 07:32:50,863 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 07:32:51,033 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 07:42:59,116 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 07:42:59,304 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 07:53:07,544 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 07:53:07,769 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:03:16,263 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:03:16,467 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:13:24,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:13:24,737 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:23:33,114 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:23:33,561 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:33:41,682 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:33:41,875 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:43:50,368 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:43:50,565 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:53:59,383 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:53:59,567 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 09:04:07,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:04:07,755 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:04:07,789 [INFO] 🧠 Mesaj NOU #25469 (1 lipite) de la George Soltuzu (Biserica Amzei 27): \"Hi there! Just letting you know that I’ve checked out and left the keys in the keybox. Thank you for...\"\n2026-11-27 09:04:07,790 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:04:07,790 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:04:08,823 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:04:09,428 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Soltuzu (Biserica Amzei 27)]: \"Thank you so much for staying with us, George! 🌟 We are thrilled to hear that you had a great time and that everything was to your satisfaction. We hope to welcome you back to UrbanNest Bucharest in the future. Safe travels and all the best! 😊\"\n2026-11-27 09:04:10,057 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:14:18,925 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:14:19,097 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-27 09:24:20",
+  "raw_logs": "2026-11-27 08:13:24,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:13:24,737 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:23:33,114 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:23:33,561 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:33:41,682 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:33:41,875 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:43:50,368 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:43:50,565 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 08:53:59,383 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 08:53:59,567 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 09:04:07,556 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:04:07,755 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 1\n2026-11-27 09:04:07,789 [INFO] 🧠 Mesaj NOU #25469 (1 lipite) de la George Soltuzu (Biserica Amzei 27): \"Hi there! Just letting you know that I’ve checked out and left the keys in the keybox. Thank you for...\"\n2026-11-27 09:04:07,790 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:04:07,790 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:04:08,823 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:04:09,428 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> George Soltuzu (Biserica Amzei 27)]: \"Thank you so much for staying with us, George! 🌟 We are thrilled to hear that you had a great time and that everything was to your satisfaction. We hope to welcome you back to UrbanNest Bucharest in the future. Safe travels and all the best! 😊\"\n2026-11-27 09:04:10,057 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:14:18,925 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:14:19,097 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 0\n2026-11-27 09:24:27,257 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 09:24:27,460 [INFO] 📊 Conversatii verificate: 78 | Rezervari cu mesaje NOI: 2\n2026-11-27 09:24:27,509 [INFO] 🧠 Mesaj NOU #25475 (1 lipite) de la Tamas Laszlo (Kogalniceanu 9 -1BR): \"I'm planning on leaving between 10:30 and 11:00. As for the 10RON/night payment, okay, I will pay it...\"\n2026-11-27 09:24:27,509 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:24:27,510 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:24:28,482 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:24:29,315 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Tamas Laszlo (Kogalniceanu 9 -1BR)]: \"Thank you for letting us know, Tamas! Safe travels! When you leave, please remember to place the keys back inside the lockbox and scramble the code. We hope you enjoyed your stay at UrbanNest Bucharest and look forward to hosting you again!\"\n2026-11-27 09:24:30,043 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-27 09:24:30,043 [INFO] 🧠 Mesaj NOU #25472 (1 lipite) de la Cecilia Bica (Old Town Ghica 1): \"Plec acum de la apartament. A fost o sedere placuta. Multumesc\nMesaj tradus: I'm leaving the apartm...\"\n2026-11-27 09:24:30,044 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 09:24:30,044 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 09:24:30,939 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 09:24:31,450 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Cecilia Bica (Old Town Ghica 1)]: \"Thank you so much for staying with us, Cecilia! We are delighted to hear you had a pleasant stay. Please don't forget to place the keys back into the lockbox and scramble the code before you leave. Have a wonderful safe trip ahead, and we hope to welcome you back to UrbanNest Bucharest soon! 🌟\"\n2026-11-27 09:24:32,046 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-27 09:34:33",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
