@@ -1,11 +1,11 @@
 {
-  "updated_at": "15:36:20",
+  "updated_at": "15:46:25",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
     "time_saved_str": "1h 51m",
     "actions_today": 37,
-    "last_check": "15:36"
+    "last_check": "15:46"
   },
   "core_agents": [
     {
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "18 alerte azi",
+      "worked_today": "17 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -1917,6 +1917,13 @@
   ],
   "feed": [
     {
+      "time": "15:36",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 15:36:24,404 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "15:26",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -1964,17 +1971,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-27 14:50:23,226 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "14:40",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-27 14:40:10,147 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-27 13:59:32,668 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 13:59:33,294 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Francesco Cornacchia (Old Town Victoriei 25)]: \"Thank you so much, Francesco! We have noted it down and will verify the transfer shortly. We appreciate your promptness! 🌟\"\n2026-11-27 13:59:33,296 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 14:09:41,747 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:09:41,946 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 14:19:50,358 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:19:50,568 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 14:29:58,919 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:29:59,135 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 1\n2026-11-27 14:29:59,172 [INFO] 🧠 Mesaj NOU #25578 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Do you have any update please? We have been waiting for close to an hour for an update...\"\n2026-11-27 14:29:59,174 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 14:29:59,174 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 14:30:00,375 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 14:30:00,874 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I am sincerely sorry for the delay and the frustration this is causing you. I have just contacted the property manager urgently to get an immediate update on his exact arrival time. He is treating this with top priority and will be in touch with you right away!\"\n2026-11-27 14:30:01,171 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 14:40:09,956 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:40:10,147 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 14:50:22,984 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:50:23,226 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:00:41,705 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:00:41,919 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:06:00,073 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-27 15:06:06,303 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:06:07,935 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:16:12,526 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:16:12,718 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 15:16:12,845 [INFO] 🧠 Mesaj NOU #25580 (1 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"¡Buenas, tenemos muchas ganas de llegar ya!\nNosotros llegaremos a Bucarest sobre las 11:30h/12:00h....\"\n2026-11-27 15:16:12,846 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 15:16:12,860 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 15:16:14,051 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 15:16:14,508 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"Hello Andrea! We are so excited to welcome you! 🎒 Since your check-in is today (28 Nov 2026), you are more than welcome to drop off your backpacks inside the apartment after 11:00 AM once the previous guests have checked out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can enter and clean. We will also message you as soon as the apartment is fully clean and ready for you! Have a wonderful trip to Bucharest! ✨\"\n2026-11-27 15:16:15,178 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-27 15:26:19,495 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:26:19,697 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-27 15:36:20",
+  "raw_logs": "2026-11-27 13:59:33,296 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 14:09:41,747 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:09:41,946 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 14:19:50,358 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:19:50,568 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 14:29:58,919 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:29:59,135 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 1\n2026-11-27 14:29:59,172 [INFO] 🧠 Mesaj NOU #25578 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Do you have any update please? We have been waiting for close to an hour for an update...\"\n2026-11-27 14:29:59,174 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 14:29:59,174 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 14:30:00,375 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 14:30:00,874 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I am sincerely sorry for the delay and the frustration this is causing you. I have just contacted the property manager urgently to get an immediate update on his exact arrival time. He is treating this with top priority and will be in touch with you right away!\"\n2026-11-27 14:30:01,171 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 14:40:09,956 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:40:10,147 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 14:50:22,984 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 14:50:23,226 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:00:41,705 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:00:41,919 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:06:00,073 [INFO] 🚀 Serviciul AUTONOM LIVE de mesaje a pornit (Gemini AI + Key Guard Activ | ciclu 10 min).\n2026-11-27 15:06:06,303 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:06:07,935 [INFO] 📊 Conversatii verificate: 81 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:16:12,526 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:16:12,718 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-27 15:16:12,845 [INFO] 🧠 Mesaj NOU #25580 (1 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"¡Buenas, tenemos muchas ganas de llegar ya!\nNosotros llegaremos a Bucarest sobre las 11:30h/12:00h....\"\n2026-11-27 15:16:12,846 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 15:16:12,860 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 15:16:14,051 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 15:16:14,508 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"Hello Andrea! We are so excited to welcome you! 🎒 Since your check-in is today (28 Nov 2026), you are more than welcome to drop off your backpacks inside the apartment after 11:00 AM once the previous guests have checked out, on the strict condition that you place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can enter and clean. We will also message you as soon as the apartment is fully clean and ready for you! Have a wonderful trip to Bucharest! ✨\"\n2026-11-27 15:16:15,178 [INFO] 📲 Alerta WhatsApp [CURATENIE] trimisa!\n2026-11-27 15:26:19,495 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:26:19,697 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-27 15:36:24,233 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 15:36:24,404 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-27 15:46:25",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
