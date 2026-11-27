@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:09:56",
+  "updated_at": "22:20:00",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 22,
-    "time_saved_str": "2h 57m",
-    "actions_today": 59,
-    "last_check": "22:09"
+    "time_saved_str": "3h 0m",
+    "actions_today": 60,
+    "last_check": "22:20"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "46 răspunsuri azi",
+      "worked_today": "47 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "60 mesaje"
     },
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "19 alerte azi",
+      "worked_today": "18 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -813,11 +813,11 @@
     },
     {
       "name": "Magheru 29C 2BR",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
+      "tasks_today": 5,
+      "tasks_total": 5,
+      "manual_minutes": 15,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "21:51",
+      "last_time": "21:59",
       "status": "working",
       "guest": "Zac Moore`s (Check-in azi)",
       "urgenta_azi": false,
@@ -1971,6 +1971,13 @@
   ],
   "feed": [
     {
+      "time": "22:09",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-27 22:09:59,910 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "21:59",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -2018,17 +2025,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-27 21:29:37,847 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "21:29",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-27 21:29:37,845 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochana",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-27 21:19:27,428 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:19:28,805 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:19:29,321 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Don't worry at all, I am here to guide you step by step. Since your reservation is on Airbnb, we will send the payment request directly through the Airbnb Resolution Center. Once we send it, you will receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know as soon as you are ready, and I will send it right over!\"\n2026-11-27 21:19:29,323 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 21:29:33,927 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:29:34,147 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 2\n2026-11-27 21:29:34,212 [INFO] 🧠 Mesaj NOU #25636 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Do we know for how long does the water needs to be shut off?...\"\n2026-11-27 21:29:34,213 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:29:34,214 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:29:35,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:29:35,898 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! I completely understand your concern about the water outage. I have just contacted the building administration again to get an estimated time for when the water supply will be restored, and I will let you know as soon as they provide an update. Thank you so much for your patience!\"\n2026-11-27 21:29:36,142 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 21:29:36,142 [INFO] 🧠 Mesaj NOU #25637 (1 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"I need the one from January 18-24, 2027 for 310.64 dollars...\"\n2026-11-27 21:29:36,143 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:29:36,143 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:29:37,131 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:29:37,845 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Perfect, I am sending the payment request right now through the Airbnb Resolution Center for your additional dates (January 18-24, 2027, $310.64). You will receive a notification and secure payment link directly in your Airbnb app messages shortly. Let me know once you complete it or if you need any further help!\"\n2026-11-27 21:29:37,847 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 21:39:42,357 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:39:42,552 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-27 21:39:42,590 [INFO] 🧠 Mesaj NOU #25641 (1 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"Not sure what to do. Can you send me the address of the web where I can click, chose the dates etc.?...\"\n2026-11-27 21:39:42,592 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:39:42,592 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:39:43,750 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:39:44,341 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Since your reservation is through Airbnb, you don't need an external website. I have just sent the payment request directly through the Airbnb Resolution Center. You should receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know once you see it!\"\n2026-11-27 21:39:44,343 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 21:49:48,754 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:49:48,949 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-27 21:59:53,385 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:59:53,568 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-27 21:59:53,627 [INFO] 🧠 Mesaj NOU #25643 (1 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"Let me do the January 18-24, 2027 while I am back in the USA next Monday… I apologize....\"\n2026-11-27 21:59:53,628 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:59:53,629 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:59:54,688 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:59:55,293 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"No problem at all, Yochanan! Take your time, and just let me know whenever you are ready next week and we can proceed. Have a wonderful rest of your day!\"",
-  "last_cloud_sync": "2026-11-27 22:09:56",
+  "raw_logs": "2026-11-27 21:19:29,321 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Don't worry at all, I am here to guide you step by step. Since your reservation is on Airbnb, we will send the payment request directly through the Airbnb Resolution Center. Once we send it, you will receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know as soon as you are ready, and I will send it right over!\"\n2026-11-27 21:19:29,323 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 21:29:33,927 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:29:34,147 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 2\n2026-11-27 21:29:34,212 [INFO] 🧠 Mesaj NOU #25636 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Do we know for how long does the water needs to be shut off?...\"\n2026-11-27 21:29:34,213 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:29:34,214 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:29:35,368 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:29:35,898 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! I completely understand your concern about the water outage. I have just contacted the building administration again to get an estimated time for when the water supply will be restored, and I will let you know as soon as they provide an update. Thank you so much for your patience!\"\n2026-11-27 21:29:36,142 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-27 21:29:36,142 [INFO] 🧠 Mesaj NOU #25637 (1 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"I need the one from January 18-24, 2027 for 310.64 dollars...\"\n2026-11-27 21:29:36,143 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:29:36,143 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:29:37,131 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:29:37,845 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Perfect, I am sending the payment request right now through the Airbnb Resolution Center for your additional dates (January 18-24, 2027, $310.64). You will receive a notification and secure payment link directly in your Airbnb app messages shortly. Let me know once you complete it or if you need any further help!\"\n2026-11-27 21:29:37,847 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 21:39:42,357 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:39:42,552 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-27 21:39:42,590 [INFO] 🧠 Mesaj NOU #25641 (1 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"Not sure what to do. Can you send me the address of the web where I can click, chose the dates etc.?...\"\n2026-11-27 21:39:42,592 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:39:42,592 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:39:43,750 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:39:44,341 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"Hello Yochanan! Since your reservation is through Airbnb, you don't need an external website. I have just sent the payment request directly through the Airbnb Resolution Center. You should receive a notification and a secure payment link right inside your Airbnb app messages, where you can easily complete the payment with just a couple of clicks. Let me know once you see it!\"\n2026-11-27 21:39:44,343 [INFO] 📲 Alerta WhatsApp [PLATA_DIRECTA] trimisa!\n2026-11-27 21:49:48,754 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:49:48,949 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0\n2026-11-27 21:59:53,385 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 21:59:53,568 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 1\n2026-11-27 21:59:53,627 [INFO] 🧠 Mesaj NOU #25643 (1 lipite) de la Yochanan Shachmurove (Magheru 29C -2BR): \"Let me do the January 18-24, 2027 while I am back in the USA next Monday… I apologize....\"\n2026-11-27 21:59:53,628 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-27 21:59:53,629 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-27 21:59:54,688 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-27 21:59:55,293 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yochanan Shachmurove (Magheru 29C -2BR)]: \"No problem at all, Yochanan! Take your time, and just let me know whenever you are ready next week and we can proceed. Have a wonderful rest of your day!\"\n2026-11-27 22:09:59,708 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-27 22:09:59,910 [INFO] 📊 Conversatii verificate: 85 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-27 22:20:00",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
