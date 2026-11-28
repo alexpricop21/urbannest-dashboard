@@ -1,11 +1,11 @@
 {
-  "updated_at": "20:31:46",
+  "updated_at": "20:41:53",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 12,
-    "time_saved_str": "1h 57m",
-    "actions_today": 39,
-    "last_check": "20:31"
+    "time_saved_str": "2h 0m",
+    "actions_today": 40,
+    "last_check": "20:41"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "34 răspunsuri azi",
+      "worked_today": "35 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "44 mesaje"
+      "metric_value": "45 mesaje"
     },
     {
       "id": "clean",
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "12 alerte azi",
+      "worked_today": "13 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -213,16 +213,25 @@
     },
     {
       "name": "Magheru 29B 2BR",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
+      "tasks_today": 6,
+      "tasks_total": 6,
+      "manual_minutes": 18,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "20:12",
+      "last_time": "20:22",
       "status": "working",
       "guest": "Yse Bocquet (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-28 20:31",
+          "time": "20:31",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "C’est bien ce réglage qu’il faut mettre ?\n Mesaj tradus: Is this the right setting to use?...",
+          "text": "Hello Yse! 😊 I have just notified the property manager right now about the heating, and he is checking on this for you and will get back to you as quickly as possible to assist!",
+          "source": "Agent AI"
+        },
         {
           "date": "2026-11-28 20:21",
           "time": "20:21",
@@ -348,18 +357,9 @@
           "guest_msg": "The downstairs door doesn’t unlock...",
           "text": "Hi Gabriel! I am so sorry for the trouble with the downstairs door. I have just notified our property manager right now, who is immediately looking into the issue and will get back to you as quickly as possible. Please hang on for a moment!",
           "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 00:37",
-          "time": "00:37",
-          "is_today": false,
-          "guest": "Gabriel Negoita",
-          "guest_msg": "What is the block number? 29B? Scara B?...",
-          "text": "Hi Gabriel! 🏙️ The building is located at Bd. Magheru nr. 29. Regarding the block/staircase details, all exact access instructions and key details will be sent to you automatically 1 day before your arrival. Let us know if you need anything else! ✨",
-          "source": "Agent AI"
         }
       ],
-      "mesaje_trimise_azi": 6
+      "mesaje_trimise_azi": 7
     },
     {
       "name": "Old Town Tonitza 11 B",
@@ -1944,6 +1944,27 @@
   ],
   "feed": [
     {
+      "time": "20:31",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 20:31:52,699 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "20:31",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 20:31:52,472 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I have ju",
+      "type": "success"
+    },
+    {
+      "time": "20:31",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 20:31:50,682 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "20:21",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1977,31 +1998,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-28 20:11:37,678 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "20:01",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 20:01:33,143 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "19:51",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 19:51:28,137 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "19:41",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 19:41:23,336 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-28 19:01:01,614 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 19:01:01,614 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 19:01:02,704 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 19:01:03,309 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Thank you so much for your understanding, Benjamin! The property manager is already aware of the situation and will look into getting it sorted out as soon as possible. Please let us know if you need anything else in the meantime! 🌟\"\n2026-11-28 19:01:03,591 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 19:11:07,954 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:11:08,136 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:21:13,053 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:21:14,123 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:31:18,598 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:31:18,805 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:41:23,122 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:41:23,336 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:51:27,958 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:51:28,137 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 20:01:32,966 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:01:33,143 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 20:01:33,144 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-28 20:11:37,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:11:37,678 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 20:11:37,716 [INFO] 🧠 Mesaj NOU #25814 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Est ce qu’il est possible d’augmenter le chauffage ou pas du tout ? Merci beaucoup !\nMesaj tradus: ...\"\n2026-11-28 20:11:37,717 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 20:11:37,717 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 20:11:38,766 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 20:11:39,328 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I am so sorry for the inconvenience with the heating. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this!\"\n2026-11-28 20:11:39,592 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 20:21:44,530 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:21:44,702 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 20:21:44,736 [INFO] 🧠 Mesaj NOU #25818 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Okk merci\nMesaj tradus: Ok thank you...\"\n2026-11-28 20:21:44,736 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 20:21:44,737 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 20:21:45,665 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 20:21:46,183 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"You're very welcome, Yse! 😊 Please let us know if you need anything else at all during your stay. Have a wonderful time!\"",
-  "last_cloud_sync": "2026-11-28 20:31:47",
+  "raw_logs": "2026-11-28 19:31:18,598 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:31:18,805 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:41:23,122 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:41:23,336 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:51:27,958 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:51:28,137 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 20:01:32,966 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:01:33,143 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 20:01:33,144 [INFO] ⭐ [AUTO-REVIEWS] Pornesc sesiunea zilnică de acordare recenzii Airbnb 5★...\n2026-11-28 20:11:37,470 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:11:37,678 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 20:11:37,716 [INFO] 🧠 Mesaj NOU #25814 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Est ce qu’il est possible d’augmenter le chauffage ou pas du tout ? Merci beaucoup !\nMesaj tradus: ...\"\n2026-11-28 20:11:37,717 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 20:11:37,717 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 20:11:38,766 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 20:11:39,328 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I am so sorry for the inconvenience with the heating. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this!\"\n2026-11-28 20:11:39,592 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 20:21:44,530 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:21:44,702 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 20:21:44,736 [INFO] 🧠 Mesaj NOU #25818 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Okk merci\nMesaj tradus: Ok thank you...\"\n2026-11-28 20:21:44,736 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 20:21:44,737 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 20:21:45,665 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 20:21:46,183 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"You're very welcome, Yse! 😊 Please let us know if you need anything else at all during your stay. Have a wonderful time!\"\n2026-11-28 20:31:50,512 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:31:50,682 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 20:31:50,729 [INFO] 🧠 Mesaj NOU #25820 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"C’est bien ce réglage qu’il faut mettre ?\nMesaj tradus: Is this the right setting to use?...\"\n2026-11-28 20:31:50,730 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 20:31:50,730 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 20:31:52,047 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 20:31:52,472 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I have just notified the property manager right now about the heating, and he is checking on this for you and will get back to you as quickly as possible to assist!\"\n2026-11-28 20:31:52,699 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+  "last_cloud_sync": "2026-11-28 20:41:53",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
