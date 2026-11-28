@@ -1,11 +1,11 @@
 {
-  "updated_at": "18:20:35",
+  "updated_at": "18:30:44",
   "summary": {
     "apartments_count": 13,
-    "conversations_monitored": 10,
-    "time_saved_str": "1h 33m",
-    "actions_today": 31,
-    "last_check": "18:20"
+    "conversations_monitored": 12,
+    "time_saved_str": "1h 39m",
+    "actions_today": 33,
+    "last_check": "18:30"
   },
   "core_agents": [
     {
@@ -14,7 +14,7 @@
       "role": "Verifică rezervările și mesajele noi din Airbnb & Booking",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "10 discuții azi",
+      "worked_today": "12 discuții azi",
       "metric_label": "Rezervări active azi",
       "metric_value": "6 check-in/out"
     },
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "29 răspunsuri azi",
+      "worked_today": "30 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "39 mesaje"
+      "metric_value": "41 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "2 update-uri azi",
+      "worked_today": "3 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "9 alerte azi",
+      "worked_today": "10 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -210,6 +210,156 @@
         }
       ],
       "mesaje_trimise_azi": 8
+    },
+    {
+      "name": "Old Town Tonitza 11 B",
+      "tasks_today": 5,
+      "tasks_total": 5,
+      "manual_minutes": 15,
+      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
+      "last_time": "18:10",
+      "status": "working",
+      "guest": "Bianca Adriana",
+      "urgenta_azi": false,
+      "urgente_mesaje": [],
+      "mesaje_trimise": [
+        {
+          "date": "2026-11-28 18:10",
+          "time": "18:10",
+          "is_today": true,
+          "guest": "Alex-Gabriel Sina",
+          "guest_msg": "We plan to leave the apartment by 11 am | Yes you can send us the payment through airbnb...",
+          "text": "Thank you for letting us know, Alex-gabriel! We have noted your check-out time of 11:00 AM. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Also, I have sent the payment request for the city tax directly through the Airbnb Resolution Center. Have a safe journey back home and we hope to host you again soon! 🏡✨",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 14:48",
+          "time": "14:48",
+          "is_today": true,
+          "guest": "Bianca Adriana",
+          "guest_msg": "Multumesc zi frumoasa in continuare!\n Mesaj tradus: Thank you. Enjoy the rest of your day!...",
+          "text": "Thank you so much, Bianca! 🌸 Have a wonderful day as well! Safe travels, and we look forward to welcoming you tomorrow! 😊",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 14:38",
+          "time": "14:38",
+          "is_today": true,
+          "guest": "Bianca Adriana",
+          "guest_msg": "Ok multumesc ajung in jur de ora 12-13\n Mesaj tradus: Okay, thank you. I'll be there around 12-1 p.m...",
+          "text": "You're very welcome, Bianca! 😊 Since you'll be arriving around 12:00 - 1:00 PM, you are welcome to drop off your luggage inside the apartment if you arrive after 11:00 AM, just please remember to place the key right back in the lockbox for our cleaning team afterwards. We will let you know as soon as the apartment is fully ready and sparkling clean for your stay! Safe travels! 🌸",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 14:08",
+          "time": "14:08",
+          "is_today": true,
+          "guest": "Bianca Adriana",
+          "guest_msg": "Buna ziua pana la urma se poate sa se faca check in la ora 13?\n Mesaj tradus: Hello. Is it possible ...",
+          "text": "Hello Bianca! 🌸 Standard check-in starts at 3:00 PM (15:00), and we will do our best to have the apartment ready for you before then. We'll let you know as soon as our cleaning team finishes! If you arrive after 11:00 AM, you are also welcome to drop off your luggage inside the apartment while cleaning is in progress, just make sure to place the key back in the lockbox for the cleaning team afterwards. Let us know what time you plan to arrive! 😊",
+          "source": "Agent AI"
+        },
+        {
+          "date": "24 Nov 2026 17:1",
+          "time": "17:15",
+          "is_today": false,
+          "guest": "Genny Seri",
+          "guest_msg": "",
+          "text": "Good morning Genny! Yes, your reservation for Old Town Tonitza 11 B (Dec 04 - Dec 07, 2026) is fully confirmed and secured. We are looking forward to hosting you in Bucharest! Let me know if you have any questions before your arrival. 🌟",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 19:2",
+          "time": "19:26",
+          "is_today": false,
+          "guest": "Rares Stinga",
+          "guest_msg": "",
+          "text": "Hi Rares! I'm glad to hear the heater is working now. Regarding the TV, I have just notified our property manager once again about the TV cable issue, and they are checking on it right away to get it sorted out for you as quickly as possible. Thank you for your patience!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 17:5",
+          "time": "17:54",
+          "is_today": false,
+          "guest": "Rares Stinga",
+          "guest_msg": "",
+          "text": "Hi Rares! I am so sorry for the inconvenience with the TV cable. I have just notified our property manager right now, who is checking on this issue immediately and will get back to you as quickly as possible to help sort it out!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 17:5",
+          "time": "17:58",
+          "is_today": false,
+          "guest": "Rares Stinga",
+          "guest_msg": "",
+          "text": "Sa inteleg ca nu merg prizele de acolo? Radiotorul nu se deschide din buton?",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 16:1",
+          "time": "16:13",
+          "is_today": false,
+          "guest": "Rares Stinga",
+          "guest_msg": "",
+          "text": "Si cablul este bagat in router? Poti sa il repornesti te rog?",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 16:0",
+          "time": "16:09",
+          "is_today": false,
+          "guest": "Rares Stinga",
+          "guest_msg": "",
+          "text": "Salutare, routerul cu cablul de tv si cu net este in spatele tv. Este in priza?",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 17:5",
+          "time": "17:56",
+          "is_today": false,
+          "guest": "Boaz Shoshan",
+          "guest_msg": "",
+          "text": "strange :) someone needed that plug maybe :)",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 15:4",
+          "time": "15:45",
+          "is_today": false,
+          "guest": "Boaz Shoshan",
+          "guest_msg": "",
+          "text": "You're very welcome, Boaz! 😊 Please let us know if you need anything else during your stay at Old Town Tonitza 11 B. Have a wonderful time!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 15:3",
+          "time": "15:34",
+          "is_today": false,
+          "guest": "Boaz Shoshan",
+          "guest_msg": "",
+          "text": "Hi Boaz! I am very sorry for the inconvenience with the Wi-Fi. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to help you get connected!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 15:0",
+          "time": "15:03",
+          "is_today": false,
+          "guest": "Boaz Shoshan",
+          "guest_msg": "",
+          "text": "That's wonderful to hear, Boaz! 😊 We hope you have a fantastic stay at Old Town Tonitza 11 B. Just a quick reminder that the Wi-Fi network is 'Tonitza11' and the password is 'Goodvibesonly11'. Please let us know if you need any recommendations or assistance during your time in Bucharest!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 14:5",
+          "time": "14:53",
+          "is_today": false,
+          "guest": "Boaz Shoshan",
+          "guest_msg": "",
+          "text": "Hello Boaz! 😊 Please don't worry—exact check-in instructions, including the building access and lockbox codes, are sent automatically via a dedicated message 1 day before your arrival date. You will receive all the details you need right on time! Let us know if you need anything else in the meantime.",
+          "source": "5StarDesk"
+        }
+      ],
+      "mesaje_trimise_azi": 4
     },
     {
       "name": "Magheru 29B 2BR",
@@ -662,156 +812,6 @@
       "mesaje_trimise_azi": 4
     },
     {
-      "name": "Old Town Tonitza 11 B",
-      "tasks_today": 4,
-      "tasks_total": 4,
-      "manual_minutes": 12,
-      "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
-      "last_time": "18:10",
-      "status": "working",
-      "guest": "Bianca Adriana",
-      "urgenta_azi": false,
-      "urgente_mesaje": [],
-      "mesaje_trimise": [
-        {
-          "date": "2026-11-28 18:10",
-          "time": "18:10",
-          "is_today": true,
-          "guest": "Alex-Gabriel Sina",
-          "guest_msg": "We plan to leave the apartment by 11 am | Yes you can send us the payment through airbnb...",
-          "text": "Thank you for letting us know, Alex-gabriel! We have noted your check-out time of 11:00 AM. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Also, I have sent the payment request for the city tax directly through the Airbnb Resolution Center. Have a safe journey back home and we hope to host you again soon! 🏡✨",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 14:48",
-          "time": "14:48",
-          "is_today": true,
-          "guest": "Bianca Adriana",
-          "guest_msg": "Multumesc zi frumoasa in continuare!\n Mesaj tradus: Thank you. Enjoy the rest of your day!...",
-          "text": "Thank you so much, Bianca! 🌸 Have a wonderful day as well! Safe travels, and we look forward to welcoming you tomorrow! 😊",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 14:38",
-          "time": "14:38",
-          "is_today": true,
-          "guest": "Bianca Adriana",
-          "guest_msg": "Ok multumesc ajung in jur de ora 12-13\n Mesaj tradus: Okay, thank you. I'll be there around 12-1 p.m...",
-          "text": "You're very welcome, Bianca! 😊 Since you'll be arriving around 12:00 - 1:00 PM, you are welcome to drop off your luggage inside the apartment if you arrive after 11:00 AM, just please remember to place the key right back in the lockbox for our cleaning team afterwards. We will let you know as soon as the apartment is fully ready and sparkling clean for your stay! Safe travels! 🌸",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 14:08",
-          "time": "14:08",
-          "is_today": true,
-          "guest": "Bianca Adriana",
-          "guest_msg": "Buna ziua pana la urma se poate sa se faca check in la ora 13?\n Mesaj tradus: Hello. Is it possible ...",
-          "text": "Hello Bianca! 🌸 Standard check-in starts at 3:00 PM (15:00), and we will do our best to have the apartment ready for you before then. We'll let you know as soon as our cleaning team finishes! If you arrive after 11:00 AM, you are also welcome to drop off your luggage inside the apartment while cleaning is in progress, just make sure to place the key back in the lockbox for the cleaning team afterwards. Let us know what time you plan to arrive! 😊",
-          "source": "Agent AI"
-        },
-        {
-          "date": "24 Nov 2026 17:1",
-          "time": "17:15",
-          "is_today": false,
-          "guest": "Genny Seri",
-          "guest_msg": "",
-          "text": "Good morning Genny! Yes, your reservation for Old Town Tonitza 11 B (Dec 04 - Dec 07, 2026) is fully confirmed and secured. We are looking forward to hosting you in Bucharest! Let me know if you have any questions before your arrival. 🌟",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 19:2",
-          "time": "19:26",
-          "is_today": false,
-          "guest": "Rares Stinga",
-          "guest_msg": "",
-          "text": "Hi Rares! I'm glad to hear the heater is working now. Regarding the TV, I have just notified our property manager once again about the TV cable issue, and they are checking on it right away to get it sorted out for you as quickly as possible. Thank you for your patience!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 17:5",
-          "time": "17:54",
-          "is_today": false,
-          "guest": "Rares Stinga",
-          "guest_msg": "",
-          "text": "Hi Rares! I am so sorry for the inconvenience with the TV cable. I have just notified our property manager right now, who is checking on this issue immediately and will get back to you as quickly as possible to help sort it out!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 17:5",
-          "time": "17:58",
-          "is_today": false,
-          "guest": "Rares Stinga",
-          "guest_msg": "",
-          "text": "Sa inteleg ca nu merg prizele de acolo? Radiotorul nu se deschide din buton?",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 16:1",
-          "time": "16:13",
-          "is_today": false,
-          "guest": "Rares Stinga",
-          "guest_msg": "",
-          "text": "Si cablul este bagat in router? Poti sa il repornesti te rog?",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 16:0",
-          "time": "16:09",
-          "is_today": false,
-          "guest": "Rares Stinga",
-          "guest_msg": "",
-          "text": "Salutare, routerul cu cablul de tv si cu net este in spatele tv. Este in priza?",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:5",
-          "time": "17:56",
-          "is_today": false,
-          "guest": "Boaz Shoshan",
-          "guest_msg": "",
-          "text": "strange :) someone needed that plug maybe :)",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 15:4",
-          "time": "15:45",
-          "is_today": false,
-          "guest": "Boaz Shoshan",
-          "guest_msg": "",
-          "text": "You're very welcome, Boaz! 😊 Please let us know if you need anything else during your stay at Old Town Tonitza 11 B. Have a wonderful time!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 15:3",
-          "time": "15:34",
-          "is_today": false,
-          "guest": "Boaz Shoshan",
-          "guest_msg": "",
-          "text": "Hi Boaz! I am very sorry for the inconvenience with the Wi-Fi. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to help you get connected!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 15:0",
-          "time": "15:03",
-          "is_today": false,
-          "guest": "Boaz Shoshan",
-          "guest_msg": "",
-          "text": "That's wonderful to hear, Boaz! 😊 We hope you have a fantastic stay at Old Town Tonitza 11 B. Just a quick reminder that the Wi-Fi network is 'Tonitza11' and the password is 'Goodvibesonly11'. Please let us know if you need any recommendations or assistance during your time in Bucharest!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 14:5",
-          "time": "14:53",
-          "is_today": false,
-          "guest": "Boaz Shoshan",
-          "guest_msg": "",
-          "text": "Hello Boaz! 😊 Please don't worry—exact check-in instructions, including the building access and lockbox codes, are sent automatically via a dedicated message 1 day before your arrival date. You will receive all the details you need right on time! Let us know if you need anything else in the meantime.",
-          "source": "5StarDesk"
-        }
-      ],
-      "mesaje_trimise_azi": 4
-    },
-    {
       "name": "Biserica Amzei 27",
       "tasks_today": 2,
       "tasks_total": 2,
@@ -1106,6 +1106,156 @@
           "guest": "Yam Tabo",
           "guest_msg": "",
           "text": "Hello Yam! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access instructions will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟",
+          "source": "5StarDesk"
+        }
+      ],
+      "mesaje_trimise_azi": 1
+    },
+    {
+      "name": "Magheru 29A 2BR",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 17:20 + Sync Tabel",
+      "last_time": "18:20",
+      "status": "working",
+      "guest": "Andrei Vornicu",
+      "urgenta_azi": false,
+      "urgente_mesaje": [],
+      "mesaje_trimise": [
+        {
+          "date": "2026-11-28 18:20",
+          "time": "18:20",
+          "is_today": true,
+          "guest": "Andrei Vornicu",
+          "guest_msg": "Salut Alex, we locked up and checked out an hour ago. You can ask for the payment now...",
+          "text": "Hi Andrei! Thank you so much for letting us know and for staying with us at UrbanNest Bucharest! I hope you had a wonderful time. Regarding the city tax, since your reservation is through Airbnb, I will send you the payment request directly via the Airbnb Resolution Center shortly so you can complete it easily right in the app. Safe travels, and we hope to host you again soon! 😊",
+          "source": "Agent AI"
+        },
+        {
+          "date": "25 Nov 2026 22:2",
+          "time": "22:23",
+          "is_today": false,
+          "guest": "Emmanuell Norbert Tulbure",
+          "guest_msg": "",
+          "text": "Hello Emmanuell! Thank you for letting us know. We are glad to hear everything is sorted out. Have a wonderful day ahead!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "24 Nov 2026 21:1",
+          "time": "21:19",
+          "is_today": false,
+          "guest": "Eylem Kaplan",
+          "guest_msg": "",
+          "text": "Hi Oaspete! For Booking.com reservations, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which option do you prefer so we can provide you with the exact payment details? 💳",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "24 Nov 2026 21:0",
+          "time": "21:09",
+          "is_today": false,
+          "guest": "Eylem Kaplan",
+          "guest_msg": "",
+          "text": "Hi Oaspete! Could you please clarify what you are referring to? We would be happy to help you once we have a bit more detail!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "24 Nov 2026 08:4",
+          "time": "08:47",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Thank you so much for staying with us, Razvan! We hope you had a wonderful time in Bucharest. Safe travels ahead, and we look forward to hosting you again in the future! 😊",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 12:2",
+          "time": "12:29",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Thank you, Razvan! Wishing you all the best as well and safe travels ahead. Have a wonderful day! 😊",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 12:1",
+          "time": "12:19",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Thank you for your message, Razvan. We really appreciate your understanding, and we're sorry that your stay didn't fully meet your expectations. If your plans change again or if you need anything at all during the rest of your stay, please don't hesitate to let us know. Have a great day!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 19:4",
+          "time": "19:43",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "You are very welcome, Razvan! If you need anything else during your time with us, please feel free to reach out. Have a wonderful stay! 🌟",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 19:2",
+          "time": "19:22",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Thank you, Razvan. Please let us know if you decide to leave early, and remember to place the keys back inside the lockbox and scramble the code upon departure. Have a wonderful stay!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 19:0",
+          "time": "19:01",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Hello Razvan, thank you for your patience. I completely understand your situation and I have notified the property manager once again. He is reviewing your request and will get back to you as soon as possible. 🏨",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 19:0",
+          "time": "19:09",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "You have to address it to Airbnb. I cannot reimburse for something out of my control. You have rented the apartment and I am responsible for the apartment. I am sorry but as I said this is city center and you have to know that this building is well maintained, a few months ago the painting was done on the common areas. Together with the administration we try to do our best for it. \n\nThe only offer I can do is 25% discount for the entire stay but I cannot do more",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 17:5",
+          "time": "17:50",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Thank you for sharing your feedback, Razvan. I completely understand your frustration regarding the building's condition. I have immediately informed the property manager about your request for a refund and your decision, and he will review the situation and get back to you as soon as possible.",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 17:4",
+          "time": "17:42",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "this is totally subjective, I am sorry. We have renovated the apartments, we cannot renovate ourselves the building, unfortunately",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 17:4",
+          "time": "17:45",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "As i said, we never had issues with this and the tourists are aware that they are in the city center. I am sorry but this is very subjective and we have rented an apartment not the building",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 17:3",
+          "time": "17:39",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Hi Razvan! As our manager is reviewing your request regarding alternative options and your feedback, he will contact you by phone shortly to discuss everything with you. Thank you for your patience and understanding! 🙏",
           "source": "5StarDesk"
         }
       ],
@@ -1412,156 +1562,6 @@
       "mesaje_trimise_azi": 0
     },
     {
-      "name": "Magheru 29A 2BR",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Fără urgențe",
-      "urgenta_azi": false,
-      "urgente_mesaje": [],
-      "mesaje_trimise": [
-        {
-          "date": "25 Nov 2026 22:2",
-          "time": "22:23",
-          "is_today": false,
-          "guest": "Emmanuell Norbert Tulbure",
-          "guest_msg": "",
-          "text": "Hello Emmanuell! Thank you for letting us know. We are glad to hear everything is sorted out. Have a wonderful day ahead!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "24 Nov 2026 21:1",
-          "time": "21:19",
-          "is_today": false,
-          "guest": "Eylem Kaplan",
-          "guest_msg": "",
-          "text": "Hi Oaspete! For Booking.com reservations, you can pay via Bank transfer in EUR, Revolut, Wise, or PayPal. Which option do you prefer so we can provide you with the exact payment details? 💳",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "24 Nov 2026 21:0",
-          "time": "21:09",
-          "is_today": false,
-          "guest": "Eylem Kaplan",
-          "guest_msg": "",
-          "text": "Hi Oaspete! Could you please clarify what you are referring to? We would be happy to help you once we have a bit more detail!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "24 Nov 2026 08:4",
-          "time": "08:47",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Thank you so much for staying with us, Razvan! We hope you had a wonderful time in Bucharest. Safe travels ahead, and we look forward to hosting you again in the future! 😊",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 12:2",
-          "time": "12:29",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Thank you, Razvan! Wishing you all the best as well and safe travels ahead. Have a wonderful day! 😊",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 12:1",
-          "time": "12:19",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Thank you for your message, Razvan. We really appreciate your understanding, and we're sorry that your stay didn't fully meet your expectations. If your plans change again or if you need anything at all during the rest of your stay, please don't hesitate to let us know. Have a great day!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 19:4",
-          "time": "19:43",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "You are very welcome, Razvan! If you need anything else during your time with us, please feel free to reach out. Have a wonderful stay! 🌟",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 19:2",
-          "time": "19:22",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Thank you, Razvan. Please let us know if you decide to leave early, and remember to place the keys back inside the lockbox and scramble the code upon departure. Have a wonderful stay!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 19:0",
-          "time": "19:01",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Hello Razvan, thank you for your patience. I completely understand your situation and I have notified the property manager once again. He is reviewing your request and will get back to you as soon as possible. 🏨",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 19:0",
-          "time": "19:09",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "You have to address it to Airbnb. I cannot reimburse for something out of my control. You have rented the apartment and I am responsible for the apartment. I am sorry but as I said this is city center and you have to know that this building is well maintained, a few months ago the painting was done on the common areas. Together with the administration we try to do our best for it. \n\nThe only offer I can do is 25% discount for the entire stay but I cannot do more",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:5",
-          "time": "17:50",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Thank you for sharing your feedback, Razvan. I completely understand your frustration regarding the building's condition. I have immediately informed the property manager about your request for a refund and your decision, and he will review the situation and get back to you as soon as possible.",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:4",
-          "time": "17:42",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "this is totally subjective, I am sorry. We have renovated the apartments, we cannot renovate ourselves the building, unfortunately",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:4",
-          "time": "17:45",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "As i said, we never had issues with this and the tourists are aware that they are in the city center. I am sorry but this is very subjective and we have rented an apartment not the building",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:3",
-          "time": "17:39",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Hi Razvan! As our manager is reviewing your request regarding alternative options and your feedback, he will contact you by phone shortly to discuss everything with you. Thank you for your patience and understanding! 🙏",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:2",
-          "time": "17:29",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Hi Razvan! Thank you for following up. I have notified our manager once again about your request regarding alternative options and your feedback. He is reviewing the situation and will contact you by phone shortly. Thank you very much for your patience!",
-          "source": "5StarDesk"
-        }
-      ],
-      "mesaje_trimise_azi": 0
-    },
-    {
       "name": "Old Town Ghica 1",
       "tasks_today": 0,
       "tasks_total": 0,
@@ -1731,13 +1731,22 @@
       "tasks_today": 0,
       "tasks_total": 0,
       "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Fără urgențe",
+      "last_action": "A analizat mesajul oaspetelui",
+      "last_time": "18:13",
+      "status": "working",
+      "guest": "Benjamin Ellis Archer",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-28 18:20",
+          "time": "18:20",
+          "is_today": true,
+          "guest": "Benjamin Ellis Archer",
+          "guest_msg": "Hi, we’ve come back from being out all day and the wind has blown the wire door off the frame. This ...",
+          "text": "Hi Benjamin! I am sincerely sorry to hear about this. I have immediately notified the property manager about the door issue, and he is treating this with top priority to get it sorted out for you as quickly as possible. Thank you for your patience!",
+          "source": "Agent AI"
+        },
         {
           "date": "24 Nov 2026 17:1",
           "time": "17:15",
@@ -1863,18 +1872,9 @@
           "guest_msg": "Hi Alexandru! We just checked our 😊 one key in the box, second on the table. We want to thank you ve...",
           "text": "Thank you so much, Wiktor, for letting us know and for staying with us! We are thrilled you enjoyed your time at UrbanNest. Safe travels back home, and we hope to welcome you again in the future! 😊🌟",
           "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 06:11",
-          "time": "06:11",
-          "is_today": false,
-          "guest": "Виталий Павлов",
-          "guest_msg": "Greetings\nHopes that our staying at your apartment will be great )))\nAwaiting for further instruct...",
-          "text": "Hello Виталий! 😊 Thank you so much for your kind words. We are looking forward to hosting you in December! Please note that all exact check-in instructions and self-check-in details will be sent to you automatically via a dedicated message 1 day before your arrival. Have a wonderful day!",
-          "source": "Agent AI"
         }
       ],
-      "mesaje_trimise_azi": 0
+      "mesaje_trimise_azi": 1
     }
   ],
   "reviews_skipped": [
@@ -1944,6 +1944,41 @@
   ],
   "feed": [
     {
+      "time": "18:20",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 18:20:43,527 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "18:20",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 18:20:43,121 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! Thank yo",
+      "type": "success"
+    },
+    {
+      "time": "18:20",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 18:20:41,544 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "18:20",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 18:20:41,271 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi ",
+      "type": "success"
+    },
+    {
+      "time": "18:20",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 18:20:39,457 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2",
+      "type": "info"
+    },
+    {
       "time": "18:10",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1963,45 +1998,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-28 18:10:32,412 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
       "type": "info"
-    },
-    {
-      "time": "18:00",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 18:00:27,667 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "17:50",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 17:50:22,455 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "17:40",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 17:40:17,916 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "17:30",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 17:30:13,384 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "17:20",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 17:20:08,988 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-28 16:09:34,624 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 16:09:34,625 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 16:09:35,963 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 16:09:36,508 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Zac Moore`s (Magheru 29C -2BR)]: \"Thank you for the update, Zac! I'm so sorry it's still cold. I've alerted our property manager right away, and we are following up urgently with the building administration to get this fixed as soon as possible. Please let us know once you check it upon your return, and thank you so much for your ongoing patience!\"\n2026-11-28 16:09:36,761 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 16:19:40,941 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 16:19:41,121 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 16:29:45,466 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 16:29:45,671 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 16:39:50,044 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 16:39:50,199 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 16:49:54,504 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 16:49:54,678 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 16:59:58,999 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 16:59:59,223 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:10:03,509 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:10:03,731 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:20:08,819 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:20:08,988 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:30:13,170 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:30:13,384 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:40:17,740 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:40:17,916 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:50:22,241 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:50:22,455 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:00:27,434 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:00:27,667 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:10:32,229 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:10:32,412 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 18:10:32,470 [INFO] 🧠 Mesaj NOU #25803 (2 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"We plan to leave the apartment by 11 am | Yes you can send us the payment through airbnb...\"\n2026-11-28 18:10:32,471 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:10:32,472 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:10:33,628 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:10:34,168 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Thank you for letting us know, Alex-gabriel! We have noted your check-out time of 11:00 AM. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Also, I have sent the payment request for the city tax directly through the Airbnb Resolution Center. Have a safe journey back home and we hope to host you again soon! 🏡✨\"\n2026-11-28 18:10:34,803 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-  "last_cloud_sync": "2026-11-28 18:20:35",
+  "raw_logs": "2026-11-28 16:59:59,223 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:10:03,509 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:10:03,731 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:20:08,819 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:20:08,988 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:30:13,170 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:30:13,384 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:40:17,740 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:40:17,916 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:50:22,241 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:50:22,455 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:00:27,434 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:00:27,667 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:10:32,229 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:10:32,412 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 18:10:32,470 [INFO] 🧠 Mesaj NOU #25803 (2 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"We plan to leave the apartment by 11 am | Yes you can send us the payment through airbnb...\"\n2026-11-28 18:10:32,471 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:10:32,472 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:10:33,628 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:10:34,168 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Thank you for letting us know, Alex-gabriel! We have noted your check-out time of 11:00 AM. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Also, I have sent the payment request for the city tax directly through the Airbnb Resolution Center. Have a safe journey back home and we hope to host you again soon! 🏡✨\"\n2026-11-28 18:10:34,803 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 18:20:39,243 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:20:39,457 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 18:20:39,509 [INFO] 🧠 Mesaj NOU #25805 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Hi, we’ve come back from being out all day and the wind has blown the wire door off the frame. This ...\"\n2026-11-28 18:20:39,511 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:20:39,511 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:20:40,766 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:20:41,271 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I am sincerely sorry to hear about this. I have immediately notified the property manager about the door issue, and he is treating this with top priority to get it sorted out for you as quickly as possible. Thank you for your patience!\"\n2026-11-28 18:20:41,544 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 18:20:41,544 [INFO] 🧠 Mesaj NOU #25806 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, we locked up and checked out an hour ago. You can ask for the payment now...\"\n2026-11-28 18:20:41,546 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:20:41,546 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:20:42,583 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:20:43,121 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! Thank you so much for letting us know and for staying with us at UrbanNest Bucharest! I hope you had a wonderful time. Regarding the city tax, since your reservation is through Airbnb, I will send you the payment request directly via the Airbnb Resolution Center shortly so you can complete it easily right in the app. Safe travels, and we hope to host you again soon! 😊\"\n2026-11-28 18:20:43,527 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-28 18:30:44",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
