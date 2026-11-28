@@ -1,11 +1,11 @@
 {
-  "updated_at": "13:28:08",
+  "updated_at": "13:38:12",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 7,
-    "time_saved_str": "1h 3m",
-    "actions_today": 21,
-    "last_check": "13:28"
+    "time_saved_str": "1h 9m",
+    "actions_today": 23,
+    "last_check": "13:38"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "20 răspunsuri azi",
+      "worked_today": "22 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "30 mesaje"
     },
@@ -213,11 +213,11 @@
     },
     {
       "name": "Magheru 29B 2BR",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "13:09",
+      "last_time": "13:18",
       "status": "working",
       "guest": "Yse Bocquet (Check-in azi)",
       "urgenta_azi": false,
@@ -363,11 +363,11 @@
     },
     {
       "name": "Old Town Carada 5",
-      "tasks_today": 3,
-      "tasks_total": 3,
-      "manual_minutes": 9,
+      "tasks_today": 4,
+      "tasks_total": 4,
+      "manual_minutes": 12,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "13:15",
+      "last_time": "13:18",
       "status": "working",
       "guest": "Belgin Turkbeyler",
       "urgenta_azi": false,
@@ -1935,6 +1935,13 @@
   ],
   "feed": [
     {
+      "time": "13:28",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 13:28:11,724 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "13:18",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1982,17 +1989,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-28 13:07:53,905 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 3",
       "type": "info"
-    },
-    {
-      "time": "12:57",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 12:57:49,436 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"That's wonderful ",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-28 12:57:48,940 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:57:49,436 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"That's wonderful news, Andrea! I'm so glad to hear that you managed to get in and that everything is working fine now. Enjoy your stay and have a wonderful time in Bucharest! ✨ If you need anything else during your stay, just let us know!\"\n2026-11-28 13:07:53,706 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 13:07:53,905 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 3\n2026-11-28 13:07:53,948 [INFO] 🧠 Mesaj NOU #25744 (1 lipite) de la Belgin Turkbeyler (Old Town Carada 5): \"Merhaba Denisa ve Alex,30 Aralık sabahı eve giriş yapacağız.Ulaşım şirketimiz sabah 4:30 gibi orada ...\"\n2026-11-28 13:07:53,949 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:07:53,949 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:07:55,157 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:07:55,972 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! Thank you for the update. 🌟 Please note that standard check-in starts at 3:00 PM (15:00). Since you will arrive around 4:30 AM, please keep in mind that you won't be able to enter the apartment immediately at that hour, as standard check-in and luggage drop-off are available after 11:00 AM once the previous guests check out and cleaning is done. Exact access instructions will be sent to you automatically 1 day before your arrival. Let us know if you have any questions! 😊\"\n2026-11-28 13:07:55,974 [INFO] 🧠 Mesaj NOU #25742 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"C’est bon nous sommes dans l’appartement ils semblent que le ménage soit fini ! Merci beaucoup\nMes...\"\n2026-11-28 13:07:55,975 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:07:55,975 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:07:56,844 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:07:57,300 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"That's wonderful news, Yse! 😊 I'm so glad the apartment is ready and you're inside. I hope your friend can rest and feel better very soon. If you need anything else at all during your stay, please don't hesitate to let us know. Have a wonderful time in Bucharest!\"\n2026-11-28 13:07:57,303 [INFO] 🧠 Mesaj NOU #25743 (1 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"muchas gracias, muy amables🫂\nMesaj tradus: Thank you so much. Very kind.🫂...\"\n2026-11-28 13:07:57,303 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:07:57,304 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:07:58,408 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:07:59,155 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"You're very welcome, Andrea! 🥰 We're so glad everything is sorted and you're comfortably settled in. Have a wonderful time in Bucharest, and please don't hesitate to reach out if you need anything else during your stay! ✨\"\n2026-11-28 13:18:04,129 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 13:18:04,319 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2\n2026-11-28 13:18:04,350 [INFO] 🧠 Mesaj NOU #25753 (1 lipite) de la Belgin Turkbeyler (Old Town Carada 5): \"Teşekkürler\nMesaj tradus: Thank you...\"\n2026-11-28 13:18:04,351 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:18:04,351 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:18:05,292 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:18:05,771 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"You are very welcome, Belgin! 😊 If you need anything else before your arrival, please don't hesitate to let us know. Have a wonderful trip!\"\n2026-11-28 13:18:05,773 [INFO] 🧠 Mesaj NOU #25748 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci beaucoup 🤗\nMesaj tradus: Thanks a lot 🤗...\"\n2026-11-28 13:18:05,774 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:18:05,774 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:18:06,713 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:18:07,219 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"You're very welcome, Yse! 😊 I hope your friend feels better soon. Have a wonderful stay in Bucharest, and just let us know if you need anything else!\"",
-  "last_cloud_sync": "2026-11-28 13:28:08",
+  "raw_logs": "2026-11-28 13:07:53,706 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 13:07:53,905 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 3\n2026-11-28 13:07:53,948 [INFO] 🧠 Mesaj NOU #25744 (1 lipite) de la Belgin Turkbeyler (Old Town Carada 5): \"Merhaba Denisa ve Alex,30 Aralık sabahı eve giriş yapacağız.Ulaşım şirketimiz sabah 4:30 gibi orada ...\"\n2026-11-28 13:07:53,949 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:07:53,949 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:07:55,157 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:07:55,972 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"Hello Belgin! Thank you for the update. 🌟 Please note that standard check-in starts at 3:00 PM (15:00). Since you will arrive around 4:30 AM, please keep in mind that you won't be able to enter the apartment immediately at that hour, as standard check-in and luggage drop-off are available after 11:00 AM once the previous guests check out and cleaning is done. Exact access instructions will be sent to you automatically 1 day before your arrival. Let us know if you have any questions! 😊\"\n2026-11-28 13:07:55,974 [INFO] 🧠 Mesaj NOU #25742 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"C’est bon nous sommes dans l’appartement ils semblent que le ménage soit fini ! Merci beaucoup\nMes...\"\n2026-11-28 13:07:55,975 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:07:55,975 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:07:56,844 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:07:57,300 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"That's wonderful news, Yse! 😊 I'm so glad the apartment is ready and you're inside. I hope your friend can rest and feel better very soon. If you need anything else at all during your stay, please don't hesitate to let us know. Have a wonderful time in Bucharest!\"\n2026-11-28 13:07:57,303 [INFO] 🧠 Mesaj NOU #25743 (1 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"muchas gracias, muy amables🫂\nMesaj tradus: Thank you so much. Very kind.🫂...\"\n2026-11-28 13:07:57,303 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:07:57,304 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:07:58,408 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:07:59,155 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"You're very welcome, Andrea! 🥰 We're so glad everything is sorted and you're comfortably settled in. Have a wonderful time in Bucharest, and please don't hesitate to reach out if you need anything else during your stay! ✨\"\n2026-11-28 13:18:04,129 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 13:18:04,319 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 2\n2026-11-28 13:18:04,350 [INFO] 🧠 Mesaj NOU #25753 (1 lipite) de la Belgin Turkbeyler (Old Town Carada 5): \"Teşekkürler\nMesaj tradus: Thank you...\"\n2026-11-28 13:18:04,351 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:18:04,351 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:18:05,292 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:18:05,771 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Belgin Turkbeyler (Old Town Carada 5)]: \"You are very welcome, Belgin! 😊 If you need anything else before your arrival, please don't hesitate to let us know. Have a wonderful trip!\"\n2026-11-28 13:18:05,773 [INFO] 🧠 Mesaj NOU #25748 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci beaucoup 🤗\nMesaj tradus: Thanks a lot 🤗...\"\n2026-11-28 13:18:05,774 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 13:18:05,774 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 13:18:06,713 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 13:18:07,219 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"You're very welcome, Yse! 😊 I hope your friend feels better soon. Have a wonderful stay in Bucharest, and just let us know if you need anything else!\"\n2026-11-28 13:28:11,531 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 13:28:11,724 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-28 13:38:12",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
