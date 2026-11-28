@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:07:14",
+  "updated_at": "12:17:22",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 6,
-    "time_saved_str": "36 min",
-    "actions_today": 12,
-    "last_check": "12:07"
+    "time_saved_str": "39 min",
+    "actions_today": 13,
+    "last_check": "12:17"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "12 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "15 mesaje"
+      "metric_value": "16 mesaje"
     },
     {
       "id": "clean",
@@ -34,7 +34,7 @@
       "role": "Actualizează Google Sheets și anunță echipa la check-out / bagaje",
       "status": "Activ (Sync 15m)",
       "state": "working",
-      "worked_today": "0 update-uri azi",
+      "worked_today": "1 update-uri azi",
       "metric_label": "Google Sheets",
       "metric_value": "Live Dark UI"
     },
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "7 alerte azi",
+      "worked_today": "8 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -503,6 +503,156 @@
       "mesaje_trimise_azi": 2
     },
     {
+      "name": "Campineanu22 B",
+      "tasks_today": 1,
+      "tasks_total": 1,
+      "manual_minutes": 3,
+      "last_action": "Check-out înregistrat la ora 10:00 + Sync Tabel",
+      "last_time": "12:07",
+      "status": "working",
+      "guest": "Isabela Vatavu",
+      "urgenta_azi": false,
+      "urgente_mesaje": [],
+      "mesaje_trimise": [
+        {
+          "date": "2026-11-28 12:07",
+          "time": "12:07",
+          "is_today": true,
+          "guest": "Isabela Vatavu",
+          "guest_msg": "Buna. Voi pleca maine in jur de ora 10.\nMultumesc....",
+          "text": "Hello Isabela! Thank you for letting us know. Have a safe and wonderful trip back! Please remember to leave the keys inside the lockbox and scramble the code when you depart. We hope to host you again soon at UrbanNest Bucharest! 🌟",
+          "source": "Agent AI"
+        },
+        {
+          "date": "24 Nov 2026 12:5",
+          "time": "12:50",
+          "is_today": false,
+          "guest": "Ayse Ozgen",
+          "guest_msg": "",
+          "text": "Hi Ayse! 😊 Thank you so much for letting us know about your check-out time at 09:30 AM tomorrow. Regarding the city tax, for Booking.com reservations the city tax (10 RON / person / night) is a local municipal tax that is collected separately and is not included in the room rate paid through the platform. Since you don't have cash, we will send you a secure online payment link shortly so you can pay easily by card! Also, please remember to place the keys back inside the lockbox and scramble the code when you leave. Safe travels! ✈️🧳",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 22:5",
+          "time": "22:58",
+          "is_today": false,
+          "guest": "Yam Tabo",
+          "guest_msg": "",
+          "text": "Hello, it looks available, you just have to change your reservation",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 19:4",
+          "time": "19:47",
+          "is_today": false,
+          "guest": "Isabela Vatavu",
+          "guest_msg": "",
+          "text": "Hello Isabela! 🚗 Regarding parking, please note that our building does not have private parking spaces. However, you can use the public street parking available around the building (managed by the city hall, paid via parking meters or apps like Parking București), or the nearby public parking lots in the Universitate area. Please let me know if you need any other recommendations!",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 11:3",
+          "time": "11:38",
+          "is_today": false,
+          "guest": "Ayse Ozgen",
+          "guest_msg": "",
+          "text": "Hi Ayse! 😊 That's wonderful news, thank you for updating us! Please feel free to drop off your suitcases inside. Just remember to place the key right back inside the lockbox once you leave so our cleaning team can get the apartment fresh and ready for you. We will message you as soon as cleaning is finished! Have a fantastic time exploring Bucharest! 🧳✨",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 11:1",
+          "time": "11:18",
+          "is_today": false,
+          "guest": "Ayse Ozgen",
+          "guest_msg": "",
+          "text": "Hi Ayse! 😊 Thank you for letting us know! Please feel free to drop off your suitcases inside. Just a gentle reminder to place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment and prepare it for you. We will message you as soon as the cleaning is fully finished! Have a great afternoon in Bucharest! 🧳✨",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 09:2",
+          "time": "09:26",
+          "is_today": false,
+          "guest": "Ayse Ozgen",
+          "guest_msg": "",
+          "text": "You are very welcome, Ayse! 😊 Safe travels to Bucharest, and we look forward to welcoming you soon! Let us know if you need anything else before your arrival. 🧳✨",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "23 Nov 2026 00:4",
+          "time": "00:41",
+          "is_today": false,
+          "guest": "Ayse Ozgen",
+          "guest_msg": "",
+          "text": "Hi Ayse! 😊 Thank you so much for reaching out, and we are thrilled to welcome you! Regarding your arrival, standard check-in starts at 15:00, but since you only need to drop off your suitcases at 13:00, you are welcome to leave them inside the apartment after 11:00 AM once the previous guests check out. \n\nPlease note that on the strict condition that you place the key back inside the lockbox immediately after dropping off your bags, so our cleaning team can access the apartment and prepare it for you. We will also message you as soon as the cleaning is fully completed. Have a safe trip, and see you soon! 🧳✨",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 21:0",
+          "time": "21:06",
+          "is_today": false,
+          "guest": "Andrea Sciurti",
+          "guest_msg": "",
+          "text": "Hello Andrea! Thank you very much for letting us know and for completing the transfer! We have received it and everything is all set. Have a wonderful evening! 💳",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 20:5",
+          "time": "20:56",
+          "is_today": false,
+          "guest": "Andrea Sciurti",
+          "guest_msg": "",
+          "text": "Hello Andrea! Yes, that is correct, the account name is Alexandru-Mihai Pricop, and the total city tax for 2 guests for 2 nights is indeed 60 lei (which is equivalent to about 12 EUR if paying via Revolut). You can send it using our Revolut tag @alexpricop. Thank you so much! 💳",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 20:0",
+          "time": "20:03",
+          "is_today": false,
+          "guest": "Andrea Sciurti",
+          "guest_msg": "",
+          "text": "Hello Andrea! You can easily send the city tax via Revolut using our tag: @alexpricop. Please let us know once the transfer is done. Thank you so much! 💳",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 19:4",
+          "time": "19:43",
+          "is_today": false,
+          "guest": "Andrea Sciurti",
+          "guest_msg": "",
+          "text": "Hello Andrea! For Booking.com reservations, you can pay the city tax via bank transfer in EUR, Revolut, Wise, or PayPal. Would you prefer one of these methods, and I will gladly send you the details? 💳",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "22 Nov 2026 19:2",
+          "time": "19:22",
+          "is_today": false,
+          "guest": "Andrea Sciurti",
+          "guest_msg": "",
+          "text": "Good evening, Andrea! Thank you for letting us know. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Have a safe journey home, and we hope to host you again soon! 🌟",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "21 Nov 2026 15:0",
+          "time": "15:06",
+          "is_today": false,
+          "guest": "Yam Tabo",
+          "guest_msg": "",
+          "text": "Hello Yam! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access instructions will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "2026-11-24 14:12",
+          "time": "14:12",
+          "is_today": false,
+          "guest": "Chloe Anderson",
+          "guest_msg": "I'd like to request check-in at 20:00 - 21:00. Is this ok?...",
+          "text": "Hello Chloe! Yes, absolutely! You can check in anytime after 15:00 using our self check-in system. Exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🗝️",
+          "source": "Agent AI"
+        }
+      ],
+      "mesaje_trimise_azi": 1
+    },
+    {
       "name": "Old Town Victoriei 25",
       "tasks_today": 1,
       "tasks_total": 1,
@@ -947,147 +1097,6 @@
           "guest": "Mehmet Aydin",
           "guest_msg": "Teşekkür ederim\n Mesaj tradus: Thank you...",
           "text": "You're very welcome, Mehmet! 😊 If you need anything else before your arrival or during your stay, please don't hesitate to reach out. Have a great day!",
-          "source": "Agent AI"
-        }
-      ],
-      "mesaje_trimise_azi": 0
-    },
-    {
-      "name": "Campineanu22 B",
-      "tasks_today": 0,
-      "tasks_total": 0,
-      "manual_minutes": 0,
-      "last_action": "Monitorizează rezervările și mesajele noi",
-      "last_time": "Azi",
-      "status": "standby",
-      "guest": "Fără urgențe",
-      "urgenta_azi": false,
-      "urgente_mesaje": [],
-      "mesaje_trimise": [
-        {
-          "date": "24 Nov 2026 12:5",
-          "time": "12:50",
-          "is_today": false,
-          "guest": "Ayse Ozgen",
-          "guest_msg": "",
-          "text": "Hi Ayse! 😊 Thank you so much for letting us know about your check-out time at 09:30 AM tomorrow. Regarding the city tax, for Booking.com reservations the city tax (10 RON / person / night) is a local municipal tax that is collected separately and is not included in the room rate paid through the platform. Since you don't have cash, we will send you a secure online payment link shortly so you can pay easily by card! Also, please remember to place the keys back inside the lockbox and scramble the code when you leave. Safe travels! ✈️🧳",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 22:5",
-          "time": "22:58",
-          "is_today": false,
-          "guest": "Yam Tabo",
-          "guest_msg": "",
-          "text": "Hello, it looks available, you just have to change your reservation",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 19:4",
-          "time": "19:47",
-          "is_today": false,
-          "guest": "Isabela Vatavu",
-          "guest_msg": "",
-          "text": "Hello Isabela! 🚗 Regarding parking, please note that our building does not have private parking spaces. However, you can use the public street parking available around the building (managed by the city hall, paid via parking meters or apps like Parking București), or the nearby public parking lots in the Universitate area. Please let me know if you need any other recommendations!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 11:3",
-          "time": "11:38",
-          "is_today": false,
-          "guest": "Ayse Ozgen",
-          "guest_msg": "",
-          "text": "Hi Ayse! 😊 That's wonderful news, thank you for updating us! Please feel free to drop off your suitcases inside. Just remember to place the key right back inside the lockbox once you leave so our cleaning team can get the apartment fresh and ready for you. We will message you as soon as cleaning is finished! Have a fantastic time exploring Bucharest! 🧳✨",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 11:1",
-          "time": "11:18",
-          "is_today": false,
-          "guest": "Ayse Ozgen",
-          "guest_msg": "",
-          "text": "Hi Ayse! 😊 Thank you for letting us know! Please feel free to drop off your suitcases inside. Just a gentle reminder to place the key right back inside the lockbox immediately after leaving your bags so our cleaning team can access the apartment and prepare it for you. We will message you as soon as the cleaning is fully finished! Have a great afternoon in Bucharest! 🧳✨",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 09:2",
-          "time": "09:26",
-          "is_today": false,
-          "guest": "Ayse Ozgen",
-          "guest_msg": "",
-          "text": "You are very welcome, Ayse! 😊 Safe travels to Bucharest, and we look forward to welcoming you soon! Let us know if you need anything else before your arrival. 🧳✨",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 00:4",
-          "time": "00:41",
-          "is_today": false,
-          "guest": "Ayse Ozgen",
-          "guest_msg": "",
-          "text": "Hi Ayse! 😊 Thank you so much for reaching out, and we are thrilled to welcome you! Regarding your arrival, standard check-in starts at 15:00, but since you only need to drop off your suitcases at 13:00, you are welcome to leave them inside the apartment after 11:00 AM once the previous guests check out. \n\nPlease note that on the strict condition that you place the key back inside the lockbox immediately after dropping off your bags, so our cleaning team can access the apartment and prepare it for you. We will also message you as soon as the cleaning is fully completed. Have a safe trip, and see you soon! 🧳✨",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 21:0",
-          "time": "21:06",
-          "is_today": false,
-          "guest": "Andrea Sciurti",
-          "guest_msg": "",
-          "text": "Hello Andrea! Thank you very much for letting us know and for completing the transfer! We have received it and everything is all set. Have a wonderful evening! 💳",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 20:5",
-          "time": "20:56",
-          "is_today": false,
-          "guest": "Andrea Sciurti",
-          "guest_msg": "",
-          "text": "Hello Andrea! Yes, that is correct, the account name is Alexandru-Mihai Pricop, and the total city tax for 2 guests for 2 nights is indeed 60 lei (which is equivalent to about 12 EUR if paying via Revolut). You can send it using our Revolut tag @alexpricop. Thank you so much! 💳",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 20:0",
-          "time": "20:03",
-          "is_today": false,
-          "guest": "Andrea Sciurti",
-          "guest_msg": "",
-          "text": "Hello Andrea! You can easily send the city tax via Revolut using our tag: @alexpricop. Please let us know once the transfer is done. Thank you so much! 💳",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 19:4",
-          "time": "19:43",
-          "is_today": false,
-          "guest": "Andrea Sciurti",
-          "guest_msg": "",
-          "text": "Hello Andrea! For Booking.com reservations, you can pay the city tax via bank transfer in EUR, Revolut, Wise, or PayPal. Would you prefer one of these methods, and I will gladly send you the details? 💳",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 19:2",
-          "time": "19:22",
-          "is_today": false,
-          "guest": "Andrea Sciurti",
-          "guest_msg": "",
-          "text": "Good evening, Andrea! Thank you for letting us know. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Have a safe journey home, and we hope to host you again soon! 🌟",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "21 Nov 2026 15:0",
-          "time": "15:06",
-          "is_today": false,
-          "guest": "Yam Tabo",
-          "guest_msg": "",
-          "text": "Hello Yam! Yes, absolutely no problem at all. You can check in anytime after 15:00 using our self check-in system. Exact access instructions will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🌟",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "2026-11-24 14:12",
-          "time": "14:12",
-          "is_today": false,
-          "guest": "Chloe Anderson",
-          "guest_msg": "I'd like to request check-in at 20:00 - 21:00. Is this ok?...",
-          "text": "Hello Chloe! Yes, absolutely! You can check in anytime after 15:00 using our self check-in system. Exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip! 🗝️",
           "source": "Agent AI"
         }
       ],
@@ -1926,6 +1935,27 @@
   ],
   "feed": [
     {
+      "time": "12:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 12:07:21,509 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "12:07",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 12:07:21,169 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Isabela Vatavu (Campineanu22 B)]: \"Hello Isabela! Thank ",
+      "type": "success"
+    },
+    {
+      "time": "12:07",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 12:07:18,386 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "11:57",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -1959,31 +1989,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-28 11:16:55,587 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "11:06",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 11:06:50,430 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "10:56",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 10:56:45,391 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "10:46",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 10:46:40,636 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-28 09:05:54,973 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 09:16:00,061 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 09:16:00,221 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 09:26:04,611 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 09:26:04,806 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 09:36:09,003 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 09:36:09,177 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 09:46:13,402 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 09:46:13,570 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 09:56:17,846 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 09:56:18,012 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:06:22,544 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:06:22,739 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:16:27,270 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:16:27,475 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:26:31,671 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:26:31,883 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:36:36,117 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:36:36,329 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:46:40,452 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:46:40,636 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:56:45,187 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:56:45,391 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:06:50,243 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:06:50,430 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:16:55,397 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:16:55,587 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:26:59,805 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:26:59,988 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:37:04,257 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:37:04,416 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:47:08,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:47:08,956 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:57:13,662 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:57:13,833 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-28 12:07:14",
+  "raw_logs": "2026-11-28 09:56:17,846 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 09:56:18,012 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:06:22,544 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:06:22,739 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:16:27,270 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:16:27,475 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:26:31,671 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:26:31,883 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:36:36,117 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:36:36,329 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:46:40,452 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:46:40,636 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 10:56:45,187 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 10:56:45,391 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:06:50,243 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:06:50,430 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:16:55,397 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:16:55,587 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:26:59,805 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:26:59,988 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:37:04,257 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:37:04,416 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:47:08,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:47:08,956 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:57:13,662 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:57:13,833 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:07:18,164 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:07:18,386 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 12:07:18,418 [INFO] 🧠 Mesaj NOU #25727 (1 lipite) de la Isabela Vatavu (Campineanu22 B): \"Buna. Voi pleca maine in jur de ora 10.\nMultumesc....\"\n2026-11-28 12:07:18,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 12:07:18,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 12:07:20,584 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:07:21,169 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Isabela Vatavu (Campineanu22 B)]: \"Hello Isabela! Thank you for letting us know. Have a safe and wonderful trip back! Please remember to leave the keys inside the lockbox and scramble the code when you depart. We hope to host you again soon at UrbanNest Bucharest! 🌟\"\n2026-11-28 12:07:21,509 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
+  "last_cloud_sync": "2026-11-28 12:17:22",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
