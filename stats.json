@@ -1,11 +1,11 @@
 {
-  "updated_at": "22:12:46",
+  "updated_at": "22:22:54",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 13,
-    "time_saved_str": "2h 30m",
-    "actions_today": 50,
-    "last_check": "22:12"
+    "time_saved_str": "2h 33m",
+    "actions_today": 51,
+    "last_check": "22:22"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "44 răspunsuri azi",
+      "worked_today": "45 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "52 mesaje"
+      "metric_value": "55 mesaje"
     },
     {
       "id": "clean",
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "15 alerte azi",
+      "worked_today": "16 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -63,11 +63,11 @@
   "apartments": [
     {
       "name": "Magheru 29B 2BR",
-      "tasks_today": 14,
-      "tasks_total": 14,
-      "manual_minutes": 42,
+      "tasks_today": 15,
+      "tasks_total": 15,
+      "manual_minutes": 45,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:01",
+      "last_time": "22:11",
       "status": "working",
       "guest": "Yse Bocquet (Check-in azi)",
       "urgenta_azi": false,
@@ -117,6 +117,15 @@
           "guest_msg": "",
           "text": "Because of this issue I will reimburse you 50% of tour stay. The Airbnb standard is 30% 😔",
           "source": "5StarDesk"
+        },
+        {
+          "date": "2026-11-28 22:12",
+          "time": "22:12",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "D’accord, mais avant de procéder à l’annulation de notre côté, nous avons besoin que vous confirmiez...",
+          "text": "Hello Yse, I completely understand your concern regarding the refund amount. I have immediately notified our manager, Alexandru, about this discrepancy so he can check the figures and update the Airbnb modification correctly. Thank you for your patience, he will get back to you shortly!",
+          "source": "Agent AI"
         },
         {
           "date": "2026-11-28 22:02",
@@ -198,18 +207,9 @@
           "guest_msg": "Merci beaucoup 🙏🏾\n Mesaj tradus: Thank you very much 🙏🏾...",
           "text": "You're very welcome, Yse! 😊 Take care, and we'll message you the moment the apartment is ready.",
           "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 07:55",
-          "time": "07:55",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Bonjour, nous sommes bien arrivées à Bucarest. Nous viendrons à 11h déposer nos affaires puis nous r...",
-          "text": "Hello Yse! 🧳 I am so sorry to hear that your friend is feeling unwell! We completely understand. You are very welcome to drop off your luggage in the apartment after 11:00 AM today, as long as you place the key back in the lockbox for our cleaning team. I have noted this down, and we will definitely message you the absolute moment the apartment is clean and ready so your friend can rest. Wishing her a speedy recovery! Let us know if you need anything else. 😊",
-          "source": "Agent AI"
         }
       ],
-      "mesaje_trimise_azi": 15
+      "mesaje_trimise_azi": 16
     },
     {
       "name": "Kogalniceanu 9 1BR",
@@ -1944,6 +1944,27 @@
   ],
   "feed": [
     {
+      "time": "22:12",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 22:12:53,412 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "22:12",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 22:12:53,183 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completel",
+      "type": "success"
+    },
+    {
+      "time": "22:12",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 22:12:50,937 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "22:02",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1977,31 +1998,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-28 21:52:39,172 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completel",
       "type": "success"
-    },
-    {
-      "time": "21:52",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 21:52:37,218 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
-    },
-    {
-      "time": "21:42",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 21:42:31,773 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-      "type": "info"
-    },
-    {
-      "time": "21:32",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 21:32:27,191 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-28 21:12:12,989 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:12:12,990 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:12:14,036 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:12:14,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I am so sorry for the inconvenience with the hot water. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this! For urgent assistance, you can also reach our manager Alexandru Pricop directly at +40 746 977 387.\"\n2026-11-28 21:12:14,938 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 21:22:20,128 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:22:20,320 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:32:24,805 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:32:24,982 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:32:25,016 [INFO] 🧠 Mesaj NOU #25827 (1 lipite) de la Matthew Medellin (Campineanu22 A): \"Hi! We will plan to leave around 10:30am.\nYou can go ahead and charge the fee when convenient for ...\"\n2026-11-28 21:32:25,017 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:32:25,017 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:32:26,080 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:32:26,698 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Matthew Medellin (Campineanu22 A)]: \"Hi Matthew! 🌟 Thank you so much for your kind words; we are thrilled to hear you had a great time and enjoyed the apartment! Safe travels on your journey home, and we hope to welcome you back to Bucharest soon! ✈️\"\n2026-11-28 21:32:27,191 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 21:42:31,532 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:42:31,773 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:52:37,039 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:52:37,218 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:52:37,254 [INFO] 🧠 Mesaj NOU #25835 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci pour votre retour, mais nous refusons votre proposition de remboursement à 50 %.\nNous demando...\"\n2026-11-28 21:52:37,255 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:52:37,255 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:52:38,502 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:52:39,172 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your frustration and I am very sorry for this difficult situation. I have escalated your request and conversation regarding the full refund directly to our manager, Alexandru, so he can review your case personally and get back to you as soon as possible. Thank you for your patience.\"\n2026-11-28 21:52:39,530 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 22:02:43,886 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:02:44,084 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 22:02:44,117 [INFO] 🧠 Mesaj NOU #25839 (3 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci pour votre retour. Nous avons toutefois besoin d’une réponse définitive dans un délai d’une he...\"\n2026-11-28 22:02:44,118 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:02:44,118 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:02:45,337 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:02:45,793 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your urgency and the difficulty of this situation. I have forwarded your request directly to Alexandru, our manager, so he can review it immediately and provide you with a definitive response regarding the full refund via Airbnb as soon as possible. Thank you for your patience.\"\n2026-11-28 22:02:46,084 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-  "last_cloud_sync": "2026-11-28 22:12:46",
+  "raw_logs": "2026-11-28 21:32:24,982 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:32:25,016 [INFO] 🧠 Mesaj NOU #25827 (1 lipite) de la Matthew Medellin (Campineanu22 A): \"Hi! We will plan to leave around 10:30am.\nYou can go ahead and charge the fee when convenient for ...\"\n2026-11-28 21:32:25,017 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:32:25,017 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:32:26,080 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:32:26,698 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Matthew Medellin (Campineanu22 A)]: \"Hi Matthew! 🌟 Thank you so much for your kind words; we are thrilled to hear you had a great time and enjoyed the apartment! Safe travels on your journey home, and we hope to welcome you back to Bucharest soon! ✈️\"\n2026-11-28 21:32:27,191 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 21:42:31,532 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:42:31,773 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:52:37,039 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:52:37,218 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:52:37,254 [INFO] 🧠 Mesaj NOU #25835 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci pour votre retour, mais nous refusons votre proposition de remboursement à 50 %.\nNous demando...\"\n2026-11-28 21:52:37,255 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:52:37,255 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:52:38,502 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:52:39,172 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your frustration and I am very sorry for this difficult situation. I have escalated your request and conversation regarding the full refund directly to our manager, Alexandru, so he can review your case personally and get back to you as soon as possible. Thank you for your patience.\"\n2026-11-28 21:52:39,530 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 22:02:43,886 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:02:44,084 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 22:02:44,117 [INFO] 🧠 Mesaj NOU #25839 (3 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci pour votre retour. Nous avons toutefois besoin d’une réponse définitive dans un délai d’une he...\"\n2026-11-28 22:02:44,118 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:02:44,118 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:02:45,337 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:02:45,793 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your urgency and the difficulty of this situation. I have forwarded your request directly to Alexandru, our manager, so he can review it immediately and provide you with a definitive response regarding the full refund via Airbnb as soon as possible. Thank you for your patience.\"\n2026-11-28 22:02:46,084 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 22:12:50,633 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:12:50,937 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 22:12:50,971 [INFO] 🧠 Mesaj NOU #25843 (3 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"D’accord, mais avant de procéder à l’annulation de notre côté, nous avons besoin que vous confirmiez...\"\n2026-11-28 22:12:50,972 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:12:50,972 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:12:52,237 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:12:53,183 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your concern regarding the refund amount. I have immediately notified our manager, Alexandru, about this discrepancy so he can check the figures and update the Airbnb modification correctly. Thank you for your patience, he will get back to you shortly!\"\n2026-11-28 22:12:53,412 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
+  "last_cloud_sync": "2026-11-28 22:22:54",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
