@@ -1,11 +1,11 @@
 {
-  "updated_at": "23:03:23",
+  "updated_at": "23:13:27",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 15,
-    "time_saved_str": "2h 51m",
-    "actions_today": 57,
-    "last_check": "23:03"
+    "time_saved_str": "2h 57m",
+    "actions_today": 59,
+    "last_check": "23:13"
   },
   "core_agents": [
     {
@@ -24,7 +24,7 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "50 răspunsuri azi",
+      "worked_today": "52 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
       "metric_value": "63 mesaje"
     },
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "20 alerte azi",
+      "worked_today": "19 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -63,11 +63,11 @@
   "apartments": [
     {
       "name": "Magheru 29B 2BR",
-      "tasks_today": 18,
-      "tasks_total": 18,
-      "manual_minutes": 54,
+      "tasks_today": 19,
+      "tasks_total": 19,
+      "manual_minutes": 57,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "22:48",
+      "last_time": "22:53",
       "status": "working",
       "guest": "Yse Bocquet (Check-in azi)",
       "urgenta_azi": false,
@@ -363,9 +363,9 @@
     },
     {
       "name": "Old Town Carada 5",
-      "tasks_today": 5,
-      "tasks_total": 5,
-      "manual_minutes": 15,
+      "tasks_today": 6,
+      "tasks_total": 6,
+      "manual_minutes": 18,
       "last_action": "Check-out înregistrat la ora 11:00 + Sync Tabel",
       "last_time": "22:53",
       "status": "working",
@@ -1944,6 +1944,13 @@
   ],
   "feed": [
     {
+      "time": "23:03",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 23:03:26,998 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "22:53",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1991,17 +1998,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-28 22:33:09,291 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"You're very welcome, ",
       "type": "success"
-    },
-    {
-      "time": "22:33",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 22:33:08,078 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-28 22:23:00,162 [INFO] 🧠 Mesaj NOU #25846 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Buna! Dupa ce las bagajul si pun cheia înapoi, iti las mesaj? Sau ma anunti tu cand e curatenia gata...\"\n2026-11-28 22:23:00,163 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:23:00,163 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:23:00,953 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:23:01,472 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"Hi Elena! You don't need to message us — our cleaning team will see that the key is back in the lockbox and will let you know as soon as the apartment is fully ready and clean for you. Have a safe flight to Bucharest! ✈️✨\"\n2026-11-28 22:33:05,800 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:33:05,986 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 22:33:06,025 [INFO] 🧠 Mesaj NOU #25851 (2 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Nous voyons 33 euros et non pas 20 euros tant qu’il n y’aura pas écrit 112,23 nous n’accepterons rie...\"\n2026-11-28 22:33:06,026 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:33:06,026 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:33:07,321 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:33:07,837 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your concern regarding the exact refund amount and how the refund will be processed. I have immediately forwarded your questions to our manager, Alexandru, so he can verify the exact breakdown and confirm the refund method for you. He will get back to you shortly to ensure everything is settled according to your agreement!\"\n2026-11-28 22:33:08,078 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-28 22:33:08,079 [INFO] 🧠 Mesaj NOU #25849 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Ok , mulțumesc!!!! Seara buna!!\nMesaj tradus: Okay, thank you!!!! Have a good evening!!...\"\n2026-11-28 22:33:08,080 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:33:08,080 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:33:08,828 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:33:09,291 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"You're very welcome, Elena! Have a wonderful evening as well, and we look forward to welcoming you soon! ✨\"\n2026-11-28 22:43:13,656 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:43:13,862 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 22:53:18,277 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:53:18,451 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 22:53:18,496 [INFO] 🧠 Mesaj NOU #25856 (1 lipite) de la Ignacio Moreno Garcia (Old Town Carada 5): \"Hi alexandru, we'll leave the apartment tomorrow at 11 more or less...\"\n2026-11-28 22:53:18,497 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:53:18,498 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:53:19,566 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:53:20,119 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ignacio Moreno Garcia (Old Town Carada 5)]: \"Hi Ignacio! Thank you for letting us know. Have a safe and pleasant journey back! Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. We hope you enjoyed your stay with us at Old Town Carada 5! 🌟\"\n2026-11-28 22:53:20,734 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 22:53:20,735 [INFO] 🧠 Mesaj NOU #25855 (2 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Oui je comprends. Je vous demande de me confirmer si le remboursement sera bien effectué sur mon com...\"\n2026-11-28 22:53:20,736 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:53:20,736 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:53:21,645 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:53:22,099 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your concern regarding the refund method and timeframe. I have immediately forwarded your question to our manager, Alexandru, so he can check the exact details with Airbnb and confirm how and when the refund will reach your account. He will get back to you shortly!\"\n2026-11-28 22:53:22,298 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!",
-  "last_cloud_sync": "2026-11-28 23:03:23",
+  "raw_logs": "2026-11-28 22:23:00,163 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:23:00,953 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:23:01,472 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"Hi Elena! You don't need to message us — our cleaning team will see that the key is back in the lockbox and will let you know as soon as the apartment is fully ready and clean for you. Have a safe flight to Bucharest! ✈️✨\"\n2026-11-28 22:33:05,800 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:33:05,986 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 22:33:06,025 [INFO] 🧠 Mesaj NOU #25851 (2 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Nous voyons 33 euros et non pas 20 euros tant qu’il n y’aura pas écrit 112,23 nous n’accepterons rie...\"\n2026-11-28 22:33:06,026 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:33:06,026 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:33:07,321 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:33:07,837 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your concern regarding the exact refund amount and how the refund will be processed. I have immediately forwarded your questions to our manager, Alexandru, so he can verify the exact breakdown and confirm the refund method for you. He will get back to you shortly to ensure everything is settled according to your agreement!\"\n2026-11-28 22:33:08,078 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-28 22:33:08,079 [INFO] 🧠 Mesaj NOU #25849 (1 lipite) de la Elena Roxana (Magheru 29A -2BR): \"Ok , mulțumesc!!!! Seara buna!!\nMesaj tradus: Okay, thank you!!!! Have a good evening!!...\"\n2026-11-28 22:33:08,080 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:33:08,080 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:33:08,828 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:33:09,291 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Elena Roxana (Magheru 29A -2BR)]: \"You're very welcome, Elena! Have a wonderful evening as well, and we look forward to welcoming you soon! ✨\"\n2026-11-28 22:43:13,656 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:43:13,862 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 22:53:18,277 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 22:53:18,451 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 22:53:18,496 [INFO] 🧠 Mesaj NOU #25856 (1 lipite) de la Ignacio Moreno Garcia (Old Town Carada 5): \"Hi alexandru, we'll leave the apartment tomorrow at 11 more or less...\"\n2026-11-28 22:53:18,497 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:53:18,498 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:53:19,566 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:53:20,119 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Ignacio Moreno Garcia (Old Town Carada 5)]: \"Hi Ignacio! Thank you for letting us know. Have a safe and pleasant journey back! Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. We hope you enjoyed your stay with us at Old Town Carada 5! 🌟\"\n2026-11-28 22:53:20,734 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 22:53:20,735 [INFO] 🧠 Mesaj NOU #25855 (2 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Oui je comprends. Je vous demande de me confirmer si le remboursement sera bien effectué sur mon com...\"\n2026-11-28 22:53:20,736 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 22:53:20,736 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 22:53:21,645 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 22:53:22,099 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your concern regarding the refund method and timeframe. I have immediately forwarded your question to our manager, Alexandru, so he can check the exact details with Airbnb and confirm how and when the refund will reach your account. He will get back to you shortly!\"\n2026-11-28 22:53:22,298 [INFO] 📲 Alerta WhatsApp [URGENTA] trimisa!\n2026-11-28 23:03:26,807 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 23:03:26,998 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-28 23:13:27",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
