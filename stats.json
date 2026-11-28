@@ -1,11 +1,11 @@
 {
-  "updated_at": "19:00:57",
+  "updated_at": "19:11:04",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 12,
     "time_saved_str": "1h 45m",
     "actions_today": 35,
-    "last_check": "19:00"
+    "last_check": "19:11"
   },
   "core_agents": [
     {
@@ -26,7 +26,7 @@
       "state": "error",
       "worked_today": "32 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "41 mesaje"
+      "metric_value": "42 mesaje"
     },
     {
       "id": "clean",
@@ -55,7 +55,7 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "10 alerte azi",
+      "worked_today": "11 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
@@ -1417,12 +1417,21 @@
       "tasks_total": 1,
       "manual_minutes": 3,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "18:20",
+      "last_time": "18:52",
       "status": "working",
       "guest": "Benjamin Ellis Archer",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-28 19:01",
+          "time": "19:01",
+          "is_today": true,
+          "guest": "Benjamin Ellis Archer",
+          "guest_msg": "No problem, wasn’t expecting you resolve it right away just wanted to let you know!...",
+          "text": "Thank you so much for your understanding, Benjamin! The property manager is already aware of the situation and will look into getting it sorted out as soon as possible. Please let us know if you need anything else in the meantime! 🌟",
+          "source": "Agent AI"
+        },
         {
           "date": "2026-11-28 18:20",
           "time": "18:20",
@@ -1548,18 +1557,9 @@
           "guest_msg": "Hi we have just dropped our bags now and are leaving now | We are having some trouble working out ho...",
           "text": "Hi Benjamin! I am so sorry for the trouble with the door lock. I have just notified the property manager right now, who is immediately checking the issue and will get back to you right away to help you sort it out! Please bear with us for just a moment.",
           "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 11:06",
-          "time": "11:06",
-          "is_today": false,
-          "guest": "Wiktor Oles",
-          "guest_msg": "Hi Alexandru! We just checked our 😊 one key in the box, second on the table. We want to thank you ve...",
-          "text": "Thank you so much, Wiktor, for letting us know and for staying with us! We are thrilled you enjoyed your time at UrbanNest. Safe travels back home, and we hope to welcome you again in the future! 😊🌟",
-          "source": "Agent AI"
         }
       ],
-      "mesaje_trimise_azi": 1
+      "mesaje_trimise_azi": 2
     },
     {
       "name": "Campineanu22 A",
@@ -1944,6 +1944,27 @@
   ],
   "feed": [
     {
+      "time": "19:01",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 19:01:03,591 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "19:01",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 19:01:03,309 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Tha",
+      "type": "success"
+    },
+    {
+      "time": "19:01",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 19:01:01,583 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "18:50",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -1977,31 +1998,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-28 18:20:43,121 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! Thank yo",
       "type": "success"
-    },
-    {
-      "time": "18:20",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 18:20:41,544 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "18:20",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 18:20:41,271 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi ",
-      "type": "success"
-    },
-    {
-      "time": "18:20",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 18:20:39,457 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-28 17:30:13,384 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:40:17,740 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:40:17,916 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 17:50:22,241 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 17:50:22,455 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:00:27,434 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:00:27,667 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:10:32,229 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:10:32,412 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 18:10:32,470 [INFO] 🧠 Mesaj NOU #25803 (2 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"We plan to leave the apartment by 11 am | Yes you can send us the payment through airbnb...\"\n2026-11-28 18:10:32,471 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:10:32,472 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:10:33,628 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:10:34,168 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Thank you for letting us know, Alex-gabriel! We have noted your check-out time of 11:00 AM. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Also, I have sent the payment request for the city tax directly through the Airbnb Resolution Center. Have a safe journey back home and we hope to host you again soon! 🏡✨\"\n2026-11-28 18:10:34,803 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 18:20:39,243 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:20:39,457 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 18:20:39,509 [INFO] 🧠 Mesaj NOU #25805 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Hi, we’ve come back from being out all day and the wind has blown the wire door off the frame. This ...\"\n2026-11-28 18:20:39,511 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:20:39,511 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:20:40,766 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:20:41,271 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I am sincerely sorry to hear about this. I have immediately notified the property manager about the door issue, and he is treating this with top priority to get it sorted out for you as quickly as possible. Thank you for your patience!\"\n2026-11-28 18:20:41,544 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 18:20:41,544 [INFO] 🧠 Mesaj NOU #25806 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, we locked up and checked out an hour ago. You can ask for the payment now...\"\n2026-11-28 18:20:41,546 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:20:41,546 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:20:42,583 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:20:43,121 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! Thank you so much for letting us know and for staying with us at UrbanNest Bucharest! I hope you had a wonderful time. Regarding the city tax, since your reservation is through Airbnb, I will send you the payment request directly via the Airbnb Resolution Center shortly so you can complete it easily right in the app. Safe travels, and we hope to host you again soon! 😊\"\n2026-11-28 18:20:43,527 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 18:30:47,769 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:30:47,954 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:40:52,248 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:40:52,430 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:50:56,823 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:50:57,004 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-28 19:00:57",
+  "raw_logs": "2026-11-28 18:10:32,412 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 18:10:32,470 [INFO] 🧠 Mesaj NOU #25803 (2 lipite) de la Alex-Gabriel Sina (Old Town Tonitza 11 B): \"We plan to leave the apartment by 11 am | Yes you can send us the payment through airbnb...\"\n2026-11-28 18:10:32,471 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:10:32,472 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:10:33,628 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:10:34,168 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Alex-Gabriel Sina (Old Town Tonitza 11 B)]: \"Thank you for letting us know, Alex-gabriel! We have noted your check-out time of 11:00 AM. Please don't forget to place the keys back inside the lockbox and scramble the code when you leave. Also, I have sent the payment request for the city tax directly through the Airbnb Resolution Center. Have a safe journey back home and we hope to host you again soon! 🏡✨\"\n2026-11-28 18:10:34,803 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 18:20:39,243 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:20:39,457 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 2\n2026-11-28 18:20:39,509 [INFO] 🧠 Mesaj NOU #25805 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"Hi, we’ve come back from being out all day and the wind has blown the wire door off the frame. This ...\"\n2026-11-28 18:20:39,511 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:20:39,511 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:20:40,766 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:20:41,271 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Hi Benjamin! I am sincerely sorry to hear about this. I have immediately notified the property manager about the door issue, and he is treating this with top priority to get it sorted out for you as quickly as possible. Thank you for your patience!\"\n2026-11-28 18:20:41,544 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 18:20:41,544 [INFO] 🧠 Mesaj NOU #25806 (1 lipite) de la Andrei Vornicu (Magheru 29A -2BR): \"Salut Alex, we locked up and checked out an hour ago. You can ask for the payment now...\"\n2026-11-28 18:20:41,546 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 18:20:41,546 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 18:20:42,583 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 18:20:43,121 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrei Vornicu (Magheru 29A -2BR)]: \"Hi Andrei! Thank you so much for letting us know and for staying with us at UrbanNest Bucharest! I hope you had a wonderful time. Regarding the city tax, since your reservation is through Airbnb, I will send you the payment request directly via the Airbnb Resolution Center shortly so you can complete it easily right in the app. Safe travels, and we hope to host you again soon! 😊\"\n2026-11-28 18:20:43,527 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 18:30:47,769 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:30:47,954 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:40:52,248 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:40:52,430 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 18:50:56,823 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 18:50:57,004 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 19:01:01,366 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 19:01:01,583 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 19:01:01,613 [INFO] 🧠 Mesaj NOU #25810 (1 lipite) de la Benjamin Ellis Archer (Tonitza 11 A with terrace): \"No problem, wasn’t expecting you resolve it right away just wanted to let you know!...\"\n2026-11-28 19:01:01,614 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 19:01:01,614 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 19:01:02,704 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 19:01:03,309 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Benjamin Ellis Archer (Tonitza 11 A with terrace)]: \"Thank you so much for your understanding, Benjamin! The property manager is already aware of the situation and will look into getting it sorted out as soon as possible. Please let us know if you need anything else in the meantime! 🌟\"\n2026-11-28 19:01:03,591 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+  "last_cloud_sync": "2026-11-28 19:11:04",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
