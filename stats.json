@@ -1,11 +1,11 @@
 {
-  "updated_at": "21:52:32",
+  "updated_at": "22:02:40",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 13,
-    "time_saved_str": "2h 18m",
-    "actions_today": 46,
-    "last_check": "21:52"
+    "time_saved_str": "2h 27m",
+    "actions_today": 49,
+    "last_check": "22:02"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "40 răspunsuri azi",
+      "worked_today": "43 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "48 mesaje"
+      "metric_value": "49 mesaje"
     },
     {
       "id": "clean",
@@ -55,12 +55,162 @@
       "role": "Trimite alertele direct pe telefon și pe grupul de curățenie",
       "status": "Conectat 24/7",
       "state": "working",
-      "worked_today": "14 alerte azi",
+      "worked_today": "15 alerte azi",
       "metric_label": "Auto-vindecare",
       "metric_value": "Scut Activ"
     }
   ],
   "apartments": [
+    {
+      "name": "Magheru 29B 2BR",
+      "tasks_today": 13,
+      "tasks_total": 13,
+      "manual_minutes": 39,
+      "last_action": "A trimis răspuns automat oaspetelui",
+      "last_time": "21:45",
+      "status": "working",
+      "guest": "Yse Bocquet (Check-in azi)",
+      "urgenta_azi": false,
+      "urgente_mesaje": [],
+      "mesaje_trimise": [
+        {
+          "date": "28 Nov 2026 21:4",
+          "time": "21:40",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "",
+          "text": "Hello, this is Alex the manager",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "28 Nov 2026 21:4",
+          "time": "21:42",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "",
+          "text": "I am really sorry about the issue. I have discussed with the administration of the building and there is a problem in the last hours they are trying to sole an issue with the gas in the building . Because of this they has to turn iff the central boiler, and this is providing the heating and hot water 😔",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "28 Nov 2026 21:4",
+          "time": "21:42",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "",
+          "text": "We are putting the safety in front of anything. I am really really sorry about this",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "28 Nov 2026 21:4",
+          "time": "21:42",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "",
+          "text": "We are waiting for a solution today or the latest tomorrow",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "28 Nov 2026 21:4",
+          "time": "21:43",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "",
+          "text": "Because of this issue I will reimburse you 50% of tour stay. The Airbnb standard is 30% 😔",
+          "source": "5StarDesk"
+        },
+        {
+          "date": "2026-11-28 21:52",
+          "time": "21:52",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Merci pour votre retour, mais nous refusons votre proposition de remboursement à 50 %.\n\nNous demando...",
+          "text": "Hello Yse, I completely understand your frustration and I am very sorry for this difficult situation. I have escalated your request and conversation regarding the full refund directly to our manager, Alexandru, so he can review your case personally and get back to you as soon as possible. Thank you for your patience.",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 21:12",
+          "time": "21:12",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Monsieur quel est votre numéro ? Nous n’avons pas d’eau chaude et nous en avons besoin urgemment\n M...",
+          "text": "Hello Yse! 😊 I am so sorry for the inconvenience with the hot water. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this! For urgent assistance, you can also reach our manager Alexandru Pricop directly at +40 746 977 387.",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 20:31",
+          "time": "20:31",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "C’est bien ce réglage qu’il faut mettre ?\n Mesaj tradus: Is this the right setting to use?...",
+          "text": "Hello Yse! 😊 I have just notified the property manager right now about the heating, and he is checking on this for you and will get back to you as quickly as possible to assist!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 20:21",
+          "time": "20:21",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Okk merci\n Mesaj tradus: Ok thank you...",
+          "text": "You're very welcome, Yse! 😊 Please let us know if you need anything else at all during your stay. Have a wonderful time!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 20:11",
+          "time": "20:11",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Est ce qu’il est possible d’augmenter le chauffage ou pas du tout ? Merci beaucoup !\n Mesaj tradus: ...",
+          "text": "Hello Yse! 😊 I am so sorry for the inconvenience with the heating. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 13:18",
+          "time": "13:18",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Merci beaucoup 🤗\n Mesaj tradus: Thanks a lot 🤗...",
+          "text": "You're very welcome, Yse! 😊 I hope your friend feels better soon. Have a wonderful stay in Bucharest, and just let us know if you need anything else!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 13:07",
+          "time": "13:07",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "C’est bon nous sommes dans l’appartement ils semblent que le ménage soit fini ! Merci beaucoup\n Mes...",
+          "text": "That's wonderful news, Yse! 😊 I'm so glad the apartment is ready and you're inside. I hope your friend can rest and feel better very soon. If you need anything else at all during your stay, please don't hesitate to let us know. Have a wonderful time in Bucharest!",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 08:05",
+          "time": "08:05",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Merci beaucoup 🙏🏾\n Mesaj tradus: Thank you very much 🙏🏾...",
+          "text": "You're very welcome, Yse! 😊 Take care, and we'll message you the moment the apartment is ready.",
+          "source": "Agent AI"
+        },
+        {
+          "date": "2026-11-28 07:55",
+          "time": "07:55",
+          "is_today": true,
+          "guest": "Yse Bocquet",
+          "guest_msg": "Bonjour, nous sommes bien arrivées à Bucarest. Nous viendrons à 11h déposer nos affaires puis nous r...",
+          "text": "Hello Yse! 🧳 I am so sorry to hear that your friend is feeling unwell! We completely understand. You are very welcome to drop off your luggage in the apartment after 11:00 AM today, as long as you place the key back in the lockbox for our cleaning team. I have noted this down, and we will definitely message you the absolute moment the apartment is clean and ready so your friend can rest. Wishing her a speedy recovery! Let us know if you need anything else. 😊",
+          "source": "Agent AI"
+        },
+        {
+          "date": "23 Nov 2026 16:1",
+          "time": "16:12",
+          "is_today": false,
+          "guest": "Gabriel Negoita",
+          "guest_msg": "",
+          "text": "Hi Gabriel! We are thrilled to host you! ✨ Since you'll be arriving late on Thursday night, there is no problem at all—you can check in smoothly anytime after 3:00 PM (15:00) using our self check-in system. All exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip, and let us know if you need anything else before then! 🏙️",
+          "source": "5StarDesk"
+        }
+      ],
+      "mesaje_trimise_azi": 14
+    },
     {
       "name": "Kogalniceanu 9 1BR",
       "tasks_today": 10,
@@ -210,156 +360,6 @@
         }
       ],
       "mesaje_trimise_azi": 8
-    },
-    {
-      "name": "Magheru 29B 2BR",
-      "tasks_today": 10,
-      "tasks_total": 10,
-      "manual_minutes": 30,
-      "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "21:42",
-      "status": "working",
-      "guest": "Yse Bocquet (Check-in azi)",
-      "urgenta_azi": false,
-      "urgente_mesaje": [],
-      "mesaje_trimise": [
-        {
-          "date": "28 Nov 2026 21:4",
-          "time": "21:40",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "",
-          "text": "Hello, this is Alex the manager",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "28 Nov 2026 21:4",
-          "time": "21:42",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "",
-          "text": "I am really sorry about the issue. I have discussed with the administration of the building and there is a problem in the last hours they are trying to sole an issue with the gas in the building . Because of this they has to turn iff the central boiler, and this is providing the heating and hot water 😔",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "2026-11-28 21:12",
-          "time": "21:12",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Monsieur quel est votre numéro ? Nous n’avons pas d’eau chaude et nous en avons besoin urgemment\n M...",
-          "text": "Hello Yse! 😊 I am so sorry for the inconvenience with the hot water. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this! For urgent assistance, you can also reach our manager Alexandru Pricop directly at +40 746 977 387.",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 20:31",
-          "time": "20:31",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "C’est bien ce réglage qu’il faut mettre ?\n Mesaj tradus: Is this the right setting to use?...",
-          "text": "Hello Yse! 😊 I have just notified the property manager right now about the heating, and he is checking on this for you and will get back to you as quickly as possible to assist!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 20:21",
-          "time": "20:21",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Okk merci\n Mesaj tradus: Ok thank you...",
-          "text": "You're very welcome, Yse! 😊 Please let us know if you need anything else at all during your stay. Have a wonderful time!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 20:11",
-          "time": "20:11",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Est ce qu’il est possible d’augmenter le chauffage ou pas du tout ? Merci beaucoup !\n Mesaj tradus: ...",
-          "text": "Hello Yse! 😊 I am so sorry for the inconvenience with the heating. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 13:18",
-          "time": "13:18",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Merci beaucoup 🤗\n Mesaj tradus: Thanks a lot 🤗...",
-          "text": "You're very welcome, Yse! 😊 I hope your friend feels better soon. Have a wonderful stay in Bucharest, and just let us know if you need anything else!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 13:07",
-          "time": "13:07",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "C’est bon nous sommes dans l’appartement ils semblent que le ménage soit fini ! Merci beaucoup\n Mes...",
-          "text": "That's wonderful news, Yse! 😊 I'm so glad the apartment is ready and you're inside. I hope your friend can rest and feel better very soon. If you need anything else at all during your stay, please don't hesitate to let us know. Have a wonderful time in Bucharest!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 08:05",
-          "time": "08:05",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Merci beaucoup 🙏🏾\n Mesaj tradus: Thank you very much 🙏🏾...",
-          "text": "You're very welcome, Yse! 😊 Take care, and we'll message you the moment the apartment is ready.",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-28 07:55",
-          "time": "07:55",
-          "is_today": true,
-          "guest": "Yse Bocquet",
-          "guest_msg": "Bonjour, nous sommes bien arrivées à Bucarest. Nous viendrons à 11h déposer nos affaires puis nous r...",
-          "text": "Hello Yse! 🧳 I am so sorry to hear that your friend is feeling unwell! We completely understand. You are very welcome to drop off your luggage in the apartment after 11:00 AM today, as long as you place the key back in the lockbox for our cleaning team. I have noted this down, and we will definitely message you the absolute moment the apartment is clean and ready so your friend can rest. Wishing her a speedy recovery! Let us know if you need anything else. 😊",
-          "source": "Agent AI"
-        },
-        {
-          "date": "23 Nov 2026 16:1",
-          "time": "16:12",
-          "is_today": false,
-          "guest": "Gabriel Negoita",
-          "guest_msg": "",
-          "text": "Hi Gabriel! We are thrilled to host you! ✨ Since you'll be arriving late on Thursday night, there is no problem at all—you can check in smoothly anytime after 3:00 PM (15:00) using our self check-in system. All exact access instructions and key details will be sent to you automatically 1 day before your arrival. Have a wonderful trip, and let us know if you need anything else before then! 🏙️",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "23 Nov 2026 10:5",
-          "time": "10:57",
-          "is_today": false,
-          "guest": "Антон Ступак",
-          "guest_msg": "",
-          "text": "Hello Антон! You are very welcome. If you have any questions before your stay, please feel free to reach out anytime. We look forward to hosting you!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "2026-11-27 01:07",
-          "time": "01:07",
-          "is_today": false,
-          "guest": "Gabriel Negoita",
-          "guest_msg": "Hello! It just worked | The first 3,4 times it didn’t but now it opened!...",
-          "text": "That's a relief, Gabriel! I'm so glad to hear it worked and that you managed to get inside safely. Have a wonderful rest of your night, and please let us know if you need anything else! 🏙️",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 00:57",
-          "time": "00:57",
-          "is_today": false,
-          "guest": "Gabriel Negoita",
-          "guest_msg": "The downstairs door doesn’t unlock...",
-          "text": "Hi Gabriel! I am so sorry for the trouble with the downstairs door. I have just notified our property manager right now, who is immediately looking into the issue and will get back to you as quickly as possible. Please hang on for a moment!",
-          "source": "Agent AI"
-        },
-        {
-          "date": "2026-11-27 00:37",
-          "time": "00:37",
-          "is_today": false,
-          "guest": "Gabriel Negoita",
-          "guest_msg": "What is the block number? 29B? Scara B?...",
-          "text": "Hi Gabriel! 🏙️ The building is located at Bd. Magheru nr. 29. Regarding the block/staircase details, all exact access instructions and key details will be sent to you automatically 1 day before your arrival. Let us know if you need anything else! ✨",
-          "source": "Agent AI"
-        }
-      ],
-      "mesaje_trimise_azi": 10
     },
     {
       "name": "Old Town Tonitza 11 B",
@@ -1800,6 +1800,27 @@
   ],
   "feed": [
     {
+      "time": "21:52",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 21:52:39,530 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+      "type": "success"
+    },
+    {
+      "time": "21:52",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 21:52:39,172 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completel",
+      "type": "success"
+    },
+    {
+      "time": "21:52",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 21:52:37,218 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "21:42",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -1833,31 +1854,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-28 21:22:20,320 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "21:12",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 21:12:14,938 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "21:12",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 21:12:14,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I am so s",
-      "type": "success"
-    },
-    {
-      "time": "21:12",
-      "icon": "🔄",
-      "title": "Verificare 5StarDesk completă",
-      "desc": "2026-11-28 21:12:12,893 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1",
-      "type": "info"
     }
   ],
-  "raw_logs": "2026-11-28 20:31:50,729 [INFO] 🧠 Mesaj NOU #25820 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"C’est bien ce réglage qu’il faut mettre ?\nMesaj tradus: Is this the right setting to use?...\"\n2026-11-28 20:31:50,730 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 20:31:50,730 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 20:31:52,047 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 20:31:52,472 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I have just notified the property manager right now about the heating, and he is checking on this for you and will get back to you as quickly as possible to assist!\"\n2026-11-28 20:31:52,699 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 20:41:57,716 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:41:57,891 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 20:52:02,304 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:52:02,493 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:02:06,841 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:02:07,043 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:12:12,641 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:12:12,893 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:12:12,987 [INFO] 🧠 Mesaj NOU #25825 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Monsieur quel est votre numéro ? Nous n’avons pas d’eau chaude et nous en avons besoin urgemment\nM...\"\n2026-11-28 21:12:12,989 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:12:12,990 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:12:14,036 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:12:14,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I am so sorry for the inconvenience with the hot water. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this! For urgent assistance, you can also reach our manager Alexandru Pricop directly at +40 746 977 387.\"\n2026-11-28 21:12:14,938 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 21:22:20,128 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:22:20,320 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:32:24,805 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:32:24,982 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:32:25,016 [INFO] 🧠 Mesaj NOU #25827 (1 lipite) de la Matthew Medellin (Campineanu22 A): \"Hi! We will plan to leave around 10:30am.\nYou can go ahead and charge the fee when convenient for ...\"\n2026-11-28 21:32:25,017 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:32:25,017 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:32:26,080 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:32:26,698 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Matthew Medellin (Campineanu22 A)]: \"Hi Matthew! 🌟 Thank you so much for your kind words; we are thrilled to hear you had a great time and enjoyed the apartment! Safe travels on your journey home, and we hope to welcome you back to Bucharest soon! ✈️\"\n2026-11-28 21:32:27,191 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 21:42:31,532 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:42:31,773 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-28 21:52:32",
+  "raw_logs": "2026-11-28 20:52:02,304 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 20:52:02,493 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:02:06,841 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:02:07,043 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:12:12,641 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:12:12,893 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:12:12,987 [INFO] 🧠 Mesaj NOU #25825 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Monsieur quel est votre numéro ? Nous n’avons pas d’eau chaude et nous en avons besoin urgemment\nM...\"\n2026-11-28 21:12:12,989 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:12:12,990 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:12:14,036 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:12:14,668 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse! 😊 I am so sorry for the inconvenience with the hot water. I have just notified the property manager right now, who is immediately checking the issue and will get back to you as quickly as possible to assist you with this! For urgent assistance, you can also reach our manager Alexandru Pricop directly at +40 746 977 387.\"\n2026-11-28 21:12:14,938 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 21:22:20,128 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:22:20,320 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:32:24,805 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:32:24,982 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:32:25,016 [INFO] 🧠 Mesaj NOU #25827 (1 lipite) de la Matthew Medellin (Campineanu22 A): \"Hi! We will plan to leave around 10:30am.\nYou can go ahead and charge the fee when convenient for ...\"\n2026-11-28 21:32:25,017 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:32:25,017 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:32:26,080 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:32:26,698 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Matthew Medellin (Campineanu22 A)]: \"Hi Matthew! 🌟 Thank you so much for your kind words; we are thrilled to hear you had a great time and enjoyed the apartment! Safe travels on your journey home, and we hope to welcome you back to Bucharest soon! ✈️\"\n2026-11-28 21:32:27,191 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 21:42:31,532 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:42:31,773 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 0\n2026-11-28 21:52:37,039 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 21:52:37,218 [INFO] 📊 Conversatii verificate: 82 | Rezervari cu mesaje NOI: 1\n2026-11-28 21:52:37,254 [INFO] 🧠 Mesaj NOU #25835 (1 lipite) de la Yse Bocquet (Magheru 29B -2BR): \"Merci pour votre retour, mais nous refusons votre proposition de remboursement à 50 %.\nNous demando...\"\n2026-11-28 21:52:37,255 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 21:52:37,255 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 21:52:38,502 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 21:52:39,172 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yse Bocquet (Magheru 29B -2BR)]: \"Hello Yse, I completely understand your frustration and I am very sorry for this difficult situation. I have escalated your request and conversation regarding the full refund directly to our manager, Alexandru, so he can review your case personally and get back to you as soon as possible. Thank you for your patience.\"\n2026-11-28 21:52:39,530 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
+  "last_cloud_sync": "2026-11-28 22:02:40",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
