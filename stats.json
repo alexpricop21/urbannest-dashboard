@@ -1,11 +1,11 @@
 {
-  "updated_at": "05:53:59",
+  "updated_at": "06:04:04",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 6,
     "time_saved_str": "27 min",
     "actions_today": 9,
-    "last_check": "05:53"
+    "last_check": "06:04"
   },
   "core_agents": [
     {
@@ -833,6 +833,15 @@
           "source": "5StarDesk"
         },
         {
+          "date": "24 Nov 2026 08:4",
+          "time": "08:47",
+          "is_today": false,
+          "guest": "Razvan Prata",
+          "guest_msg": "",
+          "text": "Thank you so much for staying with us, Razvan! We hope you had a wonderful time in Bucharest. Safe travels ahead, and we look forward to hosting you again in the future! 😊",
+          "source": "5StarDesk"
+        },
+        {
           "date": "23 Nov 2026 12:2",
           "time": "12:29",
           "is_today": false,
@@ -929,15 +938,6 @@
           "guest": "Razvan Prata",
           "guest_msg": "",
           "text": "Hi Razvan! Thank you for following up. I have notified our manager once again about your request regarding alternative options and your feedback. He is reviewing the situation and will contact you by phone shortly. Thank you very much for your patience!",
-          "source": "5StarDesk"
-        },
-        {
-          "date": "22 Nov 2026 17:0",
-          "time": "17:08",
-          "is_today": false,
-          "guest": "Razvan Prata",
-          "guest_msg": "",
-          "text": "Hi Razvan! I completely understand your feelings, and I am very sorry that this situation has caused you frustration. I have immediately notified our manager with your phone number and your request regarding alternative options, and he will call you or get in touch with you shortly. Thank you for your patience and understanding.",
           "source": "5StarDesk"
         }
       ],
@@ -1926,6 +1926,13 @@
   ],
   "feed": [
     {
+      "time": "05:54",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 05:54:03,380 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
+      "type": "info"
+    },
+    {
       "time": "05:43",
       "icon": "🔄",
       "title": "Verificare 5StarDesk completă",
@@ -1973,17 +1980,10 @@
       "title": "Răspuns automat trimis oaspetelui",
       "desc": "2026-11-28 04:43:31,186 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
       "type": "success"
-    },
-    {
-      "time": "04:43",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 04:43:30,898 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-28 03:22:52,099 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 03:32:56,643 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 03:32:56,825 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 03:43:01,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 03:43:01,329 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 03:53:05,879 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 03:53:06,060 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:03:10,925 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:03:11,097 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:13:15,434 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:13:15,633 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:23:19,913 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:23:20,105 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:33:24,469 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:33:24,668 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:43:28,935 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:43:29,102 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 04:43:29,148 [INFO] 🧠 Mesaj NOU #25678 (1 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"?...\"\n2026-11-28 04:43:29,149 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 04:43:29,149 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 04:43:30,218 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 04:43:30,898 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I sincerely apologize for the delay. I am following up right now with the property manager regarding the availability and confirmation for extending your stay, and I will update you very shortly. Thank you for your patience! 🌟\"\n2026-11-28 04:43:31,186 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 04:53:35,426 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:53:35,653 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:03:39,843 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:03:40,015 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:13:45,085 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:13:45,252 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:23:49,487 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:23:49,687 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:33:54,061 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:33:54,228 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:43:58,582 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:43:58,787 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
-  "last_cloud_sync": "2026-11-28 05:53:59",
+  "raw_logs": "2026-11-28 03:32:56,825 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 03:43:01,144 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 03:43:01,329 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 03:53:05,879 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 03:53:06,060 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:03:10,925 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:03:11,097 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:13:15,434 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:13:15,633 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:23:19,913 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:23:20,105 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:33:24,469 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:33:24,668 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 04:43:28,935 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:43:29,102 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 04:43:29,148 [INFO] 🧠 Mesaj NOU #25678 (1 lipite) de la Yasser Ghassiri (Kogalniceanu 9 -1BR): \"?...\"\n2026-11-28 04:43:29,149 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 04:43:29,149 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 04:43:30,218 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 04:43:30,898 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Yasser Ghassiri (Kogalniceanu 9 -1BR)]: \"Hello Yasser! I sincerely apologize for the delay. I am following up right now with the property manager regarding the availability and confirmation for extending your stay, and I will update you very shortly. Thank you for your patience! 🌟\"\n2026-11-28 04:43:31,186 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 04:53:35,426 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 04:53:35,653 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:03:39,843 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:03:40,015 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:13:45,085 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:13:45,252 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:23:49,487 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:23:49,687 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:33:54,061 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:33:54,228 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:43:58,582 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:43:58,787 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 05:54:03,206 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 05:54:03,380 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
+  "last_cloud_sync": "2026-11-28 06:04:04",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
