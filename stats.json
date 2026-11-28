@@ -1,11 +1,11 @@
 {
-  "updated_at": "12:57:44",
+  "updated_at": "13:07:50",
   "summary": {
     "apartments_count": 13,
     "conversations_monitored": 6,
-    "time_saved_str": "42 min",
-    "actions_today": 14,
-    "last_check": "12:57"
+    "time_saved_str": "45 min",
+    "actions_today": 15,
+    "last_check": "13:07"
   },
   "core_agents": [
     {
@@ -24,9 +24,9 @@
       "role": "Cunoaște ghidul fiecărui apartament și răspunde în engleză oaspeților",
       "status": "Atenție (Eroare Watchdog)",
       "state": "error",
-      "worked_today": "13 răspunsuri azi",
+      "worked_today": "14 răspunsuri azi",
       "metric_label": "Mesaje primite azi",
-      "metric_value": "19 mesaje"
+      "metric_value": "23 mesaje"
     },
     {
       "id": "clean",
@@ -63,16 +63,25 @@
   "apartments": [
     {
       "name": "Kogalniceanu 9 1BR",
-      "tasks_today": 7,
-      "tasks_total": 7,
-      "manual_minutes": 21,
+      "tasks_today": 8,
+      "tasks_total": 8,
+      "manual_minutes": 24,
       "last_action": "A trimis răspuns automat oaspetelui",
-      "last_time": "12:39",
+      "last_time": "12:53",
       "status": "working",
       "guest": "Andrea Garcia (Check-in azi)",
       "urgenta_azi": false,
       "urgente_mesaje": [],
       "mesaje_trimise": [
+        {
+          "date": "2026-11-28 12:57",
+          "time": "12:57",
+          "is_today": true,
+          "guest": "Andrea Garcia",
+          "guest_msg": "hola!\n Mesaj tradus: Hello! | no te preocupes hemos logrado entrar\n Mesaj tradus: No worries, we've...",
+          "text": "That's wonderful news, Andrea! I'm so glad to hear that you managed to get in and that everything is working fine now. Enjoy your stay and have a wonderful time in Bucharest! ✨ If you need anything else during your stay, just let us know!",
+          "source": "Agent AI"
+        },
         {
           "date": "2026-11-28 12:47",
           "time": "12:47",
@@ -198,18 +207,9 @@
           "guest_msg": "",
           "text": "Hi Sila! 😊\n\nThank you for reaching out! We are looking forward to welcoming you and your sibling to Bucharest!\n\nRegarding your early arrival:\n- Our standard check-in time is at 15:00 (3:00 PM). While we cannot guarantee a check-in as early as 6:00 AM because previous guests may be staying the night before, we will certainly do our best to have the apartment ready for you before 3:00 PM on your arrival day, and we'll let you know as soon as the cleaning is finished.\n- Also, on your check-in day (12 Dec), you are welcome to drop off your luggage in the apartment after 11:00 AM (once previous guests check out), provided you put the key back in the lockbox so our cleaning team can prepare the sp",
           "source": "5StarDesk"
-        },
-        {
-          "date": "21 Nov 2026 22:3",
-          "time": "22:34",
-          "is_today": false,
-          "guest": "Ralph Ralph",
-          "guest_msg": "",
-          "text": "Hi Ralph! Thank you for letting us know. Your check-out at 11:00 AM tomorrow is confirmed. When leaving, please make sure to place the key back inside the lockbox and scramble the code. Safe travels, and we hope you had a great stay!",
-          "source": "5StarDesk"
         }
       ],
-      "mesaje_trimise_azi": 6
+      "mesaje_trimise_azi": 7
     },
     {
       "name": "Campineanu22 B",
@@ -1935,6 +1935,20 @@
   ],
   "feed": [
     {
+      "time": "12:57",
+      "icon": "💬",
+      "title": "Răspuns automat trimis oaspetelui",
+      "desc": "2026-11-28 12:57:49,436 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"That's wonderful ",
+      "type": "success"
+    },
+    {
+      "time": "12:57",
+      "icon": "🔄",
+      "title": "Verificare 5StarDesk completă",
+      "desc": "2026-11-28 12:57:47,880 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1",
+      "type": "info"
+    },
+    {
       "time": "12:47",
       "icon": "💬",
       "title": "Răspuns automat trimis oaspetelui",
@@ -1975,24 +1989,10 @@
       "title": "Verificare 5StarDesk completă",
       "desc": "2026-11-28 12:17:25,939 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0",
       "type": "info"
-    },
-    {
-      "time": "12:07",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 12:07:21,509 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!",
-      "type": "success"
-    },
-    {
-      "time": "12:07",
-      "icon": "💬",
-      "title": "Răspuns automat trimis oaspetelui",
-      "desc": "2026-11-28 12:07:21,169 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Isabela Vatavu (Campineanu22 B)]: \"Hello Isabela! Thank ",
-      "type": "success"
     }
   ],
-  "raw_logs": "2026-11-28 11:06:50,430 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:16:55,397 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:16:55,587 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:26:59,805 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:26:59,988 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:37:04,257 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:37:04,416 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:47:08,751 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:47:08,956 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 11:57:13,662 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:57:13,833 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:07:18,164 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:07:18,386 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 12:07:18,418 [INFO] 🧠 Mesaj NOU #25727 (1 lipite) de la Isabela Vatavu (Campineanu22 B): \"Buna. Voi pleca maine in jur de ora 10.\nMultumesc....\"\n2026-11-28 12:07:18,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 12:07:18,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 12:07:20,584 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:07:21,169 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Isabela Vatavu (Campineanu22 B)]: \"Hello Isabela! Thank you for letting us know. Have a safe and wonderful trip back! Please remember to leave the keys inside the lockbox and scramble the code when you depart. We hope to host you again soon at UrbanNest Bucharest! 🌟\"\n2026-11-28 12:07:21,509 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 12:17:25,758 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:17:25,939 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:27:30,282 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:27:30,473 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:37:34,959 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:37:35,125 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:47:39,616 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:47:39,992 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 12:47:40,040 [INFO] 🧠 Mesaj NOU #25734 (3 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"Hola! Ya estamos en el edificio\nMesaj tradus: Hello! We are already in the building | intentamos a...\"\n2026-11-28 12:47:40,041 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 12:47:40,041 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 12:47:42,504 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:47:43,030 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"Hello Andrea! I am so sorry to hear that you are having trouble opening the door! I have just notified the property manager right now, who is immediately checking the issue and will get back to you / resolve it as quickly as possible. Please hang on for just a moment!\"\n2026-11-28 12:47:43,311 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!",
-  "last_cloud_sync": "2026-11-28 12:57:44",
+  "raw_logs": "2026-11-28 11:57:13,662 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 11:57:13,833 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:07:18,164 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:07:18,386 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 12:07:18,418 [INFO] 🧠 Mesaj NOU #25727 (1 lipite) de la Isabela Vatavu (Campineanu22 B): \"Buna. Voi pleca maine in jur de ora 10.\nMultumesc....\"\n2026-11-28 12:07:18,419 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 12:07:18,419 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 12:07:20,584 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:07:21,169 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Isabela Vatavu (Campineanu22 B)]: \"Hello Isabela! Thank you for letting us know. Have a safe and wonderful trip back! Please remember to leave the keys inside the lockbox and scramble the code when you depart. We hope to host you again soon at UrbanNest Bucharest! 🌟\"\n2026-11-28 12:07:21,509 [INFO] 📲 Alerta WhatsApp [CHECKOUT_ANTICIPAT] trimisa!\n2026-11-28 12:17:25,758 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:17:25,939 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:27:30,282 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:27:30,473 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:37:34,959 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:37:35,125 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 0\n2026-11-28 12:47:39,616 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:47:39,992 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 12:47:40,040 [INFO] 🧠 Mesaj NOU #25734 (3 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"Hola! Ya estamos en el edificio\nMesaj tradus: Hello! We are already in the building | intentamos a...\"\n2026-11-28 12:47:40,041 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 12:47:40,041 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 12:47:42,504 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:47:43,030 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"Hello Andrea! I am so sorry to hear that you are having trouble opening the door! I have just notified the property manager right now, who is immediately checking the issue and will get back to you / resolve it as quickly as possible. Please hang on for just a moment!\"\n2026-11-28 12:47:43,311 [INFO] 📲 Alerta WhatsApp [INCIDENT_URGENT] trimisa!\n2026-11-28 12:57:47,686 [INFO] 📥 Verific mesajele noi de la oaspeti (MOD 100% LIVE ACTIV - GEMINI AI + KEY GUARD ON)...\n2026-11-28 12:57:47,880 [INFO] 📊 Conversatii verificate: 80 | Rezervari cu mesaje NOI: 1\n2026-11-28 12:57:47,914 [INFO] 🧠 Mesaj NOU #25740 (4 lipite) de la Andrea Garcia (Kogalniceanu 9 -1BR): \"hola!\nMesaj tradus: Hello! | no te preocupes hemos logrado entrar\nMesaj tradus: No worries, we've...\"\n2026-11-28 12:57:47,915 [INFO] 🤖 Analizez mesajul cu gemini-3.5-flash-lite...\n2026-11-28 12:57:47,915 [INFO] AFC is enabled with max remote calls: 10.\n2026-11-28 12:57:48,940 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent \"HTTP/1.1 200 OK\"\n2026-11-28 12:57:49,436 [INFO] ✅ [TRIMIS LIVE 5STARDESK -> Andrea Garcia (Kogalniceanu 9 -1BR)]: \"That's wonderful news, Andrea! I'm so glad to hear that you managed to get in and that everything is working fine now. Enjoy your stay and have a wonderful time in Bucharest! ✨ If you need anything else during your stay, just let us know!\"",
+  "last_cloud_sync": "2026-11-28 13:07:50",
   "watchdog_status": {
     "healthy": false,
     "alerts": [
